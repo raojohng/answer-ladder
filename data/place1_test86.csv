@@ -1,0 +1,775 @@
+arm,task,try,solved,place,gold_files,error,crash,solver_calls,first_edit,first_edit_gold,read_gold_before,found_gold_file_before
+e4b_edit_fair_v1,fastapi_11355,1,0,another file,1,None,0,21,11,0,0,0
+e4b_edit_fair_v1,fastapi_11355,2,0,another file,1,None,0,6,4,0,0,0
+e4b_edit_fair_v1,fastapi_11355,3,0,another file,1,None,0,13,12,0,0,1
+e4b_edit_fair_v1,fastapi_12942,1,0,another file,1,None,0,10,8,0,0,1
+e4b_edit_fair_v1,fastapi_12942,2,0,no patch,1,None,0,26,16,0,0,1
+e4b_edit_fair_v1,fastapi_12942,3,0,another file,1,None,0,7,6,0,0,1
+e4b_edit_fair_v1,fastapi_13207,1,1,gold lines,1,None,0,18,14,1,1,1
+e4b_edit_fair_v1,fastapi_13207,2,0,gold lines,1,None,0,16,9,1,1,1
+e4b_edit_fair_v1,fastapi_13207,3,0,"right file, other lines",1,None,0,24,23,1,1,1
+e4b_edit_fair_v1,fastapi_13713,1,0,no patch,2,None,0,11,3,1,0,1
+e4b_edit_fair_v1,fastapi_13713,2,0,no patch,2,None,0,10,5,1,0,1
+e4b_edit_fair_v1,fastapi_13713,3,0,"right file, other lines",2,None,0,6,4,1,0,1
+e4b_edit_fair_v1,fastapi_13920,1,0,another file,1,None,0,12,8,0,0,0
+e4b_edit_fair_v1,fastapi_13920,2,0,another file,1,None,0,23,13,0,0,0
+e4b_edit_fair_v1,fastapi_13920,3,0,another file,1,None,0,10,9,0,0,1
+e4b_edit_fair_v1,fastapi_14099,1,0,another file,5,None,0,7,5,0,0,1
+e4b_edit_fair_v1,fastapi_14099,2,0,no patch,5,None,0,16,7,1,1,1
+e4b_edit_fair_v1,fastapi_14099,3,0,"right file, other lines",5,None,0,24,18,1,1,1
+e4b_edit_fair_v1,fastapi_14246,1,0,another file,1,None,0,9,6,0,0,0
+e4b_edit_fair_v1,fastapi_14246,2,0,another file,1,None,0,14,12,0,0,1
+e4b_edit_fair_v1,fastapi_14246,3,0,another file,1,None,0,7,6,0,0,0
+e4b_edit_fair_v1,fastapi_14258,1,0,no patch,1,None,0,25,8,0,0,1
+e4b_edit_fair_v1,fastapi_14258,2,0,no patch,1,None,0,16,9,1,0,1
+e4b_edit_fair_v1,fastapi_14258,3,0,no patch,1,None,0,22,17,0,1,1
+e4b_edit_fair_v1,fastapi_14262,1,0,"gold lines, misses a gold file",10,None,0,11,3,1,1,1
+e4b_edit_fair_v1,fastapi_14262,2,0,"gold lines, misses a gold file",10,None,0,16,4,1,1,1
+e4b_edit_fair_v1,fastapi_14262,3,0,"gold lines, misses a gold file",10,None,0,17,11,1,1,1
+e4b_edit_fair_v1,fastapi_14266,1,0,another file,1,None,0,12,8,0,0,0
+e4b_edit_fair_v1,fastapi_14266,2,0,another file,1,None,0,13,12,0,0,1
+e4b_edit_fair_v1,fastapi_14266,3,0,another file,1,None,0,15,14,0,0,0
+e4b_edit_fair_v1,fastapi_14301,1,1,gold lines,1,None,0,9,8,1,1,1
+e4b_edit_fair_v1,fastapi_14301,2,1,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_14301,3,1,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_14306,1,0,"gold lines, misses a gold file",2,None,0,15,7,1,1,1
+e4b_edit_fair_v1,fastapi_14306,2,0,"gold lines, misses a gold file",2,Sandbox execution error: No LlmAgent model available for eve,1,10,6,1,1,1
+e4b_edit_fair_v1,fastapi_14306,3,0,"gold lines, misses a gold file",2,None,0,11,5,1,1,1
+e4b_edit_fair_v1,fastapi_14349,1,0,gold lines,1,None,0,6,4,1,1,1
+e4b_edit_fair_v1,fastapi_14349,2,0,gold lines,1,None,0,7,5,1,1,1
+e4b_edit_fair_v1,fastapi_14349,3,1,gold lines,1,None,0,5,4,1,1,1
+e4b_edit_fair_v1,fastapi_14356,1,0,no patch,1,Sandbox execution error: No LlmAgent model available for eve,1,17,,,1,1
+e4b_edit_fair_v1,fastapi_14356,2,0,no patch,1,Sandbox execution error: No LlmAgent model available for eve,1,20,,,0,0
+e4b_edit_fair_v1,fastapi_14356,3,0,no patch,1,None,0,16,,,0,0
+e4b_edit_fair_v1,fastapi_14360,1,1,gold lines,1,None,0,6,5,1,1,1
+e4b_edit_fair_v1,fastapi_14360,2,0,gold lines,1,None,0,6,4,1,1,1
+e4b_edit_fair_v1,fastapi_14360,3,0,gold lines,1,None,0,8,7,1,1,1
+e4b_edit_fair_v1,fastapi_14361,1,0,"right file, other lines",1,None,0,7,5,1,0,1
+e4b_edit_fair_v1,fastapi_14361,2,0,"right file, other lines",1,None,0,7,6,1,0,1
+e4b_edit_fair_v1,fastapi_14361,3,0,"right file, other lines",1,None,0,6,4,1,0,1
+e4b_edit_fair_v1,fastapi_14372,1,1,"gold lines, misses a gold file",2,None,0,9,8,1,1,1
+e4b_edit_fair_v1,fastapi_14372,2,1,"gold lines, misses a gold file",2,None,0,6,5,1,1,1
+e4b_edit_fair_v1,fastapi_14372,3,1,"gold lines, misses a gold file",2,None,0,6,5,1,1,1
+e4b_edit_fair_v1,fastapi_14419,1,0,"gold lines, misses a gold file",2,None,0,8,5,1,0,1
+e4b_edit_fair_v1,fastapi_14419,2,0,"gold lines, misses a gold file",2,None,0,14,13,1,1,1
+e4b_edit_fair_v1,fastapi_14419,3,0,"gold lines, misses a gold file",2,None,0,7,6,1,1,1
+e4b_edit_fair_v1,fastapi_14430,1,0,another file,1,None,0,5,3,0,0,1
+e4b_edit_fair_v1,fastapi_14430,2,1,gold lines,1,None,0,6,4,1,1,1
+e4b_edit_fair_v1,fastapi_14430,3,0,another file,1,None,0,5,4,0,0,0
+e4b_edit_fair_v1,fastapi_14448,1,0,"right file, other lines",2,None,0,12,8,1,0,1
+e4b_edit_fair_v1,fastapi_14448,2,0,"gold lines, misses a gold file",2,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_14448,3,0,"gold lines, misses a gold file",2,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_14455,1,0,another file,1,None,0,7,6,0,0,0
+e4b_edit_fair_v1,fastapi_14455,2,0,another file,1,None,0,10,7,0,0,1
+e4b_edit_fair_v1,fastapi_14455,3,0,another file,1,None,0,8,5,0,0,0
+e4b_edit_fair_v1,fastapi_14458,1,0,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_14458,2,0,gold lines,1,None,0,7,4,1,1,1
+e4b_edit_fair_v1,fastapi_14458,3,0,gold lines,1,None,0,13,7,1,1,1
+e4b_edit_fair_v1,fastapi_14459,1,0,no patch,3,None,0,9,3,1,0,1
+e4b_edit_fair_v1,fastapi_14459,2,0,another file,3,None,0,7,6,0,0,0
+e4b_edit_fair_v1,fastapi_14459,3,0,"gold lines, misses a gold file",3,None,0,7,3,1,1,1
+e4b_edit_fair_v1,fastapi_14463,1,1,gold lines,1,None,0,13,11,1,1,1
+e4b_edit_fair_v1,fastapi_14463,2,1,gold lines,1,None,0,6,4,1,1,1
+e4b_edit_fair_v1,fastapi_14463,3,1,gold lines,1,None,0,8,5,1,1,1
+e4b_edit_fair_v1,fastapi_14479,1,0,no patch,1,None,0,12,8,1,1,1
+e4b_edit_fair_v1,fastapi_14479,2,0,gold lines,1,None,0,13,12,1,1,1
+e4b_edit_fair_v1,fastapi_14479,3,0,gold lines,1,None,0,7,6,1,1,1
+e4b_edit_fair_v1,fastapi_14482,1,0,another file,1,None,0,14,6,0,0,1
+e4b_edit_fair_v1,fastapi_14482,2,0,gold lines,1,None,0,15,9,1,1,1
+e4b_edit_fair_v1,fastapi_14482,3,0,another file,1,None,0,19,15,0,0,1
+e4b_edit_fair_v1,fastapi_14485,1,0,gold lines,1,None,0,9,7,1,1,1
+e4b_edit_fair_v1,fastapi_14485,2,0,another file,1,None,0,8,7,0,0,0
+e4b_edit_fair_v1,fastapi_14485,3,0,another file,1,None,0,14,13,0,0,0
+e4b_edit_fair_v1,fastapi_14487,1,0,another file,1,None,0,7,5,0,0,1
+e4b_edit_fair_v1,fastapi_14487,2,0,another file,1,None,0,7,5,0,0,1
+e4b_edit_fair_v1,fastapi_14487,3,0,another file,1,None,0,7,3,0,0,1
+e4b_edit_fair_v1,fastapi_14492,1,1,gold lines,1,None,0,7,2,0,0,1
+e4b_edit_fair_v1,fastapi_14492,2,0,another file,1,None,0,9,5,0,0,0
+e4b_edit_fair_v1,fastapi_14492,3,0,no patch,1,None,0,5,3,0,0,1
+e4b_edit_fair_v1,fastapi_14512,1,0,another file,1,None,0,4,3,0,0,0
+e4b_edit_fair_v1,fastapi_14512,2,0,no patch,1,None,0,33,30,0,0,0
+e4b_edit_fair_v1,fastapi_14512,3,0,another file,1,None,0,9,7,0,0,1
+e4b_edit_fair_v1,fastapi_14609,1,0,"gold lines, misses a gold file",20,None,0,10,3,1,1,1
+e4b_edit_fair_v1,fastapi_14609,2,0,no patch,20,None,0,6,,,1,1
+e4b_edit_fair_v1,fastapi_14609,3,0,"gold lines, misses a gold file",20,None,0,6,3,1,1,1
+e4b_edit_fair_v1,fastapi_14786,1,1,gold lines,1,None,0,5,3,1,1,1
+e4b_edit_fair_v1,fastapi_14786,2,1,gold lines,1,None,0,5,3,1,1,1
+e4b_edit_fair_v1,fastapi_14786,3,1,gold lines,1,None,0,5,4,1,1,1
+e4b_edit_fair_v1,fastapi_14794,1,0,"right file, other lines",1,None,0,5,3,1,0,1
+e4b_edit_fair_v1,fastapi_14794,2,0,no patch,1,None,0,11,3,1,0,1
+e4b_edit_fair_v1,fastapi_14794,3,0,"right file, other lines",1,None,0,4,3,1,0,1
+e4b_edit_fair_v1,fastapi_14873,1,0,no patch,1,None,0,20,9,1,1,1
+e4b_edit_fair_v1,fastapi_14873,2,0,no patch,1,None,0,21,16,1,1,1
+e4b_edit_fair_v1,fastapi_14873,3,0,no patch,1,None,0,17,10,1,1,1
+e4b_edit_fair_v1,fastapi_14978,1,0,"gold lines, misses a gold file",3,None,0,5,4,1,1,1
+e4b_edit_fair_v1,fastapi_14978,2,0,"gold lines, misses a gold file",3,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_14978,3,0,"gold lines, misses a gold file",3,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_14986,1,0,gold lines,2,None,0,8,4,1,0,1
+e4b_edit_fair_v1,fastapi_14986,2,0,"gold lines, misses a gold file",2,None,0,5,3,1,1,1
+e4b_edit_fair_v1,fastapi_14986,3,0,gold lines,2,None,0,11,5,1,1,1
+e4b_edit_fair_v1,fastapi_15023,1,0,another file,1,None,0,15,11,0,0,0
+e4b_edit_fair_v1,fastapi_15023,2,0,no patch,1,None,0,9,4,0,0,0
+e4b_edit_fair_v1,fastapi_15023,3,0,another file,1,None,0,15,12,0,0,1
+e4b_edit_fair_v1,fastapi_15030,1,0,"right file, other lines",9,None,0,10,4,1,1,1
+e4b_edit_fair_v1,fastapi_15030,2,0,"gold lines, misses a gold file",9,None,0,9,4,1,1,1
+e4b_edit_fair_v1,fastapi_15030,3,0,"gold lines, misses a gold file",9,None,0,6,4,1,1,1
+e4b_edit_fair_v1,fastapi_15280,1,0,"gold lines, misses a gold file",2,None,0,8,3,1,0,1
+e4b_edit_fair_v1,fastapi_15280,2,0,"right file, other lines",2,None,0,16,6,1,1,1
+e4b_edit_fair_v1,fastapi_15280,3,0,"right file, other lines",2,None,0,8,7,1,1,1
+e4b_edit_fair_v1,fastapi_15588,1,0,gold lines,1,None,0,11,3,1,1,1
+e4b_edit_fair_v1,fastapi_15588,2,0,gold lines,1,None,0,5,3,1,1,1
+e4b_edit_fair_v1,fastapi_15588,3,0,gold lines,1,None,0,11,3,1,0,1
+e4b_edit_fair_v1,fastapi_15589,1,0,gold lines,1,None,0,6,4,1,1,1
+e4b_edit_fair_v1,fastapi_15589,2,0,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_15589,3,0,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_15661,1,0,another file,1,None,0,7,5,0,0,0
+e4b_edit_fair_v1,fastapi_15661,2,0,another file,1,None,0,4,3,0,0,0
+e4b_edit_fair_v1,fastapi_15661,3,0,no patch,1,None,0,7,3,0,0,0
+e4b_edit_fair_v1,fastapi_15800,1,0,"gold lines, misses a gold file",8,None,0,10,7,1,0,1
+e4b_edit_fair_v1,fastapi_15800,2,0,"right file, other lines",8,None,0,18,7,1,1,1
+e4b_edit_fair_v1,fastapi_15800,3,0,"gold lines, misses a gold file",8,None,0,14,5,1,1,1
+e4b_edit_fair_v1,fastapi_5077,1,0,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,fastapi_5077,2,0,no patch,1,None,0,1,,,0,0
+e4b_edit_fair_v1,fastapi_5077,3,0,gold lines,1,None,0,4,2,1,0,1
+e4b_edit_fair_v1,fastapi_5624,1,0,"right file, other lines",1,None,0,12,11,1,1,1
+e4b_edit_fair_v1,fastapi_5624,2,0,gold lines,1,None,0,8,5,1,1,1
+e4b_edit_fair_v1,fastapi_5624,3,0,"right file, other lines",1,None,0,6,5,1,0,1
+e4b_edit_fair_v1,fastapi_9425,1,1,"right file, other lines",1,None,0,5,3,1,1,1
+e4b_edit_fair_v1,fastapi_9425,2,0,another file,1,None,0,7,6,0,0,1
+e4b_edit_fair_v1,fastapi_9425,3,0,another file,1,None,0,27,21,0,0,1
+e4b_edit_fair_v1,fastapi_9555,1,0,another file,1,None,0,14,6,0,0,0
+e4b_edit_fair_v1,fastapi_9555,2,0,another file,1,None,0,6,5,0,0,0
+e4b_edit_fair_v1,fastapi_9555,3,0,another file,1,None,0,6,5,0,0,0
+e4b_edit_fair_v1,fastapi_9753,1,0,another file,1,None,0,5,4,0,0,0
+e4b_edit_fair_v1,fastapi_9753,2,0,another file,1,None,0,4,3,0,0,0
+e4b_edit_fair_v1,fastapi_9753,3,0,another file,1,None,0,4,3,0,0,0
+e4b_edit_fair_v1,rich_2725,1,1,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,rich_2725,2,0,no patch,1,None,0,9,6,1,1,1
+e4b_edit_fair_v1,rich_2725,3,1,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,rich_2943,1,0,no patch,1,None,0,12,5,1,0,1
+e4b_edit_fair_v1,rich_2943,2,1,gold lines,1,None,0,23,20,1,0,1
+e4b_edit_fair_v1,rich_2943,3,0,another file,1,None,0,26,10,0,0,0
+e4b_edit_fair_v1,rich_3006,1,1,gold lines,1,None,0,6,5,1,1,1
+e4b_edit_fair_v1,rich_3006,2,1,gold lines,1,None,0,9,5,1,1,1
+e4b_edit_fair_v1,rich_3006,3,0,another file,1,None,0,7,6,0,0,0
+e4b_edit_fair_v1,rich_3043,1,0,no patch,1,None,0,14,5,1,1,1
+e4b_edit_fair_v1,rich_3043,2,0,no patch,1,None,0,17,7,1,1,1
+e4b_edit_fair_v1,rich_3043,3,0,gold lines,1,None,0,17,13,1,1,1
+e4b_edit_fair_v1,rich_3052,1,0,gold lines,1,None,0,15,7,1,1,1
+e4b_edit_fair_v1,rich_3052,2,0,gold lines,1,None,0,7,4,1,1,1
+e4b_edit_fair_v1,rich_3052,3,0,gold lines,1,None,0,12,5,1,1,1
+e4b_edit_fair_v1,rich_3061,1,0,gold lines,1,None,0,5,4,1,1,1
+e4b_edit_fair_v1,rich_3061,2,0,gold lines,1,None,0,9,8,1,1,1
+e4b_edit_fair_v1,rich_3061,3,0,gold lines,1,None,0,7,6,1,1,1
+e4b_edit_fair_v1,rich_3063,1,0,gold lines,1,None,0,11,5,1,1,1
+e4b_edit_fair_v1,rich_3063,2,0,gold lines,1,None,0,6,4,1,1,1
+e4b_edit_fair_v1,rich_3063,3,0,gold lines,1,None,0,11,4,1,1,1
+e4b_edit_fair_v1,rich_3067,1,0,another file,1,None,0,16,15,0,0,0
+e4b_edit_fair_v1,rich_3067,2,1,gold lines,1,None,0,38,37,1,1,1
+e4b_edit_fair_v1,rich_3067,3,0,another file,1,None,0,14,6,0,0,0
+e4b_edit_fair_v1,rich_3105,1,0,another file,1,None,0,9,7,0,0,0
+e4b_edit_fair_v1,rich_3105,2,0,another file,1,None,0,5,3,0,0,0
+e4b_edit_fair_v1,rich_3105,3,0,another file,1,None,0,10,9,0,0,1
+e4b_edit_fair_v1,rich_3180,1,0,"gold lines, misses a gold file",2,None,0,7,5,1,1,1
+e4b_edit_fair_v1,rich_3180,2,0,"gold lines, misses a gold file",2,None,0,9,6,1,1,1
+e4b_edit_fair_v1,rich_3180,3,0,"gold lines, misses a gold file",2,None,0,14,13,1,1,1
+e4b_edit_fair_v1,rich_3278,1,0,gold lines,1,None,0,7,3,1,1,1
+e4b_edit_fair_v1,rich_3278,2,0,gold lines,1,None,0,11,3,1,0,1
+e4b_edit_fair_v1,rich_3278,3,0,"right file, other lines",1,None,0,5,4,1,1,1
+e4b_edit_fair_v1,rich_3454,1,0,gold lines,1,None,0,8,6,1,1,1
+e4b_edit_fair_v1,rich_3454,2,1,gold lines,1,None,0,8,5,1,1,1
+e4b_edit_fair_v1,rich_3454,3,1,gold lines,1,None,0,10,3,1,1,1
+e4b_edit_fair_v1,rich_3470,1,0,"right file, other lines",1,None,0,6,4,1,0,1
+e4b_edit_fair_v1,rich_3470,2,0,gold lines,1,None,0,13,11,1,1,1
+e4b_edit_fair_v1,rich_3470,3,0,no patch,1,None,0,6,4,0,1,1
+e4b_edit_fair_v1,rich_3471,1,0,gold lines,1,None,0,6,5,1,0,1
+e4b_edit_fair_v1,rich_3471,2,0,gold lines,1,None,0,4,3,1,0,1
+e4b_edit_fair_v1,rich_3471,3,0,gold lines,1,None,0,5,3,1,0,1
+e4b_edit_fair_v1,rich_3480,1,0,another file,1,None,0,7,6,0,0,1
+e4b_edit_fair_v1,rich_3480,2,0,gold lines,1,None,0,5,4,1,1,1
+e4b_edit_fair_v1,rich_3480,3,0,another file,1,None,0,7,6,0,0,1
+e4b_edit_fair_v1,rich_3506,1,0,no patch,1,None,0,5,3,1,1,1
+e4b_edit_fair_v1,rich_3506,2,0,no patch,1,None,0,7,5,1,1,1
+e4b_edit_fair_v1,rich_3506,3,0,"right file, other lines",1,None,0,5,4,1,1,1
+e4b_edit_fair_v1,rich_3518,1,0,"right file, other lines",1,None,0,11,8,1,1,1
+e4b_edit_fair_v1,rich_3518,2,0,"right file, other lines",1,None,0,15,11,1,0,1
+e4b_edit_fair_v1,rich_3518,3,0,"right file, other lines",1,None,0,4,3,1,0,1
+e4b_edit_fair_v1,rich_3521,1,0,"right file, other lines",1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,rich_3521,2,0,gold lines,1,None,0,9,3,0,1,1
+e4b_edit_fair_v1,rich_3521,3,0,gold lines,1,None,0,6,5,1,1,1
+e4b_edit_fair_v1,rich_3535,1,0,no patch,2,None,0,13,5,1,1,1
+e4b_edit_fair_v1,rich_3535,2,0,"gold lines, misses a gold file",2,None,0,6,4,1,1,1
+e4b_edit_fair_v1,rich_3535,3,0,"gold lines, misses a gold file",2,None,0,6,5,1,1,1
+e4b_edit_fair_v1,rich_3675,1,0,"gold lines, misses a gold file",2,None,0,4,3,1,1,1
+e4b_edit_fair_v1,rich_3675,2,0,"right file, other lines",2,None,0,17,12,1,1,1
+e4b_edit_fair_v1,rich_3675,3,0,"right file, other lines",2,None,0,10,7,1,0,1
+e4b_edit_fair_v1,rich_3676,1,0,"right file, other lines",2,None,0,9,8,1,0,1
+e4b_edit_fair_v1,rich_3676,2,0,"gold lines, misses a gold file",2,None,0,12,11,1,1,1
+e4b_edit_fair_v1,rich_3676,3,0,no patch,2,None,0,11,6,0,0,0
+e4b_edit_fair_v1,rich_3718,1,0,"right file, other lines",1,None,0,10,7,1,0,1
+e4b_edit_fair_v1,rich_3718,2,0,"right file, other lines",1,None,0,6,5,1,0,1
+e4b_edit_fair_v1,rich_3718,3,0,"right file, other lines",1,None,0,9,6,1,0,1
+e4b_edit_fair_v1,rich_3772,1,0,"right file, other lines",1,None,0,12,11,1,1,1
+e4b_edit_fair_v1,rich_3772,2,0,"right file, other lines",1,None,0,13,9,1,1,1
+e4b_edit_fair_v1,rich_3772,3,0,no patch,1,Agent exceeded tool call budget (50 calls),0,43,,,1,1
+e4b_edit_fair_v1,rich_3777,1,0,"gold lines, misses a gold file",2,None,0,9,7,1,1,1
+e4b_edit_fair_v1,rich_3777,2,0,"gold lines, misses a gold file",2,None,0,6,4,1,1,1
+e4b_edit_fair_v1,rich_3777,3,0,another file,2,None,0,14,8,0,0,0
+e4b_edit_fair_v1,rich_3882,1,0,gold lines,1,None,0,8,4,1,1,1
+e4b_edit_fair_v1,rich_3882,2,0,gold lines,1,None,0,6,5,1,1,1
+e4b_edit_fair_v1,rich_3882,3,0,"right file, other lines",1,None,0,12,5,1,0,1
+e4b_edit_fair_v1,rich_3894,1,0,gold lines,1,None,0,5,4,1,1,1
+e4b_edit_fair_v1,rich_3894,2,0,"right file, other lines",1,None,0,7,6,1,1,1
+e4b_edit_fair_v1,rich_3894,3,0,gold lines,1,None,0,6,5,1,0,1
+e4b_edit_fair_v1,rich_3905,1,0,"right file, other lines",1,None,0,22,17,1,1,1
+e4b_edit_fair_v1,rich_3905,2,1,gold lines,1,None,0,6,5,1,1,1
+e4b_edit_fair_v1,rich_3905,3,1,gold lines,1,None,0,14,13,1,1,1
+e4b_edit_fair_v1,rich_3930,1,0,no patch,26,None,0,12,9,1,1,1
+e4b_edit_fair_v1,rich_3930,2,0,no patch,26,None,0,16,8,1,1,1
+e4b_edit_fair_v1,rich_3930,3,0,"gold lines, misses a gold file",26,None,0,18,9,1,1,1
+e4b_edit_fair_v1,rich_3934,1,0,"right file, other lines",2,None,0,16,5,1,1,1
+e4b_edit_fair_v1,rich_3934,2,0,"right file, other lines",2,None,0,6,5,1,1,1
+e4b_edit_fair_v1,rich_3934,3,0,no patch,2,None,0,9,4,1,0,1
+e4b_edit_fair_v1,rich_3935,1,0,another file,1,None,0,4,3,0,0,1
+e4b_edit_fair_v1,rich_3935,2,0,another file,1,None,0,6,5,0,0,0
+e4b_edit_fair_v1,rich_3935,3,0,another file,1,None,0,4,3,0,0,1
+e4b_edit_fair_v1,rich_3938,1,0,"right file, other lines",2,None,0,11,9,1,1,1
+e4b_edit_fair_v1,rich_3938,2,0,another file,2,None,0,11,10,0,0,1
+e4b_edit_fair_v1,rich_3938,3,0,"right file, other lines",2,None,0,11,8,1,1,1
+e4b_edit_fair_v1,rich_3942,1,0,another file,2,None,0,7,6,0,0,0
+e4b_edit_fair_v1,rich_3942,2,0,"gold lines, misses a gold file",2,None,0,8,4,1,1,1
+e4b_edit_fair_v1,rich_3942,3,0,"gold lines, misses a gold file",2,None,0,9,5,1,0,1
+e4b_edit_fair_v1,rich_3944,1,0,another file,1,None,0,11,8,0,0,0
+e4b_edit_fair_v1,rich_3944,2,0,another file,1,None,0,5,4,0,0,0
+e4b_edit_fair_v1,rich_3944,3,0,another file,1,None,0,10,5,0,0,0
+e4b_edit_fair_v1,rich_3953,1,0,another file,1,None,0,14,11,0,0,0
+e4b_edit_fair_v1,rich_3953,2,0,gold lines,1,None,0,5,3,1,0,1
+e4b_edit_fair_v1,rich_3953,3,0,another file,1,None,0,11,9,0,0,0
+e4b_edit_fair_v1,rich_4006,1,0,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,rich_4006,2,0,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,rich_4006,3,0,gold lines,1,None,0,5,3,1,1,1
+e4b_edit_fair_v1,rich_4075,1,0,another file,1,None,0,12,3,0,0,0
+e4b_edit_fair_v1,rich_4075,2,0,gold lines,1,None,0,13,11,1,1,1
+e4b_edit_fair_v1,rich_4075,3,0,"right file, other lines",1,None,0,13,6,0,0,1
+e4b_edit_fair_v1,rich_4076,1,0,another file,1,None,0,8,4,0,0,0
+e4b_edit_fair_v1,rich_4076,2,0,another file,1,None,0,5,4,0,0,0
+e4b_edit_fair_v1,rich_4076,3,0,another file,1,None,0,6,5,0,0,0
+e4b_edit_fair_v1,rich_4077,1,0,gold lines,1,None,0,4,3,1,1,1
+e4b_edit_fair_v1,rich_4077,2,0,another file,1,None,0,6,5,0,0,0
+e4b_edit_fair_v1,rich_4077,3,1,"right file, other lines",1,None,0,5,4,1,1,1
+e4b_place1a_v1,fastapi_11355,1,0,another file,1,None,0,11,10,0,0,0
+e4b_place1a_v1,fastapi_11355,2,0,no patch,1,None,0,6,,,1,1
+e4b_place1a_v1,fastapi_11355,3,0,another file,1,None,0,8,4,0,0,0
+e4b_place1a_v1,fastapi_12942,1,0,another file,1,None,0,12,10,0,0,1
+e4b_place1a_v1,fastapi_12942,2,0,another file,1,None,0,35,34,0,0,1
+e4b_place1a_v1,fastapi_12942,3,0,another file,1,None,0,21,14,0,0,0
+e4b_place1a_v1,fastapi_13207,1,0,gold lines,1,None,0,13,12,1,1,1
+e4b_place1a_v1,fastapi_13207,2,0,another file,1,None,0,13,11,0,0,1
+e4b_place1a_v1,fastapi_13207,3,0,another file,1,None,0,20,18,0,0,1
+e4b_place1a_v1,fastapi_13713,1,0,"right file, other lines",2,None,0,7,5,1,0,1
+e4b_place1a_v1,fastapi_13713,2,0,"right file, other lines",2,None,0,5,3,1,0,1
+e4b_place1a_v1,fastapi_13713,3,0,"right file, other lines",2,None,0,6,3,1,0,1
+e4b_place1a_v1,fastapi_13920,1,0,another file,1,None,0,13,9,0,0,0
+e4b_place1a_v1,fastapi_13920,2,0,another file,1,None,0,17,16,0,1,1
+e4b_place1a_v1,fastapi_13920,3,0,another file,1,None,0,19,13,0,1,1
+e4b_place1a_v1,fastapi_14099,1,0,"gold lines, misses a gold file",5,None,0,16,8,1,1,1
+e4b_place1a_v1,fastapi_14099,2,0,no patch,5,None,0,15,10,0,1,1
+e4b_place1a_v1,fastapi_14099,3,0,"gold lines, misses a gold file",5,None,0,12,7,1,1,1
+e4b_place1a_v1,fastapi_14246,1,0,another file,1,None,0,7,4,0,0,0
+e4b_place1a_v1,fastapi_14246,2,0,another file,1,None,0,7,5,0,0,0
+e4b_place1a_v1,fastapi_14246,3,0,another file,1,None,0,11,10,0,0,1
+e4b_place1a_v1,fastapi_14258,1,0,"right file, other lines",1,None,0,17,9,1,1,1
+e4b_place1a_v1,fastapi_14258,2,0,no patch,1,None,0,15,11,1,0,1
+e4b_place1a_v1,fastapi_14258,3,0,no patch,1,None,0,14,6,0,0,1
+e4b_place1a_v1,fastapi_14262,1,0,"gold lines, misses a gold file",10,None,0,29,7,1,1,1
+e4b_place1a_v1,fastapi_14262,2,0,"right file, other lines",10,None,0,14,4,1,1,1
+e4b_place1a_v1,fastapi_14262,3,0,"gold lines, misses a gold file",10,None,0,17,5,1,1,1
+e4b_place1a_v1,fastapi_14266,1,0,another file,1,None,0,10,8,0,0,0
+e4b_place1a_v1,fastapi_14266,2,0,another file,1,None,0,14,8,0,0,0
+e4b_place1a_v1,fastapi_14266,3,0,another file,1,None,0,7,6,0,0,0
+e4b_place1a_v1,fastapi_14301,1,1,gold lines,1,None,0,15,13,1,1,1
+e4b_place1a_v1,fastapi_14301,2,1,gold lines,1,None,0,6,5,1,1,1
+e4b_place1a_v1,fastapi_14301,3,0,no patch,1,None,0,5,,,1,1
+e4b_place1a_v1,fastapi_14306,1,0,"gold lines, misses a gold file",2,None,0,12,6,1,1,1
+e4b_place1a_v1,fastapi_14306,2,0,no patch,2,None,0,12,6,1,1,1
+e4b_place1a_v1,fastapi_14306,3,0,"gold lines, misses a gold file",2,None,0,9,3,1,1,1
+e4b_place1a_v1,fastapi_14349,1,0,"right file, other lines",1,None,0,5,4,1,0,1
+e4b_place1a_v1,fastapi_14349,2,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14349,3,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14356,1,0,gold lines,1,None,0,47,46,1,1,1
+e4b_place1a_v1,fastapi_14356,2,0,"right file, other lines",1,None,0,24,23,1,1,1
+e4b_place1a_v1,fastapi_14356,3,0,another file,1,None,0,33,31,0,0,1
+e4b_place1a_v1,fastapi_14360,1,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1a_v1,fastapi_14360,2,0,gold lines,1,None,0,17,16,1,1,1
+e4b_place1a_v1,fastapi_14360,3,0,no patch,1,None,0,14,12,1,0,1
+e4b_place1a_v1,fastapi_14361,1,0,another file,1,None,0,12,9,0,0,1
+e4b_place1a_v1,fastapi_14361,2,0,"right file, other lines",1,None,0,6,4,1,0,1
+e4b_place1a_v1,fastapi_14361,3,0,"right file, other lines",1,None,0,26,14,1,1,1
+e4b_place1a_v1,fastapi_14372,1,1,"gold lines, misses a gold file",2,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14372,2,0,"gold lines, misses a gold file",2,None,0,6,5,1,1,1
+e4b_place1a_v1,fastapi_14372,3,0,another file,2,None,0,11,8,0,0,1
+e4b_place1a_v1,fastapi_14419,1,0,"gold lines, misses a gold file",2,None,0,7,5,0,1,1
+e4b_place1a_v1,fastapi_14419,2,0,"gold lines, misses a gold file",2,None,0,7,6,1,1,1
+e4b_place1a_v1,fastapi_14419,3,0,"gold lines, misses a gold file",2,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14430,1,0,another file,1,None,0,22,16,0,0,0
+e4b_place1a_v1,fastapi_14430,2,0,another file,1,None,0,6,5,0,0,1
+e4b_place1a_v1,fastapi_14430,3,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1a_v1,fastapi_14448,1,0,"gold lines, misses a gold file",2,None,0,7,4,1,1,1
+e4b_place1a_v1,fastapi_14448,2,0,"right file, other lines",2,None,0,13,4,1,1,1
+e4b_place1a_v1,fastapi_14448,3,0,another file,2,None,0,8,6,0,0,0
+e4b_place1a_v1,fastapi_14455,1,0,another file,1,None,0,7,6,0,0,0
+e4b_place1a_v1,fastapi_14455,2,0,gold lines,1,None,0,12,11,1,1,1
+e4b_place1a_v1,fastapi_14455,3,0,no patch,1,None,0,18,9,0,0,0
+e4b_place1a_v1,fastapi_14458,1,1,gold lines,1,None,0,11,6,1,1,1
+e4b_place1a_v1,fastapi_14458,2,0,gold lines,1,None,0,11,5,1,1,1
+e4b_place1a_v1,fastapi_14458,3,1,gold lines,1,None,0,9,6,1,1,1
+e4b_place1a_v1,fastapi_14459,1,0,"gold lines, misses a gold file",3,None,0,6,5,1,1,1
+e4b_place1a_v1,fastapi_14459,2,0,no patch,3,None,0,15,10,1,1,1
+e4b_place1a_v1,fastapi_14459,3,0,"gold lines, misses a gold file",3,None,0,7,6,1,1,1
+e4b_place1a_v1,fastapi_14463,1,1,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14463,2,1,gold lines,1,None,0,7,4,1,1,1
+e4b_place1a_v1,fastapi_14463,3,1,gold lines,1,None,0,8,5,1,1,1
+e4b_place1a_v1,fastapi_14479,1,0,gold lines,1,None,0,6,3,1,0,1
+e4b_place1a_v1,fastapi_14479,2,0,gold lines,1,None,0,4,3,1,0,1
+e4b_place1a_v1,fastapi_14479,3,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14482,1,0,another file,1,None,0,13,7,0,0,0
+e4b_place1a_v1,fastapi_14482,2,0,gold lines,1,None,0,15,6,1,1,1
+e4b_place1a_v1,fastapi_14482,3,0,another file,1,None,0,19,17,0,0,0
+e4b_place1a_v1,fastapi_14485,1,0,another file,1,None,0,6,5,0,0,0
+e4b_place1a_v1,fastapi_14485,2,0,no patch,1,None,0,10,,,0,0
+e4b_place1a_v1,fastapi_14485,3,0,another file,1,None,0,8,7,0,0,0
+e4b_place1a_v1,fastapi_14487,1,0,another file,1,None,0,7,5,0,0,1
+e4b_place1a_v1,fastapi_14487,2,0,another file,1,None,0,6,4,0,0,0
+e4b_place1a_v1,fastapi_14487,3,0,another file,1,None,0,6,4,0,0,0
+e4b_place1a_v1,fastapi_14492,1,0,another file,1,None,0,9,3,0,0,1
+e4b_place1a_v1,fastapi_14492,2,0,another file,1,None,0,15,3,0,0,1
+e4b_place1a_v1,fastapi_14492,3,1,gold lines,1,None,0,20,3,0,0,1
+e4b_place1a_v1,fastapi_14512,1,0,another file,1,None,0,13,12,0,0,0
+e4b_place1a_v1,fastapi_14512,2,0,another file,1,None,0,15,9,0,0,0
+e4b_place1a_v1,fastapi_14512,3,0,another file,1,None,0,8,5,0,0,0
+e4b_place1a_v1,fastapi_14609,1,0,"gold lines, misses a gold file",20,None,0,16,3,1,1,1
+e4b_place1a_v1,fastapi_14609,2,0,no patch,20,None,0,6,,,1,1
+e4b_place1a_v1,fastapi_14609,3,0,"gold lines, misses a gold file",20,None,0,5,3,1,1,1
+e4b_place1a_v1,fastapi_14786,1,1,gold lines,1,None,0,7,5,1,1,1
+e4b_place1a_v1,fastapi_14786,2,1,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14786,3,1,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,fastapi_14794,1,0,"right file, other lines",1,None,0,17,12,1,1,1
+e4b_place1a_v1,fastapi_14794,2,0,"right file, other lines",1,None,0,14,4,1,0,1
+e4b_place1a_v1,fastapi_14794,3,0,"right file, other lines",1,None,0,7,3,1,0,1
+e4b_place1a_v1,fastapi_14873,1,1,gold lines,1,None,0,7,6,1,1,1
+e4b_place1a_v1,fastapi_14873,2,0,no patch,1,None,0,19,9,1,1,1
+e4b_place1a_v1,fastapi_14873,3,0,no patch,1,Agent exceeded session timeout (8 min),0,24,21,1,1,1
+e4b_place1a_v1,fastapi_14978,1,0,"gold lines, misses a gold file",3,None,0,4,3,1,1,1
+e4b_place1a_v1,fastapi_14978,2,0,"gold lines, misses a gold file",3,None,0,4,3,1,1,1
+e4b_place1a_v1,fastapi_14978,3,0,"gold lines, misses a gold file",3,None,0,10,9,1,1,1
+e4b_place1a_v1,fastapi_14986,1,0,"gold lines, misses a gold file",2,None,0,11,5,1,1,1
+e4b_place1a_v1,fastapi_14986,2,0,another file,2,None,0,11,8,0,0,0
+e4b_place1a_v1,fastapi_14986,3,0,"gold lines, misses a gold file",2,None,0,26,20,1,1,1
+e4b_place1a_v1,fastapi_15023,1,0,another file,1,None,0,6,4,0,0,1
+e4b_place1a_v1,fastapi_15023,2,0,another file,1,None,0,9,8,0,0,0
+e4b_place1a_v1,fastapi_15023,3,0,another file,1,None,0,7,6,0,0,0
+e4b_place1a_v1,fastapi_15030,1,0,"right file, other lines",9,None,0,6,5,1,1,1
+e4b_place1a_v1,fastapi_15030,2,0,"gold lines, misses a gold file",9,None,0,8,4,1,1,1
+e4b_place1a_v1,fastapi_15030,3,0,"gold lines, misses a gold file",9,None,0,5,3,1,1,1
+e4b_place1a_v1,fastapi_15280,1,0,"right file, other lines",2,None,0,10,7,1,1,1
+e4b_place1a_v1,fastapi_15280,2,0,no patch,2,None,0,17,8,1,1,1
+e4b_place1a_v1,fastapi_15280,3,0,no patch,2,None,0,18,8,1,1,1
+e4b_place1a_v1,fastapi_15588,1,0,gold lines,1,None,0,8,3,1,1,1
+e4b_place1a_v1,fastapi_15588,2,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1a_v1,fastapi_15588,3,0,gold lines,1,None,0,9,5,1,1,1
+e4b_place1a_v1,fastapi_15589,1,0,gold lines,1,None,0,11,3,1,1,1
+e4b_place1a_v1,fastapi_15589,2,0,"right file, other lines",1,None,0,8,3,1,1,1
+e4b_place1a_v1,fastapi_15589,3,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1a_v1,fastapi_15661,1,0,another file,1,None,0,7,3,0,0,0
+e4b_place1a_v1,fastapi_15661,2,0,gold lines,1,None,0,25,7,1,0,1
+e4b_place1a_v1,fastapi_15661,3,0,another file,1,None,0,7,5,0,0,0
+e4b_place1a_v1,fastapi_15800,1,0,no patch,8,None,0,21,5,1,1,1
+e4b_place1a_v1,fastapi_15800,2,0,"right file, other lines",8,None,0,11,6,1,1,1
+e4b_place1a_v1,fastapi_15800,3,0,"right file, other lines",8,None,0,11,5,1,0,1
+e4b_place1a_v1,fastapi_5077,1,0,gold lines,1,None,0,7,6,1,1,1
+e4b_place1a_v1,fastapi_5077,2,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1a_v1,fastapi_5077,3,0,gold lines,1,None,0,9,5,1,1,1
+e4b_place1a_v1,fastapi_5624,1,0,another file,1,None,0,7,4,0,0,0
+e4b_place1a_v1,fastapi_5624,2,1,gold lines,1,None,0,8,5,1,1,1
+e4b_place1a_v1,fastapi_5624,3,0,"right file, other lines",1,None,0,11,9,1,1,1
+e4b_place1a_v1,fastapi_9425,1,1,"right file, other lines",1,None,0,5,4,1,1,1
+e4b_place1a_v1,fastapi_9425,2,1,"right file, other lines",1,None,0,8,6,1,1,1
+e4b_place1a_v1,fastapi_9425,3,0,no patch,1,None,0,19,,,1,1
+e4b_place1a_v1,fastapi_9555,1,0,another file,1,None,0,6,5,0,0,0
+e4b_place1a_v1,fastapi_9555,2,0,another file,1,None,0,10,8,0,0,0
+e4b_place1a_v1,fastapi_9555,3,0,another file,1,None,0,7,5,0,0,0
+e4b_place1a_v1,fastapi_9753,1,0,another file,1,None,0,8,7,0,0,0
+e4b_place1a_v1,fastapi_9753,2,0,another file,1,None,0,6,4,0,0,0
+e4b_place1a_v1,fastapi_9753,3,0,another file,1,None,0,5,4,0,0,0
+e4b_place1a_v1,rich_2725,1,0,no patch,1,None,0,26,21,1,1,1
+e4b_place1a_v1,rich_2725,2,1,gold lines,1,None,0,27,24,1,1,1
+e4b_place1a_v1,rich_2725,3,1,gold lines,1,None,0,5,4,1,1,1
+e4b_place1a_v1,rich_2943,1,0,gold lines,1,None,0,13,4,1,1,1
+e4b_place1a_v1,rich_2943,2,0,gold lines,1,None,0,14,5,1,0,1
+e4b_place1a_v1,rich_2943,3,0,another file,1,None,0,17,12,0,0,0
+e4b_place1a_v1,rich_3006,1,1,gold lines,1,None,0,12,11,1,1,1
+e4b_place1a_v1,rich_3006,2,1,gold lines,1,None,0,7,5,1,1,1
+e4b_place1a_v1,rich_3006,3,1,gold lines,1,None,0,8,7,1,1,1
+e4b_place1a_v1,rich_3043,1,0,gold lines,1,None,0,15,5,1,1,1
+e4b_place1a_v1,rich_3043,2,0,gold lines,1,None,0,15,7,1,1,1
+e4b_place1a_v1,rich_3043,3,0,gold lines,1,None,0,15,7,1,1,1
+e4b_place1a_v1,rich_3052,1,0,gold lines,1,None,0,15,4,1,1,1
+e4b_place1a_v1,rich_3052,2,0,gold lines,1,None,0,17,9,1,1,1
+e4b_place1a_v1,rich_3052,3,0,gold lines,1,None,0,22,4,1,1,1
+e4b_place1a_v1,rich_3061,1,0,no patch,1,None,0,44,,,1,1
+e4b_place1a_v1,rich_3061,2,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1a_v1,rich_3061,3,0,gold lines,1,None,0,9,6,1,1,1
+e4b_place1a_v1,rich_3063,1,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,rich_3063,2,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,rich_3063,3,0,gold lines,1,None,0,10,4,1,1,1
+e4b_place1a_v1,rich_3067,1,1,gold lines,1,None,0,5,4,1,1,1
+e4b_place1a_v1,rich_3067,2,1,gold lines,1,None,0,4,3,1,1,1
+e4b_place1a_v1,rich_3067,3,0,another file,1,None,0,13,12,0,0,0
+e4b_place1a_v1,rich_3105,1,0,another file,1,None,0,7,5,0,0,0
+e4b_place1a_v1,rich_3105,2,0,another file,1,None,0,6,4,0,0,0
+e4b_place1a_v1,rich_3105,3,0,another file,1,None,0,30,11,0,0,0
+e4b_place1a_v1,rich_3180,1,0,"gold lines, misses a gold file",2,None,0,10,7,1,1,1
+e4b_place1a_v1,rich_3180,2,0,"gold lines, misses a gold file",2,None,0,8,7,1,1,1
+e4b_place1a_v1,rich_3180,3,0,no patch,2,None,0,8,,,1,1
+e4b_place1a_v1,rich_3278,1,0,gold lines,1,None,0,8,6,1,1,1
+e4b_place1a_v1,rich_3278,2,0,"right file, other lines",1,None,0,7,6,1,1,1
+e4b_place1a_v1,rich_3278,3,0,another file,1,None,0,10,6,0,0,1
+e4b_place1a_v1,rich_3454,1,0,gold lines,1,None,0,7,4,1,1,1
+e4b_place1a_v1,rich_3454,2,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1a_v1,rich_3454,3,1,gold lines,1,None,0,4,3,1,1,1
+e4b_place1a_v1,rich_3470,1,1,gold lines,1,None,0,38,36,1,1,1
+e4b_place1a_v1,rich_3470,2,0,"right file, other lines",1,None,0,6,4,1,0,1
+e4b_place1a_v1,rich_3470,3,0,"right file, other lines",1,None,0,21,17,1,0,1
+e4b_place1a_v1,rich_3471,1,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1a_v1,rich_3471,2,0,gold lines,1,None,0,7,5,1,1,1
+e4b_place1a_v1,rich_3471,3,0,gold lines,1,None,0,5,3,1,0,1
+e4b_place1a_v1,rich_3480,1,0,another file,1,None,0,6,5,0,0,1
+e4b_place1a_v1,rich_3480,2,0,another file,1,None,0,29,28,0,0,1
+e4b_place1a_v1,rich_3480,3,0,another file,1,None,0,9,7,0,0,1
+e4b_place1a_v1,rich_3506,1,0,no patch,1,None,0,11,4,1,1,1
+e4b_place1a_v1,rich_3506,2,0,"right file, other lines",1,None,0,8,4,1,1,1
+e4b_place1a_v1,rich_3506,3,0,"right file, other lines",1,None,0,9,5,1,1,1
+e4b_place1a_v1,rich_3518,1,1,gold lines,1,None,0,6,3,1,0,1
+e4b_place1a_v1,rich_3518,2,0,"right file, other lines",1,None,0,17,16,1,1,1
+e4b_place1a_v1,rich_3518,3,0,"right file, other lines",1,None,0,4,3,1,0,1
+e4b_place1a_v1,rich_3521,1,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1a_v1,rich_3521,2,0,"right file, other lines",1,None,0,19,5,1,1,1
+e4b_place1a_v1,rich_3521,3,0,gold lines,1,None,0,16,4,1,0,1
+e4b_place1a_v1,rich_3535,1,0,"gold lines, misses a gold file",2,None,0,16,10,1,1,1
+e4b_place1a_v1,rich_3535,2,0,gold lines,2,None,0,8,4,1,1,1
+e4b_place1a_v1,rich_3535,3,0,no patch,2,None,0,11,7,1,1,1
+e4b_place1a_v1,rich_3675,1,0,"right file, other lines",2,None,0,14,12,1,1,1
+e4b_place1a_v1,rich_3675,2,0,"gold lines, misses a gold file",2,None,0,8,5,1,0,1
+e4b_place1a_v1,rich_3675,3,0,"gold lines, misses a gold file",2,None,0,18,10,1,1,1
+e4b_place1a_v1,rich_3676,1,0,"gold lines, misses a gold file",2,None,0,13,10,1,1,1
+e4b_place1a_v1,rich_3676,2,0,"right file, other lines",2,None,0,19,18,1,1,1
+e4b_place1a_v1,rich_3676,3,0,"right file, other lines",2,None,0,6,5,1,1,1
+e4b_place1a_v1,rich_3718,1,0,"right file, other lines",1,None,0,7,4,1,0,1
+e4b_place1a_v1,rich_3718,2,0,gold lines,1,None,0,16,10,1,1,1
+e4b_place1a_v1,rich_3718,3,0,no patch,1,None,0,11,4,1,1,1
+e4b_place1a_v1,rich_3772,1,0,another file,1,None,0,16,14,0,1,1
+e4b_place1a_v1,rich_3772,2,0,another file,1,None,0,14,13,0,1,1
+e4b_place1a_v1,rich_3772,3,0,no patch,1,None,0,15,12,0,1,1
+e4b_place1a_v1,rich_3777,1,0,no patch,2,None,0,6,,,0,1
+e4b_place1a_v1,rich_3777,2,0,another file,2,None,0,9,7,0,0,1
+e4b_place1a_v1,rich_3777,3,0,"right file, other lines",2,None,0,13,8,1,1,1
+e4b_place1a_v1,rich_3882,1,0,gold lines,1,None,0,8,7,1,1,1
+e4b_place1a_v1,rich_3882,2,0,no patch,1,None,0,12,,,1,1
+e4b_place1a_v1,rich_3882,3,0,gold lines,1,None,0,7,6,1,1,1
+e4b_place1a_v1,rich_3894,1,0,gold lines,1,None,0,6,5,1,1,1
+e4b_place1a_v1,rich_3894,2,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1a_v1,rich_3894,3,0,gold lines,1,None,0,7,6,1,1,1
+e4b_place1a_v1,rich_3905,1,1,gold lines,1,None,0,9,8,1,1,1
+e4b_place1a_v1,rich_3905,2,0,no patch,1,Agent exceeded tool call budget (50 calls),0,47,,,1,1
+e4b_place1a_v1,rich_3905,3,1,gold lines,1,None,0,11,7,1,1,1
+e4b_place1a_v1,rich_3930,1,0,"gold lines, misses a gold file",26,None,0,17,12,1,1,1
+e4b_place1a_v1,rich_3930,2,0,another file,26,None,0,12,6,0,0,1
+e4b_place1a_v1,rich_3930,3,0,"gold lines, misses a gold file",26,None,0,9,7,1,1,1
+e4b_place1a_v1,rich_3934,1,0,"right file, other lines",2,None,0,12,10,1,1,1
+e4b_place1a_v1,rich_3934,2,0,"right file, other lines",2,None,0,9,4,1,1,1
+e4b_place1a_v1,rich_3934,3,0,"right file, other lines",2,None,0,8,5,1,0,1
+e4b_place1a_v1,rich_3935,1,0,another file,1,None,0,5,4,0,0,0
+e4b_place1a_v1,rich_3935,2,0,gold lines,1,None,0,10,9,1,1,1
+e4b_place1a_v1,rich_3935,3,0,gold lines,1,None,0,8,6,1,1,1
+e4b_place1a_v1,rich_3938,1,0,"right file, other lines",2,None,0,9,8,1,0,1
+e4b_place1a_v1,rich_3938,2,0,another file,2,None,0,6,5,0,0,0
+e4b_place1a_v1,rich_3938,3,0,another file,2,None,0,10,8,0,0,1
+e4b_place1a_v1,rich_3942,1,0,no patch,2,None,0,11,6,1,1,1
+e4b_place1a_v1,rich_3942,2,0,"gold lines, misses a gold file",2,None,0,10,5,1,1,1
+e4b_place1a_v1,rich_3942,3,0,"gold lines, misses a gold file",2,None,0,6,5,1,1,1
+e4b_place1a_v1,rich_3944,1,0,another file,1,None,0,18,5,0,0,0
+e4b_place1a_v1,rich_3944,2,0,another file,1,None,0,5,4,0,0,0
+e4b_place1a_v1,rich_3944,3,0,another file,1,None,0,9,3,0,0,0
+e4b_place1a_v1,rich_3953,1,0,"right file, other lines",1,None,0,9,8,1,1,1
+e4b_place1a_v1,rich_3953,2,0,"right file, other lines",1,None,0,9,6,1,1,1
+e4b_place1a_v1,rich_3953,3,0,no patch,1,None,0,13,,,0,0
+e4b_place1a_v1,rich_4006,1,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1a_v1,rich_4006,2,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1a_v1,rich_4006,3,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1a_v1,rich_4075,1,0,another file,1,None,0,19,5,0,0,1
+e4b_place1a_v1,rich_4075,2,0,another file,1,None,0,13,5,0,0,1
+e4b_place1a_v1,rich_4075,3,0,no patch,1,None,0,16,9,0,0,0
+e4b_place1a_v1,rich_4076,1,0,another file,1,None,0,12,11,0,0,0
+e4b_place1a_v1,rich_4076,2,0,another file,1,None,0,20,17,0,0,0
+e4b_place1a_v1,rich_4076,3,0,another file,1,None,0,17,5,0,0,0
+e4b_place1a_v1,rich_4077,1,0,another file,1,None,0,22,17,0,1,1
+e4b_place1a_v1,rich_4077,2,0,another file,1,None,0,5,4,0,0,0
+e4b_place1a_v1,rich_4077,3,0,no patch,1,None,0,10,5,0,0,0
+e4b_place1b_v1,fastapi_11355,1,0,"right file, other lines",1,None,0,7,6,1,0,1
+e4b_place1b_v1,fastapi_11355,2,0,"right file, other lines",1,None,0,5,4,1,0,1
+e4b_place1b_v1,fastapi_11355,3,0,another file,1,None,0,6,5,0,0,0
+e4b_place1b_v1,fastapi_12942,1,0,another file,1,None,0,11,10,0,0,0
+e4b_place1b_v1,fastapi_12942,2,0,another file,1,None,0,17,15,0,0,0
+e4b_place1b_v1,fastapi_12942,3,0,another file,1,None,0,14,12,0,0,1
+e4b_place1b_v1,fastapi_13207,1,0,gold lines,1,None,0,13,12,1,1,1
+e4b_place1b_v1,fastapi_13207,2,0,gold lines,1,None,0,13,10,1,1,1
+e4b_place1b_v1,fastapi_13207,3,0,gold lines,1,None,0,27,26,1,1,1
+e4b_place1b_v1,fastapi_13713,1,0,"right file, other lines",2,None,0,6,4,1,0,1
+e4b_place1b_v1,fastapi_13713,2,0,no patch,2,None,0,14,5,1,0,1
+e4b_place1b_v1,fastapi_13713,3,0,"right file, other lines",2,None,0,5,4,1,0,1
+e4b_place1b_v1,fastapi_13920,1,0,another file,1,None,0,10,8,0,0,0
+e4b_place1b_v1,fastapi_13920,2,0,another file,1,None,0,20,9,0,1,1
+e4b_place1b_v1,fastapi_13920,3,0,another file,1,None,0,13,10,0,0,0
+e4b_place1b_v1,fastapi_14099,1,0,"gold lines, misses a gold file",5,None,0,24,13,1,1,1
+e4b_place1b_v1,fastapi_14099,2,0,another file,5,None,0,8,3,0,0,1
+e4b_place1b_v1,fastapi_14099,3,0,no patch,5,None,0,13,9,1,1,1
+e4b_place1b_v1,fastapi_14246,1,0,"right file, other lines",1,None,0,13,6,1,1,1
+e4b_place1b_v1,fastapi_14246,2,0,no patch,1,None,0,17,12,0,0,1
+e4b_place1b_v1,fastapi_14246,3,0,another file,1,None,0,20,16,0,0,1
+e4b_place1b_v1,fastapi_14258,1,0,no patch,1,Agent exceeded session timeout (8 min),0,6,,,0,1
+e4b_place1b_v1,fastapi_14258,2,0,"right file, other lines",1,None,0,24,11,1,0,1
+e4b_place1b_v1,fastapi_14258,3,0,no patch,1,None,0,20,5,1,1,1
+e4b_place1b_v1,fastapi_14262,1,0,"gold lines, misses a gold file",10,None,0,10,3,1,1,1
+e4b_place1b_v1,fastapi_14262,2,0,"gold lines, misses a gold file",10,None,0,9,4,1,1,1
+e4b_place1b_v1,fastapi_14262,3,0,"gold lines, misses a gold file",10,None,0,18,3,1,1,1
+e4b_place1b_v1,fastapi_14266,1,0,another file,1,None,0,14,13,0,0,1
+e4b_place1b_v1,fastapi_14266,2,0,another file,1,None,0,8,6,0,0,1
+e4b_place1b_v1,fastapi_14266,3,0,another file,1,None,0,9,7,0,0,1
+e4b_place1b_v1,fastapi_14301,1,1,gold lines,1,None,0,7,4,1,1,1
+e4b_place1b_v1,fastapi_14301,2,1,gold lines,1,None,0,6,5,1,1,1
+e4b_place1b_v1,fastapi_14301,3,1,gold lines,1,None,0,6,5,1,1,1
+e4b_place1b_v1,fastapi_14306,1,0,"gold lines, misses a gold file",2,None,0,9,5,1,1,1
+e4b_place1b_v1,fastapi_14306,2,0,"right file, other lines",2,None,0,16,9,1,1,1
+e4b_place1b_v1,fastapi_14306,3,0,no patch,2,None,0,13,9,1,1,1
+e4b_place1b_v1,fastapi_14349,1,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1b_v1,fastapi_14349,2,1,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,fastapi_14349,3,0,another file,1,None,0,6,3,0,0,1
+e4b_place1b_v1,fastapi_14356,1,0,"right file, other lines",1,None,0,17,16,1,0,1
+e4b_place1b_v1,fastapi_14356,2,0,no patch,1,None,0,33,,,1,1
+e4b_place1b_v1,fastapi_14356,3,0,"right file, other lines",1,None,0,11,10,1,0,1
+e4b_place1b_v1,fastapi_14360,1,0,"right file, other lines",1,None,0,9,7,1,0,1
+e4b_place1b_v1,fastapi_14360,2,0,gold lines,1,None,0,8,7,1,1,1
+e4b_place1b_v1,fastapi_14360,3,1,gold lines,1,None,0,15,14,1,1,1
+e4b_place1b_v1,fastapi_14361,1,0,"right file, other lines",1,None,0,6,4,1,1,1
+e4b_place1b_v1,fastapi_14361,2,1,gold lines,1,None,0,6,4,1,0,1
+e4b_place1b_v1,fastapi_14361,3,0,"right file, other lines",1,None,0,6,4,1,1,1
+e4b_place1b_v1,fastapi_14372,1,0,another file,2,None,0,14,6,0,0,1
+e4b_place1b_v1,fastapi_14372,2,1,"gold lines, misses a gold file",2,None,0,6,5,1,1,1
+e4b_place1b_v1,fastapi_14372,3,0,another file,2,None,0,7,6,0,0,0
+e4b_place1b_v1,fastapi_14419,1,0,"gold lines, misses a gold file",2,None,0,13,12,1,1,1
+e4b_place1b_v1,fastapi_14419,2,0,"right file, other lines",2,None,0,12,9,1,1,1
+e4b_place1b_v1,fastapi_14419,3,0,"gold lines, misses a gold file",2,None,0,5,4,1,1,1
+e4b_place1b_v1,fastapi_14430,1,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1b_v1,fastapi_14430,2,0,another file,1,None,0,7,6,0,0,1
+e4b_place1b_v1,fastapi_14430,3,0,another file,1,None,0,4,3,0,0,0
+e4b_place1b_v1,fastapi_14448,1,0,"gold lines, misses a gold file",2,None,0,5,4,1,1,1
+e4b_place1b_v1,fastapi_14448,2,0,another file,2,None,0,8,6,0,0,1
+e4b_place1b_v1,fastapi_14448,3,0,"gold lines, misses a gold file",2,None,0,29,28,1,1,1
+e4b_place1b_v1,fastapi_14455,1,0,"right file, other lines",1,None,0,8,7,1,0,1
+e4b_place1b_v1,fastapi_14455,2,0,another file,1,None,0,10,9,0,0,0
+e4b_place1b_v1,fastapi_14455,3,0,another file,1,None,0,22,21,0,0,0
+e4b_place1b_v1,fastapi_14458,1,0,gold lines,1,None,0,7,3,1,1,1
+e4b_place1b_v1,fastapi_14458,2,0,gold lines,1,None,0,9,4,1,1,1
+e4b_place1b_v1,fastapi_14458,3,0,gold lines,1,None,0,10,5,1,1,1
+e4b_place1b_v1,fastapi_14459,1,0,"gold lines, misses a gold file",3,None,0,14,13,1,1,1
+e4b_place1b_v1,fastapi_14459,2,0,no patch,3,None,0,11,7,0,0,0
+e4b_place1b_v1,fastapi_14459,3,0,"gold lines, misses a gold file",3,None,0,9,8,1,1,1
+e4b_place1b_v1,fastapi_14463,1,1,gold lines,1,None,0,7,5,1,1,1
+e4b_place1b_v1,fastapi_14463,2,1,gold lines,1,None,0,11,8,1,1,1
+e4b_place1b_v1,fastapi_14463,3,1,gold lines,1,None,0,6,5,1,1,1
+e4b_place1b_v1,fastapi_14479,1,0,gold lines,1,None,0,12,11,1,1,1
+e4b_place1b_v1,fastapi_14479,2,0,"right file, other lines",1,None,0,7,6,1,1,1
+e4b_place1b_v1,fastapi_14479,3,0,gold lines,1,None,0,6,5,1,0,1
+e4b_place1b_v1,fastapi_14482,1,0,another file,1,None,0,8,6,0,0,0
+e4b_place1b_v1,fastapi_14482,2,0,another file,1,None,0,11,10,0,0,1
+e4b_place1b_v1,fastapi_14482,3,0,another file,1,None,0,10,7,0,0,1
+e4b_place1b_v1,fastapi_14485,1,0,another file,1,None,0,6,5,0,0,0
+e4b_place1b_v1,fastapi_14485,2,0,another file,1,None,0,10,9,0,0,0
+e4b_place1b_v1,fastapi_14485,3,0,another file,1,None,0,6,5,0,0,0
+e4b_place1b_v1,fastapi_14487,1,0,another file,1,None,0,5,3,0,0,1
+e4b_place1b_v1,fastapi_14487,2,0,another file,1,None,0,12,7,0,0,0
+e4b_place1b_v1,fastapi_14487,3,0,another file,1,None,0,5,4,0,0,1
+e4b_place1b_v1,fastapi_14492,1,1,gold lines,1,None,0,6,3,0,0,1
+e4b_place1b_v1,fastapi_14492,2,0,another file,1,None,0,18,2,0,0,1
+e4b_place1b_v1,fastapi_14492,3,0,another file,1,None,0,16,2,0,0,1
+e4b_place1b_v1,fastapi_14512,1,0,another file,1,None,0,16,15,0,0,1
+e4b_place1b_v1,fastapi_14512,2,0,no patch,1,None,0,13,9,0,0,0
+e4b_place1b_v1,fastapi_14512,3,0,another file,1,None,0,8,6,0,0,1
+e4b_place1b_v1,fastapi_14609,1,0,"gold lines, misses a gold file",20,None,0,5,3,1,1,1
+e4b_place1b_v1,fastapi_14609,2,0,no patch,20,None,0,7,3,1,1,1
+e4b_place1b_v1,fastapi_14609,3,0,no patch,20,None,0,5,,,1,1
+e4b_place1b_v1,fastapi_14786,1,1,gold lines,1,None,0,3,1,1,0,0
+e4b_place1b_v1,fastapi_14786,2,1,gold lines,1,None,0,7,3,1,1,1
+e4b_place1b_v1,fastapi_14786,3,1,gold lines,1,None,0,7,4,1,1,1
+e4b_place1b_v1,fastapi_14794,1,0,"right file, other lines",1,None,0,4,3,1,0,1
+e4b_place1b_v1,fastapi_14794,2,0,"right file, other lines",1,None,0,4,3,1,0,1
+e4b_place1b_v1,fastapi_14794,3,0,"right file, other lines",1,None,0,8,3,1,0,1
+e4b_place1b_v1,fastapi_14873,1,0,gold lines,1,None,0,4,2,1,0,1
+e4b_place1b_v1,fastapi_14873,2,0,no patch,1,None,0,4,1,1,0,0
+e4b_place1b_v1,fastapi_14873,3,0,no patch,1,None,0,13,9,1,1,1
+e4b_place1b_v1,fastapi_14978,1,0,"gold lines, misses a gold file",3,None,0,4,3,1,1,1
+e4b_place1b_v1,fastapi_14978,2,0,"gold lines, misses a gold file",3,None,0,4,3,1,1,1
+e4b_place1b_v1,fastapi_14978,3,0,"gold lines, misses a gold file",3,None,0,4,3,1,1,1
+e4b_place1b_v1,fastapi_14986,1,0,another file,2,None,0,14,6,0,0,0
+e4b_place1b_v1,fastapi_14986,2,0,another file,2,None,0,10,9,0,0,1
+e4b_place1b_v1,fastapi_14986,3,0,another file,2,None,0,13,10,0,0,0
+e4b_place1b_v1,fastapi_15023,1,0,another file,1,None,0,9,7,0,0,1
+e4b_place1b_v1,fastapi_15023,2,0,another file,1,None,0,6,5,0,0,0
+e4b_place1b_v1,fastapi_15023,3,0,another file,1,None,0,10,7,0,0,0
+e4b_place1b_v1,fastapi_15030,1,0,"right file, other lines",9,None,0,5,4,1,1,1
+e4b_place1b_v1,fastapi_15030,2,0,"gold lines, misses a gold file",9,None,0,5,4,1,1,1
+e4b_place1b_v1,fastapi_15030,3,0,"gold lines, misses a gold file",9,None,0,7,5,1,1,1
+e4b_place1b_v1,fastapi_15280,1,0,"right file, other lines",2,None,0,6,4,1,1,1
+e4b_place1b_v1,fastapi_15280,2,0,"right file, other lines",2,None,0,14,4,1,1,1
+e4b_place1b_v1,fastapi_15280,3,0,"right file, other lines",2,None,0,6,5,1,1,1
+e4b_place1b_v1,fastapi_15588,1,0,gold lines,1,None,0,7,3,1,0,1
+e4b_place1b_v1,fastapi_15588,2,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1b_v1,fastapi_15588,3,0,gold lines,1,None,0,7,3,1,1,1
+e4b_place1b_v1,fastapi_15589,1,0,another file,1,None,0,6,5,0,0,1
+e4b_place1b_v1,fastapi_15589,2,0,another file,1,None,0,6,5,0,0,1
+e4b_place1b_v1,fastapi_15589,3,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1b_v1,fastapi_15661,1,0,another file,1,None,0,9,4,0,0,0
+e4b_place1b_v1,fastapi_15661,2,0,another file,1,None,0,9,8,0,0,0
+e4b_place1b_v1,fastapi_15661,3,0,gold lines,1,None,0,12,9,1,0,1
+e4b_place1b_v1,fastapi_15800,1,0,"right file, other lines",8,None,0,18,6,1,1,1
+e4b_place1b_v1,fastapi_15800,2,0,"right file, other lines",8,None,0,23,9,1,1,1
+e4b_place1b_v1,fastapi_15800,3,0,"gold lines, misses a gold file",8,None,0,22,7,1,1,1
+e4b_place1b_v1,fastapi_5077,1,0,gold lines,1,None,0,14,13,1,1,1
+e4b_place1b_v1,fastapi_5077,2,0,gold lines,1,None,0,7,4,1,1,1
+e4b_place1b_v1,fastapi_5077,3,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1b_v1,fastapi_5624,1,0,another file,1,None,0,9,8,0,0,0
+e4b_place1b_v1,fastapi_5624,2,0,another file,1,None,0,12,10,0,0,1
+e4b_place1b_v1,fastapi_5624,3,0,"right file, other lines",1,None,0,9,7,1,1,1
+e4b_place1b_v1,fastapi_9425,1,1,gold lines,1,None,0,18,17,1,1,1
+e4b_place1b_v1,fastapi_9425,2,0,"right file, other lines",1,None,0,5,3,1,1,1
+e4b_place1b_v1,fastapi_9425,3,0,another file,1,None,0,7,6,0,0,1
+e4b_place1b_v1,fastapi_9555,1,0,another file,1,None,0,6,5,0,0,0
+e4b_place1b_v1,fastapi_9555,2,0,another file,1,None,0,5,4,0,0,0
+e4b_place1b_v1,fastapi_9555,3,0,another file,1,None,0,6,5,0,0,0
+e4b_place1b_v1,fastapi_9753,1,0,another file,1,None,0,5,4,0,0,0
+e4b_place1b_v1,fastapi_9753,2,0,another file,1,None,0,7,6,0,0,0
+e4b_place1b_v1,fastapi_9753,3,0,another file,1,None,0,7,4,0,0,0
+e4b_place1b_v1,rich_2725,1,0,"right file, other lines",1,None,0,7,6,1,1,1
+e4b_place1b_v1,rich_2725,2,1,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_2725,3,0,another file,1,None,0,6,5,0,0,1
+e4b_place1b_v1,rich_2943,1,0,no patch,1,None,0,9,3,1,0,1
+e4b_place1b_v1,rich_2943,2,0,another file,1,None,0,18,13,0,0,0
+e4b_place1b_v1,rich_2943,3,0,"right file, other lines",1,None,0,13,9,1,1,1
+e4b_place1b_v1,rich_3006,1,1,gold lines,1,None,0,15,14,1,1,1
+e4b_place1b_v1,rich_3006,2,1,gold lines,1,None,0,6,5,1,1,1
+e4b_place1b_v1,rich_3006,3,1,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3043,1,0,gold lines,1,None,0,15,10,1,1,1
+e4b_place1b_v1,rich_3043,2,0,no patch,1,None,0,9,4,1,1,1
+e4b_place1b_v1,rich_3043,3,0,another file,1,None,0,13,4,0,0,0
+e4b_place1b_v1,rich_3052,1,0,"right file, other lines",1,None,0,14,10,1,1,1
+e4b_place1b_v1,rich_3052,2,0,gold lines,1,None,0,12,3,1,1,1
+e4b_place1b_v1,rich_3052,3,0,gold lines,1,None,0,9,5,1,1,1
+e4b_place1b_v1,rich_3061,1,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1b_v1,rich_3061,2,0,gold lines,1,None,0,6,5,1,1,1
+e4b_place1b_v1,rich_3061,3,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3063,1,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3063,2,0,gold lines,1,None,0,10,4,1,1,1
+e4b_place1b_v1,rich_3063,3,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3067,1,1,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3067,2,0,no patch,1,None,0,24,22,0,0,0
+e4b_place1b_v1,rich_3067,3,1,gold lines,1,None,0,4,3,1,1,1
+e4b_place1b_v1,rich_3105,1,0,another file,1,None,0,7,5,0,0,0
+e4b_place1b_v1,rich_3105,2,0,another file,1,None,0,8,6,0,0,0
+e4b_place1b_v1,rich_3105,3,0,another file,1,None,0,8,6,0,0,0
+e4b_place1b_v1,rich_3180,1,0,"gold lines, misses a gold file",2,None,0,8,7,1,1,1
+e4b_place1b_v1,rich_3180,2,0,"gold lines, misses a gold file",2,None,0,11,9,1,1,1
+e4b_place1b_v1,rich_3180,3,0,"gold lines, misses a gold file",2,None,0,7,5,1,1,1
+e4b_place1b_v1,rich_3278,1,0,gold lines,1,None,0,6,4,1,1,1
+e4b_place1b_v1,rich_3278,2,0,gold lines,1,None,0,8,3,1,1,1
+e4b_place1b_v1,rich_3278,3,0,"right file, other lines",1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3454,1,1,gold lines,1,None,0,9,3,1,1,1
+e4b_place1b_v1,rich_3454,2,1,gold lines,1,None,0,12,3,1,1,1
+e4b_place1b_v1,rich_3454,3,0,no patch,1,Agent exceeded session timeout (8 min),0,4,,,1,1
+e4b_place1b_v1,rich_3470,1,0,"right file, other lines",1,None,0,12,4,1,0,1
+e4b_place1b_v1,rich_3470,2,0,"right file, other lines",1,None,0,8,7,1,1,1
+e4b_place1b_v1,rich_3470,3,0,"right file, other lines",1,None,0,11,4,1,0,1
+e4b_place1b_v1,rich_3471,1,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1b_v1,rich_3471,2,0,gold lines,1,None,0,7,5,1,1,1
+e4b_place1b_v1,rich_3471,3,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1b_v1,rich_3480,1,0,another file,1,None,0,11,6,0,0,1
+e4b_place1b_v1,rich_3480,2,0,another file,1,None,0,5,3,0,0,1
+e4b_place1b_v1,rich_3480,3,0,another file,1,None,0,7,6,0,0,1
+e4b_place1b_v1,rich_3506,1,0,"right file, other lines",1,None,0,6,5,1,1,1
+e4b_place1b_v1,rich_3506,2,0,"right file, other lines",1,None,0,7,6,1,1,1
+e4b_place1b_v1,rich_3506,3,0,"right file, other lines",1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3518,1,0,"right file, other lines",1,None,0,5,4,1,0,1
+e4b_place1b_v1,rich_3518,2,1,gold lines,1,None,0,10,9,1,1,1
+e4b_place1b_v1,rich_3518,3,1,gold lines,1,None,0,13,11,1,1,1
+e4b_place1b_v1,rich_3521,1,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1b_v1,rich_3521,2,0,no patch,1,None,0,11,5,1,1,1
+e4b_place1b_v1,rich_3521,3,0,gold lines,1,None,0,12,5,1,1,1
+e4b_place1b_v1,rich_3535,1,0,"gold lines, misses a gold file",2,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3535,2,0,"gold lines, misses a gold file",2,None,0,6,4,1,1,1
+e4b_place1b_v1,rich_3535,3,0,gold lines,2,None,0,14,8,1,1,1
+e4b_place1b_v1,rich_3675,1,1,"gold lines, misses a gold file",2,None,0,9,8,1,1,1
+e4b_place1b_v1,rich_3675,2,0,"gold lines, misses a gold file",2,None,0,7,3,1,1,1
+e4b_place1b_v1,rich_3675,3,0,"gold lines, misses a gold file",2,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3676,1,0,"gold lines, misses a gold file",2,None,0,15,11,1,1,1
+e4b_place1b_v1,rich_3676,2,0,"right file, other lines",2,None,0,18,4,1,1,1
+e4b_place1b_v1,rich_3676,3,0,another file,2,None,0,6,5,0,0,0
+e4b_place1b_v1,rich_3718,1,0,"right file, other lines",1,None,0,6,5,1,1,1
+e4b_place1b_v1,rich_3718,2,0,"right file, other lines",1,None,0,5,3,1,1,1
+e4b_place1b_v1,rich_3718,3,0,"right file, other lines",1,None,0,6,3,1,0,1
+e4b_place1b_v1,rich_3772,1,0,"right file, other lines",1,None,0,19,18,1,1,1
+e4b_place1b_v1,rich_3772,2,0,"right file, other lines",1,None,0,15,14,1,1,1
+e4b_place1b_v1,rich_3772,3,0,"right file, other lines",1,None,0,17,11,1,1,1
+e4b_place1b_v1,rich_3777,1,0,another file,2,None,0,8,3,0,0,1
+e4b_place1b_v1,rich_3777,2,0,another file,2,None,0,7,4,0,0,1
+e4b_place1b_v1,rich_3777,3,0,another file,2,None,0,8,6,0,0,0
+e4b_place1b_v1,rich_3882,1,0,gold lines,1,None,0,6,5,1,1,1
+e4b_place1b_v1,rich_3882,2,0,gold lines,1,None,0,8,7,1,1,1
+e4b_place1b_v1,rich_3882,3,0,gold lines,1,None,0,7,4,1,1,1
+e4b_place1b_v1,rich_3894,1,0,gold lines,1,None,0,6,5,1,1,1
+e4b_place1b_v1,rich_3894,2,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1b_v1,rich_3894,3,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3905,1,1,gold lines,1,None,0,8,7,1,1,1
+e4b_place1b_v1,rich_3905,2,0,no patch,1,None,0,16,13,1,1,1
+e4b_place1b_v1,rich_3905,3,1,gold lines,1,None,0,19,15,1,1,1
+e4b_place1b_v1,rich_3930,1,0,"gold lines, misses a gold file",26,None,0,15,9,1,1,1
+e4b_place1b_v1,rich_3930,2,0,"gold lines, misses a gold file",26,None,0,13,9,1,1,1
+e4b_place1b_v1,rich_3930,3,0,"gold lines, misses a gold file",26,None,0,16,11,1,1,1
+e4b_place1b_v1,rich_3934,1,0,"right file, other lines",2,None,0,8,6,1,1,1
+e4b_place1b_v1,rich_3934,2,0,"right file, other lines",2,None,0,9,5,1,0,1
+e4b_place1b_v1,rich_3934,3,0,"right file, other lines",2,None,0,9,4,1,1,1
+e4b_place1b_v1,rich_3935,1,0,gold lines,1,None,0,7,4,1,1,1
+e4b_place1b_v1,rich_3935,2,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_3935,3,0,gold lines,1,None,0,8,5,1,1,1
+e4b_place1b_v1,rich_3938,1,0,"right file, other lines",2,None,0,12,11,1,0,1
+e4b_place1b_v1,rich_3938,2,0,"right file, other lines",2,None,0,14,6,1,0,1
+e4b_place1b_v1,rich_3938,3,0,"right file, other lines",2,None,0,6,5,1,0,1
+e4b_place1b_v1,rich_3942,1,0,no patch,2,None,0,9,7,0,0,0
+e4b_place1b_v1,rich_3942,2,0,"gold lines, misses a gold file",2,None,0,4,3,1,1,1
+e4b_place1b_v1,rich_3942,3,0,"gold lines, misses a gold file",2,None,0,6,4,1,1,1
+e4b_place1b_v1,rich_3944,1,0,another file,1,None,0,13,5,0,0,0
+e4b_place1b_v1,rich_3944,2,0,another file,1,None,0,13,5,0,0,0
+e4b_place1b_v1,rich_3944,3,0,another file,1,None,0,10,7,0,0,0
+e4b_place1b_v1,rich_3953,1,0,another file,1,None,0,10,8,0,0,0
+e4b_place1b_v1,rich_3953,2,0,gold lines,1,None,0,8,7,1,1,1
+e4b_place1b_v1,rich_3953,3,0,gold lines,1,None,0,5,4,1,1,1
+e4b_place1b_v1,rich_4006,1,0,gold lines,1,None,0,5,3,1,1,1
+e4b_place1b_v1,rich_4006,2,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1b_v1,rich_4006,3,0,gold lines,1,None,0,4,3,1,1,1
+e4b_place1b_v1,rich_4075,1,0,another file,1,None,0,13,6,0,0,1
+e4b_place1b_v1,rich_4075,2,0,another file,1,None,0,8,7,0,0,1
+e4b_place1b_v1,rich_4075,3,0,another file,1,None,0,13,12,0,1,1
+e4b_place1b_v1,rich_4076,1,0,another file,1,None,0,4,3,0,0,0
+e4b_place1b_v1,rich_4076,2,0,another file,1,None,0,6,5,0,0,0
+e4b_place1b_v1,rich_4076,3,0,another file,1,None,0,9,7,0,0,0
+e4b_place1b_v1,rich_4077,1,0,another file,1,None,0,6,5,0,1,1
+e4b_place1b_v1,rich_4077,2,0,another file,1,None,0,5,3,0,0,0
+e4b_place1b_v1,rich_4077,3,0,another file,1,None,0,5,3,0,0,0

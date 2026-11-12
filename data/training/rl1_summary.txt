@@ -1,0 +1,2 @@
+rl1_r1 (reinforcement adapter, round 1): 465 of 936 frontier tries solved (49.7%)
+rl1_plain (untrained, concurrent control): 228 of 468 frontier tries solved (48.7%)

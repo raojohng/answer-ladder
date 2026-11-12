@@ -1,0 +1,3 @@
+4248 sessions; tool results missing for 4 (calls without any recorded result)
+solved: 980 tries with an applied edit | applied edits 1: 81%, 2: 14%, 3+: 5% | last test evidence before submitting: no existing test broke 69%, tests broken 8%, none ran 22% | own python/pytest check after editing 11%
+failed with a patch: 2762 tries with an applied edit | applied edits 1: 70%, 2: 19%, 3+: 12% | last test evidence before submitting: no existing test broke 53%, tests broken 23%, none ran 24% | own python/pytest check after editing 9%

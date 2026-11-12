@@ -1,0 +1,5 @@
+arrow_1052:t1:nav (advantage -0.75): space added at 772; on 3362 targets: mean change -0.0005, abs mean 0.0145, p99 0.128, max 0.242 | same request twice: abs mean 0.0000
+arrow_1063:t1:nav (advantage -0.50): space added at 584; on 2403 targets: mean change +0.0000, abs mean 0.0147, p99 0.141, max 0.393 | same request twice: abs mean 0.0000
+click_2724:t1:nav (advantage -0.25): space added at 565; on 5099 targets: mean change -0.0007, abs mean 0.0134, p99 0.122, max 0.258 | same request twice: abs mean 0.0000
+SPACE_DONE
+10:20:05 SPACE_RUN_END

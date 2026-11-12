@@ -1,0 +1,5 @@
+Look-alikes. 1155 tries without help on 77 tasks; 534 failed off the reference lines; 376 mapped to graph nodes (52 tasks). Baseline: 12916 other nodes in the same files.
+  wrong edits          cosine to the nearest reference node: median 0.548 (IQR -0.185-0.906) | reference node among the 10 nearest: 39/376 (10%), among the 3 nearest: 4% | same name: 24% (random repository node: 0.7%) | median nodes per repo 1054
+  same-file baseline   cosine to the nearest reference node: median 0.681 (IQR -0.170-0.919) | reference node among the 10 nearest: 703/12916 (5%), among the 3 nearest: 2% | same name: 0% (random repository node: 0.4%) | median nodes per repo 1057
+  task-weighted share of wrong edits with the reference node among their 10 nearest: 12% over 52 tasks
+  most common look-alike pairs (edited -> reference): __rich_console__ -> _get_padding_width x4; field_annotation_is_scalar_sequence -> analyze_param x2; split_graphemes -> get_character_cell_size x2; _cell_len -> get_character_cell_size x2; oauth_scopes -> SecurityRequirement x2; get_definitions -> get_definitions x1; _render_stack -> extract x1

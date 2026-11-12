@@ -1,0 +1,23 @@
+invoked / FIX APPLIED / failed 2
+invoked / FIX APPLIED / solved 63
+invoked / not applied / failed 6
+invoked / not applied / solved 1
+never invoked / not applied / failed 60
+never invoked / not applied / solved 99
+== e4b_off_diff_v1
+231 tries: {'identical': 125, 'empty': 20, 'different changes': 42, 'missing changes only': 25, 'extra changes': 19}
+  solved: {'identical': 125, 'different changes': 13, 'extra changes': 10, 'missing changes only': 14}
+  failed: {'empty': 20, 'missing changes only': 11, 'different changes': 29, 'extra changes': 9}
+  used git apply or patch (solved, failed): 1 0 | did not: 161 69
+== e4b_off_edits_v1
+231 tries: {'extra changes': 26, 'empty': 14, 'identical': 130, 'different changes': 43, 'missing changes only': 18}
+  solved: {'extra changes': 13, 'identical': 130, 'missing changes only': 6, 'different changes': 4}
+  failed: {'extra changes': 13, 'empty': 14, 'different changes': 39, 'missing changes only': 12}
+  used git apply or patch (solved, failed): 0 0 | did not: 153 78
+== e4b_off_apply_v1
+231 tries: {'identical': 139, 'empty': 20, 'missing changes only': 20, 'extra changes': 9, 'different changes': 43}
+  solved: {'identical': 138, 'missing changes only': 7, 'different changes': 15, 'extra changes': 3}
+  failed: {'empty': 20, 'missing changes only': 13, 'extra changes': 6, 'different changes': 28, 'identical': 1}
+  used git apply or patch (solved, failed): 3 8 | did not: 160 60
+Apply arm (official loop), tool use from llm_calls (invoked = any tool call naming apply_fix; applied = FIX APPLIED in events):
+  invoked / FIX APPLIED: 65 (63 solved) | invoked / not applied: 7 (1 solved) | never invoked: 159 (99 solved, 60 failed)

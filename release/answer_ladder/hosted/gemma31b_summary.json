@@ -1,0 +1,138 @@
+{
+ "rungs_order": [
+  "ctrl",
+  "loc",
+  "diff",
+  "edits",
+  "apply"
+ ],
+ "tries": 1,
+ "model": "google/gemma-4-31b",
+ "tasks": 77,
+ "budget": {
+  "timeout_seconds": 60,
+  "max_tool_calls": 50,
+  "max_time_minutes": 8,
+  "max_turns": 100
+ },
+ "versions": {
+  "swegemma": "0.2.11",
+  "adk-submission": "0.2.13",
+  "adk-eval-core": "0.1.0",
+  "google-adk": "1.36.1",
+  "litellm": "1.104.2"
+ },
+ "model_calls": {
+  "ctrl": 1921,
+  "loc": 1456,
+  "diff": 1200,
+  "edits": 1216,
+  "apply": 964
+ },
+ "score": 0.7610389610389611,
+ "rungs": {
+  "apply": {
+   "solved": 74,
+   "tries": 77,
+   "share": 0.961038961038961,
+   "missing": [],
+   "errors": {
+    "fastapi_15589 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_5077 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3180 t1": "Agent exceeded session timeout (8 min)"
+   }
+  },
+  "edits": {
+   "solved": 73,
+   "tries": 77,
+   "share": 0.948051948051948,
+   "missing": [],
+   "errors": {
+    "fastapi_15589 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_5077 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3061 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3471 t1": "Agent exceeded session timeout (8 min)"
+   }
+  },
+  "diff": {
+   "solved": 74,
+   "tries": 77,
+   "share": 0.961038961038961,
+   "missing": [],
+   "errors": {
+    "fastapi_13920 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14459 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3061 t1": "Agent exceeded session timeout (8 min)"
+   }
+  },
+  "ctrl": {
+   "solved": 34,
+   "tries": 77,
+   "share": 0.44155844155844154,
+   "missing": [],
+   "errors": {
+    "fastapi_14246 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14266 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14301 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14306 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14356 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14419 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14448 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14459 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14487 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14512 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14986 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_15023 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_9753 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3105 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3180 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3278 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3470 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3471 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3521 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3938 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3953 t1": "Agent exceeded session timeout (8 min)",
+    "rich_4006 t1": "Agent exceeded session timeout (8 min)",
+    "rich_4075 t1": "Agent exceeded session timeout (8 min)"
+   }
+  },
+  "loc": {
+   "solved": 38,
+   "tries": 77,
+   "share": 0.4935064935064935,
+   "missing": [],
+   "errors": {
+    "fastapi_11355 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_13207 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_13920 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14246 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14266 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14306 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14419 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14448 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14455 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14459 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14512 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_14986 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_15023 t1": "Agent exceeded session timeout (8 min)",
+    "fastapi_15589 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3061 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3063 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3105 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3180 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3470 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3471 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3506 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3521 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3535 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3675 t1": "Agent completed execution without calling submit_patch.",
+    "rich_3772 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3935 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3942 t1": "Agent exceeded session timeout (8 min)",
+    "rich_3953 t1": "Agent exceeded session timeout (8 min)",
+    "rich_4006 t1": "Agent exceeded session timeout (8 min)",
+    "rich_4076 t1": "Agent exceeded session timeout (8 min)"
+   }
+  }
+ }
+}

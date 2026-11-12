@@ -1,0 +1,13 @@
+Gemma 4 31B (hosted): 77 tasks completed in every rung; platform errors: 0
+  rung              Gemma 4 31B         E4B  Qwen3.5-4B         E2B
+  control             34 ( 44%)   7.7 ( 10%)  21.0 ( 27%)   4.3 (  6%)
+  reference lines     38 ( 49%)  14.0 ( 18%)  23.3 ( 30%)  11.3 ( 15%)
+  reference patch     74 ( 96%)  54.0 ( 70%)  73.0 ( 95%)  31.3 ( 41%)
+  edit commands       73 ( 95%)  51.0 ( 66%)  67.3 ( 87%)  41.0 ( 53%)
+  apply tool          74 ( 96%)  54.3 ( 71%)  74.0 ( 96%)  49.7 ( 65%)
+  reference lines - control: +4 (-3 to +10)
+  reference patch - reference lines: +36 (+27 to +45)
+  edit commands - reference patch: -1 (-5 to +3)
+  apply tool - edit commands: +1 (-2 to +4)
+  apply tool - reference patch: +0 (-5 to +5)
+HOSTED_GEMMA31B_DONE

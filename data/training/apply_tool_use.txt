@@ -1,0 +1,19 @@
+77 tasks
+first run: 231 tries
+   invoked / FIX APPLIED / solved 103
+   invoked / not applied / failed 13
+   invoked / not applied / solved 15
+   never invoked / not applied / failed 26
+   never invoked / not applied / solved 74
+  invoked: 131 tries, 118 solved
+  never invoked: 100 tries, 74 solved
+interleaved replication: 231 tries
+   invoked / FIX APPLIED / failed 2
+   invoked / FIX APPLIED / solved 112
+   invoked / not applied / failed 13
+   invoked / not applied / solved 11
+   never invoked / not applied / failed 19
+   never invoked / not applied / solved 74
+  invoked: 138 tries, 123 solved
+  never invoked: 93 tries, 74 solved
+APPLY_TOOL_USE_DONE

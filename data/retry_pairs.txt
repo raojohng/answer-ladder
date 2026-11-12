@@ -1,0 +1,6 @@
+251 tasks with solved and failed tries
+  same location, different fix          44.2% of failed-solved pairs (95% 38.7 to 49.7)
+  failed try: no patch                  25.6% of failed-solved pairs (95% 21.1 to 30.4)
+  different location                    21.4% of failed-solved pairs (95% 17.0 to 25.8)
+  solved try not on reference lines      8.9% of failed-solved pairs (95% 5.6 to 12.5)
+  solved tries whose first applied edit was elsewhere and final patch on the reference lines: 10 of 490

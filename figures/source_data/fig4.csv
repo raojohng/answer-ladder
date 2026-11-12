@@ -1,0 +1,16 @@
+task_group,tasks,place,tries,group_tries,share,solved
+Solved in 15% of tries or more,15,no patch,82,734,0.1117,0
+Solved in 15% of tries or more,15,another file,154,734,0.2098,3
+Solved in 15% of tries or more,15,"right file, other lines",73,734,0.0995,23
+Solved in 15% of tries or more,15,"gold lines, misses a gold file",17,734,0.0232,8
+Solved in 15% of tries or more,15,gold lines,408,734,0.5559,336
+Solved in under 15%,23,no patch,150,1128,0.133,0
+Solved in under 15%,23,another file,318,1128,0.2819,0
+Solved in under 15%,23,"right file, other lines",200,1128,0.1773,10
+Solved in under 15%,23,"gold lines, misses a gold file",60,1128,0.0532,5
+Solved in under 15%,23,gold lines,400,1128,0.3546,48
+Never solved,48,no patch,374,2346,0.1594,0
+Never solved,48,another file,786,2346,0.335,0
+Never solved,48,"right file, other lines",470,2346,0.2003,0
+Never solved,48,"gold lines, misses a gold file",388,2346,0.1654,0
+Never solved,48,gold lines,328,2346,0.1398,0

@@ -1,0 +1,15 @@
+tries per arm: control 462, graph hint 462
+  ladder4 e4b_ghint_v1: solved 13.7/pass, first edit on reference lines 27.7/pass
+  ladder4 e4b_loc_ctrl_v1: solved 9.7/pass, first edit on reference lines 30.3/pass
+  ladder6 e4b_ghint_v1: solved 11.7/pass, first edit on reference lines 29.0/pass
+  ladder6 e4b_loc_ctrl_v1: solved 11.7/pass, first edit on reference lines 27.7/pass
+All: 77 tasks
+  solved: control 10.7/pass, graph hint 12.7/pass, difference +2.0 (-1.3 to +5.3)
+  first applied edit on the reference lines: control 29.0/pass, graph hint 28.3/pass, difference -0.7 (-5.3 to +4.0)
+Hint covers the reference lines: 25 tasks
+  solved: control 4.8/pass, graph hint 7.5/pass, difference +2.7 (+0.3 to +5.2)
+  first applied edit on the reference lines: control 13.8/pass, graph hint 17.0/pass, difference +3.2 (+0.7 to +5.8)
+Hint misses them: 52 tasks
+  solved: control 5.8/pass, graph hint 5.2/pass, difference -0.7 (-3.0 to +1.3)
+  first applied edit on the reference lines: control 15.2/pass, graph hint 11.3/pass, difference -3.8 (-7.8 to -0.3)
+GRAPH_POOLED_DONE

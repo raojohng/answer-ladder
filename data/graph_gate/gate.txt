@@ -1,0 +1,12 @@
+Dev 52 tasks, hint right on 24; test 77 tasks, hint right on 25.
+  graph_links  AUC for 'hint is right': dev 0.44 | test 0.58
+  emb_agree    AUC for 'hint is right': dev 0.38 | test 0.55
+  file_conc    AUC for 'hint is right': dev 0.39 | test 0.59
+  margin       AUC for 'hint is right': dev 0.55 | test 0.54
+  top_score    AUC for 'hint is right': dev 0.55 | test 0.57
+Chosen on dev: top_score >= 0.473 (dev: keeps 25 hints, 14 right).
+Test: keeps 32 of 77 hints, 13 right (41%; all hints: 32%).
+ladder4_stages.csv: 77 tasks, solves per pass: control 9.7 | hint always 13.7 | gated hint 12.0
+    gated - control: +2.3 (-1.0 to +5.7)
+    gated - always: -1.7 (-5.0 to +1.0)
+    always - control: +4.0 (-0.3 to +8.7)

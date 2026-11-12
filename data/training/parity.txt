@@ -1,0 +1,129 @@
+10:15:47 server pid 4054097
+10:17:20 server ready
+arrow_1052:t1:nav gemma-4-e4b-it-qat-w4a16-ct 10394 tokens, 0 missing, prompt tokens 10394
+arrow_1052:t1:nav rl1r1_lora 10394 tokens, 0 missing, prompt tokens 10394
+arrow_1063:t1:nav gemma-4-e4b-it-qat-w4a16-ct 8483 tokens, 0 missing, prompt tokens 8483
+arrow_1063:t1:nav rl1r1_lora 8483 tokens, 0 missing, prompt tokens 8483
+click_2724:t1:nav gemma-4-e4b-it-qat-w4a16-ct 15924 tokens, 0 missing, prompt tokens 15924
+click_2724:t1:nav rl1r1_lora 15924 tokens, 0 missing, prompt tokens 15924
+turn 3 recorded 2069 replay 2069 ids from the reply 2069 ids from /tokenize 2069
+turn 7 recorded 4868 replay 4868 ids from the reply 4868 ids from /tokenize 4868
+SERVER_PART_DONE
+10:17:31 server stopped, trainer part
+layers 42 (last 18 reuse earlier keys/values), hidden 2560, heads 8 (key/value heads 2), head dim 256 (full-attention layers 512), sliding window 512, vocabulary 262144
+layer types: sssssFsssssFsssssFsssssFsssssFsssssFsssssF (F full, s sliding)
+decoder layers per card: [6, 12, 12, 12]
+~/workspace/Gemma4/.venv/lib/python3.12/site-packages/transformers/quantizers/auto.py:271: UserWarning: You passed `quantization_config` or equivalent parameters to `from_pretrained` but the model you're loading already has a `quantization_config` attribute. The `quantization_config` from the model will be used.However, loading attributes (e.g. ['run_compressed']) will be overwritten with the one you passed to `from_pretrained`. The rest will be ignored.
+  warnings.warn(warning_msg)
+
+Compressing model:   0%|          | 0/1758 [00:00<?, ?it/s]
+Compressing model:  37%|███▋      | 645/1758 [00:00<00:00, 6409.04it/s]
+Compressing model:  73%|███████▎  | 1286/1758 [00:00<00:00, 3678.05it/s]
+Compressing model: 100%|██████████| 1758/1758 [00:00<00:00, 5364.14it/s]
+
+Loading weights:   0%|          | 0/2763 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/2763 [00:00<13:32,  3.40it/s]
+Loading weights:   8%|▊         | 215/2763 [00:00<00:03, 701.36it/s]
+Loading weights:  15%|█▌        | 427/2763 [00:00<00:02, 1149.77it/s]
+Loading weights:  23%|██▎       | 636/2763 [00:00<00:01, 1439.90it/s]
+Loading weights:  30%|██▉       | 818/2763 [00:01<00:02, 689.19it/s] 
+Loading weights:  37%|███▋      | 1017/2763 [00:01<00:01, 899.73it/s]
+Loading weights:  44%|████▍     | 1212/2763 [00:01<00:01, 1097.37it/s]
+Loading weights:  51%|█████     | 1411/2763 [00:01<00:01, 1286.19it/s]
+Loading weights:  58%|█████▊    | 1600/2763 [00:01<00:00, 1426.47it/s]
+Loading weights:  65%|██████▍   | 1787/2763 [00:01<00:00, 1537.02it/s]
+Loading weights:  72%|███████▏  | 1976/2763 [00:01<00:00, 1621.77it/s]
+Loading weights:  79%|███████▊  | 2171/2763 [00:01<00:00, 1708.41it/s]
+Loading weights:  86%|████████▌ | 2383/2763 [00:01<00:00, 1821.63it/s]
+Loading weights:  94%|█████████▍| 2597/2763 [00:02<00:00, 1908.17it/s]
+Loading weights: 100%|██████████| 2763/2763 [00:02<00:00, 1321.87it/s]
+
+Decompressing model:   0%|          | 0/1758 [00:00<?, ?it/s]
+Decompressing model:  29%|██▉       | 513/1758 [00:00<00:00, 5100.12it/s]
+Decompressing model:  58%|█████▊    | 1024/1758 [00:00<00:00, 1910.92it/s]
+Decompressing model:  75%|███████▍  | 1313/1758 [00:00<00:00, 1676.75it/s]
+Decompressing model: 100%|██████████| 1758/1758 [00:00<00:00, 2501.01it/s]
+loaded in 5s
+q_proj of layer 0: Linear (2048, 2560) torch.bfloat16
+GiB per card after loading: [15.1]
+adapter: rank 64, alpha 64, on ['down_proj', 'gate_proj', 'k_proj', 'o_proj', 'q_proj', 'up_proj', 'v_proj']
+139,526,144 trainable numbers in 516 tensors (266 MiB in bf16; the scorer's limit is 3 GB)
+arrow_1052:t1:nav plain 10394 tokens
+arrow_1063:t1:nav plain 8483 tokens
+click_2724:t1:nav plain 15924 tokens
+adapter loaded: 516 tensors
+arrow_1052:t1:nav adapter 10394 tokens
+arrow_1063:t1:nav adapter 8483 tokens
+click_2724:t1:nav adapter 15924 tokens
+TRAINER_PART_DONE
+== Log-probabilities (nats): trainer minus server, same token ids ==
+
+arrow_1052:t1:nav: 10394 tokens, 3362 targets, 0 positions without a server value
+  mean log-probability on targets: server plain -0.5951 trainer plain -0.5966 | server adapter -0.6515 trainer adapter -0.6524
+  plain, all                         n  10393 | mean -0.0010 | abs mean 0.0210 median 0.0009 p99 0.207 max 0.698 | over 0.1: 5.87% over 0.5: 0.04%
+  plain, targets                     n   3362 | mean -0.0015 | abs mean 0.0180 median 0.0028 p99 0.143 max 0.322 | over 0.1: 3.00% over 0.5: 0.00%
+  plain, context                     n   7031 | mean -0.0008 | abs mean 0.0225 median 0.0005 p99 0.231 max 0.698 | over 0.1: 7.24% over 0.5: 0.06%
+  plain, first third                 n   3464 | mean -0.0015 | abs mean 0.0340 median 0.0063 p99 0.256 max 0.698 | over 0.1: 10.85% over 0.5: 0.12%
+  plain, last third                  n   3464 | mean -0.0005 | abs mean 0.0131 median 0.0001 p99 0.152 max 0.388 | over 0.1: 2.92% over 0.5: 0.00%
+  adapter, all                       n  10393 | mean -0.0008 | abs mean 0.0219 median 0.0010 p99 0.203 max 4.935 | over 0.1: 5.73% over 0.5: 0.06%
+  adapter, targets                   n   3362 | mean -0.0009 | abs mean 0.0196 median 0.0039 p99 0.151 max 0.273 | over 0.1: 3.90% over 0.5: 0.00%
+  adapter, last third                n   3464 | mean -0.0007 | abs mean 0.0134 median 0.0002 p99 0.148 max 0.273 | over 0.1: 3.09% over 0.5: 0.00%
+  adapter effect, all: server abs mean 0.0743 (mean -0.0102) | trainer abs mean 0.0733 (mean -0.0100) | correlation 0.9151 | abs mean of the difference 0.0281
+  adapter effect, targets: server abs mean 0.0742 (mean -0.0563) | trainer abs mean 0.0727 (mean -0.0558) | correlation 0.9557 | abs mean of the difference 0.0236
+  on targets: engines disagree by 0.0180 on plain; the adapter moves the server by 0.0742
+
+arrow_1063:t1:nav: 8483 tokens, 2403 targets, 0 positions without a server value
+  mean log-probability on targets: server plain -0.5517 trainer plain -0.5514 | server adapter -0.6162 trainer adapter -0.6178
+  plain, all                         n   8482 | mean +0.0001 | abs mean 0.0223 median 0.0012 p99 0.212 max 1.055 | over 0.1: 6.25% over 0.5: 0.06%
+  plain, targets                     n   2403 | mean +0.0002 | abs mean 0.0179 median 0.0024 p99 0.148 max 0.380 | over 0.1: 3.87% over 0.5: 0.00%
+  plain, context                     n   6079 | mean +0.0000 | abs mean 0.0241 median 0.0009 p99 0.233 max 1.055 | over 0.1: 7.19% over 0.5: 0.08%
+  plain, first third                 n   2827 | mean +0.0016 | abs mean 0.0342 median 0.0078 p99 0.268 max 1.038 | over 0.1: 10.44% over 0.5: 0.11%
+  plain, last third                  n   2827 | mean -0.0002 | abs mean 0.0120 median 0.0001 p99 0.148 max 0.515 | over 0.1: 3.01% over 0.5: 0.04%
+  adapter, all                       n   8482 | mean -0.0013 | abs mean 0.0220 median 0.0013 p99 0.193 max 1.351 | over 0.1: 5.97% over 0.5: 0.06%
+  adapter, targets                   n   2403 | mean -0.0017 | abs mean 0.0189 median 0.0026 p99 0.148 max 0.227 | over 0.1: 3.75% over 0.5: 0.00%
+  adapter, last third                n   2827 | mean -0.0004 | abs mean 0.0118 median 0.0001 p99 0.148 max 0.411 | over 0.1: 2.72% over 0.5: 0.00%
+  adapter effect, all: server abs mean 0.0784 (mean -0.0079) | trainer abs mean 0.0787 (mean -0.0094) | correlation 0.9452 | abs mean of the difference 0.0284
+  adapter effect, targets: server abs mean 0.0823 (mean -0.0645) | trainer abs mean 0.0823 (mean -0.0664) | correlation 0.9643 | abs mean of the difference 0.0241
+  on targets: engines disagree by 0.0179 on plain; the adapter moves the server by 0.0823
+
+click_2724:t1:nav: 15924 tokens, 5099 targets, 0 positions without a server value
+  mean log-probability on targets: server plain -0.6024 trainer plain -0.6024 | server adapter -0.6475 trainer adapter -0.6474
+  plain, all                         n  15923 | mean -0.0001 | abs mean 0.0223 median 0.0024 p99 0.186 max 0.924 | over 0.1: 5.63% over 0.5: 0.03%
+  plain, targets                     n   5099 | mean +0.0000 | abs mean 0.0179 median 0.0032 p99 0.141 max 0.295 | over 0.1: 3.31% over 0.5: 0.00%
+  plain, context                     n  10824 | mean -0.0002 | abs mean 0.0244 median 0.0021 p99 0.202 max 0.924 | over 0.1: 6.72% over 0.5: 0.04%
+  plain, first third                 n   5307 | mean -0.0010 | abs mean 0.0291 median 0.0055 p99 0.230 max 0.728 | over 0.1: 8.20% over 0.5: 0.06%
+  plain, last third                  n   5308 | mean -0.0011 | abs mean 0.0170 median 0.0014 p99 0.147 max 0.324 | over 0.1: 3.54% over 0.5: 0.00%
+  adapter, all                       n  15923 | mean +0.0001 | abs mean 0.0223 median 0.0027 p99 0.180 max 2.917 | over 0.1: 5.43% over 0.5: 0.03%
+  adapter, targets                   n   5099 | mean +0.0001 | abs mean 0.0188 median 0.0037 p99 0.135 max 0.779 | over 0.1: 3.12% over 0.5: 0.02%
+  adapter, last third                n   5308 | mean -0.0002 | abs mean 0.0172 median 0.0016 p99 0.141 max 0.779 | over 0.1: 3.18% over 0.5: 0.02%
+  adapter effect, all: server abs mean 0.0773 (mean -0.0037) | trainer abs mean 0.0755 (mean -0.0034) | correlation 0.9438 | abs mean of the difference 0.0285
+  adapter effect, targets: server abs mean 0.0733 (mean -0.0451) | trainer abs mean 0.0724 (mean -0.0451) | correlation 0.9500 | abs mean of the difference 0.0234
+  on targets: engines disagree by 0.0179 on plain; the adapter moves the server by 0.0733
+
+== Tokens: the server's ids for recorded requests against the trainer's rendering ==
+
+turn 3: recorded 2069, replay 2069, trainer rendering 2068, extra_body {'chat_template_kwargs': {'enable_thinking': True}, 'thinking_token_budget': 3072}
+  server_ids: 2069 ids; same first 772, same last 1296
+    trainer around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_'), (7674, 'command')]
+    server  around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (236743, ' '), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_')]
+    trainer end: [(7676, 'OK'), (106, '<turn|>'), (107, '\n'), (105, '<|turn>'), (4368, 'model'), (107, '\n')]
+    server  end: [(7676, 'OK'), (106, '<turn|>'), (107, '\n'), (105, '<|turn>'), (4368, 'model'), (107, '\n')]
+  tokenize_ids: 2069 ids; same first 772, same last 1296
+    trainer around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_'), (7674, 'command')]
+    server  around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (236743, ' '), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_')]
+    trainer end: [(7676, 'OK'), (106, '<turn|>'), (107, '\n'), (105, '<|turn>'), (4368, 'model'), (107, '\n')]
+    server  end: [(7676, 'OK'), (106, '<turn|>'), (107, '\n'), (105, '<|turn>'), (4368, 'model'), (107, '\n')]
+
+turn 7: recorded 4868, replay 4868, trainer rendering 4867, extra_body {'chat_template_kwargs': {'enable_thinking': True}, 'thinking_token_budget': 3072}
+  server_ids: 4868 ids; same first 772, same last 4095
+    trainer around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_'), (7674, 'command')]
+    server  around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (236743, ' '), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_')]
+    trainer end: [(236743, ' '), (236771, '0'), (236783, '}'), (52, '<|"|>'), (236783, '}'), (51, '<tool_response|>')]
+    server  end: [(236743, ' '), (236771, '0'), (236783, '}'), (52, '<|"|>'), (236783, '}'), (51, '<tool_response|>')]
+  tokenize_ids: 4868 ids; same first 772, same last 4095
+    trainer around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_'), (7674, 'command')]
+    server  around the first difference: [(17507, ' checks'), (532, ' and'), (126445, ' submits'), (81211, '.".'), (236743, ' '), (46, '<|tool>'), (163688, 'declaration'), (236787, ':'), (4503, 'run'), (236779, '_')]
+    trainer end: [(236743, ' '), (236771, '0'), (236783, '}'), (52, '<|"|>'), (236783, '}'), (51, '<tool_response|>')]
+    server  end: [(236743, ' '), (236771, '0'), (236783, '}'), (52, '<|"|>'), (236783, '}'), (51, '<tool_response|>')]
+COMPARE_DONE
+10:17:56 PARITY_DONE

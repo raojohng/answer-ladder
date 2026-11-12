@@ -1,0 +1,1252 @@
+{
+ "w3lib_291": {
+  "A": {
+   "try": 4,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      17,
+      23
+     ],
+     [
+      32,
+      38
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 2,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      17,
+      23
+     ],
+     [
+      32,
+      38
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 3,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      17,
+      23
+     ],
+     [
+      32,
+      38
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 1,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      17,
+      23
+     ],
+     [
+      32,
+      38
+     ]
+    ]
+   }
+  }
+ },
+ "tabulate_139": {
+  "A": {
+   "try": 3,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "tabulate.py": [
+     [
+      1253,
+      1258
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 2,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "tabulate.py": [
+     [
+      1253,
+      1258
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 4,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "tabulate.py": [
+     [
+      1253,
+      1258
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 1,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "tabulate.py": [
+     [
+      1253,
+      1258
+     ]
+    ]
+   }
+  }
+ },
+ "werkzeug_3218": {
+  "A": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/werkzeug/urls.py": [
+     [
+      68,
+      73
+     ],
+     [
+      95,
+      107
+     ],
+     [
+      119,
+      124
+     ],
+     [
+      150,
+      162
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 3,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "src/werkzeug/urls.py": [
+     [
+      68,
+      73
+     ],
+     [
+      95,
+      107
+     ],
+     [
+      119,
+      124
+     ],
+     [
+      150,
+      162
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 4,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "src/werkzeug/urls.py": [
+     [
+      68,
+      73
+     ],
+     [
+      95,
+      107
+     ],
+     [
+      119,
+      124
+     ],
+     [
+      150,
+      162
+     ]
+    ]
+   }
+  }
+ },
+ "pluggy_731": {
+  "A": {
+   "try": 1,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "src/pluggy/_manager.py": [
+     [
+      196,
+      201
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 3,
+   "solved": true,
+   "place": "right file, other lines",
+   "reference": {
+    "src/pluggy/_manager.py": [
+     [
+      196,
+      201
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/pluggy/_manager.py": [
+     [
+      196,
+      201
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 4,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/pluggy/_manager.py": [
+     [
+      196,
+      201
+     ]
+    ]
+   }
+  }
+ },
+ "pydantic_settings_980": {
+  "A": {
+   "try": 4,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "pydantic_settings/sources/base.py": [
+     [
+      448,
+      457
+     ],
+     [
+      460,
+      465
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 1,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "pydantic_settings/sources/base.py": [
+     [
+      448,
+      457
+     ],
+     [
+      460,
+      465
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 3,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "pydantic_settings/sources/base.py": [
+     [
+      448,
+      457
+     ],
+     [
+      460,
+      465
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "pydantic_settings/sources/base.py": [
+     [
+      448,
+      457
+     ],
+     [
+      460,
+      465
+     ]
+    ]
+   }
+  }
+ },
+ "packaging_1305": {
+  "A": {
+   "try": 3,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      65,
+      71
+     ],
+     [
+      210,
+      216
+     ],
+     [
+      274,
+      280
+     ],
+     [
+      284,
+      289
+     ],
+     [
+      301,
+      306
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      65,
+      71
+     ],
+     [
+      210,
+      216
+     ],
+     [
+      274,
+      280
+     ],
+     [
+      284,
+      289
+     ],
+     [
+      301,
+      306
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      65,
+      71
+     ],
+     [
+      210,
+      216
+     ],
+     [
+      274,
+      280
+     ],
+     [
+      284,
+      289
+     ],
+     [
+      301,
+      306
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      65,
+      71
+     ],
+     [
+      210,
+      216
+     ],
+     [
+      274,
+      280
+     ],
+     [
+      284,
+      289
+     ],
+     [
+      301,
+      306
+     ]
+    ]
+   }
+  }
+ },
+ "w3lib_307": {
+  "A": {
+   "try": 3,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      188,
+      196
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      188,
+      196
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      188,
+      196
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 2,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/encoding.py": [
+     [
+      188,
+      196
+     ]
+    ]
+   }
+  }
+ },
+ "pydantic_settings_920": {
+  "A": {
+   "try": 3,
+   "solved": false,
+   "place": "another file",
+   "reference": {
+    "pydantic_settings/sources/utils.py": [
+     [
+      137,
+      143
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "pydantic_settings/sources/utils.py": [
+     [
+      137,
+      143
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 1,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "pydantic_settings/sources/utils.py": [
+     [
+      137,
+      143
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 4,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "pydantic_settings/sources/utils.py": [
+     [
+      137,
+      143
+     ]
+    ]
+   }
+  }
+ },
+ "networkx_8755": {
+  "A": {
+   "try": 3,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "networkx/readwrite/gml.py": [
+     [
+      756,
+      762
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "networkx/readwrite/gml.py": [
+     [
+      756,
+      762
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 4,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "networkx/readwrite/gml.py": [
+     [
+      756,
+      762
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 1,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "networkx/readwrite/gml.py": [
+     [
+      756,
+      762
+     ]
+    ]
+   }
+  }
+ },
+ "humanize_354": {
+  "A": {
+   "try": 3,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/humanize/number.py": [
+     [
+      361,
+      370
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/humanize/number.py": [
+     [
+      361,
+      370
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 2,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "src/humanize/number.py": [
+     [
+      361,
+      370
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 4,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "src/humanize/number.py": [
+     [
+      361,
+      370
+     ]
+    ]
+   }
+  }
+ },
+ "sqlparse_868": {
+  "A": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "sqlparse/keywords.py": [
+     [
+      49,
+      55
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "sqlparse/keywords.py": [
+     [
+      49,
+      55
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 3,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "sqlparse/keywords.py": [
+     [
+      49,
+      55
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "sqlparse/keywords.py": [
+     [
+      49,
+      55
+     ]
+    ]
+   }
+  }
+ },
+ "click_2158": {
+  "A": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/click/termui.py": [
+     [
+      181,
+      187
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 3,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/click/termui.py": [
+     [
+      181,
+      187
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 2,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "src/click/termui.py": [
+     [
+      181,
+      187
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 4,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "src/click/termui.py": [
+     [
+      181,
+      187
+     ]
+    ]
+   }
+  }
+ },
+ "packaging_1230": {
+  "A": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      58,
+      64
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 3,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      58,
+      64
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 4,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      58,
+      64
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/utils.py": [
+     [
+      58,
+      64
+     ]
+    ]
+   }
+  }
+ },
+ "packaging_1362": {
+  "A": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/pylock.py": [
+     [
+      836,
+      842
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/pylock.py": [
+     [
+      836,
+      842
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/packaging/pylock.py": [
+     [
+      836,
+      842
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 3,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "src/packaging/pylock.py": [
+     [
+      836,
+      842
+     ]
+    ]
+   }
+  }
+ },
+ "mistletoe_270": {
+  "A": {
+   "try": 1,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "mistletoe/contrib/jira_renderer.py": [
+     [
+      191,
+      197
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "mistletoe/contrib/jira_renderer.py": [
+     [
+      191,
+      197
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 3,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "mistletoe/contrib/jira_renderer.py": [
+     [
+      191,
+      197
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "mistletoe/contrib/jira_renderer.py": [
+     [
+      191,
+      197
+     ]
+    ]
+   }
+  }
+ },
+ "marshmallow_ec2178c26b": {
+  "A": {
+   "try": 3,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "src/marshmallow/fields.py": [
+     [
+      1928,
+      1933
+     ],
+     [
+      1968,
+      1973
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 2,
+   "solved": true,
+   "place": "right file, other lines",
+   "reference": {
+    "src/marshmallow/fields.py": [
+     [
+      1928,
+      1933
+     ],
+     [
+      1968,
+      1973
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 1,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "src/marshmallow/fields.py": [
+     [
+      1928,
+      1933
+     ],
+     [
+      1968,
+      1973
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 4,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "src/marshmallow/fields.py": [
+     [
+      1928,
+      1933
+     ],
+     [
+      1968,
+      1973
+     ]
+    ]
+   }
+  }
+ },
+ "isort_2267": {
+  "A": {
+   "try": 2,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "isort/wrap.py": [
+     [
+      70,
+      75
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "isort/wrap.py": [
+     [
+      70,
+      75
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 3,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "isort/wrap.py": [
+     [
+      70,
+      75
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 1,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "isort/wrap.py": [
+     [
+      70,
+      75
+     ]
+    ]
+   }
+  }
+ },
+ "w3lib_356": {
+  "A": {
+   "try": 4,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "w3lib/url.py": [
+     [
+      156,
+      165
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/url.py": [
+     [
+      156,
+      165
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 3,
+   "solved": false,
+   "place": "right file, other lines",
+   "reference": {
+    "w3lib/url.py": [
+     [
+      156,
+      165
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 1,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/url.py": [
+     [
+      156,
+      165
+     ]
+    ]
+   }
+  }
+ },
+ "w3lib_359": {
+  "A": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/html.py": [
+     [
+      556,
+      568
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": false,
+   "place": "no patch",
+   "reference": {
+    "w3lib/html.py": [
+     [
+      556,
+      568
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 3,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "w3lib/html.py": [
+     [
+      556,
+      568
+     ]
+    ]
+   }
+  }
+ },
+ "platformdirs_573": {
+  "A": {
+   "try": 3,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "src/platformdirs/macos.py": [
+     [
+      3,
+      10
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      70,
+      78
+     ],
+     [
+      224,
+      229
+     ]
+    ]
+   }
+  },
+  "B": {
+   "try": 4,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "src/platformdirs/macos.py": [
+     [
+      3,
+      10
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      70,
+      78
+     ],
+     [
+      224,
+      229
+     ]
+    ]
+   }
+  },
+  "C": {
+   "try": 2,
+   "solved": true,
+   "place": "gold lines",
+   "reference": {
+    "src/platformdirs/macos.py": [
+     [
+      3,
+      10
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      70,
+      78
+     ],
+     [
+      224,
+      229
+     ]
+    ]
+   }
+  },
+  "D": {
+   "try": 1,
+   "solved": false,
+   "place": "gold lines",
+   "reference": {
+    "src/platformdirs/macos.py": [
+     [
+      3,
+      10
+     ],
+     [
+      29,
+      37
+     ],
+     [
+      70,
+      78
+     ],
+     [
+      224,
+      229
+     ]
+    ]
+   }
+  }
+ }
+}

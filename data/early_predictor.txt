@@ -1,0 +1,19 @@
+train 4256 tries, 1058 tasks, 54 repositories; official test 255 tries, 86 tasks
+
+Target: the try is solved (train rate 23.1%)
+  held-out repositories, issue length only AUC 0.493 | Brier 0.1793 (constant 0.1775) | within-task AUC 0.500 over 969 pairs
+  held-out repositories, first five calls AUC 0.718 | Brier 0.1578 (constant 0.1775) | within-task AUC 0.640 over 969 pairs
+  official tasks, frozen model AUC 0.723 | Brier 0.0967 (constant 0.1145) | within-task AUC 0.731 over 26 pairs
+  largest standardised weights: e_find +2.40, e_edit +2.36, e_read +1.75, e_other +1.71, e_think_chars -0.79, e_distinct -0.57
+    official tries, lowest third of predicted chance: 85 tries, actual 5%
+    official tries, middle third of predicted chance: 85 tries, actual 9%
+    official tries, highest third of predicted chance: 85 tries, actual 20%
+
+Target: the first applied edit is on the reference lines (train rate 57.7%)
+  held-out repositories, issue length only AUC 0.552 | Brier 0.2420 (constant 0.2441) | within-task AUC 0.500 over 1685 pairs
+  held-out repositories, first five calls AUC 0.737 | Brier 0.2035 (constant 0.2441) | within-task AUC 0.665 over 1685 pairs
+  official tasks, frozen model AUC 0.692 | Brier 0.2273 (constant 0.2677) | within-task AUC 0.691 over 68 pairs
+  largest standardised weights: e_edit +2.31, e_find +2.20, e_read +1.47, e_other +1.31, calls_lt5 +0.67, e_errors -0.58
+    official tries, lowest third of predicted chance: 85 tries, actual 24%
+    official tries, middle third of predicted chance: 85 tries, actual 45%
+    official tries, highest third of predicted chance: 85 tries, actual 59%

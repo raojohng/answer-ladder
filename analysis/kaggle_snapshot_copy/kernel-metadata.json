@@ -1,0 +1,13 @@
+{
+  "id": "jaejohn/answer-ladder-snapshot-copy",
+  "title": "Answer Ladder snapshot copy",
+  "code_file": "copy_snapshots.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": ["gemma-4-developer-agent"]
+}

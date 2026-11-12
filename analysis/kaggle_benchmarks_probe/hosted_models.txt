@@ -1,0 +1,40 @@
+Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)
+Slug                           Display Name                  
+------------------------------------------------------------
+gemini-3.8-flash               Gemini 3.8 Flash              
+claude-haiku-4-5-20251001      Claude Haiku 4.5              
+claude-haiku-5-5               Claude Haiku 5.5              
+claude-opus-4-5-20251101       Claude Opus 4.5               
+claude-opus-4-6-default        Claude Opus 4.6               
+claude-opus-4-7-default        Claude Opus 4.7               
+claude-opus-4-8-default        Claude Opus 4.8               
+claude-opus-5-default          Claude Opus 5                 
+claude-opus-5-5-default        Claude Opus 5.5               
+claude-sonnet-4-6-default      Claude Sonnet 4.6             
+claude-sonnet-5-default        Claude Sonnet 5               
+claude-sonnet-5-5-default      Claude Sonnet 5.5             
+gemini-2.5-flash               Gemini 2.5 Flash              
+gemini-2.5-pro                 Gemini 2.5 Pro                
+gemini-3-flash-preview         Gemini 3 Flash Preview        
+gemini-3.1-flash-lite-preview  Gemini 3.1 Flash-Lite Preview 
+gemini-3.1-pro-preview         Gemini 3.1 Pro Preview        
+gemini-3.5-flash-lite          Gemini 3.5 Flash-Lite         
+gemini-3.6-flash               Gemini 3.6 Flash              
+gemini-4-argon                 Gemini 4 Argon                
+gemma-4-26b-a4b-it             Gemma 4 26B A4B               
+gemma-4-31b-it                 Gemma 4 31B                   
+gpt-5.4-2026-03-05             GPT-5.4                       
+gpt-5.4-mini-2026-03-17        GPT-5.4 mini                  
+gpt-5.4-nano-2026-03-17        GPT-5.4 nano                  
+gpt-5.5-2026-04-23             GPT-5.5                       
+gpt-5.6-luna                   GPT-5.6 Luna                  
+gpt-5.6-sol                    GPT-5.6 Sol                   
+gpt-5.6-terra                  GPT-5.6 Terra                 
+gpt-6-astra                    GPT-6 Astra                   
+gpt-6-luna                     GPT-6 Luna                    
+gpt-6-sol                      GPT-6 Sol                     
+gpt-6.1-sol                    GPT-6.1 Sol                   
+gpt-oss-120b                   gpt-oss-120b                  
+grok-4.5-0708                  Grok 4.5                      
+grok-4.6                       Grok 4.6                      
+grok-4.7                       Grok 4.7                      

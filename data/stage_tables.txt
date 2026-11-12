@@ -1,0 +1,30 @@
+
+Training and FreshSWE-Py tasks, untrained v8 scaffold: 3460 tries on 862 tasks, solved 26%, median call of the first applied edit 5, median calls 8.0
+  first applied edit on the reference lines: 1989 (57%) | final patch on the reference lines 98% | solved 42%
+  first applied edit elsewhere: 1100 (32%) | final patch on the reference lines 5% | solved 8%
+  no edit applied: 371 (11%) | final patch on the reference lines 1% | solved 1%
+  read the reference lines before the first edit: 2223 | first edit on the reference lines 77% | solved 34%
+  did not: 866 | first edit on the reference lines 32% | solved 19%
+  reference file named in a command or result before the first edit: 91%; reference lines read before it: 70%
+  an edit hit the reference lines but the final patch is elsewhere: 2%
+  within 247 tasks with solved and failed tries: first edit on the reference lines in 90% of 498 solved tries, 47% of 518 failed
+
+Official tasks, untrained v8 scaffold: 556 tries on 63 tasks, solved 15%, median call of the first applied edit 5, median calls 8.0
+  first applied edit on the reference lines: 209 (38%) | final patch on the reference lines 99% | solved 35%
+  first applied edit elsewhere: 298 (54%) | final patch on the reference lines 5% | solved 4%
+  no edit applied: 49 (9%) | final patch on the reference lines 0% | solved 0%
+  read the reference lines before the first edit: 247 | first edit on the reference lines 75% | solved 31%
+  did not: 260 | first edit on the reference lines 9% | solved 3%
+  reference file named in a command or result before the first edit: 73%; reference lines read before it: 49%
+  an edit hit the reference lines but the final patch is elsewhere: 0%
+  within 23 tasks with solved and failed tries: first edit on the reference lines in 85% of 68 solved tries, 29% of 137 failed
+
+Official tasks, all v8-scaffold arms: 1667 tries on 63 tasks, solved 15%, median call of the first applied edit 5.0, median calls 8
+  first applied edit on the reference lines: 623 (37%) | final patch on the reference lines 99% | solved 35%
+  first applied edit elsewhere: 887 (53%) | final patch on the reference lines 5% | solved 5%
+  no edit applied: 157 (9%) | final patch on the reference lines 1% | solved 1%
+  read the reference lines before the first edit: 774 | first edit on the reference lines 73% | solved 30%
+  did not: 736 | first edit on the reference lines 8% | solved 4%
+  reference file named in a command or result before the first edit: 75%; reference lines read before it: 51%
+  an edit hit the reference lines but the final patch is elsewhere: 0%
+  within 31 tasks with solved and failed tries: first edit on the reference lines in 84% of 257 solved tries, 27% of 568 failed

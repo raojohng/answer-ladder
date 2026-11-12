@@ -1,0 +1,8 @@
+official loop: 77 tasks; tries control 231, location 231, patch 231, commands 231, apply 231
+  solved per pass: control 7.7 (10.0%), location 14.0 (18.2%), patch 54.0 (70.1%), commands 51.0 (66.2%), apply 54.3 (70.6%)
+  location - control: +6.3 (+2.7 to +10.3)
+  patch - location: +40.0 (+32.7 to +47.3)
+  commands - patch: -3.0 (-9.7 to +3.7)
+  apply - commands: +3.3 (-3.0 to +9.7)
+  apply - patch: +0.3 (-4.3 to +5.0)
+LADDER_STEPS_DONE

@@ -1,0 +1,26 @@
+run,rung,solved_pct,all3,once
+"E4B, our scaffold, first run",0,11.3,2,15
+"E4B, our scaffold, first run",1,21.6,12,21
+"E4B, our scaffold, first run",2,63.2,34,62
+"E4B, our scaffold, first run",3,78.4,44,75
+"E4B, our scaffold, first run",4,83.1,52,75
+"E4B, our scaffold, replication",0,14.3,6,17
+"E4B, our scaffold, replication",1,24.7,12,27
+"E4B, our scaffold, replication",2,61.5,31,60
+"E4B, our scaffold, replication",3,80.1,42,76
+"E4B, our scaffold, replication",4,85.3,53,76
+"E4B, official loop",0,10.0,4,12
+"E4B, official loop",1,18.2,7,22
+"E4B, official loop",2,70.1,40,65
+"E4B, official loop",3,66.2,36,64
+"E4B, official loop",4,70.6,37,70
+"Qwen3.5-4B, official loop",0,27.3,14,27
+"Qwen3.5-4B, official loop",1,30.3,16,29
+"Qwen3.5-4B, official loop",2,94.8,69,77
+"Qwen3.5-4B, official loop",3,87.4,59,73
+"Qwen3.5-4B, official loop",4,96.1,71,76
+"Gemma 4 E2B, official loop",0,5.6,0,10
+"Gemma 4 E2B, official loop",1,14.7,6,18
+"Gemma 4 E2B, official loop",2,40.7,19,44
+"Gemma 4 E2B, official loop",3,53.2,19,59
+"Gemma 4 E2B, official loop",4,64.5,30,70

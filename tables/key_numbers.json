@@ -1,0 +1,41 @@
+{
+ "sessions": 4208,
+ "solves": 433,
+ "tasks": 86,
+ "tries_per_task_min_max": [
+  48,
+  50
+ ],
+ "median_seconds": 160.16,
+ "median_tool_calls": 11.0,
+ "tasks_at_18_tries": {
+  "Both untrained single-agent arms": 32.0,
+  "All other arms": 28.2
+ },
+ "one_try_share_of_48_tries": 0.234,
+ "solves_held_by_top_10_tasks": [
+  312,
+  433
+ ],
+ "solved_at_least_once": {
+  "tasks": 38,
+  "single_file": 35,
+  "one_file_one_hunk": 24,
+  "fastapi": 22,
+  "rich": 16
+ },
+ "never_solved": {
+  "tasks": 48,
+  "single_file": 28,
+  "one_file_one_hunk": 12,
+  "fastapi": 26,
+  "rich": 22
+ },
+ "solved_at_least_3_times": 27,
+ "untrained_sd": {
+  "e4b_official_v1": 2.12,
+  "e4b_edit_fair_v1": 2.26
+ },
+ "expected_solves_if_every_try_reached_gold_lines": 16.3,
+ "solved_tries_outside_gold_lines": 49
+}

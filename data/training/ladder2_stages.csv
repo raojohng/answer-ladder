@@ -1,0 +1,1156 @@
+run,arm,task,try,repo,solved,place,gold_files,gold_hunks,calls,crash,error,i_gold_file_seen,i_gold_read,i_first_edit,first_edit_gold_file,i_first_applied,first_applied_gold_lines,ever_gold_edit,edits,edits_applied,i_submit,minute_first_edit,minutes,issue_chars,e_find,e_read,e_edit,e_other,e_distinct,e_repeat,e_nomatch,e_errors,e_files_read,e_find_hits,e_issue_overlap,e_think_chars,e_minute
+ladder2,e4b_diff_apply_v2,fastapi_11355,1,fastapi,1,gold lines,1,3,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.21,299,0,0,1,1,2,0,0,0,0,0,,2763,0.4
+ladder2,e4b_diff_apply_v2,fastapi_11355,2,fastapi,1,gold lines,1,3,2,0,,,,,,,,0,0,0,2,,1.09,299,0,0,0,2,2,0,0,1,0,0,,2575,
+ladder2,e4b_diff_apply_v2,fastapi_11355,3,fastapi,1,gold lines,1,3,2,0,,,,,,,,0,0,0,2,,1.01,299,0,0,0,2,2,0,0,0,0,0,,2176,0.2
+ladder2,e4b_diff_apply_v2,fastapi_12942,1,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.7,1392,0,0,0,1,1,0,0,0,0,0,,1614,
+ladder2,e4b_diff_apply_v2,fastapi_12942,2,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.71,1392,0,0,0,1,1,0,0,0,0,0,,1778,
+ladder2,e4b_diff_apply_v2,fastapi_12942,3,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,,,1.38,1392,0,0,0,1,1,0,0,0,0,0,,1862,0.5
+ladder2,e4b_diff_apply_v2,fastapi_13207,1,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.8,354,0,0,0,1,1,0,0,0,0,0,,144,
+ladder2,e4b_diff_apply_v2,fastapi_13207,2,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.78,354,0,0,0,1,1,0,0,0,0,0,,176,
+ladder2,e4b_diff_apply_v2,fastapi_13207,3,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.78,354,0,0,0,1,1,0,0,0,0,0,,121,
+ladder2,e4b_diff_apply_v2,fastapi_13713,1,fastapi,1,gold lines,2,5,0,0,,,,,,,,0,0,0,,,0.94,756,0,0,0,0,,0,0,0,,,,0,
+ladder2,e4b_diff_apply_v2,fastapi_13713,2,fastapi,0,gold lines,2,5,5,0,,1,,1,1,1,1,1,4,4,5,0.3,0.92,756,0,0,4,1,5,0,0,0,0,0,,3438,0.6
+ladder2,e4b_diff_apply_v2,fastapi_13713,3,fastapi,0,gold lines,2,5,12,0,,1,3,5,1,8,1,1,7,4,12,0.9,2.22,756,3,1,1,0,5,0,3,1,1,0,0.8,12873,0.9
+ladder2,e4b_diff_apply_v2,fastapi_13920,1,fastapi,1,gold lines,1,2,2,0,,,,,,,,0,0,0,2,,0.51,225,0,0,0,2,2,0,0,0,0,0,,1176,0.2
+ladder2,e4b_diff_apply_v2,fastapi_13920,2,fastapi,1,gold lines,1,2,2,0,,,,,,,,0,0,0,2,,0.56,225,0,0,0,2,2,0,0,0,0,0,,1438,0.2
+ladder2,e4b_diff_apply_v2,fastapi_13920,3,fastapi,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,2,2,3,0.3,0.77,225,0,0,2,1,3,0,0,0,0,0,,4979,0.5
+ladder2,e4b_diff_apply_v2,fastapi_14246,1,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.41,273,0,0,0,1,1,0,0,0,0,0,,320,
+ladder2,e4b_diff_apply_v2,fastapi_14246,2,fastapi,1,gold lines,1,1,2,0,,,,,,,,0,0,0,2,,0.54,273,0,0,0,2,2,0,0,0,0,0,,1385,0.2
+ladder2,e4b_diff_apply_v2,fastapi_14246,3,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.46,273,0,0,0,1,1,0,0,0,0,0,,784,
+ladder2,e4b_diff_apply_v2,fastapi_14258,1,fastapi,0,no patch,1,1,9,0,,1,3,2,1,,,0,3,0,9,0.3,2.26,418,2,1,2,0,4,1,0,2,1,2,0.0,13943,1.0
+ladder2,e4b_diff_apply_v2,fastapi_14258,2,fastapi,0,no patch,1,1,2,0,,1,,1,1,,,0,1,0,2,0.7,1.79,418,0,0,1,1,2,0,0,1,0,0,,9009,0.7
+ladder2,e4b_diff_apply_v2,fastapi_14258,3,fastapi,1,gold lines,1,1,2,0,,1,,,,,,0,0,0,2,,1.37,418,0,0,0,2,2,0,0,0,0,0,,1470,
+ladder2,e4b_diff_apply_v2,fastapi_14266,1,fastapi,0,gold lines,1,2,5,0,,1,1,,,,,0,0,0,5,,1.51,247,0,1,0,4,5,0,0,1,1,0,,13931,0.7
+ladder2,e4b_diff_apply_v2,fastapi_14266,2,fastapi,1,gold lines,1,2,4,0,,1,,1,1,1,1,1,2,2,4,0.9,1.36,247,0,0,2,2,4,0,0,0,0,0,,9706,1.1
+ladder2,e4b_diff_apply_v2,fastapi_14266,3,fastapi,1,gold lines,1,2,4,0,,1,,2,1,2,1,1,2,2,4,0.3,0.83,247,0,0,2,2,4,0,0,0,0,0,,4451,0.5
+ladder2,e4b_diff_apply_v2,fastapi_14301,1,fastapi,1,gold lines,1,1,5,0,,1,1,2,1,2,1,1,1,1,5,0.3,1.11,739,0,1,1,3,5,0,0,1,1,0,,3411,0.4
+ladder2,e4b_diff_apply_v2,fastapi_14301,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.0,739,0,1,1,1,3,0,0,0,1,0,,2117,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14301,3,fastapi,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.4,1.23,739,0,1,1,2,4,0,0,1,1,0,,6588,0.4
+ladder2,e4b_diff_apply_v2,fastapi_14306,1,fastapi,1,gold lines,2,12,2,0,,1,,,,,,0,0,0,2,,0.93,2791,0,0,0,2,2,0,0,0,0,0,,869,
+ladder2,e4b_diff_apply_v2,fastapi_14306,2,fastapi,1,gold lines,2,12,3,0,,1,,,,,,0,0,0,3,,0.54,2791,0,0,0,3,3,0,0,0,0,0,,1669,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14306,3,fastapi,1,gold lines,2,12,3,0,,1,,,,,,0,0,0,3,,0.67,2791,0,0,0,3,3,0,0,0,0,0,,528,0.4
+ladder2,e4b_diff_apply_v2,fastapi_14349,1,fastapi,0,no patch,1,1,4,0,,1,,,,,,0,0,0,4,,1.83,169,0,0,0,4,4,0,0,2,0,0,,5802,1.5
+ladder2,e4b_diff_apply_v2,fastapi_14349,2,fastapi,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.73,169,0,0,0,3,3,0,0,0,0,0,,1545,0.4
+ladder2,e4b_diff_apply_v2,fastapi_14349,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.51,169,0,0,1,1,2,0,0,0,0,0,,1638,0.2
+ladder2,e4b_diff_apply_v2,fastapi_14356,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.19,1481,0,0,1,1,2,0,0,0,0,0,,3263,0.5
+ladder2,e4b_diff_apply_v2,fastapi_14356,2,fastapi,0,no patch,1,1,3,0,,,,1,0,,,0,1,0,3,0.7,1.45,1481,0,0,1,2,3,0,0,1,0,0,,5041,0.7
+ladder2,e4b_diff_apply_v2,fastapi_14356,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,1.2,1.9,1481,0,0,1,1,2,0,0,0,0,0,,3405,1.2
+ladder2,e4b_diff_apply_v2,fastapi_14360,1,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,1.24,753,0,0,0,1,1,0,0,0,0,0,,4802,
+ladder2,e4b_diff_apply_v2,fastapi_14360,2,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,1.43,753,0,0,0,1,1,0,0,0,0,0,,2694,
+ladder2,e4b_diff_apply_v2,fastapi_14360,3,fastapi,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,1.0,1.77,753,0,1,1,2,4,0,0,0,1,0,,5923,1.1
+ladder2,e4b_diff_apply_v2,fastapi_14361,1,fastapi,1,gold lines,1,1,3,0,,1,,2,1,2,1,1,1,1,3,0.3,0.59,96,1,0,1,1,3,0,1,0,0,0,0.0,2039,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14361,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.59,96,0,1,1,1,3,0,0,0,1,0,,3619,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14361,3,fastapi,1,gold lines,1,1,5,0,,1,2,3,1,3,1,1,1,1,5,0.5,0.79,96,1,1,1,2,5,0,0,1,1,1,0.0,5976,0.5
+ladder2,e4b_diff_apply_v2,fastapi_14372,1,fastapi,1,gold lines,2,3,2,0,,,,,,,,0,0,0,2,,1.07,1160,0,0,0,2,2,0,0,0,0,0,,2645,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14372,2,fastapi,1,"gold lines, misses a gold file",2,3,2,0,,1,,1,1,1,1,1,1,1,2,1.2,1.88,1160,0,0,1,1,2,0,0,0,0,0,,2494,1.2
+ladder2,e4b_diff_apply_v2,fastapi_14372,3,fastapi,1,gold lines,2,3,3,0,,,,,,,,0,0,0,3,,1.18,1160,0,0,0,3,3,0,0,1,0,0,,4729,
+ladder2,e4b_diff_apply_v2,fastapi_14419,1,fastapi,0,no patch,2,7,2,0,,,,,,,,0,0,0,2,,2.89,689,0,0,0,2,2,0,0,0,0,0,,650,2.2
+ladder2,e4b_diff_apply_v2,fastapi_14419,2,fastapi,1,gold lines,2,7,4,0,,2,,,,,,0,0,0,4,,1.19,689,0,0,0,4,3,1,0,0,0,0,,6454,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14419,3,fastapi,0,"gold lines, misses a gold file",2,7,9,0,,1,1,2,1,3,1,1,5,1,9,0.3,2.7,689,0,2,3,0,5,0,0,2,1,0,,6894,0.9
+ladder2,e4b_diff_apply_v2,fastapi_14430,1,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.39,335,0,0,0,1,1,0,0,0,0,0,,537,
+ladder2,e4b_diff_apply_v2,fastapi_14430,2,fastapi,1,gold lines,1,2,2,0,,,,,,,,0,0,0,2,,0.47,335,0,0,0,2,2,0,0,0,0,0,,1136,0.2
+ladder2,e4b_diff_apply_v2,fastapi_14430,3,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.38,335,0,0,0,1,1,0,0,0,0,0,,270,
+ladder2,e4b_diff_apply_v2,fastapi_14448,1,fastapi,1,gold lines,2,3,1,0,,,,,,,,0,0,0,1,,0.86,1226,0,0,0,1,1,0,0,0,0,0,,509,
+ladder2,e4b_diff_apply_v2,fastapi_14448,2,fastapi,1,gold lines,2,3,1,0,,,,,,,,0,0,0,1,,0.86,1226,0,0,0,1,1,0,0,0,0,0,,154,
+ladder2,e4b_diff_apply_v2,fastapi_14448,3,fastapi,1,gold lines,2,3,1,0,,,,,,,,0,0,0,1,,0.84,1226,0,0,0,1,1,0,0,0,0,0,,566,
+ladder2,e4b_diff_apply_v2,fastapi_14455,1,fastapi,1,gold lines,1,2,5,0,,1,1,2,1,2,1,1,1,1,5,0.5,1.33,283,0,1,1,3,5,0,0,1,1,0,,6308,0.6
+ladder2,e4b_diff_apply_v2,fastapi_14455,2,fastapi,1,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.38,283,0,1,1,1,3,0,0,0,1,0,,10105,0.5
+ladder2,e4b_diff_apply_v2,fastapi_14455,3,fastapi,1,gold lines,1,2,6,0,,1,3,1,1,4,1,1,3,1,6,0.8,2.1,283,0,1,3,1,4,1,0,2,1,0,,8959,1.4
+ladder2,e4b_diff_apply_v2,fastapi_14458,1,fastapi,1,gold lines,1,4,1,0,,,,,,,,0,0,0,1,,1.21,591,0,0,0,1,1,0,0,0,0,0,,933,
+ladder2,e4b_diff_apply_v2,fastapi_14458,2,fastapi,1,gold lines,1,4,0,0,,,,,,,,0,0,0,,,0.96,591,0,0,0,0,,0,0,0,,,,0,
+ladder2,e4b_diff_apply_v2,fastapi_14458,3,fastapi,0,no patch,1,4,1,0,,,,,,,,0,0,0,1,,1.32,591,0,0,0,1,1,0,0,0,0,0,,5892,
+ladder2,e4b_diff_apply_v2,fastapi_14459,1,fastapi,0,gold lines,3,8,5,0,,1,,1,1,1,1,1,4,3,5,0.9,2.48,815,0,0,4,1,5,0,0,2,0,0,,4967,2.0
+ladder2,e4b_diff_apply_v2,fastapi_14459,2,fastapi,0,"gold lines, misses a gold file",3,8,9,0,,1,,1,1,1,1,1,8,4,9,0.6,3.23,815,0,0,5,0,5,0,0,1,0,0,,6571,1.5
+ladder2,e4b_diff_apply_v2,fastapi_14459,3,fastapi,1,gold lines,3,8,2,0,,,,,,,,0,0,0,2,,0.72,815,0,0,0,2,2,0,0,0,0,0,,3799,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14463,1,fastapi,1,gold lines,1,2,4,0,,1,1,3,1,3,1,1,1,1,4,0.3,1.06,10095,0,2,1,1,4,0,0,0,1,0,,3925,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14463,2,fastapi,1,gold lines,1,2,5,0,,1,1,3,1,3,1,1,2,2,5,0.3,1.04,10095,0,2,2,1,5,0,0,0,1,0,,3490,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14463,3,fastapi,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,2,2,3,0.2,0.97,10095,0,0,2,1,3,0,0,0,0,0,,2174,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14479,1,fastapi,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.93,2455,0,0,0,3,3,0,0,0,0,0,,1837,0.2
+ladder2,e4b_diff_apply_v2,fastapi_14479,2,fastapi,1,gold lines,1,1,7,0,,1,1,2,1,,,0,3,0,7,0.7,2.12,2455,0,2,3,0,5,0,0,3,1,0,,14976,1.4
+ladder2,e4b_diff_apply_v2,fastapi_14479,3,fastapi,1,gold lines,1,1,8,0,,1,,1,1,,,0,5,0,8,0.1,1.44,2455,0,0,4,1,4,1,0,4,0,0,,7468,0.6
+ladder2,e4b_diff_apply_v2,fastapi_14482,1,fastapi,1,gold lines,1,5,3,0,,1,,,,,,0,0,0,3,,1.08,266,0,0,0,3,3,0,0,0,0,0,,4034,0.2
+ladder2,e4b_diff_apply_v2,fastapi_14482,2,fastapi,1,gold lines,1,5,3,0,,1,,,,,,0,0,0,3,,1.17,266,0,0,0,3,3,0,0,0,0,0,,6574,0.4
+ladder2,e4b_diff_apply_v2,fastapi_14482,3,fastapi,1,gold lines,1,5,3,0,,1,,,,,,0,0,0,3,,1.28,266,0,0,0,3,3,0,0,1,0,0,,4502,
+ladder2,e4b_diff_apply_v2,fastapi_14485,1,fastapi,1,gold lines,1,2,6,0,,1,2,,,,,0,0,0,6,,1.62,317,1,1,0,3,5,0,0,1,1,2,0.0,13444,0.9
+ladder2,e4b_diff_apply_v2,fastapi_14485,2,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.84,317,0,0,0,1,1,0,0,0,0,0,,556,
+ladder2,e4b_diff_apply_v2,fastapi_14485,3,fastapi,1,gold lines,1,2,7,0,,1,,1,1,1,1,1,6,2,,1.1,3.34,317,0,0,5,0,3,2,0,3,0,0,,13550,1.8
+ladder2,e4b_diff_apply_v2,fastapi_14487,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.9,204,0,0,1,1,2,0,0,0,0,0,,9880,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14487,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,0.97,204,0,1,1,1,3,0,0,0,1,0,,9999,0.4
+ladder2,e4b_diff_apply_v2,fastapi_14487,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.68,204,0,1,1,1,3,0,0,0,1,0,,4134,0.3
+ladder2,e4b_diff_apply_v2,fastapi_14492,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.08,159,0,0,1,1,2,0,0,0,0,0,,5254,0.2
+ladder2,e4b_diff_apply_v2,fastapi_14492,2,fastapi,1,gold lines,1,1,2,0,,,,,,,,0,0,0,2,,1.03,159,0,0,0,2,2,0,0,0,0,0,,6188,0.2
+ladder2,e4b_diff_apply_v2,fastapi_14492,3,fastapi,1,gold lines,1,1,3,0,,,,,,,,0,0,0,3,,0.84,159,0,0,0,3,3,0,0,2,0,0,,1940,
+ladder2,e4b_diff_apply_v2,fastapi_14512,1,fastapi,1,gold lines,1,3,1,0,,,,,,,,0,0,0,1,,0.39,289,0,0,0,1,1,0,0,0,0,0,,213,
+ladder2,e4b_diff_apply_v2,fastapi_14512,2,fastapi,1,gold lines,1,3,3,0,,1,1,2,1,2,1,1,1,1,3,0.8,1.32,289,0,1,1,1,3,0,0,0,1,0,,6967,0.8
+ladder2,e4b_diff_apply_v2,fastapi_14512,3,fastapi,1,gold lines,1,3,4,0,,1,,1,1,1,0,0,3,1,4,0.6,1.52,289,0,0,3,1,4,0,0,1,0,0,,10870,1.2
+ladder2,e4b_diff_apply_v2,fastapi_14786,1,fastapi,1,gold lines,1,1,2,0,,,,,,,,0,0,0,2,,1.0,2303,0,0,0,2,2,0,0,1,0,0,,1744,
+ladder2,e4b_diff_apply_v2,fastapi_14786,2,fastapi,1,gold lines,1,1,2,0,,,,,,,,0,0,0,2,,0.92,2303,0,0,0,2,2,0,0,1,0,0,,1254,
+ladder2,e4b_diff_apply_v2,fastapi_14786,3,fastapi,1,gold lines,1,1,3,0,,1,,1,0,,,0,2,0,3,,1.19,2303,0,0,2,1,3,0,0,2,0,0,,3521,0.4
+ladder2,e4b_diff_apply_v2,fastapi_14794,1,fastapi,0,gold lines,1,2,7,0,,1,2,,,,,0,0,0,7,,1.41,816,0,1,0,4,5,0,0,3,1,0,,13019,0.7
+ladder2,e4b_diff_apply_v2,fastapi_14794,2,fastapi,1,gold lines,1,2,5,0,,1,2,1,1,3,1,1,2,1,5,0.3,1.13,816,0,1,2,2,5,0,0,1,1,0,,9517,0.8
+ladder2,e4b_diff_apply_v2,fastapi_14794,3,fastapi,1,gold lines,1,2,4,0,,1,,1,1,1,1,1,2,2,4,0.6,1.18,816,0,0,2,2,4,0,0,0,0,0,,7777,0.9
+ladder2,e4b_diff_apply_v2,fastapi_14873,1,fastapi,0,gold lines,1,2,4,0,,1,,1,1,1,1,1,2,1,4,0.5,0.96,674,0,0,2,2,4,0,0,1,0,0,,5699,0.7
+ladder2,e4b_diff_apply_v2,fastapi_14873,2,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.43,674,0,0,0,1,1,0,0,0,0,0,,434,
+ladder2,e4b_diff_apply_v2,fastapi_14873,3,fastapi,0,gold lines,1,2,8,0,,1,2,1,1,3,1,1,5,1,8,0.6,2.67,674,0,1,3,1,5,0,0,3,1,0,,21099,1.6
+ladder2,e4b_diff_apply_v2,fastapi_14986,1,fastapi,1,gold lines,2,4,6,0,,1,2,1,1,,,0,4,0,6,0.7,1.79,1000,0,1,4,0,4,1,0,4,1,0,,10352,1.4
+ladder2,e4b_diff_apply_v2,fastapi_14986,2,fastapi,1,gold lines,2,4,1,0,,,,,,,,0,0,0,1,,0.69,1000,0,0,0,1,1,0,0,0,0,0,,1705,
+ladder2,e4b_diff_apply_v2,fastapi_14986,3,fastapi,1,gold lines,2,4,2,0,,,,,,,,0,0,0,2,,0.48,1000,0,0,0,2,2,0,0,0,0,0,,380,0.2
+ladder2,e4b_diff_apply_v2,fastapi_15023,1,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.88,112,0,0,0,1,1,0,0,0,0,0,,568,
+ladder2,e4b_diff_apply_v2,fastapi_15023,2,fastapi,0,gold lines,1,1,8,0,,1,,1,1,1,1,1,7,4,8,0.9,2.39,112,0,0,5,0,5,0,0,1,0,0,,14337,1.5
+ladder2,e4b_diff_apply_v2,fastapi_15023,3,fastapi,1,gold lines,1,1,2,0,,1,,,,,,0,0,0,2,,1.09,112,0,0,0,2,2,0,0,0,0,0,,1520,
+ladder2,e4b_diff_apply_v2,fastapi_15588,1,fastapi,0,gold lines,1,2,5,0,,1,,1,1,1,1,1,4,3,5,0.4,1.81,1891,0,0,4,1,5,0,0,1,0,0,,9635,1.1
+ladder2,e4b_diff_apply_v2,fastapi_15588,2,fastapi,1,gold lines,1,2,3,0,,1,,,,,,0,0,0,3,,1.08,1891,0,0,0,3,3,0,0,0,0,0,,3509,0.4
+ladder2,e4b_diff_apply_v2,fastapi_15588,3,fastapi,1,gold lines,1,2,4,0,,1,1,,,,,0,0,0,4,,1.23,1891,0,1,0,3,4,0,0,0,1,0,,4574,0.5
+ladder2,e4b_diff_apply_v2,fastapi_15589,1,fastapi,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.3,1.22,1247,0,1,1,2,4,0,0,0,1,0,,5379,0.4
+ladder2,e4b_diff_apply_v2,fastapi_15589,2,fastapi,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.21,1247,1,1,1,1,4,0,0,0,1,5,0.0,7343,0.4
+ladder2,e4b_diff_apply_v2,fastapi_15589,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.58,1247,0,1,1,1,3,0,0,0,1,0,,14383,0.4
+ladder2,e4b_diff_apply_v2,fastapi_5077,1,fastapi,1,gold lines,1,2,4,0,,1,,1,1,2,1,1,3,2,4,0.3,0.88,2679,0,0,3,1,4,0,0,1,0,0,,4414,0.6
+ladder2,e4b_diff_apply_v2,fastapi_5077,2,fastapi,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.51,2679,0,0,0,1,1,0,0,0,0,0,,862,
+ladder2,e4b_diff_apply_v2,fastapi_5077,3,fastapi,1,gold lines,1,2,2,0,,,,,,,,0,0,0,2,,0.59,2679,0,0,0,2,2,0,0,1,0,0,,2320,
+ladder2,e4b_diff_apply_v2,fastapi_5624,1,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.04,63,0,1,1,1,3,0,0,0,1,0,,4307,0.3
+ladder2,e4b_diff_apply_v2,fastapi_5624,2,fastapi,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.92,63,0,0,0,3,3,0,0,0,0,0,,1936,0.2
+ladder2,e4b_diff_apply_v2,fastapi_5624,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.05,63,0,1,1,1,3,0,0,0,1,0,,4473,0.3
+ladder2,e4b_diff_apply_v2,fastapi_9425,1,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.59,235,0,1,1,1,3,0,0,0,1,0,,1908,0.2
+ladder2,e4b_diff_apply_v2,fastapi_9425,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,1.4,1.73,235,0,1,1,1,3,0,0,0,1,0,,8718,1.4
+ladder2,e4b_diff_apply_v2,fastapi_9425,3,fastapi,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.3,0.61,235,0,1,1,2,4,0,0,0,1,0,,1869,0.3
+ladder2,e4b_diff_apply_v2,fastapi_9555,1,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.84,2934,0,0,0,1,1,0,0,0,0,0,,674,
+ladder2,e4b_diff_apply_v2,fastapi_9555,2,fastapi,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.89,2934,0,0,0,1,1,0,0,0,0,0,,264,
+ladder2,e4b_diff_apply_v2,fastapi_9555,3,fastapi,1,gold lines,1,1,2,0,,,,,,,,0,0,0,,,1.45,2934,0,0,0,2,1,1,0,2,0,0,,2471,
+ladder2,e4b_diff_apply_v2,fastapi_9753,1,fastapi,0,no patch,1,2,4,0,,1,,1,0,,,0,2,0,4,0.7,1.2,689,0,0,2,2,4,0,0,3,0,0,,3435,0.7
+ladder2,e4b_diff_apply_v2,fastapi_9753,2,fastapi,1,gold lines,1,2,2,0,,1,,,,,,0,0,0,2,,3.45,689,0,0,0,2,2,0,0,0,0,0,,1366,
+ladder2,e4b_diff_apply_v2,fastapi_9753,3,fastapi,0,no patch,1,2,1,0,,,,,,,,0,0,0,1,,1.99,689,0,0,0,1,1,0,0,0,0,0,,1235,
+ladder2,e4b_diff_apply_v2,rich_2725,1,rich,0,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.02,1779,1,1,1,1,4,0,0,0,1,1,0.5,4091,0.4
+ladder2,e4b_diff_apply_v2,rich_2725,2,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.09,1779,1,1,1,1,4,0,1,0,1,0,0.0,4706,0.4
+ladder2,e4b_diff_apply_v2,rich_2725,3,rich,1,gold lines,1,1,4,0,,1,1,2,1,3,1,1,2,1,4,0.4,1.27,1779,0,1,2,1,4,0,0,1,1,0,,6803,0.7
+ladder2,e4b_diff_apply_v2,rich_2943,1,rich,1,gold lines,1,1,5,0,,1,1,2,1,4,1,1,2,1,5,0.3,1.17,473,0,2,2,1,5,0,0,1,1,0,,6570,0.5
+ladder2,e4b_diff_apply_v2,rich_2943,2,rich,1,gold lines,1,1,5,0,,1,1,2,1,4,1,1,3,1,5,0.2,1.17,473,0,1,3,1,5,0,0,2,1,0,,6539,0.4
+ladder2,e4b_diff_apply_v2,rich_2943,3,rich,1,gold lines,1,1,5,0,,1,2,3,1,4,1,1,2,1,5,0.2,1.09,473,1,1,2,1,5,0,1,1,1,0,0.0,4056,0.3
+ladder2,e4b_diff_apply_v2,rich_3006,1,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.81,677,0,0,0,3,3,0,0,0,0,0,,1493,0.2
+ladder2,e4b_diff_apply_v2,rich_3006,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.1,0.84,677,0,0,1,1,2,0,0,0,0,0,,1492,0.1
+ladder2,e4b_diff_apply_v2,rich_3006,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.83,677,0,1,1,1,3,0,0,0,1,0,,2140,0.2
+ladder2,e4b_diff_apply_v2,rich_3043,1,rich,1,gold lines,1,2,2,0,,,,,,,,0,0,0,2,,1.29,286,0,0,0,2,2,0,0,0,0,0,,3688,0.5
+ladder2,e4b_diff_apply_v2,rich_3043,2,rich,1,gold lines,1,2,1,0,,,,,,,,0,0,0,1,,0.91,286,0,0,0,1,1,0,0,0,0,0,,808,
+ladder2,e4b_diff_apply_v2,rich_3043,3,rich,0,gold lines,1,2,7,0,,1,1,2,1,2,1,1,4,2,7,0.8,1.96,286,0,1,4,0,4,1,0,2,1,0,,16736,1.3
+ladder2,e4b_diff_apply_v2,rich_3052,1,rich,0,gold lines,1,12,2,0,,1,,1,1,1,1,1,1,1,2,0.4,2.66,863,0,0,1,1,2,0,0,0,0,0,,5986,0.4
+ladder2,e4b_diff_apply_v2,rich_3052,2,rich,0,gold lines,1,12,14,0,,1,,2,1,2,1,1,12,7,14,0.3,2.44,863,0,0,4,1,5,0,0,0,0,0,,6049,0.8
+ladder2,e4b_diff_apply_v2,rich_3052,3,rich,0,gold lines,1,12,10,0,,1,,1,1,1,1,1,9,5,10,0.3,1.91,863,0,0,5,0,5,0,0,2,0,0,,10016,1.1
+ladder2,e4b_diff_apply_v2,rich_3061,1,rich,1,gold lines,1,13,3,0,,1,,,,,,0,0,0,3,,0.97,411,0,0,0,3,3,0,0,1,0,0,,4214,
+ladder2,e4b_diff_apply_v2,rich_3061,2,rich,0,gold lines,1,13,15,0,,1,3,1,1,4,1,1,13,8,15,0.3,2.5,411,0,1,4,0,4,1,0,2,1,0,,10159,0.9
+ladder2,e4b_diff_apply_v2,rich_3061,3,rich,1,gold lines,1,13,3,0,,1,,,,,,0,0,0,3,,0.83,411,0,0,0,3,3,0,0,0,0,0,,1448,0.2
+ladder2,e4b_diff_apply_v2,rich_3063,1,rich,1,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.04,85,0,1,1,1,3,0,0,0,1,0,,5195,0.4
+ladder2,e4b_diff_apply_v2,rich_3063,2,rich,1,gold lines,1,2,4,0,,1,,,,,,0,0,0,4,,1.1,85,0,0,0,4,4,0,0,1,0,0,,5196,0.3
+ladder2,e4b_diff_apply_v2,rich_3063,3,rich,1,gold lines,1,2,4,0,,1,,1,1,3,1,1,3,1,4,0.2,1.03,85,0,0,3,1,3,1,0,2,0,0,,4139,0.4
+ladder2,e4b_diff_apply_v2,rich_3067,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.86,584,0,0,1,1,2,0,0,0,0,0,,1466,0.2
+ladder2,e4b_diff_apply_v2,rich_3067,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.9,584,0,1,1,1,3,0,0,0,1,0,,2244,0.3
+ladder2,e4b_diff_apply_v2,rich_3067,3,rich,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.84,584,0,0,1,2,3,0,0,1,0,0,,1574,0.2
+ladder2,e4b_diff_apply_v2,rich_3105,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.68,452,0,0,1,1,2,0,0,0,0,0,,5428,0.2
+ladder2,e4b_diff_apply_v2,rich_3105,2,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.63,452,0,0,0,3,3,0,0,0,0,0,,3967,0.2
+ladder2,e4b_diff_apply_v2,rich_3105,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.74,452,0,0,1,1,2,0,0,0,0,0,,6297,0.3
+ladder2,e4b_diff_apply_v2,rich_3180,1,rich,1,gold lines,2,4,3,0,,1,,,,,,0,0,0,3,,0.61,1189,0,0,0,3,3,0,0,1,0,0,,4404,
+ladder2,e4b_diff_apply_v2,rich_3180,2,rich,0,"gold lines, misses a gold file",2,4,4,0,,1,,1,1,2,1,1,3,1,4,0.2,1.75,1189,0,0,3,1,4,0,0,2,0,0,,15145,0.6
+ladder2,e4b_diff_apply_v2,rich_3180,3,rich,1,gold lines,2,4,4,0,,1,1,,,,,0,0,0,4,,0.47,1189,0,2,0,2,4,0,0,0,2,0,,2881,0.1
+ladder2,e4b_diff_apply_v2,rich_3278,1,rich,0,no patch,1,1,9,0,,1,1,2,1,,,0,5,0,9,0.3,2.15,1216,0,1,4,0,4,1,0,4,1,0,,13798,1.2
+ladder2,e4b_diff_apply_v2,rich_3278,2,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.91,1216,0,0,0,3,3,0,0,0,0,0,,2187,0.2
+ladder2,e4b_diff_apply_v2,rich_3278,3,rich,0,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.5,1.34,1216,0,1,1,2,4,0,0,0,1,0,,7850,0.6
+ladder2,e4b_diff_apply_v2,rich_3454,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.88,865,0,1,1,1,3,0,0,0,1,0,,1523,0.2
+ladder2,e4b_diff_apply_v2,rich_3454,2,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,1.18,865,0,0,0,3,3,0,0,0,0,0,,4053,0.5
+ladder2,e4b_diff_apply_v2,rich_3454,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.95,865,0,1,1,1,3,0,0,0,1,0,,2662,0.3
+ladder2,e4b_diff_apply_v2,rich_3470,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.7,1.47,74,0,0,1,1,2,0,0,0,0,0,,4285,0.7
+ladder2,e4b_diff_apply_v2,rich_3470,2,rich,1,gold lines,1,1,4,0,,1,2,1,1,,,0,1,0,4,0.5,1.55,74,0,1,1,2,4,0,0,1,1,0,,8853,0.8
+ladder2,e4b_diff_apply_v2,rich_3470,3,rich,1,gold lines,1,1,3,0,,1,2,1,1,,,0,1,0,3,0.5,1.26,74,0,1,1,1,3,0,0,1,1,0,,7182,0.5
+ladder2,e4b_diff_apply_v2,rich_3471,1,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.09,86,1,1,1,1,4,0,0,0,1,1,0.5,5395,0.4
+ladder2,e4b_diff_apply_v2,rich_3471,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.09,86,0,0,1,1,2,0,0,0,0,0,,5989,0.3
+ladder2,e4b_diff_apply_v2,rich_3471,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.08,86,0,1,1,1,3,0,0,0,1,0,,6119,0.4
+ladder2,e4b_diff_apply_v2,rich_3480,1,rich,1,gold lines,1,2,4,0,,1,1,2,1,2,1,1,2,2,4,0.5,1.21,81,0,1,2,1,4,0,0,0,1,0,,7456,0.5
+ladder2,e4b_diff_apply_v2,rich_3480,2,rich,1,gold lines,1,2,3,0,,1,,,,,,0,0,0,3,,0.88,81,0,0,0,3,3,0,0,1,0,0,,2369,
+ladder2,e4b_diff_apply_v2,rich_3480,3,rich,1,gold lines,1,2,3,0,,1,,,,,,0,0,0,3,,0.84,81,0,0,0,3,3,0,0,0,0,0,,1604,0.2
+ladder2,e4b_diff_apply_v2,rich_3506,1,rich,1,gold lines,1,1,2,0,,,,,,,,0,0,0,2,,0.97,115,0,0,0,2,2,0,0,0,0,0,,939,0.3
+ladder2,e4b_diff_apply_v2,rich_3506,2,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.92,115,0,0,0,3,3,0,0,0,0,0,,2462,0.2
+ladder2,e4b_diff_apply_v2,rich_3506,3,rich,1,gold lines,1,1,1,0,,,,,,,,0,0,0,1,,0.82,115,0,0,0,1,1,0,0,0,0,0,,460,
+ladder2,e4b_diff_apply_v2,rich_3518,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.09,658,0,0,1,1,2,0,0,0,0,0,,1710,0.2
+ladder2,e4b_diff_apply_v2,rich_3518,2,rich,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.4,1.13,658,0,0,1,2,3,0,0,0,0,0,,3132,0.5
+ladder2,e4b_diff_apply_v2,rich_3518,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.96,658,0,1,1,1,3,0,0,0,1,0,,2811,0.3
+ladder2,e4b_diff_apply_v2,rich_3521,1,rich,0,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.37,80,0,0,1,1,2,0,0,0,0,0,,8621,0.5
+ladder2,e4b_diff_apply_v2,rich_3521,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.12,80,0,1,1,1,3,0,0,0,1,0,,2478,0.4
+ladder2,e4b_diff_apply_v2,rich_3521,3,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,1.1,80,0,0,0,3,3,0,0,0,0,0,,680,0.2
+ladder2,e4b_diff_apply_v2,rich_3535,1,rich,1,gold lines,2,2,2,0,,,,,,,,0,0,0,2,,0.91,193,0,0,0,2,2,0,0,0,0,0,,1480,0.2
+ladder2,e4b_diff_apply_v2,rich_3535,2,rich,1,gold lines,2,2,2,0,,,,,,,,0,0,0,2,,0.84,193,0,0,0,2,2,0,0,0,0,0,,1192,0.2
+ladder2,e4b_diff_apply_v2,rich_3535,3,rich,1,gold lines,2,2,1,0,,,,,,,,0,0,0,1,,1.12,193,0,0,0,1,1,0,0,0,0,0,,251,
+ladder2,e4b_diff_apply_v2,rich_3675,1,rich,1,"gold lines, misses a gold file",2,5,6,0,,1,1,3,1,3,1,1,3,1,6,1.2,3.07,168,0,2,3,0,4,1,0,2,1,0,,18739,2.0
+ladder2,e4b_diff_apply_v2,rich_3675,2,rich,0,gold lines,2,5,8,0,,1,3,1,1,1,1,1,6,5,8,0.5,3.43,168,0,1,4,0,5,0,0,0,1,0,,23871,2.0
+ladder2,e4b_diff_apply_v2,rich_3675,3,rich,0,gold lines,2,5,8,0,,2,,2,1,2,1,1,5,2,8,1.1,3.16,168,0,0,4,1,5,0,0,3,0,0,,17690,1.7
+ladder2,e4b_diff_apply_v2,rich_3676,1,rich,0,gold lines,2,8,12,0,,1,8,2,1,2,1,1,8,4,12,0.2,2.04,42,1,0,4,0,5,0,0,1,0,1,0.0,2919,0.5
+ladder2,e4b_diff_apply_v2,rich_3676,2,rich,1,gold lines,2,8,3,0,,1,,,,,,0,0,0,3,,0.93,42,0,0,0,3,3,0,0,0,0,0,,2471,0.2
+ladder2,e4b_diff_apply_v2,rich_3676,3,rich,1,gold lines,2,8,3,0,,1,,,,,,0,0,0,3,,0.98,42,0,0,0,3,3,0,0,0,0,0,,3893,0.3
+ladder2,e4b_diff_apply_v2,rich_3718,1,rich,1,gold lines,1,3,5,0,,1,1,2,1,2,1,1,3,3,5,0.6,1.08,749,0,1,3,1,5,0,0,0,1,0,,8525,0.8
+ladder2,e4b_diff_apply_v2,rich_3718,2,rich,1,gold lines,1,3,9,0,,1,3,4,1,4,1,1,3,3,9,0.6,1.25,749,3,1,1,0,5,0,1,0,1,2,0.0,10186,0.8
+ladder2,e4b_diff_apply_v2,rich_3718,3,rich,1,gold lines,1,3,4,0,,1,,1,1,2,1,1,2,1,4,0.3,1.05,749,0,0,2,2,4,0,0,1,0,0,,6868,0.6
+ladder2,e4b_diff_apply_v2,rich_3772,1,rich,1,gold lines,1,6,6,0,,1,2,,,,,0,0,0,6,,0.69,131,0,2,0,3,5,0,0,1,1,0,,5285,0.2
+ladder2,e4b_diff_apply_v2,rich_3772,2,rich,1,gold lines,1,6,3,0,,1,,,,,,0,0,0,3,,0.43,131,0,0,0,3,3,0,0,0,0,0,,1578,
+ladder2,e4b_diff_apply_v2,rich_3772,3,rich,1,gold lines,1,6,12,0,,2,3,2,1,4,1,1,9,6,12,0.5,2.5,131,0,1,3,1,5,0,0,2,1,0,,7715,1.0
+ladder2,e4b_diff_apply_v2,rich_3777,1,rich,1,gold lines,2,3,4,0,,1,,1,1,1,1,1,3,3,4,0.7,1.1,341,0,0,3,1,4,0,0,0,0,0,,8662,0.9
+ladder2,e4b_diff_apply_v2,rich_3777,2,rich,1,gold lines,2,3,7,0,,1,,1,1,1,1,1,6,3,7,0.6,1.61,341,0,0,5,0,5,0,0,3,0,0,,16286,1.3
+ladder2,e4b_diff_apply_v2,rich_3777,3,rich,1,gold lines,2,3,6,0,,1,3,1,1,1,0,1,4,3,6,0.3,1.12,341,0,1,4,0,5,0,0,1,1,0,,7947,0.9
+ladder2,e4b_diff_apply_v2,rich_3882,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.82,652,0,1,1,1,3,0,0,0,1,0,,1505,0.2
+ladder2,e4b_diff_apply_v2,rich_3882,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.86,652,0,1,1,1,3,0,0,0,1,0,,1837,0.2
+ladder2,e4b_diff_apply_v2,rich_3882,3,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.2,0.89,652,1,1,1,1,4,0,0,0,1,2,1.0,2430,0.2
+ladder2,e4b_diff_apply_v2,rich_3894,1,rich,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.4,1.07,1974,0,0,1,2,3,0,0,0,0,0,,4271,0.4
+ladder2,e4b_diff_apply_v2,rich_3894,2,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.88,1974,0,0,0,3,3,0,0,0,0,0,,2899,0.2
+ladder2,e4b_diff_apply_v2,rich_3894,3,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.09,1974,0,2,1,1,4,0,0,0,2,0,,5951,0.4
+ladder2,e4b_diff_apply_v2,rich_3905,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.96,1672,0,1,1,1,3,0,0,0,1,0,,2334,0.3
+ladder2,e4b_diff_apply_v2,rich_3905,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.97,1672,0,1,1,1,3,0,0,0,1,0,,1979,0.3
+ladder2,e4b_diff_apply_v2,rich_3905,3,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.07,1672,1,1,1,1,4,0,0,0,1,1,0.5,5356,0.4
+ladder2,e4b_diff_apply_v2,rich_3934,1,rich,1,gold lines,2,3,3,0,,1,,,,,,0,0,0,3,,0.93,64,0,0,0,3,3,0,0,1,0,0,,2024,
+ladder2,e4b_diff_apply_v2,rich_3934,2,rich,1,gold lines,2,3,3,0,,1,,,,,,0,0,0,3,,0.93,64,0,0,0,3,3,0,0,0,0,0,,2067,0.3
+ladder2,e4b_diff_apply_v2,rich_3934,3,rich,1,gold lines,2,3,3,0,,1,,,,,,0,0,0,3,,0.92,64,0,0,0,3,3,0,0,1,0,0,,2686,
+ladder2,e4b_diff_apply_v2,rich_3935,1,rich,1,gold lines,1,5,3,0,,1,,,,,,0,0,0,3,,0.87,75,0,0,0,3,3,0,0,1,0,0,,2336,
+ladder2,e4b_diff_apply_v2,rich_3935,2,rich,1,gold lines,1,5,3,0,,1,,,,,,0,0,0,3,,1.11,75,0,0,0,3,3,0,0,0,0,0,,5514,0.3
+ladder2,e4b_diff_apply_v2,rich_3935,3,rich,1,gold lines,1,5,3,0,,1,,,,,,0,0,0,3,,0.86,75,0,0,0,3,3,0,0,0,0,0,,1333,0.2
+ladder2,e4b_diff_apply_v2,rich_3938,1,rich,1,gold lines,2,2,3,0,,1,,,,,,0,0,0,3,,0.84,89,0,0,0,3,3,0,0,0,0,0,,1613,0.2
+ladder2,e4b_diff_apply_v2,rich_3938,2,rich,1,gold lines,2,2,3,0,,1,,,,,,0,0,0,3,,0.91,89,0,0,0,3,3,0,0,1,0,0,,2543,
+ladder2,e4b_diff_apply_v2,rich_3938,3,rich,1,gold lines,2,2,3,0,,1,,,,,,0,0,0,3,,0.86,89,0,0,0,3,3,0,0,0,0,0,,1329,0.2
+ladder2,e4b_diff_apply_v2,rich_3942,1,rich,1,gold lines,2,7,2,0,,1,,,,,,0,0,0,2,,0.81,54,0,0,0,2,2,0,0,0,0,0,,1657,
+ladder2,e4b_diff_apply_v2,rich_3942,2,rich,0,gold lines,2,7,10,0,,1,1,2,1,2,1,1,6,5,10,0.4,2.03,54,0,2,3,0,5,0,0,0,2,0,,5601,0.6
+ladder2,e4b_diff_apply_v2,rich_3942,3,rich,1,gold lines,2,7,4,0,,2,,,,,,0,0,0,4,,0.85,54,0,0,0,4,4,0,0,1,0,0,,2645,
+ladder2,e4b_diff_apply_v2,rich_3944,1,rich,1,gold lines,1,1,5,0,,1,1,2,0,3,1,1,2,1,5,,0.99,63,0,1,2,2,5,0,0,2,1,0,,4366,0.3
+ladder2,e4b_diff_apply_v2,rich_3944,2,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.9,63,0,0,0,3,3,0,0,1,0,0,,3507,
+ladder2,e4b_diff_apply_v2,rich_3944,3,rich,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.2,0.87,63,0,1,1,2,4,0,0,1,1,0,,2262,0.2
+ladder2,e4b_diff_apply_v2,rich_3953,1,rich,1,gold lines,1,2,3,0,,1,,,,,,0,0,0,3,,0.45,130,0,0,0,3,3,0,0,0,0,0,,1749,0.2
+ladder2,e4b_diff_apply_v2,rich_3953,2,rich,1,gold lines,1,2,3,0,,1,,,,,,0,0,0,3,,0.43,130,0,0,0,3,3,0,0,0,0,0,,1332,0.2
+ladder2,e4b_diff_apply_v2,rich_3953,3,rich,1,gold lines,1,2,4,0,,1,,,,,,0,0,0,4,,0.54,130,0,0,0,4,4,0,0,1,0,0,,3244,0.2
+ladder2,e4b_diff_apply_v2,rich_4006,1,rich,1,gold lines,1,2,3,0,,1,,,,,,0,0,0,3,,0.68,96,0,0,0,3,3,0,0,1,0,0,,5822,
+ladder2,e4b_diff_apply_v2,rich_4006,2,rich,1,gold lines,1,2,17,0,,1,1,2,1,,,0,1,0,,,1.98,96,0,1,1,3,4,1,0,3,1,0,,7584,0.7
+ladder2,e4b_diff_apply_v2,rich_4006,3,rich,1,gold lines,1,2,2,0,,1,,,,,,0,0,0,2,,0.38,96,0,0,0,2,2,0,0,0,0,0,,1125,
+ladder2,e4b_diff_apply_v2,rich_4075,1,rich,1,gold lines,1,4,3,0,,1,,,,,,0,0,0,3,,1.12,101,0,0,0,3,3,0,0,0,0,0,,6021,0.4
+ladder2,e4b_diff_apply_v2,rich_4075,2,rich,1,gold lines,1,4,3,0,,1,,,,,,0,0,0,3,,0.88,101,0,0,0,3,3,0,0,1,0,0,,2430,
+ladder2,e4b_diff_apply_v2,rich_4075,3,rich,1,gold lines,1,4,3,0,,1,,,,,,0,0,0,3,,0.89,101,0,0,0,3,3,0,0,0,0,0,,2291,0.2
+ladder2,e4b_diff_apply_v2,rich_4076,1,rich,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.3,1.37,71,0,1,1,2,4,0,0,0,1,0,,9992,0.7
+ladder2,e4b_diff_apply_v2,rich_4076,2,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,1.0,71,0,0,0,3,3,0,0,1,0,0,,4545,
+ladder2,e4b_diff_apply_v2,rich_4076,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.38,71,0,1,1,1,3,0,0,0,1,0,,10175,0.4
+ladder2,e4b_diff_apply_v2,rich_4077,1,rich,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,0.82,66,0,0,0,3,3,0,0,0,0,0,,922,0.2
+ladder2,e4b_diff_apply_v2,rich_4077,2,rich,1,gold lines,1,1,4,0,,1,,,,,,0,0,0,4,,0.9,66,1,0,0,3,4,0,1,1,0,0,0.0,3391,0.2
+ladder2,e4b_diff_apply_v2,rich_4077,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.83,66,0,0,1,1,2,0,0,0,0,0,,932,0.2
+ladder2,e4b_diff_blocks_v1,fastapi_11355,1,fastapi,1,gold lines,1,3,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.28,299,0,0,1,1,2,0,0,0,0,0,,3302,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_11355,2,fastapi,1,gold lines,1,3,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.2,299,0,0,1,1,2,0,0,0,0,0,,1843,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_11355,3,fastapi,1,gold lines,1,3,3,0,,1,,1,0,2,1,1,2,1,3,,1.39,299,0,0,2,1,3,0,0,1,0,0,,4072,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_12942,1,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,0.85,1392,0,0,0,1,1,0,0,0,0,0,,1787,
+ladder2,e4b_diff_blocks_v1,fastapi_12942,2,fastapi,0,no patch,1,1,2,0,,,,,,,,0,0,0,2,,0.72,1392,0,0,0,2,2,0,0,0,0,0,,960,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_12942,3,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,0.54,1392,0,0,0,1,1,0,0,0,0,0,,280,
+ladder2,e4b_diff_blocks_v1,fastapi_13207,1,fastapi,1,gold lines,1,2,1,0,,1,,1,1,1,1,1,1,1,,0.3,1.37,354,0,0,1,0,1,0,0,0,0,0,,656,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_13207,2,fastapi,1,gold lines,1,2,3,0,,1,,1,1,2,1,1,2,1,3,,1.3,354,0,0,2,1,3,0,0,1,0,0,,5898,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_13207,3,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.02,354,0,0,1,1,2,0,0,0,0,0,,2652,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_13713,1,fastapi,0,no patch,2,5,1,0,,,,,,,,0,0,0,1,,1.68,756,0,0,0,1,1,0,0,0,0,0,,496,
+ladder2,e4b_diff_blocks_v1,fastapi_13713,2,fastapi,1,gold lines,2,5,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.74,756,0,0,1,1,2,0,0,0,0,0,,1340,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_13713,3,fastapi,1,gold lines,2,5,3,0,,1,,1,1,1,1,1,2,2,3,0.3,0.74,756,0,0,2,1,3,0,0,0,0,0,,1346,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_13920,1,fastapi,1,gold lines,1,2,4,0,,1,,1,1,2,1,1,2,1,4,,1.09,225,0,0,2,2,4,0,0,1,0,0,,4765,0.8
+ladder2,e4b_diff_blocks_v1,fastapi_13920,2,fastapi,1,gold lines,1,2,3,0,,1,,1,0,2,1,1,2,1,3,,1.04,225,0,0,2,1,3,0,0,1,0,0,,4091,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_13920,3,fastapi,1,gold lines,1,2,4,0,,1,,1,0,3,1,1,3,1,4,,1.3,225,0,0,3,1,4,0,0,2,0,0,,7870,1.0
+ladder2,e4b_diff_blocks_v1,fastapi_14246,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.8,1.08,273,0,0,1,1,2,0,0,0,0,0,,5281,0.8
+ladder2,e4b_diff_blocks_v1,fastapi_14246,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.7,1.07,273,0,0,1,1,2,0,0,0,0,0,,3741,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_14246,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.5,0.86,273,0,0,1,1,2,0,0,0,0,0,,3168,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_14258,1,fastapi,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,2.33,418,0,0,2,1,3,0,0,1,0,0,,4202,1.6
+ladder2,e4b_diff_blocks_v1,fastapi_14258,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,2.7,3.33,418,0,0,1,1,2,0,0,0,0,0,,356,2.7
+ladder2,e4b_diff_blocks_v1,fastapi_14258,3,fastapi,1,gold lines,1,1,4,0,,1,,1,0,3,1,1,2,1,4,,1.78,418,0,0,2,2,4,0,0,1,0,0,,6150,1.1
+ladder2,e4b_diff_blocks_v1,fastapi_14266,1,fastapi,1,gold lines,1,2,7,0,,1,4,1,1,,,0,5,0,7,,2.85,247,0,1,4,0,3,2,0,4,1,0,,22937,1.5
+ladder2,e4b_diff_blocks_v1,fastapi_14266,2,fastapi,0,no patch,1,2,1,0,,,,,,,,0,0,0,1,,0.83,247,0,0,0,1,1,0,0,0,0,0,,642,
+ladder2,e4b_diff_blocks_v1,fastapi_14266,3,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.11,247,0,0,1,1,2,0,0,0,0,0,,7704,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14301,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.8,1.53,739,0,0,1,1,2,0,0,0,0,0,,1853,0.8
+ladder2,e4b_diff_blocks_v1,fastapi_14301,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.04,739,0,0,1,1,2,0,0,0,0,0,,2435,0.2
+ladder2,e4b_diff_blocks_v1,fastapi_14301,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,1.3,1.97,739,0,0,1,1,2,0,0,0,0,0,,2435,1.3
+ladder2,e4b_diff_blocks_v1,fastapi_14306,1,fastapi,1,gold lines,2,12,1,0,,1,,1,1,1,1,1,1,1,,1.1,1.41,2791,0,0,1,0,1,0,0,0,0,0,,1555,1.1
+ladder2,e4b_diff_blocks_v1,fastapi_14306,2,fastapi,0,no patch,2,12,2,0,,,,,,,,0,0,0,2,,0.49,2791,0,0,0,2,2,0,0,0,0,0,,2566,0.2
+ladder2,e4b_diff_blocks_v1,fastapi_14306,3,fastapi,0,no patch,2,12,9,0,,1,,1,0,,,0,3,0,8,,2.9,2791,0,0,2,3,2,3,0,2,0,0,,4398,
+ladder2,e4b_diff_blocks_v1,fastapi_14349,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.7,1.02,169,0,0,1,1,2,0,0,0,0,0,,1446,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_14349,2,fastapi,0,no patch,1,1,2,0,,1,,1,0,,,0,1,0,2,,1.05,169,0,0,1,1,2,0,0,1,0,0,,3690,
+ladder2,e4b_diff_blocks_v1,fastapi_14349,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.7,1.02,169,0,0,1,1,2,0,0,0,0,0,,580,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_14356,1,fastapi,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,1.73,1481,0,0,2,1,3,0,0,1,0,0,,2952,1.0
+ladder2,e4b_diff_blocks_v1,fastapi_14356,2,fastapi,1,gold lines,1,1,8,0,,1,,1,0,5,1,1,3,1,8,,1.88,1481,0,0,3,2,4,1,0,3,0,0,,6957,1.1
+ladder2,e4b_diff_blocks_v1,fastapi_14356,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.9,1.6,1481,0,0,1,1,2,0,0,0,0,0,,2587,0.9
+ladder2,e4b_diff_blocks_v1,fastapi_14360,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.29,753,0,0,1,1,2,0,0,0,0,0,,4203,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_14360,2,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,1.03,753,0,0,0,1,1,0,0,0,0,0,,2092,
+ladder2,e4b_diff_blocks_v1,fastapi_14360,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,1.2,1.86,753,0,0,1,1,2,0,0,0,0,0,,1697,1.2
+ladder2,e4b_diff_blocks_v1,fastapi_14361,1,fastapi,1,gold lines,1,1,4,0,,1,,1,0,3,1,1,3,1,4,,0.72,96,0,0,3,1,3,1,0,2,0,0,,4065,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_14361,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.56,96,0,0,1,1,2,0,0,0,0,0,,1501,0.2
+ladder2,e4b_diff_blocks_v1,fastapi_14361,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.54,96,0,0,1,1,2,0,0,0,0,0,,1473,0.2
+ladder2,e4b_diff_blocks_v1,fastapi_14372,1,fastapi,1,gold lines,2,3,3,0,,1,,1,1,1,1,1,2,2,3,0.3,1.17,1160,0,0,2,1,3,0,0,0,0,0,,1380,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_14372,2,fastapi,1,gold lines,2,3,3,0,,1,,1,1,1,1,1,2,2,3,0.9,1.73,1160,0,0,2,1,3,0,0,0,0,0,,3284,1.0
+ladder2,e4b_diff_blocks_v1,fastapi_14372,3,fastapi,1,gold lines,2,3,3,0,,1,,1,1,1,1,1,2,2,3,0.9,1.7,1160,0,0,2,1,3,0,0,0,0,0,,3148,1.0
+ladder2,e4b_diff_blocks_v1,fastapi_14419,1,fastapi,1,gold lines,2,7,4,0,,1,,1,1,1,1,1,2,2,4,0.7,3.4,689,0,0,2,2,4,0,0,0,0,0,,15697,1.9
+ladder2,e4b_diff_blocks_v1,fastapi_14419,2,fastapi,1,gold lines,2,7,2,0,,1,,1,1,1,1,1,1,1,2,2.1,3.33,689,0,0,1,1,2,0,0,0,0,0,,16798,2.1
+ladder2,e4b_diff_blocks_v1,fastapi_14419,3,fastapi,1,gold lines,2,7,4,0,,1,,1,1,1,1,1,2,2,4,0.4,1.75,689,0,0,2,2,4,0,0,0,0,0,,3828,1.1
+ladder2,e4b_diff_blocks_v1,fastapi_14430,1,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.5,0.88,335,0,0,1,1,2,0,0,0,0,0,,4324,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_14430,2,fastapi,1,gold lines,1,2,4,0,,1,,1,0,2,1,1,2,1,4,,0.86,335,0,0,2,2,4,0,0,1,0,0,,4649,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14430,3,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.66,335,0,0,1,1,2,0,0,0,0,0,,3558,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_14448,1,fastapi,1,gold lines,2,3,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.42,1226,0,0,1,1,2,0,0,0,0,0,,1505,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14448,2,fastapi,1,gold lines,2,3,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.36,1226,0,0,1,1,2,0,0,0,0,0,,1864,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_14448,3,fastapi,1,gold lines,2,3,3,0,,1,,1,1,1,1,1,2,2,3,0.5,1.32,1226,0,0,2,1,3,0,0,0,0,0,,1294,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14455,1,fastapi,0,no patch,1,2,9,0,,1,,1,0,,,0,6,0,9,,2.2,283,0,0,4,1,4,1,0,4,0,0,,6856,
+ladder2,e4b_diff_blocks_v1,fastapi_14455,2,fastapi,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,1,1,3,0.5,1.44,283,0,0,1,2,3,0,0,0,0,0,,6186,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14455,3,fastapi,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,1,1,3,0.3,1.15,283,0,0,1,2,3,0,0,0,0,0,,4025,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_14458,1,fastapi,1,gold lines,1,4,2,0,,1,,1,1,1,1,1,1,1,2,0.8,1.08,591,0,0,1,1,2,0,0,0,0,0,,3365,0.8
+ladder2,e4b_diff_blocks_v1,fastapi_14458,2,fastapi,1,gold lines,1,4,3,0,,1,,1,0,2,1,1,2,1,3,,2.18,591,0,0,2,1,3,0,0,1,0,0,,4226,1.9
+ladder2,e4b_diff_blocks_v1,fastapi_14458,3,fastapi,1,gold lines,1,4,2,0,,1,,1,1,1,1,1,1,1,2,1.0,1.34,591,0,0,1,1,2,0,0,0,0,0,,1424,1.0
+ladder2,e4b_diff_blocks_v1,fastapi_14459,1,fastapi,1,gold lines,3,8,4,0,,1,,1,1,1,1,1,3,3,4,0.4,1.38,815,0,0,3,1,4,0,0,0,0,0,,3488,1.1
+ladder2,e4b_diff_blocks_v1,fastapi_14459,2,fastapi,0,gold lines,3,8,4,0,,1,,1,1,1,1,1,3,2,4,0.8,3.2,815,0,0,3,1,4,0,0,1,0,0,,17822,2.1
+ladder2,e4b_diff_blocks_v1,fastapi_14459,3,fastapi,1,gold lines,3,8,2,0,,1,,1,1,1,1,1,1,1,2,1.1,1.53,815,0,0,1,1,2,0,0,0,0,0,,2679,1.1
+ladder2,e4b_diff_blocks_v1,fastapi_14463,1,fastapi,0,no patch,1,2,4,0,,1,,1,0,,,0,3,0,4,,1.64,10095,0,0,3,1,4,0,0,3,0,0,,7539,
+ladder2,e4b_diff_blocks_v1,fastapi_14463,2,fastapi,0,no patch,1,2,2,0,,,,,,,,0,0,0,2,,1.42,10095,0,0,0,2,2,0,0,1,0,0,,4309,
+ladder2,e4b_diff_blocks_v1,fastapi_14463,3,fastapi,1,gold lines,1,2,3,0,,1,,1,0,2,1,1,2,1,3,,1.36,10095,0,0,2,1,3,0,0,1,0,0,,5704,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14479,1,fastapi,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.97,2455,0,0,1,2,3,0,0,0,0,0,,1238,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_14479,2,fastapi,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,1.82,2455,0,0,2,1,3,0,0,1,0,0,,7299,1.1
+ladder2,e4b_diff_blocks_v1,fastapi_14479,3,fastapi,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,1.01,2455,0,0,1,2,3,0,0,0,0,0,,2198,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_14482,1,fastapi,1,gold lines,1,5,3,0,,1,,1,1,1,1,1,1,1,3,0.5,1.6,266,0,0,1,2,3,0,0,0,0,0,,11659,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14482,2,fastapi,1,gold lines,1,5,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.54,266,0,0,1,1,2,0,0,0,0,0,,5735,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_14482,3,fastapi,1,gold lines,1,5,3,0,,1,,1,1,1,1,1,1,1,3,0.7,1.59,266,0,0,1,2,3,0,0,0,0,0,,4106,0.8
+ladder2,e4b_diff_blocks_v1,fastapi_14485,1,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.21,317,0,0,1,1,2,0,0,0,0,0,,1615,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_14485,2,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.3,317,0,0,1,1,2,0,0,0,0,0,,3365,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14485,3,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.32,317,0,0,1,1,2,0,0,0,0,0,,2840,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14487,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.22,204,0,0,1,1,2,0,0,0,0,0,,1910,0.2
+ladder2,e4b_diff_blocks_v1,fastapi_14487,2,fastapi,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,0.93,204,0,0,2,1,3,0,0,1,0,0,,5029,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_14487,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.75,204,0,0,1,1,2,0,0,0,0,0,,6998,0.2
+ladder2,e4b_diff_blocks_v1,fastapi_14492,1,fastapi,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,1.16,159,0,0,2,1,3,0,0,1,0,0,,4915,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_14492,2,fastapi,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,1.0,159,0,0,2,1,3,0,0,1,0,0,,3277,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_14492,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.29,159,0,0,1,1,2,0,0,0,0,0,,3606,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14512,1,fastapi,0,no patch,1,3,4,0,,1,,1,0,,,0,3,0,4,,1.94,289,0,0,3,1,2,2,0,3,0,0,,12278,
+ladder2,e4b_diff_blocks_v1,fastapi_14512,2,fastapi,0,no patch,1,3,3,0,,,,,,,,0,0,0,3,,0.84,289,0,0,0,3,2,1,0,0,0,0,,5105,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_14512,3,fastapi,1,gold lines,1,3,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.97,289,0,0,1,1,2,0,0,0,0,0,,3193,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_14786,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.09,2303,0,0,1,1,2,0,0,0,0,0,,2760,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_14786,2,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,1.38,2303,0,0,0,1,1,0,0,0,0,0,,1932,
+ladder2,e4b_diff_blocks_v1,fastapi_14786,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.7,1.38,2303,0,0,1,1,2,0,0,0,0,0,,1913,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_14794,1,fastapi,0,no patch,1,2,2,0,,1,,,,,,0,0,0,2,,1.09,816,0,0,0,2,2,0,0,0,0,0,,2983,
+ladder2,e4b_diff_blocks_v1,fastapi_14794,2,fastapi,1,gold lines,1,2,3,0,,1,,1,0,2,1,1,2,1,3,,3.42,816,0,0,2,1,3,0,0,1,0,0,,3003,3.1
+ladder2,e4b_diff_blocks_v1,fastapi_14794,3,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.8,1.15,816,0,0,1,1,2,0,0,0,0,0,,3224,0.8
+ladder2,e4b_diff_blocks_v1,fastapi_14873,1,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.6,0.95,674,0,0,1,1,2,0,0,0,0,0,,4084,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_14873,2,fastapi,1,gold lines,1,2,3,0,,1,,1,1,2,1,1,2,1,3,,1.12,674,0,0,2,1,3,0,0,1,0,0,,5973,0.8
+ladder2,e4b_diff_blocks_v1,fastapi_14873,3,fastapi,0,gold lines,1,2,5,0,,1,,1,1,4,1,1,3,1,5,0.5,1.85,674,0,0,3,2,4,1,0,3,0,0,,15373,1.6
+ladder2,e4b_diff_blocks_v1,fastapi_14986,1,fastapi,1,gold lines,2,4,7,0,,1,,1,0,3,1,1,6,4,7,,1.77,1000,0,0,5,0,4,1,0,2,0,0,,9413,1.4
+ladder2,e4b_diff_blocks_v1,fastapi_14986,2,fastapi,0,gold lines,2,4,7,0,,1,,1,1,1,1,1,5,2,7,0.4,1.46,1000,0,0,5,0,4,1,0,1,0,0,,6020,1.0
+ladder2,e4b_diff_blocks_v1,fastapi_14986,3,fastapi,1,gold lines,2,4,3,0,,1,,1,1,1,1,1,2,2,3,0.4,1.06,1000,0,0,2,1,3,0,0,0,0,0,,2722,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_15023,1,fastapi,0,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.4,112,0,0,1,1,2,0,0,0,0,0,,4065,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_15023,2,fastapi,0,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.44,112,0,0,1,1,2,0,0,0,0,0,,5835,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_15023,3,fastapi,1,gold lines,1,1,4,0,,1,,1,0,,,0,2,0,4,,1.92,112,0,0,2,2,4,0,0,2,0,0,,9692,1.2
+ladder2,e4b_diff_blocks_v1,fastapi_15588,1,fastapi,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,1,1,3,0.3,1.17,1891,0,0,1,2,3,0,0,0,0,0,,1764,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_15588,2,fastapi,0,no patch,1,2,2,0,,,,,,,,0,0,0,2,,1.18,1891,0,0,0,2,2,0,0,0,0,0,,1643,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_15588,3,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.7,1.47,1891,0,0,1,1,2,0,0,0,0,0,,4175,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_15589,1,fastapi,1,gold lines,1,1,4,0,,1,2,1,1,1,1,1,1,1,4,0.2,1.56,1247,0,1,1,2,4,0,0,0,1,0,,10126,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_15589,2,fastapi,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.3,1.26,1247,0,0,1,2,3,0,0,0,0,0,,5733,0.3
+ladder2,e4b_diff_blocks_v1,fastapi_15589,3,fastapi,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.6,1.4,1247,0,0,1,2,3,0,0,0,0,0,,4416,0.7
+ladder2,e4b_diff_blocks_v1,fastapi_5077,1,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.5,0.84,2679,0,0,1,1,2,0,0,0,0,0,,2634,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_5077,2,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.74,2679,0,0,1,1,2,0,0,0,0,0,,2560,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_5077,3,fastapi,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.77,2679,0,0,1,1,2,0,0,0,0,0,,3511,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_5624,1,fastapi,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.4,1.18,63,0,0,1,2,3,0,0,0,0,0,,5122,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_5624,2,fastapi,1,gold lines,1,1,3,0,,1,,1,1,2,1,1,2,1,3,,1.09,63,0,0,2,1,3,0,0,1,0,0,,4795,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_5624,3,fastapi,0,no patch,1,1,5,0,,1,,1,0,,,0,3,0,5,,1.27,63,0,0,3,2,4,1,0,3,0,0,,7340,
+ladder2,e4b_diff_blocks_v1,fastapi_9425,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.75,235,0,0,1,1,2,0,0,0,0,0,,1947,0.4
+ladder2,e4b_diff_blocks_v1,fastapi_9425,2,fastapi,0,no patch,1,1,4,0,,1,,1,0,,,0,3,0,4,,1.19,235,0,0,3,1,3,1,0,3,0,0,,5390,
+ladder2,e4b_diff_blocks_v1,fastapi_9425,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,1.0,1.3,235,0,0,1,1,2,0,0,0,0,0,,2619,1.0
+ladder2,e4b_diff_blocks_v1,fastapi_9555,1,fastapi,1,gold lines,1,1,3,0,,1,,1,1,,,0,1,0,3,,0.93,2934,0,0,1,2,3,0,0,1,0,0,,1694,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_9555,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,1.2,1.52,2934,0,0,1,1,2,0,0,0,0,0,,3702,1.2
+ladder2,e4b_diff_blocks_v1,fastapi_9555,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.5,0.89,2934,0,0,1,1,2,0,0,0,0,0,,1628,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_9753,1,fastapi,1,gold lines,1,2,3,0,,1,,1,1,2,1,1,2,1,3,,0.86,689,0,0,2,1,3,0,0,1,0,0,,1639,0.6
+ladder2,e4b_diff_blocks_v1,fastapi_9753,2,fastapi,0,no patch,1,2,3,0,,,,,,,,0,0,0,3,,0.82,689,0,0,0,3,2,1,0,0,0,0,,1152,0.5
+ladder2,e4b_diff_blocks_v1,fastapi_9753,3,fastapi,0,no patch,1,2,1,0,,,,,,,,0,0,0,1,,0.68,689,0,0,0,1,1,0,0,0,0,0,,528,
+ladder2,e4b_diff_blocks_v1,rich_2725,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.94,1779,0,0,1,1,2,0,0,0,0,0,,2325,0.3
+ladder2,e4b_diff_blocks_v1,rich_2725,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.89,1779,0,0,1,1,2,0,0,0,0,0,,1666,0.2
+ladder2,e4b_diff_blocks_v1,rich_2725,3,rich,0,no patch,1,1,1,1,Sandbox execution error: No LlmAgent mod,,,,,,,0,0,0,,,1.65,1779,0,0,0,1,1,0,0,0,0,0,,1281,1.3
+ladder2,e4b_diff_blocks_v1,rich_2943,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.9,473,0,0,1,1,2,0,0,0,0,0,,1704,0.2
+ladder2,e4b_diff_blocks_v1,rich_2943,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.94,473,0,0,1,1,2,0,0,0,0,0,,1922,0.2
+ladder2,e4b_diff_blocks_v1,rich_2943,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.9,473,0,0,1,1,2,0,0,0,0,0,,1288,0.2
+ladder2,e4b_diff_blocks_v1,rich_3006,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.87,677,0,0,1,1,2,0,0,0,0,0,,1863,0.2
+ladder2,e4b_diff_blocks_v1,rich_3006,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.81,677,0,0,1,1,2,0,0,0,0,0,,1530,0.2
+ladder2,e4b_diff_blocks_v1,rich_3006,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.87,677,0,0,1,1,2,0,0,0,0,0,,2250,0.2
+ladder2,e4b_diff_blocks_v1,rich_3043,1,rich,0,gold lines,1,2,3,0,,1,,1,1,1,1,1,1,1,3,0.6,1.27,286,0,0,1,2,3,0,0,0,0,0,,2286,0.6
+ladder2,e4b_diff_blocks_v1,rich_3043,2,rich,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.93,286,0,0,1,2,3,0,0,0,0,0,,2522,0.3
+ladder2,e4b_diff_blocks_v1,rich_3043,3,rich,0,no patch,1,2,6,0,,1,2,1,1,,,0,4,0,5,0.8,2.68,286,0,1,3,1,3,2,0,3,1,0,,16108,1.7
+ladder2,e4b_diff_blocks_v1,rich_3052,1,rich,1,gold lines,1,12,3,0,,1,,1,1,1,1,1,1,1,3,1.1,1.43,863,0,0,1,2,3,0,0,0,0,0,,9139,1.2
+ladder2,e4b_diff_blocks_v1,rich_3052,2,rich,1,gold lines,1,12,2,0,,1,,1,1,1,1,1,1,1,2,0.7,0.98,863,0,0,1,1,2,0,0,0,0,0,,899,0.7
+ladder2,e4b_diff_blocks_v1,rich_3052,3,rich,1,gold lines,1,12,3,0,,1,,1,1,,,0,1,0,3,,1.52,863,0,0,1,2,3,0,0,1,0,0,,9822,1.3
+ladder2,e4b_diff_blocks_v1,rich_3061,1,rich,1,gold lines,1,13,2,0,,1,,1,1,1,1,1,1,1,2,0.8,1.44,411,0,0,1,1,2,0,0,0,0,0,,299,0.8
+ladder2,e4b_diff_blocks_v1,rich_3061,2,rich,0,no patch,1,13,1,0,,,,,,,,0,0,0,1,,2.06,411,0,0,0,1,1,0,0,0,0,0,,1062,
+ladder2,e4b_diff_blocks_v1,rich_3061,3,rich,1,gold lines,1,13,2,0,,1,,1,1,1,1,1,1,1,2,0.8,1.58,411,0,0,1,1,2,0,0,0,0,0,,2021,0.8
+ladder2,e4b_diff_blocks_v1,rich_3063,1,rich,1,gold lines,1,2,3,0,,1,,1,0,2,1,1,2,1,3,,1.92,85,0,0,2,1,3,0,0,1,0,0,,4339,1.3
+ladder2,e4b_diff_blocks_v1,rich_3063,2,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.95,85,0,0,1,1,2,0,0,0,0,0,,3252,0.3
+ladder2,e4b_diff_blocks_v1,rich_3063,3,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.92,85,0,0,1,1,2,0,0,0,0,0,,1815,0.2
+ladder2,e4b_diff_blocks_v1,rich_3067,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.85,584,0,0,1,1,2,0,0,0,0,0,,1436,0.2
+ladder2,e4b_diff_blocks_v1,rich_3067,2,rich,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,1.53,584,0,0,0,1,1,0,0,0,0,0,,1291,
+ladder2,e4b_diff_blocks_v1,rich_3067,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.82,584,0,0,1,1,2,0,0,0,0,0,,900,0.2
+ladder2,e4b_diff_blocks_v1,rich_3105,1,rich,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.74,452,0,0,1,2,3,0,0,1,0,0,,5845,0.2
+ladder2,e4b_diff_blocks_v1,rich_3105,2,rich,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.66,452,0,0,1,2,3,0,0,0,0,0,,4473,0.4
+ladder2,e4b_diff_blocks_v1,rich_3105,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.85,452,0,0,1,1,2,0,0,0,0,0,,9122,0.2
+ladder2,e4b_diff_blocks_v1,rich_3180,1,rich,1,gold lines,2,4,3,0,,1,,1,1,1,1,1,2,2,3,0.6,1.31,1189,0,0,2,1,3,0,0,0,0,0,,8705,0.9
+ladder2,e4b_diff_blocks_v1,rich_3180,2,rich,1,gold lines,2,4,3,0,,1,,1,1,1,1,1,2,2,3,0.5,0.91,1189,0,0,2,1,3,0,0,0,0,0,,2034,0.6
+ladder2,e4b_diff_blocks_v1,rich_3180,3,rich,1,gold lines,2,4,2,0,,1,,1,1,1,1,1,1,1,2,0.6,0.9,1189,0,0,1,1,2,0,0,0,0,0,,1683,0.6
+ladder2,e4b_diff_blocks_v1,rich_3278,1,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.15,1216,1,1,1,1,4,0,0,0,1,1,0.0,4722,0.4
+ladder2,e4b_diff_blocks_v1,rich_3278,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.03,1216,0,1,1,1,3,0,0,0,1,0,,2996,0.3
+ladder2,e4b_diff_blocks_v1,rich_3278,3,rich,1,gold lines,1,1,3,0,,2,,2,1,2,1,1,1,1,3,0.9,1.57,1216,0,0,1,2,2,1,0,1,0,0,,2258,0.9
+ladder2,e4b_diff_blocks_v1,rich_3454,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.1,865,0,0,1,1,2,0,0,0,0,0,,2805,0.4
+ladder2,e4b_diff_blocks_v1,rich_3454,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.02,865,0,0,1,1,2,0,0,0,0,0,,3104,0.3
+ladder2,e4b_diff_blocks_v1,rich_3454,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.99,865,0,0,1,1,2,0,0,0,0,0,,1558,0.3
+ladder2,e4b_diff_blocks_v1,rich_3470,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.06,74,0,0,1,1,2,0,0,0,0,0,,4384,0.2
+ladder2,e4b_diff_blocks_v1,rich_3470,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.12,74,0,0,1,1,2,0,0,0,0,0,,5118,0.2
+ladder2,e4b_diff_blocks_v1,rich_3470,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.29,74,0,0,1,1,2,0,0,0,0,0,,10111,0.2
+ladder2,e4b_diff_blocks_v1,rich_3471,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.88,86,0,0,1,1,2,0,0,0,0,0,,1591,0.2
+ladder2,e4b_diff_blocks_v1,rich_3471,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.87,86,0,0,1,1,2,0,0,0,0,0,,1982,0.2
+ladder2,e4b_diff_blocks_v1,rich_3471,3,rich,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,1.06,86,0,0,2,1,3,0,0,1,0,0,,4215,0.4
+ladder2,e4b_diff_blocks_v1,rich_3480,1,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.24,81,0,0,1,1,2,0,0,0,0,0,,1886,0.5
+ladder2,e4b_diff_blocks_v1,rich_3480,2,rich,0,no patch,1,2,6,0,,1,,1,0,,,0,2,0,6,,6.74,81,0,0,2,3,4,1,0,2,0,0,,8843,
+ladder2,e4b_diff_blocks_v1,rich_3480,3,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.06,81,0,0,1,1,2,0,0,0,0,0,,2219,0.4
+ladder2,e4b_diff_blocks_v1,rich_3506,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.1,115,0,0,1,1,2,0,0,0,0,0,,4400,0.3
+ladder2,e4b_diff_blocks_v1,rich_3506,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.04,115,0,0,1,1,2,0,0,0,0,0,,2434,0.3
+ladder2,e4b_diff_blocks_v1,rich_3506,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.05,115,0,0,1,1,2,0,0,0,0,0,,3081,0.3
+ladder2,e4b_diff_blocks_v1,rich_3518,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.09,658,0,0,1,1,2,0,0,0,0,0,,1628,0.3
+ladder2,e4b_diff_blocks_v1,rich_3518,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.13,658,0,0,1,1,2,0,0,0,0,0,,2357,0.3
+ladder2,e4b_diff_blocks_v1,rich_3518,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.9,658,0,0,1,1,2,0,0,0,0,0,,1854,0.2
+ladder2,e4b_diff_blocks_v1,rich_3521,1,rich,1,gold lines,1,1,4,0,,1,,1,0,3,1,1,3,1,4,,1.43,80,0,0,3,1,4,0,0,2,0,0,,4056,0.8
+ladder2,e4b_diff_blocks_v1,rich_3521,2,rich,1,gold lines,1,1,3,0,,1,,1,0,,,0,2,0,3,,1.48,80,0,0,2,1,3,0,0,2,0,0,,4355,
+ladder2,e4b_diff_blocks_v1,rich_3521,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.32,80,0,0,1,1,2,0,0,0,0,0,,3178,0.6
+ladder2,e4b_diff_blocks_v1,rich_3535,1,rich,1,gold lines,2,2,4,0,,1,,1,0,2,1,1,3,2,4,,1.27,193,0,0,3,1,4,0,0,1,0,0,,3018,0.6
+ladder2,e4b_diff_blocks_v1,rich_3535,2,rich,0,no patch,2,2,3,0,,,,,,,,0,0,0,3,,0.93,193,0,0,0,3,3,0,0,1,0,0,,1994,0.2
+ladder2,e4b_diff_blocks_v1,rich_3535,3,rich,1,gold lines,2,2,3,0,,1,,1,1,1,1,1,2,2,3,0.3,1.08,193,0,0,2,1,3,0,0,0,0,0,,1272,0.4
+ladder2,e4b_diff_blocks_v1,rich_3675,1,rich,0,gold lines,2,5,3,0,,1,,1,1,1,1,1,2,2,3,0.5,1.3,168,0,0,2,1,3,0,0,0,0,0,,883,0.6
+ladder2,e4b_diff_blocks_v1,rich_3675,2,rich,0,gold lines,2,5,4,0,,1,,1,0,,,0,3,0,4,,2.16,168,0,0,3,1,4,0,0,3,0,0,,8742,
+ladder2,e4b_diff_blocks_v1,rich_3675,3,rich,1,gold lines,2,5,4,0,,1,,1,1,1,1,1,2,2,4,0.6,1.46,168,0,0,2,2,4,0,0,0,0,0,,2032,0.8
+ladder2,e4b_diff_blocks_v1,rich_3676,1,rich,0,"gold lines, misses a gold file",2,8,9,0,,1,3,1,1,1,1,1,6,1,9,0.2,2.64,42,0,2,3,0,3,2,0,2,1,0,,4769,0.9
+ladder2,e4b_diff_blocks_v1,rich_3676,2,rich,1,gold lines,2,8,3,0,,1,,1,1,1,1,1,2,1,3,0.2,1.18,42,0,0,2,1,3,0,0,1,0,0,,2369,0.2
+ladder2,e4b_diff_blocks_v1,rich_3676,3,rich,1,gold lines,2,8,6,0,,1,,1,1,1,1,1,4,3,6,0.3,2.08,42,0,1,4,0,5,0,0,2,1,0,,13355,1.4
+ladder2,e4b_diff_blocks_v1,rich_3718,1,rich,1,gold lines,1,3,3,0,,1,,1,1,2,1,1,2,1,3,,0.8,749,0,0,2,1,3,0,0,1,0,0,,4035,0.5
+ladder2,e4b_diff_blocks_v1,rich_3718,2,rich,1,gold lines,1,3,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.64,749,0,0,1,1,2,0,0,0,0,0,,3275,0.3
+ladder2,e4b_diff_blocks_v1,rich_3718,3,rich,1,gold lines,1,3,3,0,,1,,1,0,2,1,1,2,1,3,,1.11,749,0,0,2,1,3,0,0,1,0,0,,10292,0.6
+ladder2,e4b_diff_blocks_v1,rich_3772,1,rich,1,gold lines,1,6,3,0,,1,,1,1,1,1,1,1,1,3,0.6,0.89,131,0,0,1,2,3,0,0,0,0,0,,6112,0.6
+ladder2,e4b_diff_blocks_v1,rich_3772,2,rich,0,no patch,1,6,6,0,,1,,1,1,,,0,1,0,6,,6.82,131,0,0,1,4,2,3,0,1,0,0,,8108,
+ladder2,e4b_diff_blocks_v1,rich_3772,3,rich,1,gold lines,1,6,3,0,,1,,1,1,1,1,1,1,1,3,0.6,0.9,131,0,0,1,2,3,0,0,0,0,0,,5620,0.7
+ladder2,e4b_diff_blocks_v1,rich_3777,1,rich,0,no patch,2,3,7,0,,1,,1,0,,,0,4,0,7,,1.7,341,0,0,4,1,3,2,0,4,0,0,,8424,
+ladder2,e4b_diff_blocks_v1,rich_3777,2,rich,1,gold lines,2,3,4,0,,1,,1,1,2,1,1,3,2,4,,1.35,341,0,0,3,1,4,0,0,1,0,0,,3466,1.1
+ladder2,e4b_diff_blocks_v1,rich_3777,3,rich,1,gold lines,2,3,4,0,,1,,1,1,2,1,1,3,2,4,,1.13,341,0,0,3,1,4,0,0,1,0,0,,3962,0.8
+ladder2,e4b_diff_blocks_v1,rich_3882,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.83,652,0,0,1,1,2,0,0,0,0,0,,893,0.2
+ladder2,e4b_diff_blocks_v1,rich_3882,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.89,652,0,1,1,1,3,0,0,0,1,0,,2954,0.2
+ladder2,e4b_diff_blocks_v1,rich_3882,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.86,652,0,0,1,1,2,0,0,0,0,0,,1558,0.2
+ladder2,e4b_diff_blocks_v1,rich_3894,1,rich,0,no patch,1,1,2,0,,,,,,,,0,0,0,2,,1.05,1974,0,0,0,2,2,0,0,0,0,0,,1169,0.4
+ladder2,e4b_diff_blocks_v1,rich_3894,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.95,1974,0,1,1,1,3,0,0,0,1,0,,2482,0.3
+ladder2,e4b_diff_blocks_v1,rich_3894,3,rich,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,1.02,1974,0,0,1,2,2,1,0,0,0,0,,3245,0.2
+ladder2,e4b_diff_blocks_v1,rich_3905,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.91,1672,0,0,1,1,2,0,0,0,0,0,,2339,0.2
+ladder2,e4b_diff_blocks_v1,rich_3905,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.9,1672,0,0,1,1,2,0,0,0,0,0,,1483,0.2
+ladder2,e4b_diff_blocks_v1,rich_3905,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.96,1672,0,0,1,1,2,0,0,0,0,0,,1716,0.3
+ladder2,e4b_diff_blocks_v1,rich_3934,1,rich,1,gold lines,2,3,4,0,,1,,1,1,1,1,1,3,2,4,0.3,1.49,64,0,0,3,1,3,1,0,1,0,0,,8039,0.7
+ladder2,e4b_diff_blocks_v1,rich_3934,2,rich,1,gold lines,2,3,3,0,,1,,1,1,1,1,1,2,2,3,0.5,1.4,64,0,0,2,1,3,0,0,0,0,0,,5688,0.6
+ladder2,e4b_diff_blocks_v1,rich_3934,3,rich,1,gold lines,2,3,3,0,,1,,1,1,1,1,1,2,2,3,0.3,1.12,64,0,0,2,1,3,0,0,0,0,0,,1495,0.4
+ladder2,e4b_diff_blocks_v1,rich_3935,1,rich,1,gold lines,1,5,3,0,,1,,1,1,1,1,1,1,1,3,0.3,1.34,75,0,0,1,2,3,0,0,0,0,0,,6557,0.6
+ladder2,e4b_diff_blocks_v1,rich_3935,2,rich,1,gold lines,1,5,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.6,75,0,0,1,1,2,0,0,0,0,0,,7280,0.5
+ladder2,e4b_diff_blocks_v1,rich_3935,3,rich,1,gold lines,1,5,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.53,75,0,0,1,1,2,0,0,0,0,0,,10703,0.5
+ladder2,e4b_diff_blocks_v1,rich_3938,1,rich,1,gold lines,2,2,3,0,,1,,1,1,1,1,1,2,2,3,0.4,1.29,89,0,0,2,1,3,0,0,0,0,0,,6265,0.6
+ladder2,e4b_diff_blocks_v1,rich_3938,2,rich,0,gold lines,2,2,5,0,,1,,1,1,1,1,1,3,2,5,0.4,1.53,89,0,0,3,2,5,0,0,1,0,0,,7837,0.8
+ladder2,e4b_diff_blocks_v1,rich_3938,3,rich,0,gold lines,2,2,3,0,,1,,1,1,1,1,1,2,2,3,0.3,1.33,89,0,0,2,1,3,0,0,0,0,0,,6342,0.5
+ladder2,e4b_diff_blocks_v1,rich_3942,1,rich,1,gold lines,2,7,3,0,,1,,1,1,1,1,1,2,2,3,0.2,1.23,54,0,0,2,1,3,0,0,0,0,0,,3090,0.5
+ladder2,e4b_diff_blocks_v1,rich_3942,2,rich,1,gold lines,2,7,4,0,,1,,1,0,2,1,1,3,2,4,,1.56,54,0,0,3,1,4,0,0,1,0,0,,5198,0.7
+ladder2,e4b_diff_blocks_v1,rich_3942,3,rich,0,gold lines,2,7,4,0,,1,,1,1,1,1,1,3,2,4,0.8,2.7,54,0,0,3,1,4,0,0,1,0,0,,19249,1.6
+ladder2,e4b_diff_blocks_v1,rich_3944,1,rich,0,no patch,1,1,5,0,,1,,1,0,,,0,1,0,5,,1.75,63,0,1,1,3,5,0,0,2,1,0,,7774,1.1
+ladder2,e4b_diff_blocks_v1,rich_3944,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.84,63,0,0,1,1,2,0,0,0,0,0,,1372,0.2
+ladder2,e4b_diff_blocks_v1,rich_3944,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.82,63,0,0,1,1,2,0,0,0,0,0,,1367,0.2
+ladder2,e4b_diff_blocks_v1,rich_3953,1,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.73,130,0,0,1,1,2,0,0,0,0,0,,3860,0.4
+ladder2,e4b_diff_blocks_v1,rich_3953,2,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.72,130,0,0,1,1,2,0,0,0,0,0,,833,0.4
+ladder2,e4b_diff_blocks_v1,rich_3953,3,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.57,130,0,0,1,1,2,0,0,0,0,0,,1479,0.3
+ladder2,e4b_diff_blocks_v1,rich_4006,1,rich,0,no patch,1,2,4,0,,1,,1,0,,,0,2,0,4,,6.29,96,0,0,2,2,3,1,0,2,0,0,,9643,1.0
+ladder2,e4b_diff_blocks_v1,rich_4006,2,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.68,96,0,0,1,1,2,0,0,0,0,0,,874,0.4
+ladder2,e4b_diff_blocks_v1,rich_4006,3,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.4,0.69,96,0,0,1,1,2,0,0,0,0,0,,1192,0.4
+ladder2,e4b_diff_blocks_v1,rich_4075,1,rich,0,no patch,1,4,5,0,,1,2,1,1,,,0,3,0,5,0.3,1.84,101,0,1,3,1,3,2,0,3,1,0,,14424,1.1
+ladder2,e4b_diff_blocks_v1,rich_4075,2,rich,1,gold lines,1,4,3,0,,1,,1,1,1,1,1,1,1,3,0.3,1.04,101,0,0,1,2,3,0,0,0,0,0,,2914,0.4
+ladder2,e4b_diff_blocks_v1,rich_4075,3,rich,0,no patch,1,4,2,0,,,,,,,,0,0,0,2,,0.87,101,0,0,0,2,2,0,0,0,0,0,,3065,0.2
+ladder2,e4b_diff_blocks_v1,rich_4076,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.51,71,0,0,1,1,2,0,0,0,0,0,,13058,0.3
+ladder2,e4b_diff_blocks_v1,rich_4076,2,rich,1,gold lines,1,1,4,0,,3,,3,1,3,1,1,1,1,4,0.4,1.26,71,0,0,1,3,4,0,0,2,0,0,,7251,0.4
+ladder2,e4b_diff_blocks_v1,rich_4076,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.17,71,0,0,1,1,2,0,0,0,0,0,,6816,0.2
+ladder2,e4b_diff_blocks_v1,rich_4077,1,rich,1,gold lines,1,1,3,0,,1,,2,1,2,1,1,1,1,3,0.2,0.82,66,1,0,1,1,3,0,0,0,0,2,0.0,727,0.2
+ladder2,e4b_diff_blocks_v1,rich_4077,2,rich,1,gold lines,1,1,6,0,,1,,4,1,4,1,1,1,1,6,0.3,0.95,66,2,1,1,1,5,0,2,1,1,0,0.0,2364,0.3
+ladder2,e4b_diff_blocks_v1,rich_4077,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.1,0.8,66,0,0,1,1,2,0,0,0,0,0,,1267,0.1
+ladder2,e4b_diff_v1,fastapi_11355,1,fastapi,0,no patch,1,3,1,0,,,,,,,,0,0,0,1,,1.53,299,0,0,0,1,1,0,0,0,0,0,,1801,
+ladder2,e4b_diff_v1,fastapi_11355,2,fastapi,1,gold lines,1,3,4,0,,1,,1,1,1,1,1,3,3,4,0.7,1.62,299,0,0,3,1,4,0,0,0,0,0,,4372,0.9
+ladder2,e4b_diff_v1,fastapi_11355,3,fastapi,1,gold lines,1,3,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.36,299,0,0,1,1,2,0,0,0,0,0,,2048,0.6
+ladder2,e4b_diff_v1,fastapi_12942,1,fastapi,0,no patch,1,1,2,0,,,,,,,,0,0,0,2,,0.89,1392,0,0,0,2,2,0,0,1,0,0,,3053,
+ladder2,e4b_diff_v1,fastapi_12942,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.5,0.82,1392,0,0,1,1,2,0,0,0,0,0,,1205,0.5
+ladder2,e4b_diff_v1,fastapi_12942,3,fastapi,1,gold lines,1,1,4,0,,2,,,,,,0,0,0,4,,2.41,1392,0,0,0,4,4,0,0,1,0,0,,7342,2.1
+ladder2,e4b_diff_v1,fastapi_13207,1,fastapi,1,gold lines,1,2,8,0,,1,3,1,0,6,1,1,5,2,8,3.0,4.6,354,1,1,3,0,4,1,0,3,1,1,0.0,7371,3.4
+ladder2,e4b_diff_v1,fastapi_13207,2,fastapi,1,gold lines,1,2,6,0,,1,,1,1,4,1,1,4,2,6,0.2,1.27,354,1,0,4,0,5,0,1,2,0,0,0.0,5974,0.6
+ladder2,e4b_diff_v1,fastapi_13207,3,fastapi,1,gold lines,1,2,7,0,,1,,1,1,3,1,1,6,3,7,0.3,2.0,354,0,0,5,0,4,1,0,3,0,0,,14761,1.1
+ladder2,e4b_diff_v1,fastapi_13713,1,fastapi,0,no patch,2,5,7,0,,1,2,3,1,,,0,4,0,7,0.7,1.71,756,1,1,3,0,5,0,0,3,1,292,1.0,11810,1.1
+ladder2,e4b_diff_v1,fastapi_13713,2,fastapi,0,gold lines,2,5,6,0,,1,2,3,1,3,1,1,3,3,6,0.5,1.07,756,1,1,3,0,5,0,1,0,1,0,1.0,6307,0.7
+ladder2,e4b_diff_v1,fastapi_13713,3,fastapi,0,gold lines,2,5,6,0,,1,1,2,1,2,1,1,4,4,6,0.5,1.09,756,0,1,4,0,5,0,0,0,1,0,,8039,0.8
+ladder2,e4b_diff_v1,fastapi_13920,1,fastapi,0,no patch,1,2,1,0,,,,,,,,0,0,0,1,,1.06,225,0,0,0,1,1,0,0,0,0,0,,719,
+ladder2,e4b_diff_v1,fastapi_13920,2,fastapi,1,gold lines,1,2,5,0,,1,2,3,1,3,1,1,2,2,5,0.4,0.83,225,1,1,2,1,5,0,1,0,1,0,0.0,4605,0.5
+ladder2,e4b_diff_v1,fastapi_13920,3,fastapi,1,gold lines,1,2,5,0,,1,4,1,1,1,1,1,3,2,5,0.2,1.13,225,0,1,3,1,5,0,0,1,1,0,,5856,0.7
+ladder2,e4b_diff_v1,fastapi_14246,1,fastapi,1,gold lines,1,1,3,0,,1,,1,1,2,1,1,2,1,3,0.3,1.15,273,0,0,2,1,3,0,0,1,0,0,,7356,0.8
+ladder2,e4b_diff_v1,fastapi_14246,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,0.8,273,0,1,1,1,3,0,0,0,1,0,,4199,0.5
+ladder2,e4b_diff_v1,fastapi_14246,3,fastapi,1,gold lines,1,1,4,0,,1,2,1,1,3,1,1,2,1,4,0.7,1.42,273,0,1,2,1,4,0,0,1,1,0,,12478,1.1
+ladder2,e4b_diff_v1,fastapi_14258,1,fastapi,1,gold lines,1,1,6,0,,1,,4,1,5,1,1,2,1,6,1.0,1.98,418,2,1,2,0,5,0,0,1,1,2,0.0,12458,1.3
+ladder2,e4b_diff_v1,fastapi_14258,2,fastapi,1,gold lines,1,1,9,0,,1,3,1,1,7,1,1,5,1,9,0.8,2.47,418,0,2,3,0,5,0,0,3,1,0,,6003,1.2
+ladder2,e4b_diff_v1,fastapi_14258,3,fastapi,0,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,0.9,1.74,418,0,0,2,1,3,0,0,0,0,0,,5920,1.1
+ladder2,e4b_diff_v1,fastapi_14266,1,fastapi,1,gold lines,1,2,4,0,,1,1,2,1,2,1,1,2,2,4,0.7,1.16,247,0,1,2,1,4,0,0,0,1,0,,8717,0.9
+ladder2,e4b_diff_v1,fastapi_14266,2,fastapi,1,gold lines,1,2,5,0,,1,,1,1,1,1,1,3,2,5,0.6,1.27,247,1,0,3,1,5,0,0,0,0,1,0.0,9292,0.9
+ladder2,e4b_diff_v1,fastapi_14266,3,fastapi,1,gold lines,1,2,6,0,,1,2,3,1,3,1,1,1,1,6,0.6,1.34,247,1,1,1,2,5,0,1,1,1,0,0.0,9727,0.8
+ladder2,e4b_diff_v1,fastapi_14301,1,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.95,739,0,0,1,1,2,0,0,0,0,0,,2146,0.2
+ladder2,e4b_diff_v1,fastapi_14301,2,fastapi,1,gold lines,1,1,3,0,,1,,1,0,2,1,1,2,1,3,,1.56,739,0,0,2,1,3,0,0,1,0,0,,3862,0.8
+ladder2,e4b_diff_v1,fastapi_14301,3,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,1.6,739,0,0,0,1,1,0,0,0,0,0,,0,
+ladder2,e4b_diff_v1,fastapi_14306,1,fastapi,0,no patch,2,12,4,0,,1,,1,1,,,0,3,0,4,,5.41,2791,0,0,3,1,4,0,0,3,0,0,,5024,
+ladder2,e4b_diff_v1,fastapi_14306,2,fastapi,0,no patch,2,12,4,0,,1,1,,,,,0,0,0,4,,3.65,2791,0,2,0,2,4,0,0,0,2,0,,5017,0.3
+ladder2,e4b_diff_v1,fastapi_14306,3,fastapi,0,no patch,2,12,3,0,,1,,,,,,0,0,0,3,,0.65,2791,1,1,0,1,3,0,0,0,1,1,0.667,4329,0.3
+ladder2,e4b_diff_v1,fastapi_14349,1,fastapi,1,gold lines,1,1,4,0,,1,,3,1,3,1,1,1,1,4,0.3,0.61,169,2,0,1,1,4,0,0,0,0,6,1.0,2665,0.3
+ladder2,e4b_diff_v1,fastapi_14349,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,0.85,169,0,1,1,1,3,0,0,0,1,0,,5565,0.5
+ladder2,e4b_diff_v1,fastapi_14349,3,fastapi,1,gold lines,1,1,4,0,,1,,3,1,3,1,1,1,1,4,0.8,1.11,169,2,0,1,1,4,0,0,0,0,6,1.0,10619,0.8
+ladder2,e4b_diff_v1,fastapi_14356,1,fastapi,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.6,1.39,1481,0,1,1,2,4,0,0,0,1,0,,6674,0.7
+ladder2,e4b_diff_v1,fastapi_14356,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.4,1.08,1481,0,0,1,1,2,0,0,0,0,0,,1566,0.4
+ladder2,e4b_diff_v1,fastapi_14356,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.21,1481,0,0,1,1,2,0,0,0,0,0,,2993,0.5
+ladder2,e4b_diff_v1,fastapi_14360,1,fastapi,1,gold lines,1,1,1,0,,1,,1,1,1,1,1,1,1,,0.7,1.82,753,0,0,1,0,1,0,0,0,0,0,,5245,0.7
+ladder2,e4b_diff_v1,fastapi_14360,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.17,753,0,0,1,1,2,0,0,0,0,0,,2741,0.5
+ladder2,e4b_diff_v1,fastapi_14360,3,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,1.7,753,0,0,0,1,1,0,0,0,0,0,,4325,
+ladder2,e4b_diff_v1,fastapi_14361,1,fastapi,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.3,0.6,96,1,1,1,1,4,0,0,0,1,7,0.0,2026,0.3
+ladder2,e4b_diff_v1,fastapi_14361,2,fastapi,1,gold lines,1,1,4,0,,1,2,1,0,3,1,1,2,1,4,,0.64,96,0,1,2,1,4,0,0,1,1,0,,4692,0.3
+ladder2,e4b_diff_v1,fastapi_14361,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,0.7,96,0,1,1,1,3,0,0,0,1,0,,5047,0.4
+ladder2,e4b_diff_v1,fastapi_14372,1,fastapi,1,gold lines,2,3,8,0,,1,,1,1,1,1,1,7,4,8,1.0,2.23,1160,0,0,5,0,4,1,0,2,0,0,,3467,1.4
+ladder2,e4b_diff_v1,fastapi_14372,2,fastapi,1,gold lines,2,3,5,0,,1,,1,1,1,1,1,4,4,5,0.6,1.73,1160,0,0,4,1,5,0,0,0,0,0,,5166,1.0
+ladder2,e4b_diff_v1,fastapi_14372,3,fastapi,0,no patch,2,3,3,0,,,,,,,,0,0,0,3,,1.57,1160,0,0,0,3,2,1,0,2,0,0,,4985,
+ladder2,e4b_diff_v1,fastapi_14419,1,fastapi,0,gold lines,2,7,8,0,,1,,1,1,1,1,1,7,2,8,0.7,5.58,689,0,0,5,0,5,0,0,3,0,0,,24032,3.5
+ladder2,e4b_diff_v1,fastapi_14419,2,fastapi,0,gold lines,2,7,8,0,,1,,1,1,1,1,1,7,4,8,0.5,3.32,689,0,0,5,0,5,0,0,3,0,0,,7272,1.6
+ladder2,e4b_diff_v1,fastapi_14419,3,fastapi,0,"gold lines, misses a gold file",2,7,6,0,,1,1,2,1,2,1,1,4,1,6,0.4,3.11,689,0,1,4,0,5,0,0,3,1,0,,6840,2.1
+ladder2,e4b_diff_v1,fastapi_14430,1,fastapi,1,gold lines,1,2,6,0,,2,,4,1,4,1,1,2,2,6,1.1,1.47,335,0,0,2,3,4,1,0,3,0,0,,7765,1.2
+ladder2,e4b_diff_v1,fastapi_14430,2,fastapi,1,gold lines,1,2,5,0,,1,1,2,0,3,1,1,3,2,5,,0.87,335,0,1,3,1,5,0,0,1,1,0,,7344,0.5
+ladder2,e4b_diff_v1,fastapi_14430,3,fastapi,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,2,2,3,0.4,0.89,335,0,0,2,1,3,0,0,0,0,0,,4055,0.6
+ladder2,e4b_diff_v1,fastapi_14448,1,fastapi,0,gold lines,2,3,3,0,,1,,1,1,,,0,2,0,3,,1.47,1226,0,0,2,1,3,0,0,2,0,0,,4065,
+ladder2,e4b_diff_v1,fastapi_14448,2,fastapi,0,no patch,2,3,2,0,,,,,,,,0,0,0,1,,1.13,1226,0,0,0,2,1,1,0,0,0,0,,6132,
+ladder2,e4b_diff_v1,fastapi_14448,3,fastapi,0,gold lines,2,3,4,0,,1,,1,1,1,1,1,3,2,4,0.7,2.21,1226,0,0,3,1,4,0,0,1,0,0,,15542,1.4
+ladder2,e4b_diff_v1,fastapi_14455,1,fastapi,0,gold lines,1,2,4,0,,1,,1,1,2,1,1,2,1,4,0.4,1.36,283,0,0,2,2,4,0,0,1,0,0,,5132,0.6
+ladder2,e4b_diff_v1,fastapi_14455,2,fastapi,1,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.14,283,0,1,1,1,3,0,0,0,1,0,,4499,0.4
+ladder2,e4b_diff_v1,fastapi_14455,3,fastapi,1,gold lines,1,2,4,0,,1,2,1,1,3,1,1,2,1,4,0.2,1.53,283,0,1,2,1,4,0,0,1,1,0,,9374,0.8
+ladder2,e4b_diff_v1,fastapi_14458,1,fastapi,0,no patch,1,4,4,0,,1,,1,0,,,0,3,0,4,,1.61,591,0,0,3,1,2,2,0,3,0,0,,6749,
+ladder2,e4b_diff_v1,fastapi_14458,2,fastapi,0,gold lines,1,4,6,0,,1,,1,1,1,1,1,5,3,6,0.6,1.54,591,0,0,5,0,4,1,0,2,0,0,,9159,1.3
+ladder2,e4b_diff_v1,fastapi_14458,3,fastapi,1,gold lines,1,4,8,0,,1,5,1,1,1,1,1,6,3,8,0.2,1.61,591,0,1,4,0,4,1,0,2,1,0,,7944,0.8
+ladder2,e4b_diff_v1,fastapi_14459,1,fastapi,0,gold lines,3,8,7,0,,1,1,2,1,4,1,1,5,3,7,,3.22,815,0,1,4,0,5,0,0,4,1,0,,4954,1.4
+ladder2,e4b_diff_v1,fastapi_14459,2,fastapi,0,gold lines,3,8,5,0,,1,,2,1,4,1,1,3,1,5,,1.24,815,1,0,3,1,5,0,1,2,0,0,0.0,3409,0.9
+ladder2,e4b_diff_v1,fastapi_14459,3,fastapi,0,"gold lines, misses a gold file",3,8,8,0,,2,3,2,1,4,1,1,4,1,8,0.4,3.44,815,0,2,2,1,5,0,0,2,2,0,,4925,1.0
+ladder2,e4b_diff_v1,fastapi_14463,1,fastapi,0,no patch,1,2,4,0,,1,,1,0,,,0,3,0,4,0.8,1.83,10095,0,0,3,1,3,1,0,2,0,0,,6375,1.1
+ladder2,e4b_diff_v1,fastapi_14463,2,fastapi,1,gold lines,1,2,4,0,,1,,2,1,2,1,1,2,2,4,0.3,1.09,10095,1,0,2,1,4,0,1,0,0,0,1.0,4301,0.4
+ladder2,e4b_diff_v1,fastapi_14463,3,fastapi,0,no patch,1,2,0,0,Agent exceeded turns budget (100 turns),,,,,,,0,0,0,,,1.49,10095,0,0,0,0,,0,0,0,,,,0,
+ladder2,e4b_diff_v1,fastapi_14479,1,fastapi,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.5,1.2,2455,0,1,1,2,4,0,0,0,1,0,,5790,0.5
+ladder2,e4b_diff_v1,fastapi_14479,2,fastapi,0,no patch,1,1,5,0,,1,2,1,0,,,0,1,0,5,0.6,1.5,2455,0,1,1,3,5,0,0,1,1,0,,5697,0.6
+ladder2,e4b_diff_v1,fastapi_14479,3,fastapi,0,gold lines,1,1,5,0,,1,,,,,,0,0,0,5,,2.55,2455,0,0,0,5,5,0,0,2,0,0,,8584,
+ladder2,e4b_diff_v1,fastapi_14482,1,fastapi,1,gold lines,1,5,8,0,,2,,3,1,3,1,1,5,5,8,0.2,1.71,266,0,0,3,2,5,0,0,0,0,0,,1938,0.4
+ladder2,e4b_diff_v1,fastapi_14482,2,fastapi,0,gold lines,1,5,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.31,266,0,0,1,1,2,0,0,0,0,0,,2848,0.3
+ladder2,e4b_diff_v1,fastapi_14482,3,fastapi,0,gold lines,1,5,7,0,,1,,1,0,2,1,1,6,4,7,,2.29,266,0,0,5,0,5,0,0,2,0,0,,10636,1.3
+ladder2,e4b_diff_v1,fastapi_14485,1,fastapi,0,no patch,1,2,6,0,,1,3,1,0,,,0,3,0,6,,2.57,317,0,1,3,1,5,0,0,3,1,0,,14685,1.8
+ladder2,e4b_diff_v1,fastapi_14485,2,fastapi,0,no patch,1,2,8,0,,1,2,1,1,,,0,5,0,8,0.8,3.62,317,0,1,4,0,4,1,0,4,1,0,,20848,2.0
+ladder2,e4b_diff_v1,fastapi_14485,3,fastapi,0,no patch,1,2,1,0,,,,,,,,0,0,0,1,,1.48,317,0,0,0,1,1,0,0,0,0,0,,2620,
+ladder2,e4b_diff_v1,fastapi_14487,1,fastapi,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.3,0.78,204,0,1,1,2,4,0,0,0,1,0,,6328,0.5
+ladder2,e4b_diff_v1,fastapi_14487,2,fastapi,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.72,204,0,0,1,2,3,0,0,0,0,0,,4895,0.4
+ladder2,e4b_diff_v1,fastapi_14487,3,fastapi,1,gold lines,1,1,5,0,,1,2,1,1,3,1,1,2,1,5,0.2,0.94,204,0,1,2,2,5,0,0,1,1,0,,9009,0.6
+ladder2,e4b_diff_v1,fastapi_14492,1,fastapi,0,no patch,1,1,0,0,Agent exceeded turns budget (100 turns),,,,,,,0,0,0,,,1.99,159,0,0,0,0,,0,0,0,,,,0,
+ladder2,e4b_diff_v1,fastapi_14492,2,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.99,159,0,0,1,1,2,0,0,0,0,0,,4780,0.2
+ladder2,e4b_diff_v1,fastapi_14492,3,fastapi,1,gold lines,1,1,6,0,,1,,1,0,2,1,1,2,1,6,0.7,1.83,159,2,0,2,1,5,0,1,1,0,1,1.0,8018,1.0
+ladder2,e4b_diff_v1,fastapi_14512,1,fastapi,0,gold lines,1,3,3,0,,1,,1,1,2,1,1,2,1,3,,1.59,289,0,0,2,1,3,0,0,2,0,0,,7640,1.1
+ladder2,e4b_diff_v1,fastapi_14512,2,fastapi,1,gold lines,1,3,2,0,,1,,1,1,1,1,1,1,1,2,0.8,1.21,289,0,0,1,1,2,0,0,0,0,0,,4272,0.8
+ladder2,e4b_diff_v1,fastapi_14512,3,fastapi,0,gold lines,1,3,7,0,,1,,1,1,1,1,1,6,4,7,0.6,2.85,289,0,0,5,0,5,0,0,1,0,0,,7799,2.3
+ladder2,e4b_diff_v1,fastapi_14786,1,fastapi,1,gold lines,1,1,4,0,,1,,1,1,2,1,1,2,1,4,,1.21,2303,0,0,2,2,4,0,0,2,0,0,,3258,0.3
+ladder2,e4b_diff_v1,fastapi_14786,2,fastapi,0,no patch,1,1,1,0,,,,,,,,0,0,0,1,,1.0,2303,0,0,0,1,1,0,0,0,0,0,,276,
+ladder2,e4b_diff_v1,fastapi_14786,3,fastapi,1,gold lines,1,1,4,0,,1,,,,,,0,0,0,4,,1.12,2303,0,0,0,4,4,0,0,1,0,0,,2331,0.4
+ladder2,e4b_diff_v1,fastapi_14794,1,fastapi,1,gold lines,1,2,3,0,,1,,1,1,2,1,1,2,1,3,0.2,1.04,816,0,0,2,1,3,0,0,1,0,0,,9346,0.7
+ladder2,e4b_diff_v1,fastapi_14794,2,fastapi,1,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.6,0.88,816,0,1,1,1,3,0,0,0,1,0,,7135,0.6
+ladder2,e4b_diff_v1,fastapi_14794,3,fastapi,1,gold lines,1,2,3,0,,1,,1,1,2,1,1,2,1,3,0.2,0.98,816,0,0,2,1,3,0,0,1,0,0,,8624,0.7
+ladder2,e4b_diff_v1,fastapi_14873,1,fastapi,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,2,2,3,0.4,0.85,674,0,0,2,1,3,0,0,0,0,0,,2839,0.6
+ladder2,e4b_diff_v1,fastapi_14873,2,fastapi,1,gold lines,1,2,4,0,,1,,1,1,1,1,1,3,2,4,0.6,1.45,674,0,0,3,1,4,0,0,1,0,0,,12233,1.1
+ladder2,e4b_diff_v1,fastapi_14873,3,fastapi,0,gold lines,1,2,3,0,,1,,1,1,1,1,1,2,2,3,0.5,0.96,674,0,0,2,1,3,0,0,0,0,0,,4623,0.6
+ladder2,e4b_diff_v1,fastapi_14986,1,fastapi,0,"gold lines, misses a gold file",2,4,8,0,,1,,1,1,7,1,1,7,1,8,0.4,2.11,1000,0,0,5,0,3,2,0,4,0,0,,15543,1.4
+ladder2,e4b_diff_v1,fastapi_14986,2,fastapi,0,gold lines,2,4,11,0,,1,2,5,1,5,1,1,5,4,11,0.6,1.59,1000,2,2,1,0,5,0,2,0,2,0,0.333,5696,0.6
+ladder2,e4b_diff_v1,fastapi_14986,3,fastapi,0,"gold lines, misses a gold file",2,4,4,0,,1,,2,1,2,1,1,2,1,4,0.6,1.24,1000,0,0,2,2,4,0,0,1,0,0,,10368,0.6
+ladder2,e4b_diff_v1,fastapi_15023,1,fastapi,0,no patch,1,1,16,0,,2,4,2,1,,,0,7,0,16,1.3,3.26,112,1,2,1,1,5,0,1,2,1,0,0.4,7601,1.4
+ladder2,e4b_diff_v1,fastapi_15023,2,fastapi,1,gold lines,1,1,8,0,,1,1,2,1,4,1,1,5,2,8,0.2,1.78,112,0,1,4,0,4,1,0,3,1,0,,8070,0.7
+ladder2,e4b_diff_v1,fastapi_15023,3,fastapi,1,gold lines,1,1,4,0,,1,,1,0,2,1,1,2,1,4,,1.5,112,0,0,2,2,4,0,0,1,0,0,,7424,0.7
+ladder2,e4b_diff_v1,fastapi_15588,1,fastapi,1,gold lines,1,2,7,0,,1,2,3,1,3,1,1,3,2,7,0.5,1.87,1891,1,2,2,0,5,0,1,1,1,0,0.0,6071,0.9
+ladder2,e4b_diff_v1,fastapi_15588,2,fastapi,1,gold lines,1,2,5,0,,1,1,2,1,2,1,1,3,3,5,0.6,1.74,1891,0,1,3,1,5,0,0,0,1,0,,9612,1.0
+ladder2,e4b_diff_v1,fastapi_15588,3,fastapi,0,gold lines,1,2,7,0,,1,2,1,1,4,1,1,5,2,7,0.5,2.45,1891,0,1,4,0,5,0,0,3,1,0,,13664,1.4
+ladder2,e4b_diff_v1,fastapi_15589,1,fastapi,1,gold lines,1,1,4,0,,1,,2,1,2,1,1,1,1,4,0.3,1.13,1247,1,0,1,2,4,0,1,0,0,0,0.0,4330,0.4
+ladder2,e4b_diff_v1,fastapi_15589,2,fastapi,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.5,1.29,1247,1,1,1,1,4,0,0,0,1,5,0.0,8976,0.5
+ladder2,e4b_diff_v1,fastapi_15589,3,fastapi,1,gold lines,1,1,3,0,,1,,2,1,2,1,1,1,1,3,0.3,1.19,1247,1,0,1,1,3,0,1,0,0,0,0.0,5947,0.3
+ladder2,e4b_diff_v1,fastapi_5077,1,fastapi,0,no patch,1,2,4,0,,1,,1,1,,,0,3,0,4,2.3,2.82,2679,0,0,3,1,2,2,0,3,0,0,,5876,2.4
+ladder2,e4b_diff_v1,fastapi_5077,2,fastapi,0,no patch,1,2,7,0,,1,1,2,1,,,0,3,0,7,0.9,1.91,2679,0,2,3,0,4,1,0,2,1,0,,7051,1.2
+ladder2,e4b_diff_v1,fastapi_5077,3,fastapi,0,no patch,1,2,2,1,Sandbox execution error: No LlmAgent mod,,,,,,,0,0,0,,,2.28,2679,0,0,0,2,2,0,0,2,0,0,,1686,
+ladder2,e4b_diff_v1,fastapi_5624,1,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.01,63,0,1,1,1,3,0,0,0,1,0,,4125,0.3
+ladder2,e4b_diff_v1,fastapi_5624,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.05,63,0,1,1,1,3,0,0,0,1,0,,4377,0.3
+ladder2,e4b_diff_v1,fastapi_5624,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.0,63,0,1,1,1,3,0,0,0,1,0,,3612,0.3
+ladder2,e4b_diff_v1,fastapi_9425,1,fastapi,0,no patch,1,1,3,0,,,,,,,,0,0,0,3,,0.98,235,0,0,0,3,2,1,0,0,0,0,,4261,0.6
+ladder2,e4b_diff_v1,fastapi_9425,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,0.8,235,0,1,1,1,3,0,0,0,1,0,,6706,0.4
+ladder2,e4b_diff_v1,fastapi_9425,3,fastapi,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.57,235,0,0,1,1,2,0,0,0,0,0,,1799,0.2
+ladder2,e4b_diff_v1,fastapi_9555,1,fastapi,1,gold lines,1,1,5,0,,2,,,,,,0,0,0,5,,1.4,2934,0,0,0,5,4,1,0,1,0,0,,6059,1.0
+ladder2,e4b_diff_v1,fastapi_9555,2,fastapi,1,gold lines,1,1,3,0,,1,,2,1,2,1,1,1,1,3,0.7,1.07,2934,0,0,1,2,3,0,0,0,0,0,,4594,0.7
+ladder2,e4b_diff_v1,fastapi_9555,3,fastapi,0,no patch,1,1,2,0,,,,,,,,0,0,0,2,,0.87,2934,0,0,0,2,2,0,0,1,0,0,,2936,
+ladder2,e4b_diff_v1,fastapi_9753,1,fastapi,1,gold lines,1,2,4,0,,1,2,1,0,3,1,1,2,1,4,0.6,1.14,689,0,1,2,1,3,1,0,1,1,0,,4780,0.8
+ladder2,e4b_diff_v1,fastapi_9753,2,fastapi,0,no patch,1,2,1,0,,,,,,,,0,0,0,1,,1.26,689,0,0,0,1,1,0,0,0,0,0,,2279,
+ladder2,e4b_diff_v1,fastapi_9753,3,fastapi,0,no patch,1,2,2,0,,1,,1,1,,,0,1,0,2,,2.41,689,0,0,1,1,2,0,0,1,0,0,,3916,
+ladder2,e4b_diff_v1,rich_2725,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.91,1779,0,0,1,1,2,0,0,0,0,0,,2353,0.3
+ladder2,e4b_diff_v1,rich_2725,2,rich,1,gold lines,1,1,4,0,,1,,2,1,3,1,1,2,1,4,0.3,1.36,1779,1,0,2,1,4,0,1,1,0,0,0.0,7545,0.7
+ladder2,e4b_diff_v1,rich_2725,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.13,1779,0,1,1,1,3,0,0,0,1,0,,5963,0.5
+ladder2,e4b_diff_v1,rich_2943,1,rich,1,gold lines,1,1,6,0,,1,,2,1,4,1,1,2,1,6,0.2,1.18,473,2,0,2,1,5,0,0,2,0,2,0.0,6149,0.4
+ladder2,e4b_diff_v1,rich_2943,2,rich,1,gold lines,1,1,3,0,,1,,1,1,2,1,1,2,1,3,0.1,0.9,473,0,0,2,1,3,0,0,1,0,0,,1837,0.2
+ladder2,e4b_diff_v1,rich_2943,3,rich,1,gold lines,1,1,4,0,,1,1,2,1,3,1,1,2,1,4,0.2,1.04,473,0,1,2,1,4,0,0,1,1,0,,3243,0.3
+ladder2,e4b_diff_v1,rich_3006,1,rich,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.92,677,0,0,1,2,3,0,0,0,0,0,,3055,0.3
+ladder2,e4b_diff_v1,rich_3006,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.86,677,0,0,1,1,2,0,0,0,0,0,,1770,0.2
+ladder2,e4b_diff_v1,rich_3006,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.1,0.77,677,0,0,1,1,2,0,0,0,0,0,,987,0.1
+ladder2,e4b_diff_v1,rich_3043,1,rich,0,gold lines,1,2,4,0,,1,1,2,1,2,1,1,2,2,4,0.6,1.39,286,0,1,2,1,4,0,0,0,1,0,,9892,0.7
+ladder2,e4b_diff_v1,rich_3043,2,rich,0,gold lines,1,2,27,1,Sandbox execution error: No LlmAgent mod,1,3,1,1,4,1,1,5,2,,0.2,4.48,286,0,1,3,1,5,0,0,2,1,0,,13168,1.1
+ladder2,e4b_diff_v1,rich_3043,3,rich,0,gold lines,1,2,5,0,,1,1,2,1,2,1,1,2,2,5,0.8,1.53,286,0,1,2,2,5,0,0,0,1,0,,6970,0.9
+ladder2,e4b_diff_v1,rich_3052,1,rich,0,gold lines,1,12,3,0,,1,,1,1,,,0,1,0,3,,0.89,863,0,0,1,2,3,0,0,1,0,0,,2306,0.6
+ladder2,e4b_diff_v1,rich_3052,2,rich,0,no patch,1,12,6,0,,1,,1,1,,,0,3,0,6,0.8,2.76,863,0,0,3,2,4,1,0,3,0,0,,10975,2.0
+ladder2,e4b_diff_v1,rich_3052,3,rich,0,no patch,1,12,6,0,,1,,1,1,,,0,4,0,6,0.7,3.08,863,0,0,4,1,5,0,0,2,0,0,,10395,2.0
+ladder2,e4b_diff_v1,rich_3061,1,rich,0,gold lines,1,13,4,0,,1,1,2,1,,,0,2,0,4,,2.93,411,0,1,2,1,4,0,0,2,1,0,,3548,0.1
+ladder2,e4b_diff_v1,rich_3061,2,rich,0,gold lines,1,13,14,0,,1,1,2,1,2,1,1,9,6,14,0.2,3.26,411,0,1,4,0,4,1,0,0,1,0,,3890,0.6
+ladder2,e4b_diff_v1,rich_3061,3,rich,0,gold lines,1,13,17,0,,1,2,1,1,3,1,1,11,5,17,0.3,2.82,411,0,1,4,0,5,0,0,2,1,0,,7104,0.8
+ladder2,e4b_diff_v1,rich_3063,1,rich,1,gold lines,1,2,2,0,,1,,1,1,1,1,1,1,1,2,0.5,1.18,85,0,0,1,1,2,0,0,0,0,0,,1535,0.5
+ladder2,e4b_diff_v1,rich_3063,2,rich,1,gold lines,1,2,3,0,,1,,1,1,1,1,1,1,1,3,0.2,0.88,85,0,0,1,2,3,0,0,0,0,0,,1009,0.2
+ladder2,e4b_diff_v1,rich_3063,3,rich,1,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.9,85,0,1,1,1,3,0,0,0,1,0,,2488,0.3
+ladder2,e4b_diff_v1,rich_3067,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.81,584,0,0,1,1,2,0,0,0,0,0,,1112,0.2
+ladder2,e4b_diff_v1,rich_3067,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.82,584,0,0,1,1,2,0,0,0,0,0,,1115,0.2
+ladder2,e4b_diff_v1,rich_3067,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.82,584,0,0,1,1,2,0,0,0,0,0,,1379,0.2
+ladder2,e4b_diff_v1,rich_3105,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.68,452,0,0,1,1,2,0,0,0,0,0,,5297,0.2
+ladder2,e4b_diff_v1,rich_3105,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.66,452,0,0,1,1,2,0,0,0,0,0,,5431,0.2
+ladder2,e4b_diff_v1,rich_3105,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.68,452,0,1,1,1,3,0,0,0,1,0,,5261,0.2
+ladder2,e4b_diff_v1,rich_3180,1,rich,0,no patch,2,4,2,0,,,,,,,,0,0,0,2,,0.51,1189,0,0,0,2,2,0,0,1,0,0,,2541,
+ladder2,e4b_diff_v1,rich_3180,2,rich,0,no patch,2,4,5,0,,1,,1,1,,,0,4,0,5,,3.49,1189,0,0,4,1,5,0,0,4,0,0,,16074,1.3
+ladder2,e4b_diff_v1,rich_3180,3,rich,0,gold lines,2,4,11,0,,1,,1,1,,,0,5,0,11,0.6,4.81,1189,0,0,3,2,5,0,0,0,0,0,,13389,1.7
+ladder2,e4b_diff_v1,rich_3278,1,rich,0,gold lines,1,1,5,0,,1,,2,1,3,1,1,2,1,5,0.5,1.63,1216,0,0,2,3,5,0,0,1,0,0,,12051,0.9
+ladder2,e4b_diff_v1,rich_3278,2,rich,0,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.5,1.31,1216,0,1,1,2,4,0,0,0,1,0,,6837,0.6
+ladder2,e4b_diff_v1,rich_3278,3,rich,0,no patch,1,1,8,0,,1,1,2,1,,,0,4,0,8,0.2,1.59,1216,0,2,3,0,4,1,0,3,1,0,,6975,0.6
+ladder2,e4b_diff_v1,rich_3454,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.03,865,0,1,1,1,3,0,0,0,1,0,,3419,0.4
+ladder2,e4b_diff_v1,rich_3454,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,0.98,865,0,0,1,1,2,0,0,0,0,0,,1851,0.3
+ladder2,e4b_diff_v1,rich_3454,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.85,865,0,0,1,1,2,0,0,0,0,0,,1918,0.2
+ladder2,e4b_diff_v1,rich_3470,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,1.05,74,0,0,1,1,2,0,0,0,0,0,,4905,0.2
+ladder2,e4b_diff_v1,rich_3470,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.6,1.33,74,0,0,1,1,2,0,0,0,0,0,,3988,0.6
+ladder2,e4b_diff_v1,rich_3470,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.9,1.77,74,0,0,1,1,2,0,0,0,0,0,,5902,0.9
+ladder2,e4b_diff_v1,rich_3471,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.11,86,0,1,1,1,3,0,0,0,1,0,,6325,0.5
+ladder2,e4b_diff_v1,rich_3471,2,rich,1,gold lines,1,1,4,0,,1,,1,0,,,0,1,0,4,,2.18,86,0,0,1,3,4,0,0,2,0,0,,5757,
+ladder2,e4b_diff_v1,rich_3471,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.81,86,0,0,1,1,2,0,0,0,0,0,,1201,0.2
+ladder2,e4b_diff_v1,rich_3480,1,rich,1,gold lines,1,2,5,0,,1,,1,1,1,1,1,4,1,5,0.2,1.04,81,0,0,4,1,4,1,0,3,0,0,,3696,0.3
+ladder2,e4b_diff_v1,rich_3480,2,rich,0,gold lines,1,2,7,0,,1,,1,1,1,1,1,5,4,7,0.2,6.32,81,0,0,5,0,4,1,0,3,0,0,,6011,0.6
+ladder2,e4b_diff_v1,rich_3480,3,rich,1,gold lines,1,2,5,0,,1,3,1,1,1,1,1,3,2,5,0.2,1.07,81,0,1,3,1,5,0,0,1,1,0,,4280,0.4
+ladder2,e4b_diff_v1,rich_3506,1,rich,1,gold lines,1,1,5,0,,1,,1,0,3,1,1,3,1,5,,1.71,115,0,0,3,2,4,1,0,2,0,0,,11863,1.0
+ladder2,e4b_diff_v1,rich_3506,2,rich,1,gold lines,1,1,3,0,,1,,1,1,2,1,1,2,1,3,0.3,1.47,115,0,0,2,1,3,0,0,1,0,0,,8475,0.8
+ladder2,e4b_diff_v1,rich_3506,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.87,115,0,0,1,1,2,0,0,0,0,0,,1076,0.2
+ladder2,e4b_diff_v1,rich_3518,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.09,658,0,1,1,1,3,0,0,0,1,0,,3209,0.3
+ladder2,e4b_diff_v1,rich_3518,2,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.3,1.14,658,0,0,1,1,2,0,0,0,0,0,,1591,0.3
+ladder2,e4b_diff_v1,rich_3518,3,rich,1,gold lines,1,1,3,0,,1,,2,1,2,1,1,1,1,3,0.3,0.99,658,1,0,1,1,3,0,0,0,0,4,0.0,3524,0.3
+ladder2,e4b_diff_v1,rich_3521,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.17,80,0,1,1,1,3,0,0,0,1,0,,3386,0.5
+ladder2,e4b_diff_v1,rich_3521,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.6,1.21,80,0,1,1,1,3,0,0,0,1,0,,4702,0.6
+ladder2,e4b_diff_v1,rich_3521,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.13,80,0,1,1,1,3,0,0,0,1,0,,2709,0.4
+ladder2,e4b_diff_v1,rich_3535,1,rich,1,gold lines,2,2,8,0,,1,2,3,1,3,1,1,4,2,8,0.4,2.11,193,1,2,2,0,5,0,1,1,2,0,0.0,6488,0.7
+ladder2,e4b_diff_v1,rich_3535,2,rich,1,gold lines,2,2,3,0,,1,,1,1,1,1,1,2,2,3,0.4,1.18,193,0,0,2,1,3,0,0,0,0,0,,2008,0.5
+ladder2,e4b_diff_v1,rich_3535,3,rich,1,gold lines,2,2,4,0,,1,,2,1,2,1,1,2,2,4,0.4,1.2,193,1,0,2,1,4,0,0,0,0,2,0.0,4277,0.5
+ladder2,e4b_diff_v1,rich_3675,1,rich,1,"gold lines, misses a gold file",2,5,11,0,,1,4,3,1,5,1,1,6,3,11,0.5,2.55,168,2,1,2,0,5,0,2,1,1,0,0.5,8368,1.0
+ladder2,e4b_diff_v1,rich_3675,2,rich,0,gold lines,2,5,8,0,,1,,1,1,1,1,1,7,3,8,0.4,2.52,168,0,0,5,0,5,0,0,1,0,0,,14111,1.6
+ladder2,e4b_diff_v1,rich_3675,3,rich,0,gold lines,2,5,7,0,,1,,1,1,1,1,1,6,4,7,0.7,1.98,168,0,0,5,0,5,0,0,1,0,0,,12040,1.2
+ladder2,e4b_diff_v1,rich_3676,1,rich,1,gold lines,2,8,8,0,,1,1,2,1,2,1,1,6,6,8,0.5,1.63,42,0,1,4,0,5,0,0,0,1,0,,8354,0.8
+ladder2,e4b_diff_v1,rich_3676,2,rich,1,gold lines,2,8,11,0,,1,,1,1,2,1,1,10,5,11,,2.27,42,0,0,5,0,5,0,0,2,0,0,,6728,0.7
+ladder2,e4b_diff_v1,rich_3676,3,rich,1,gold lines,2,8,11,0,,1,,1,1,1,1,1,10,8,11,0.2,1.52,42,0,0,5,0,5,0,0,2,0,0,,3314,0.5
+ladder2,e4b_diff_v1,rich_3718,1,rich,1,gold lines,1,3,4,0,,1,,1,1,1,1,1,3,3,4,0.4,0.98,749,0,0,3,1,4,0,0,0,0,0,,7196,0.7
+ladder2,e4b_diff_v1,rich_3718,2,rich,1,gold lines,1,3,4,0,,1,,1,1,1,1,1,3,3,4,0.4,0.91,749,0,0,3,1,4,0,0,0,0,0,,7513,0.7
+ladder2,e4b_diff_v1,rich_3718,3,rich,1,gold lines,1,3,4,0,,1,,1,1,1,1,1,3,3,4,0.3,0.83,749,0,0,3,1,4,0,0,0,0,0,,5004,0.5
+ladder2,e4b_diff_v1,rich_3772,1,rich,1,gold lines,1,6,7,0,,1,,1,1,1,1,1,6,6,7,0.5,1.33,131,0,0,5,0,5,0,0,0,0,0,,8704,0.9
+ladder2,e4b_diff_v1,rich_3772,2,rich,0,gold lines,1,6,4,0,,1,1,2,1,2,1,1,2,2,4,0.7,1.57,131,0,1,2,1,4,0,0,2,1,0,,7116,1.2
+ladder2,e4b_diff_v1,rich_3772,3,rich,1,gold lines,1,6,8,0,,1,,1,1,1,1,1,7,4,8,0.4,1.79,131,0,0,5,0,5,0,0,2,0,0,,10167,1.1
+ladder2,e4b_diff_v1,rich_3777,1,rich,1,gold lines,2,3,6,0,,1,2,1,1,4,1,1,4,1,6,0.4,1.55,341,0,1,4,0,5,0,0,3,1,0,,13246,1.1
+ladder2,e4b_diff_v1,rich_3777,2,rich,1,gold lines,2,3,6,0,,1,1,2,1,2,1,1,3,3,6,0.6,1.11,341,0,2,3,0,5,0,0,0,2,0,,7494,0.9
+ladder2,e4b_diff_v1,rich_3777,3,rich,0,gold lines,2,3,5,0,,1,,1,1,1,1,1,4,2,5,0.4,1.42,341,0,0,4,1,5,0,0,2,0,0,,12550,1.1
+ladder2,e4b_diff_v1,rich_3882,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.87,652,0,1,1,1,3,0,0,0,1,0,,1983,0.2
+ladder2,e4b_diff_v1,rich_3882,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.87,652,0,1,1,1,3,0,0,0,1,0,,1395,0.2
+ladder2,e4b_diff_v1,rich_3882,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.79,652,0,0,1,1,2,0,0,0,0,0,,1083,0.2
+ladder2,e4b_diff_v1,rich_3894,1,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.9,1974,0,0,1,1,2,0,0,0,0,0,,1696,0.2
+ladder2,e4b_diff_v1,rich_3894,2,rich,1,gold lines,1,1,6,0,,1,3,4,1,4,1,1,1,1,6,0.5,1.16,1974,2,1,1,1,5,0,2,0,1,0,0.2,7286,0.5
+ladder2,e4b_diff_v1,rich_3894,3,rich,1,gold lines,1,1,2,0,,1,,1,1,1,1,1,1,1,2,0.2,0.85,1974,0,0,1,1,2,0,0,0,0,0,,1483,0.2
+ladder2,e4b_diff_v1,rich_3905,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.95,1672,0,1,1,1,3,0,0,0,1,0,,2065,0.3
+ladder2,e4b_diff_v1,rich_3905,2,rich,1,gold lines,1,1,10,0,,1,3,8,1,8,1,1,2,2,10,1.2,2.15,1672,2,3,0,0,5,0,2,0,1,0,0.571,4417,0.4
+ladder2,e4b_diff_v1,rich_3905,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.93,1672,0,1,1,1,3,0,0,0,1,0,,2591,0.3
+ladder2,e4b_diff_v1,rich_3934,1,rich,1,gold lines,2,3,5,0,,1,,1,1,1,1,1,4,2,5,0.3,1.57,64,0,0,4,1,5,0,0,2,0,0,,6809,0.9
+ladder2,e4b_diff_v1,rich_3934,2,rich,1,gold lines,2,3,8,0,,1,2,3,1,6,1,1,4,2,8,0.4,1.51,64,1,2,2,0,4,1,1,2,2,0,0.0,6979,0.5
+ladder2,e4b_diff_v1,rich_3934,3,rich,0,"gold lines, misses a gold file",2,3,6,0,,1,,1,1,1,1,1,4,1,6,0.4,1.74,64,0,0,4,1,5,0,0,3,0,0,,10078,1.0
+ladder2,e4b_diff_v1,rich_3935,1,rich,0,gold lines,1,5,9,0,,1,2,1,1,3,1,1,7,5,9,0.5,2.26,75,0,1,4,0,5,0,0,1,1,0,,10026,0.9
+ladder2,e4b_diff_v1,rich_3935,2,rich,1,gold lines,1,5,8,0,,1,1,2,1,,,0,6,0,8,,3.82,75,0,1,4,0,5,0,0,4,1,0,,15985,0.1
+ladder2,e4b_diff_v1,rich_3935,3,rich,1,gold lines,1,5,6,0,,1,,1,1,3,1,1,5,2,6,0.6,2.26,75,0,0,5,0,5,0,0,4,0,0,,16465,1.6
+ladder2,e4b_diff_v1,rich_3938,1,rich,0,"gold lines, misses a gold file",2,2,7,0,,1,1,3,1,3,1,1,4,1,7,0.6,2.26,89,0,2,3,0,5,0,0,2,2,0,,12060,1.2
+ladder2,e4b_diff_v1,rich_3938,2,rich,0,"gold lines, misses a gold file",2,2,6,0,,1,2,1,1,3,1,1,4,1,6,0.4,2.33,89,0,1,4,0,5,0,0,3,1,0,,19276,1.5
+ladder2,e4b_diff_v1,rich_3938,3,rich,0,"gold lines, misses a gold file",2,2,6,0,,1,3,1,1,1,1,1,4,1,6,0.3,1.83,89,0,1,4,0,4,1,0,3,1,0,,11880,1.2
+ladder2,e4b_diff_v1,rich_3942,1,rich,0,gold lines,2,7,11,0,,1,2,1,1,3,1,1,8,3,11,0.3,2.91,54,0,2,3,0,5,0,0,1,2,0,,15023,1.3
+ladder2,e4b_diff_v1,rich_3942,2,rich,0,gold lines,2,7,11,0,,1,3,2,1,4,1,1,7,6,11,0.4,1.97,54,1,2,2,0,5,0,1,1,2,0,0.0,7856,0.8
+ladder2,e4b_diff_v1,rich_3942,3,rich,0,gold lines,2,7,13,0,,1,2,1,1,3,1,1,8,6,13,0.3,2.99,54,0,2,3,0,5,0,0,1,1,0,,7737,0.8
+ladder2,e4b_diff_v1,rich_3944,1,rich,1,gold lines,1,1,4,0,,1,,2,1,2,1,1,1,1,4,0.2,0.9,63,1,0,1,2,4,0,0,1,0,1,0.0,3006,0.2
+ladder2,e4b_diff_v1,rich_3944,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.01,63,0,1,1,1,3,0,0,0,1,0,,4599,0.4
+ladder2,e4b_diff_v1,rich_3944,3,rich,1,gold lines,1,1,5,0,,1,,1,0,4,1,1,3,1,5,,1.08,63,1,0,3,1,5,0,0,2,0,1,0.0,5193,0.4
+ladder2,e4b_diff_v1,rich_3953,1,rich,0,no patch,1,2,6,0,,1,4,1,1,,,0,4,0,6,0.4,1.64,130,0,1,4,0,5,0,0,3,1,0,,11137,1.3
+ladder2,e4b_diff_v1,rich_3953,2,rich,0,no patch,1,2,4,0,,1,,1,1,,,0,3,0,4,0.6,1.35,130,0,0,3,1,3,1,0,3,0,0,,12567,1.1
+ladder2,e4b_diff_v1,rich_3953,3,rich,0,no patch,1,2,4,0,,1,,1,1,,,0,2,0,4,0.4,1.1,130,0,0,2,2,4,0,0,2,0,0,,6853,0.8
+ladder2,e4b_diff_v1,rich_4006,1,rich,0,gold lines,1,2,7,0,,1,1,2,1,6,1,1,3,1,5,0.7,2.07,96,0,1,2,2,5,0,0,3,1,0,,10985,1.3
+ladder2,e4b_diff_v1,rich_4006,2,rich,0,gold lines,1,2,3,0,,1,,1,1,2,1,1,2,1,3,0.2,6.11,96,0,0,2,1,3,0,0,1,0,0,,8711,0.9
+ladder2,e4b_diff_v1,rich_4006,3,rich,0,no patch,1,2,4,0,,1,,1,1,,,0,2,0,4,0.5,6.82,96,0,0,2,2,4,0,0,3,0,0,,16952,1.3
+ladder2,e4b_diff_v1,rich_4075,1,rich,1,gold lines,1,4,11,0,,1,2,1,1,3,1,1,8,3,11,0.3,1.86,101,0,2,3,0,5,0,0,2,1,0,,9334,0.8
+ladder2,e4b_diff_v1,rich_4075,2,rich,0,gold lines,1,4,9,0,,1,5,1,1,1,1,1,7,3,9,0.4,1.66,101,0,1,4,0,5,0,0,2,1,0,,8167,0.7
+ladder2,e4b_diff_v1,rich_4075,3,rich,0,gold lines,1,4,7,0,,1,,1,1,1,1,1,6,1,7,0.5,1.74,101,0,0,5,0,5,0,0,4,0,0,,11630,0.9
+ladder2,e4b_diff_v1,rich_4076,1,rich,1,gold lines,1,1,7,0,,1,3,5,1,6,1,1,2,1,7,0.4,1.79,71,2,2,1,0,5,0,2,1,1,0,0.0,4086,0.4
+ladder2,e4b_diff_v1,rich_4076,2,rich,0,no patch,1,1,12,0,,1,2,1,1,,,0,5,0,9,0.3,1.75,71,0,2,3,0,5,0,0,3,1,0,,8973,0.7
+ladder2,e4b_diff_v1,rich_4076,3,rich,0,gold lines,1,1,5,0,,1,1,2,1,3,1,1,3,2,5,0.2,1.98,71,0,1,3,1,5,0,0,1,1,0,,17735,1.2
+ladder2,e4b_diff_v1,rich_4077,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.89,66,0,1,1,1,3,0,0,0,1,0,,1894,0.2
+ladder2,e4b_diff_v1,rich_4077,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.83,66,0,1,1,1,3,0,0,0,1,0,,1241,0.2
+ladder2,e4b_diff_v1,rich_4077,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.92,66,0,1,1,1,3,0,0,0,1,0,,2160,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_11355,1,fastapi,0,"right file, other lines",1,3,6,0,,2,,5,1,5,0,0,1,1,6,1.0,1.87,299,3,1,1,0,5,0,1,0,1,117,0.75,17919,1.0
+ladder2,e4b_loc_ctrl_v1,fastapi_11355,2,fastapi,0,no patch,1,3,13,0,,2,,4,1,,,0,8,0,13,0.7,4.12,299,2,1,2,0,5,0,1,2,1,8,1.0,21667,1.4
+ladder2,e4b_loc_ctrl_v1,fastapi_11355,3,fastapi,0,gold lines,1,3,6,0,,2,3,4,1,4,1,1,1,1,6,0.7,1.57,299,2,1,1,1,5,0,1,0,1,117,1.0,11443,0.8
+ladder2,e4b_loc_ctrl_v1,fastapi_12942,1,fastapi,0,another file,1,1,11,0,,4,,10,0,10,0,0,1,1,11,1.2,1.45,1392,3,2,0,0,5,0,1,0,2,1927,0.667,5628,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_12942,2,fastapi,0,no patch,1,1,18,0,,11,,16,0,,,0,2,0,18,2.3,3.16,1392,3,2,0,0,5,0,3,0,2,0,0.75,5240,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_12942,3,fastapi,0,no patch,1,1,6,0,,3,,5,0,,,0,1,0,6,2.2,2.48,1392,2,2,1,0,5,0,1,1,2,833,0.667,7640,2.2
+ladder2,e4b_loc_ctrl_v1,fastapi_13207,1,fastapi,0,another file,1,2,16,0,,1,,9,0,9,0,0,6,4,16,1.2,2.89,354,2,3,0,0,5,0,1,0,1,31,0.5,4141,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_13207,2,fastapi,0,another file,1,2,8,0,,5,,7,0,7,0,0,1,1,8,1.0,1.66,354,4,1,0,0,5,0,1,0,1,57,0.5,11482,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_13207,3,fastapi,0,gold lines,1,2,12,0,,1,7,8,1,11,1,1,4,1,12,1.0,2.3,354,3,2,0,0,5,0,2,0,2,31,0.4,4922,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_13713,1,fastapi,0,no patch,2,5,9,0,,1,,3,1,,,0,5,0,9,0.7,1.73,756,1,1,3,0,5,0,0,3,1,9885,1.0,13437,1.0
+ladder2,e4b_loc_ctrl_v1,fastapi_13713,2,fastapi,0,no patch,2,5,6,0,,2,,4,1,,,0,1,0,6,0.6,0.96,756,2,1,1,1,5,0,1,1,1,2,1.0,9434,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_13713,3,fastapi,0,"right file, other lines",2,5,13,0,,1,,3,1,3,0,0,7,1,13,0.4,1.99,756,2,2,1,0,5,0,0,0,1,2,0.6,11279,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_13920,1,fastapi,0,another file,1,2,13,0,,,,10,0,12,0,0,3,1,13,0.9,1.43,225,5,0,0,0,5,0,2,0,0,20,0.2,4561,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_13920,2,fastapi,0,another file,1,2,7,0,,,,6,0,6,0,0,1,1,7,0.8,1.09,225,2,3,0,0,5,0,2,0,2,0,0.6,5873,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_13920,3,fastapi,0,another file,1,2,7,0,,,,6,0,6,0,0,1,1,7,0.9,1.24,225,2,3,0,0,5,0,2,0,2,0,1.0,7122,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14246,1,fastapi,0,"right file, other lines",1,1,6,0,,3,4,5,1,5,0,0,1,1,6,1.0,1.32,273,3,1,1,0,5,0,2,0,1,2,0.6,12459,1.0
+ladder2,e4b_loc_ctrl_v1,fastapi_14246,2,fastapi,0,another file,1,1,15,0,,,,9,0,14,0,0,4,1,15,1.0,1.77,273,3,2,0,0,5,0,1,0,2,23,0.875,4724,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14246,3,fastapi,0,"right file, other lines",1,1,16,0,,12,,15,1,15,0,0,1,1,16,1.8,2.37,273,5,0,0,0,5,0,4,0,0,57,0.333,1825,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14258,1,fastapi,0,no patch,1,1,19,0,,1,9,16,1,,,0,1,0,19,,3.66,418,4,1,0,0,4,1,3,0,1,1319,0.25,3546,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14258,2,fastapi,0,no patch,1,1,17,0,,1,,5,1,,,0,8,0,17,0.4,2.63,418,2,2,1,0,5,0,0,1,1,29,0.5,4351,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14258,3,fastapi,0,no patch,1,1,19,0,,2,5,10,1,,,0,5,0,19,1.0,3.13,418,2,3,0,0,5,0,1,0,1,504,0.667,5335,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14266,1,fastapi,0,another file,1,2,11,0,,,,9,0,9,0,0,1,1,11,1.0,1.36,247,4,1,0,0,5,0,1,0,1,1761,0.6,2421,0.2
+ladder2,e4b_loc_ctrl_v1,fastapi_14266,2,fastapi,0,another file,1,2,16,0,,2,,10,0,10,0,0,5,2,16,1.3,3.11,247,3,2,0,0,5,0,1,0,1,295,0.5,5319,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14266,3,fastapi,0,another file,1,2,7,0,,,,6,0,6,0,0,1,1,7,0.8,1.2,247,2,3,0,0,5,0,0,0,1,10,0.0,10342,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14301,1,fastapi,1,gold lines,1,1,7,0,,1,3,6,1,6,1,1,1,1,7,0.6,1.29,739,3,2,0,0,5,0,1,0,1,4,0.75,3079,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14301,2,fastapi,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.6,1.41,739,1,1,1,1,4,0,0,0,1,4,1.0,8334,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14301,3,fastapi,1,gold lines,1,1,6,0,,1,4,5,1,5,1,1,1,1,6,0.5,1.19,739,2,2,1,0,5,0,0,0,1,7,1.0,5139,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14306,1,fastapi,0,"gold lines, misses a gold file",2,12,10,0,,1,2,6,1,6,1,1,4,4,10,0.7,1.7,2791,2,3,0,0,5,0,0,0,1,89,0.75,8491,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14306,2,fastapi,0,"gold lines, misses a gold file",2,12,10,0,,1,1,3,1,4,1,1,7,3,10,1.4,3.46,2791,0,2,3,0,5,0,0,1,1,0,,16403,1.7
+ladder2,e4b_loc_ctrl_v1,fastapi_14306,3,fastapi,0,"gold lines, misses a gold file",2,12,7,0,,2,2,5,1,,,0,2,0,7,,2.04,2791,2,2,1,0,5,0,2,1,1,0,1.0,13432,0.2
+ladder2,e4b_loc_ctrl_v1,fastapi_14349,1,fastapi,0,gold lines,1,1,6,0,,2,3,4,1,4,1,1,1,1,6,0.8,1.16,169,2,1,1,1,5,0,0,0,1,1132,1.0,12088,0.9
+ladder2,e4b_loc_ctrl_v1,fastapi_14349,2,fastapi,0,gold lines,1,1,5,0,,2,3,4,1,4,1,1,1,1,5,0.7,1.02,169,2,1,1,1,5,0,0,0,1,11,1.0,8008,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_14349,3,fastapi,1,gold lines,1,1,5,0,,2,3,4,1,4,1,1,1,1,5,1.1,1.42,169,2,1,1,1,5,0,0,0,1,1132,1.0,15332,1.1
+ladder2,e4b_loc_ctrl_v1,fastapi_14356,1,fastapi,0,"right file, other lines",1,1,8,0,,2,4,7,1,7,0,0,1,1,8,1.2,1.91,1481,4,1,0,0,5,0,2,0,1,219,0.833,7637,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14356,2,fastapi,0,another file,1,1,31,0,,,,25,0,,,0,6,0,31,,4.35,1481,5,0,0,0,5,0,5,0,0,0,0.857,4024,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14356,3,fastapi,0,another file,1,1,31,0,,8,,28,0,30,0,0,2,1,31,2.6,3.46,1481,4,1,0,0,5,0,2,0,1,11,1.0,6570,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14360,1,fastapi,0,gold lines,1,1,5,0,,2,3,4,1,4,1,1,1,1,5,0.7,1.45,753,2,1,1,1,5,0,1,0,1,4,1.0,10810,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_14360,2,fastapi,0,gold lines,1,1,12,0,,6,,10,1,10,1,1,1,1,12,1.5,2.27,753,4,0,0,1,5,0,2,0,0,72,0.778,4241,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14360,3,fastapi,0,gold lines,1,1,16,0,,2,14,15,1,15,1,1,1,1,16,2.1,2.81,753,3,2,0,0,4,1,0,0,2,361,0.667,4335,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_14361,1,fastapi,0,another file,1,1,9,0,,2,,8,0,8,0,0,1,1,9,0.7,1.01,96,4,1,0,0,5,0,0,2,1,210,0.25,3682,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14361,2,fastapi,0,"right file, other lines",1,1,6,0,,2,3,4,1,4,0,0,1,1,6,0.7,1.03,96,2,1,1,1,5,0,0,0,1,1139,1.0,10527,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_14361,3,fastapi,0,"right file, other lines",1,1,5,0,,2,3,4,1,4,0,0,1,1,5,0.9,1.18,96,2,1,1,1,5,0,0,0,1,1139,1.0,12222,0.9
+ladder2,e4b_loc_ctrl_v1,fastapi_14372,1,fastapi,1,"gold lines, misses a gold file",2,3,5,0,,1,3,4,1,4,1,1,1,1,5,0.6,1.44,1160,2,1,1,1,5,0,0,0,1,99,1.0,8834,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14372,2,fastapi,1,"gold lines, misses a gold file",2,3,6,0,,1,3,4,1,4,1,1,2,2,6,0.5,1.38,1160,2,1,2,0,5,0,0,0,1,1017,1.0,6989,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14372,3,fastapi,0,another file,2,3,5,0,,,,4,0,4,0,0,1,1,5,0.6,1.35,1160,2,1,1,1,5,0,0,0,1,110,1.0,7602,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14419,1,fastapi,0,"gold lines, misses a gold file",2,7,9,0,,2,4,6,1,6,1,1,3,2,9,1.4,2.62,689,2,3,0,0,5,0,1,0,2,7,0.75,9247,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14419,2,fastapi,0,no patch,2,7,9,0,,2,3,5,1,,,0,3,0,9,1.1,2.36,689,3,1,1,0,5,0,2,1,1,315,1.0,15028,1.1
+ladder2,e4b_loc_ctrl_v1,fastapi_14419,3,fastapi,0,"gold lines, misses a gold file",2,7,11,0,,4,4,10,1,10,1,1,1,1,11,0.9,1.61,689,4,1,0,0,5,0,4,0,1,0,0.75,2656,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14430,1,fastapi,0,another file,1,2,8,0,,,,7,0,7,0,0,1,1,8,1.0,1.26,335,4,1,0,0,5,0,1,1,1,1630,0.4,5438,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14430,2,fastapi,0,another file,1,2,7,0,,2,,6,0,6,0,0,1,1,7,1.0,1.33,335,3,2,0,0,5,0,0,0,1,20,0.5,11721,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_14430,3,fastapi,0,another file,1,2,5,0,,1,,4,0,4,0,0,1,1,5,0.8,1.1,335,2,1,1,1,5,0,0,0,1,76,1.0,13621,0.8
+ladder2,e4b_loc_ctrl_v1,fastapi_14448,1,fastapi,0,"gold lines, misses a gold file",2,3,8,0,,2,6,7,1,7,1,1,1,1,8,0.8,1.57,1226,4,1,0,0,5,0,2,0,1,725,0.818,4202,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14448,2,fastapi,0,"gold lines, misses a gold file",2,3,7,0,,1,2,6,1,6,1,1,1,1,7,0.9,1.86,1226,3,2,0,0,5,0,0,0,2,5,0.0,7697,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14448,3,fastapi,0,"gold lines, misses a gold file",2,3,5,0,,2,3,4,1,4,1,1,1,1,5,0.6,1.43,1226,2,1,1,1,5,0,1,0,1,7,0.6,9542,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14455,1,fastapi,1,gold lines,1,2,10,0,,5,6,9,1,9,1,1,1,1,10,1.3,2.03,283,3,2,0,0,5,0,0,0,2,10,0.667,3991,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14455,2,fastapi,0,another file,1,2,6,0,,,,4,0,4,0,0,1,1,6,0.6,1.27,283,2,1,1,1,5,0,0,0,1,785,0.5,8705,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14455,3,fastapi,0,another file,1,2,12,0,,,,11,0,11,0,0,1,1,12,1.5,2.22,283,3,2,0,0,5,0,1,0,1,68,0.8,2990,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14458,1,fastapi,1,gold lines,1,4,10,0,,3,6,7,1,7,0,1,3,3,10,1.0,1.53,591,4,1,0,0,5,0,0,0,1,2,0.8,4968,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14458,2,fastapi,0,gold lines,1,4,8,0,,1,4,5,1,5,1,1,3,3,8,1.1,2.1,591,3,1,1,0,5,0,0,0,1,5,1.0,13633,1.1
+ladder2,e4b_loc_ctrl_v1,fastapi_14458,3,fastapi,1,gold lines,1,4,11,0,,1,2,8,1,8,0,1,3,3,11,0.9,1.37,591,3,2,0,0,5,0,1,0,1,5,1.0,6167,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14459,1,fastapi,0,"gold lines, misses a gold file",3,8,4,0,,1,2,3,1,3,1,1,1,1,4,0.6,0.98,815,1,1,1,1,4,0,0,0,1,2,1.0,10148,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14459,2,fastapi,0,"gold lines, misses a gold file",3,8,16,0,,3,9,10,1,10,1,1,4,2,16,1.2,2.96,815,3,2,0,0,5,0,1,0,2,96,0.5,8191,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14459,3,fastapi,0,"right file, other lines",3,8,8,0,,6,6,7,1,7,0,0,1,1,8,1.1,1.45,815,2,3,0,0,5,0,2,0,3,0,1.0,3499,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14463,1,fastapi,1,gold lines,1,2,5,0,,1,1,3,1,3,1,1,2,2,5,0.4,1.22,10095,0,2,2,1,5,0,0,0,1,0,,7928,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14463,2,fastapi,1,gold lines,1,2,5,0,,1,2,4,1,4,1,1,1,1,5,0.5,1.26,10095,1,2,1,1,5,0,1,0,1,0,1.0,6923,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14463,3,fastapi,1,gold lines,1,2,5,0,,1,1,3,1,3,1,1,2,1,5,0.5,1.32,10095,0,2,2,1,5,0,0,1,1,0,,9105,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14479,1,fastapi,0,no patch,1,1,19,0,,1,5,17,1,,,0,1,0,18,2.3,2.99,2455,4,1,0,0,5,0,4,0,1,0,1.0,3409,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14479,2,fastapi,0,gold lines,1,1,7,0,,1,2,6,1,6,1,1,1,1,7,0.8,1.52,2455,3,2,0,0,5,0,1,0,1,3,0.857,4313,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14479,3,fastapi,0,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.5,1.28,2455,1,1,1,1,4,0,0,0,1,3,1.0,7207,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14482,1,fastapi,0,another file,1,5,20,0,,,,13,0,,,0,7,0,20,1.6,3.58,266,4,1,0,0,5,0,2,0,1,12,0.5,6853,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14482,2,fastapi,0,no patch,1,5,18,0,,,,,,,,0,0,0,18,,2.0,266,4,1,0,0,5,0,0,5,1,0,0.111,3544,
+ladder2,e4b_loc_ctrl_v1,fastapi_14482,3,fastapi,0,no patch,1,5,11,0,,,,5,0,,,0,3,0,11,1.2,3.94,266,2,2,1,0,5,0,0,1,1,51,0.5,21483,1.2
+ladder2,e4b_loc_ctrl_v1,fastapi_14485,1,fastapi,0,another file,1,2,6,0,,,,5,0,5,0,0,1,1,6,0.9,1.66,317,2,2,1,0,5,0,0,0,1,5,0.5,15885,0.9
+ladder2,e4b_loc_ctrl_v1,fastapi_14485,2,fastapi,0,gold lines,1,2,9,0,,3,7,8,1,8,1,1,1,1,9,1.4,2.06,317,4,1,0,0,5,0,1,0,1,49,0.25,8730,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14485,3,fastapi,0,another file,1,2,5,0,,,,4,0,4,0,0,1,1,5,0.9,1.58,317,1,2,1,1,5,0,0,0,1,1,1.0,15191,0.9
+ladder2,e4b_loc_ctrl_v1,fastapi_14487,1,fastapi,0,another file,1,1,8,0,,5,,6,0,6,0,0,1,1,8,0.5,0.86,204,3,2,0,0,5,0,1,0,1,608,0.8,3443,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14487,2,fastapi,0,another file,1,1,14,0,,,,13,0,13,0,0,1,1,14,1.2,1.58,204,4,1,0,0,5,0,3,0,1,37,0.556,3273,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14487,3,fastapi,0,another file,1,1,11,0,,6,,7,0,9,0,0,3,1,11,0.5,1.15,204,5,0,0,0,5,0,3,0,0,251,0.429,3744,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14492,1,fastapi,0,no patch,1,1,6,0,,1,,3,0,3,0,0,1,1,6,0.2,0.98,159,1,1,1,2,5,0,0,1,1,25,1.0,2733,0.2
+ladder2,e4b_loc_ctrl_v1,fastapi_14492,2,fastapi,0,another file,1,1,8,0,,1,,3,0,3,0,0,2,2,8,0.2,1.07,159,1,2,2,0,5,0,0,0,2,25,1.0,3741,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14492,3,fastapi,0,another file,1,1,9,0,,1,,2,0,2,0,0,2,1,9,0.2,1.2,159,1,2,1,1,5,0,0,0,1,25,1.0,4858,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14512,1,fastapi,0,no patch,1,3,15,0,,,,10,0,,,0,4,0,15,1.5,2.57,289,3,2,0,0,5,0,1,0,2,2265,1.0,5888,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14512,2,fastapi,0,another file,1,3,7,0,,1,,6,0,6,0,0,1,1,7,1.3,1.57,289,4,1,0,0,5,0,0,0,1,853,1.0,5702,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14512,3,fastapi,0,no patch,1,3,16,0,,,,15,0,,,0,1,0,16,1.6,1.88,289,5,0,0,0,5,0,1,0,0,17,1.0,5343,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14786,1,fastapi,1,gold lines,1,1,4,0,,1,,,,,,0,0,0,4,,1.71,2303,0,0,0,4,3,1,0,0,0,0,,4112,
+ladder2,e4b_loc_ctrl_v1,fastapi_14786,2,fastapi,1,gold lines,1,1,4,0,,1,,1,0,2,1,1,2,1,4,,2.04,2303,0,0,2,2,4,0,0,1,0,0,,3927,1.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14786,3,fastapi,1,gold lines,1,1,3,0,,1,,1,1,1,1,1,1,1,3,0.6,1.31,2303,0,0,1,2,3,0,0,0,0,0,,1802,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_14794,1,fastapi,0,"right file, other lines",1,2,4,0,,1,,3,1,3,0,0,1,1,4,1.5,1.79,816,1,1,1,1,4,0,1,0,1,0,1.0,11827,1.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14794,2,fastapi,0,"right file, other lines",1,2,4,0,,1,,3,1,3,0,0,1,1,4,1.5,1.8,816,1,1,1,1,4,0,0,0,1,2,1.0,15152,1.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14794,3,fastapi,0,"right file, other lines",1,2,4,0,,1,,3,1,3,0,0,1,1,4,1.7,2.03,816,1,1,1,1,4,0,1,0,1,0,1.0,11273,1.7
+ladder2,e4b_loc_ctrl_v1,fastapi_14873,1,fastapi,0,no patch,1,2,14,0,,1,,4,1,,,0,6,0,14,1.8,4.33,674,1,3,1,0,5,0,0,1,1,29,1.0,15881,2.1
+ladder2,e4b_loc_ctrl_v1,fastapi_14873,2,fastapi,0,no patch,1,2,37,0,,1,,31,1,,,0,4,0,37,3.3,4.47,674,2,3,0,0,5,0,0,0,1,501,1.0,5053,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_14873,3,fastapi,0,no patch,1,2,12,0,,1,2,5,1,,,0,5,0,12,0.9,2.39,674,2,2,1,0,5,0,1,0,1,29,1.0,14678,0.9
+ladder2,e4b_loc_ctrl_v1,fastapi_14986,1,fastapi,0,"right file, other lines",2,4,9,0,,5,,4,0,4,0,0,3,2,7,0.4,1.89,1000,3,1,1,0,5,0,1,0,1,24,1.0,6070,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_14986,2,fastapi,0,"gold lines, misses a gold file",2,4,20,0,,7,,16,1,16,1,1,1,1,20,1.4,1.98,1000,4,0,0,1,5,0,4,0,0,0,0.583,1659,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_14986,3,fastapi,0,another file,2,4,12,0,,,,10,0,10,0,0,2,2,12,0.8,1.55,1000,3,2,0,0,5,0,1,0,1,3,0.833,1693,0.2
+ladder2,e4b_loc_ctrl_v1,fastapi_15023,1,fastapi,0,another file,1,1,5,0,,2,,4,0,4,0,0,1,1,5,0.4,1.24,112,2,1,1,1,5,0,0,0,1,1749,1.0,6372,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_15023,2,fastapi,0,another file,1,1,14,0,,2,,8,0,13,0,0,5,1,14,0.7,2.09,112,4,1,0,0,5,0,1,0,1,1124,0.5,4859,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_15023,3,fastapi,0,another file,1,1,9,0,,,,8,0,8,0,0,1,1,9,0.7,1.43,112,3,2,0,0,5,0,0,0,2,1272,0.333,4099,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_15588,1,fastapi,0,gold lines,1,2,7,0,,1,2,4,1,4,1,1,3,3,7,0.9,1.96,1891,1,2,2,0,5,0,0,0,1,4,0.0,11787,1.1
+ladder2,e4b_loc_ctrl_v1,fastapi_15588,2,fastapi,0,gold lines,1,2,9,0,,1,3,6,1,6,1,1,2,2,9,0.6,1.75,1891,3,2,0,0,5,0,1,0,1,2,0.667,2772,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_15588,3,fastapi,0,gold lines,1,2,8,0,,1,3,5,1,5,1,1,3,3,8,0.7,2.03,1891,2,2,1,0,5,0,1,0,1,16,0.8,6394,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_15589,1,fastapi,0,gold lines,1,1,4,0,,1,,3,1,3,1,1,1,1,4,0.8,1.55,1247,1,1,1,1,4,0,0,0,1,0,1.0,12293,0.8
+ladder2,e4b_loc_ctrl_v1,fastapi_15589,2,fastapi,0,gold lines,1,1,6,0,,1,2,3,1,3,1,1,1,1,6,0.6,1.45,1247,1,1,1,2,5,0,0,1,1,63,1.0,11443,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_15589,3,fastapi,0,gold lines,1,1,5,0,,1,2,4,1,4,1,1,1,1,5,1.1,1.87,1247,1,2,1,1,5,0,0,0,1,63,1.0,19216,1.1
+ladder2,e4b_loc_ctrl_v1,fastapi_5077,1,fastapi,0,gold lines,1,2,10,0,,1,6,7,1,9,1,1,3,1,10,1.1,2.48,2679,2,1,0,2,5,0,2,0,1,0,0.8,3848,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_5077,2,fastapi,0,gold lines,1,2,9,0,,1,4,8,1,8,0,0,1,1,9,1.5,1.86,2679,2,3,0,0,5,0,2,0,1,0,0.667,4453,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_5077,3,fastapi,0,gold lines,1,2,9,0,,1,2,8,1,8,1,1,1,1,9,1.1,1.37,2679,2,3,0,0,5,0,2,0,1,0,1.0,4900,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_5624,1,fastapi,0,no patch,1,1,11,0,,,,7,0,,,0,2,0,11,,2.18,63,3,2,0,0,5,0,3,0,2,0,0.875,3600,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_5624,2,fastapi,0,another file,1,1,6,0,,,,5,0,5,0,0,1,1,6,0.7,1.36,63,2,2,1,0,5,0,1,0,1,40,1.0,11252,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_5624,3,fastapi,0,another file,1,1,6,0,,,,5,0,5,0,0,1,1,6,0.9,1.56,63,3,1,1,0,5,0,0,0,1,40,0.5,14805,0.9
+ladder2,e4b_loc_ctrl_v1,fastapi_9425,1,fastapi,0,another file,1,1,17,0,,5,11,14,0,16,0,0,2,1,17,1.7,2.48,235,2,3,0,0,5,0,1,0,2,1289,0.5,5049,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_9425,2,fastapi,1,gold lines,1,1,5,0,,1,2,3,1,3,1,1,1,1,5,0.5,0.91,235,1,1,1,2,5,0,0,0,1,4,1.0,7299,0.6
+ladder2,e4b_loc_ctrl_v1,fastapi_9425,3,fastapi,1,"right file, other lines",1,1,10,0,,7,8,9,1,9,0,0,1,1,10,0.6,0.93,235,4,1,0,0,5,0,1,0,1,494,0.6,3577,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_9555,1,fastapi,0,another file,1,1,12,0,,,,6,0,11,0,0,2,1,12,0.8,1.73,2934,3,2,0,0,5,0,1,0,1,7,0.857,5651,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_9555,2,fastapi,0,another file,1,1,9,0,,,,7,0,7,0,0,1,1,9,0.8,1.24,2934,3,2,0,0,5,0,2,0,1,7,0.667,4338,0.4
+ladder2,e4b_loc_ctrl_v1,fastapi_9555,3,fastapi,0,another file,1,1,5,0,,,,4,0,4,0,0,1,1,5,0.7,1.01,2934,2,1,1,1,5,0,0,0,1,33,0.8,8994,0.7
+ladder2,e4b_loc_ctrl_v1,fastapi_9753,1,fastapi,0,another file,1,2,14,0,,3,,13,0,13,0,0,1,1,14,1.9,2.42,689,3,1,0,1,5,0,1,0,1,12,0.0,3768,0.3
+ladder2,e4b_loc_ctrl_v1,fastapi_9753,2,fastapi,1,gold lines,1,2,8,0,,1,3,6,1,6,1,1,2,1,8,0.7,1.49,689,2,3,0,0,5,0,0,0,2,34,0.0,6205,0.5
+ladder2,e4b_loc_ctrl_v1,fastapi_9753,3,fastapi,0,another file,1,2,4,0,,,,3,0,3,0,0,1,1,4,0.9,1.16,689,1,1,1,1,4,0,0,0,1,1,1.0,12902,0.9
+ladder2,e4b_loc_ctrl_v1,rich_2725,1,rich,1,gold lines,1,1,13,0,,1,11,12,1,12,1,1,1,1,13,0.6,1.27,1779,5,0,0,0,5,0,5,0,0,0,0.667,1208,0.2
+ladder2,e4b_loc_ctrl_v1,rich_2725,2,rich,0,another file,1,1,14,0,,2,5,13,0,13,0,0,1,1,14,1.5,2.4,1779,4,1,0,0,5,0,3,0,1,9,0.75,3437,0.3
+ladder2,e4b_loc_ctrl_v1,rich_2725,3,rich,0,"right file, other lines",1,1,8,0,,2,5,7,1,7,0,0,1,1,8,1.4,2.36,1779,4,1,0,0,5,0,1,0,1,1118,0.714,7326,0.6
+ladder2,e4b_loc_ctrl_v1,rich_2943,1,rich,0,"right file, other lines",1,1,8,1,Sandbox execution error: No LlmAgent mod,2,,4,1,6,0,0,3,1,8,0.8,2.61,473,3,0,2,0,4,1,1,2,0,112,1.0,14608,1.0
+ladder2,e4b_loc_ctrl_v1,rich_2943,2,rich,0,gold lines,1,1,6,0,,2,,5,1,5,1,1,1,1,6,0.7,1.46,473,3,1,1,0,5,0,1,0,1,63,1.0,12033,0.7
+ladder2,e4b_loc_ctrl_v1,rich_2943,3,rich,1,gold lines,1,1,8,0,,2,,4,1,5,1,1,2,1,8,0.5,1.45,473,2,1,2,0,5,0,1,1,1,63,1.0,8389,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3006,1,rich,1,gold lines,1,1,6,0,,1,3,5,1,5,1,1,1,1,6,0.4,1.11,677,2,2,1,0,5,0,2,0,1,0,1.0,5559,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3006,2,rich,1,gold lines,1,1,6,0,,2,4,5,1,5,1,1,1,1,6,0.4,1.07,677,3,1,1,0,5,0,1,0,1,32,1.0,6145,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3006,3,rich,1,gold lines,1,1,5,0,,2,3,4,1,4,1,1,1,1,5,0.5,1.11,677,2,1,1,1,5,0,1,0,1,20,1.0,7719,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3043,1,rich,0,gold lines,1,2,13,0,,2,3,9,1,9,1,1,3,2,13,1.1,2.48,286,3,1,0,1,5,0,2,0,1,27,1.0,4271,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3043,2,rich,0,another file,1,2,13,0,,2,3,5,1,12,0,0,6,1,13,0.8,2.64,286,3,1,1,0,5,0,0,1,1,27,1.0,11632,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3043,3,rich,0,gold lines,1,2,15,0,,3,4,5,1,7,1,1,4,2,15,0.5,2.45,286,3,1,1,0,5,0,2,1,1,410,0.8,7386,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3052,1,rich,0,gold lines,1,12,22,0,,1,3,4,1,4,1,1,13,5,22,0.5,3.59,863,2,1,2,0,5,0,2,1,1,0,0.75,4818,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3052,2,rich,0,gold lines,1,12,10,1,Sandbox execution error: No LlmAgent mod,1,3,6,1,6,1,1,2,2,10,0.6,2.1,863,2,3,0,0,5,0,2,0,1,0,0.75,4780,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3052,3,rich,0,gold lines,1,12,20,0,,1,3,6,1,12,1,1,10,3,20,0.7,2.86,863,2,3,0,0,5,0,2,0,1,0,1.0,5413,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3061,1,rich,0,gold lines,1,13,6,0,,2,4,5,1,5,1,1,1,1,6,0.6,1.31,411,3,1,1,0,5,0,2,0,1,3,0.6,9652,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3061,2,rich,0,gold lines,1,13,8,0,,1,6,7,1,7,1,1,1,1,8,0.7,1.36,411,5,0,0,0,5,0,4,0,0,11,0.667,2361,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3061,3,rich,0,gold lines,1,13,11,0,,2,3,4,1,4,1,1,3,2,11,0.9,2.17,411,3,1,1,0,5,0,2,0,1,11,0.375,16388,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3063,1,rich,0,no patch,1,2,10,0,,2,3,4,1,4,1,1,3,2,10,0.8,2.06,85,2,1,2,0,5,0,1,1,1,2,0.75,18581,1.1
+ladder2,e4b_loc_ctrl_v1,rich_3063,2,rich,0,gold lines,1,2,6,0,,2,3,4,1,4,1,1,1,1,6,0.7,1.65,85,2,1,1,1,5,0,1,0,1,19,1.0,14963,0.9
+ladder2,e4b_loc_ctrl_v1,rich_3063,3,rich,0,gold lines,1,2,6,0,,2,3,4,1,4,1,1,1,1,6,0.7,1.61,85,2,1,1,1,5,0,1,0,1,9,1.0,15246,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3067,1,rich,0,another file,1,1,15,0,,,,14,0,14,0,0,1,1,15,1.0,1.66,584,4,1,0,0,5,0,2,0,1,29,0.5,4237,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3067,2,rich,0,no patch,1,1,13,0,,8,9,10,1,,,0,2,0,13,1.0,1.95,584,3,2,0,0,5,0,1,0,1,2,0.25,5095,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3067,3,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.3,0.99,584,1,1,1,1,4,0,0,0,1,57,1.0,3708,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3105,1,rich,0,another file,1,1,13,0,,,,11,0,11,0,0,1,1,13,0.9,1.25,452,2,2,0,1,5,0,1,0,2,182,0.0,5576,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3105,2,rich,0,another file,1,1,7,0,,,,4,0,4,0,0,1,1,7,0.6,0.99,452,2,1,1,1,5,0,1,0,1,13,,7720,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3105,3,rich,0,another file,1,1,8,0,,,,6,0,6,0,0,1,1,8,0.5,0.81,452,4,1,0,0,5,0,2,0,1,13,0.0,5535,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3180,1,rich,0,"gold lines, misses a gold file",2,4,11,0,,6,7,9,1,9,1,1,2,2,11,1.5,2.04,1189,4,1,0,0,5,0,4,0,1,0,0.4,4377,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3180,2,rich,0,"gold lines, misses a gold file",2,4,6,0,,2,3,4,1,4,1,1,1,1,6,0.8,1.12,1189,1,2,1,1,5,0,1,1,2,0,1.0,13297,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3180,3,rich,0,"gold lines, misses a gold file",2,4,11,0,,2,5,7,1,7,1,1,3,1,11,0.8,1.86,1189,2,3,0,0,5,0,2,0,3,0,0.333,2372,0.2
+ladder2,e4b_loc_ctrl_v1,rich_3278,1,rich,0,"right file, other lines",1,1,5,0,,1,3,4,1,4,0,0,1,1,5,0.9,1.71,1216,2,1,1,1,5,0,2,0,1,0,1.0,14119,0.9
+ladder2,e4b_loc_ctrl_v1,rich_3278,2,rich,0,"right file, other lines",1,1,24,0,,2,,9,1,9,0,0,10,8,24,0.9,5.61,1216,4,1,0,0,5,0,3,0,1,74,0.4,2602,0.2
+ladder2,e4b_loc_ctrl_v1,rich_3278,3,rich,0,no patch,1,1,11,0,,2,4,8,1,,,0,3,0,11,1.2,2.81,1216,3,1,0,1,5,0,2,0,1,1,0.8,4848,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3454,1,rich,1,gold lines,1,1,5,0,,1,3,4,1,4,1,1,1,1,5,0.6,1.26,865,2,1,1,1,5,0,1,0,1,27,1.0,6400,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3454,2,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.4,1.05,865,1,1,1,1,4,0,0,0,1,22,1.0,2581,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3454,3,rich,1,gold lines,1,1,7,0,,2,3,4,1,4,1,1,2,2,7,0.5,1.94,865,2,2,1,0,5,0,1,0,2,22,1.0,5260,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3470,1,rich,0,no patch,1,1,12,0,,2,,4,1,4,0,0,4,4,12,0.7,2.27,74,2,1,2,0,5,0,1,0,1,47,0.75,11802,0.9
+ladder2,e4b_loc_ctrl_v1,rich_3470,2,rich,0,gold lines,1,1,12,0,,1,2,6,1,10,1,1,5,2,12,0.6,1.92,74,2,3,0,0,5,0,0,0,1,77,0.333,5966,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3470,3,rich,0,"right file, other lines",1,1,10,0,,2,,9,1,9,0,0,1,1,10,1.1,1.77,74,3,2,0,0,5,0,2,0,1,122,0.5,3481,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3471,1,rich,0,gold lines,1,1,7,0,,1,2,6,1,6,1,1,1,1,7,0.9,1.63,86,3,2,0,0,5,0,1,0,1,177,0.333,13085,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3471,2,rich,0,gold lines,1,1,5,0,,1,,3,1,4,1,1,2,1,5,0.7,1.53,86,1,1,2,1,5,0,0,1,1,5,1.0,13250,0.9
+ladder2,e4b_loc_ctrl_v1,rich_3471,3,rich,0,gold lines,1,1,4,0,,1,,3,1,3,1,1,1,1,4,0.6,1.26,86,1,1,1,1,4,0,0,0,1,5,1.0,9936,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3480,1,rich,0,another file,1,2,7,0,,1,,6,0,6,0,0,1,1,7,0.8,6.43,81,2,3,0,0,5,0,0,0,3,322,0.5,6984,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3480,2,rich,0,another file,1,2,5,0,,1,,4,0,4,0,0,1,1,5,0.7,6.36,81,1,1,1,2,5,0,0,0,1,5,0.5,13663,0.7
+ladder2,e4b_loc_ctrl_v1,rich_3480,3,rich,0,another file,1,2,15,0,,2,,14,0,14,0,0,1,1,15,0.9,6.74,81,3,2,0,0,5,0,1,0,2,322,0.8,3380,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3506,1,rich,0,"right file, other lines",1,1,5,0,,1,3,4,1,4,0,0,1,1,5,1.0,2.02,115,2,1,1,1,5,0,1,0,1,2,1.0,21089,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3506,2,rich,0,"right file, other lines",1,1,5,0,,1,3,4,1,4,0,0,1,1,5,0.9,1.98,115,2,1,1,1,5,0,1,0,1,3,1.0,23660,0.9
+ladder2,e4b_loc_ctrl_v1,rich_3506,3,rich,0,"right file, other lines",1,1,10,0,,1,4,5,1,5,0,0,4,1,10,1.0,2.34,115,3,1,1,0,5,0,2,0,1,2,1.0,14019,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3518,1,rich,1,gold lines,1,1,4,0,,1,,3,1,3,1,1,1,1,4,0.5,1.19,658,1,1,1,1,4,0,0,0,1,1,0.5,5658,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3518,2,rich,1,gold lines,1,1,6,0,,1,4,5,1,5,1,1,1,1,6,0.6,1.35,658,2,2,1,0,5,0,0,0,1,5,0.8,7676,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3518,3,rich,0,"right file, other lines",1,1,4,0,,1,,3,1,3,0,0,1,1,4,0.3,1.01,658,1,1,1,1,4,0,0,0,1,1,1.0,4411,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3521,1,rich,0,gold lines,1,1,6,0,,1,3,5,1,5,1,1,1,1,6,1.0,1.64,80,2,2,1,0,5,0,0,0,1,546,1.0,14912,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3521,2,rich,1,gold lines,1,1,13,0,,1,4,7,1,7,1,1,5,5,13,1.4,2.92,80,2,3,0,0,5,0,0,0,1,1,0.75,15694,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3521,3,rich,0,no patch,1,1,8,0,,2,4,5,1,5,1,1,2,2,8,1.3,2.68,80,2,2,1,0,5,0,0,0,1,5,0.75,22400,1.3
+ladder2,e4b_loc_ctrl_v1,rich_3535,1,rich,0,"gold lines, misses a gold file",2,2,7,0,,4,4,5,1,5,1,1,1,1,7,1.0,1.72,193,3,1,1,0,5,0,2,1,1,0,0.857,13803,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3535,2,rich,0,another file,2,2,12,0,,,,10,0,10,0,0,1,1,12,0.8,1.48,193,4,1,0,0,5,0,4,0,1,0,1.0,2368,0.2
+ladder2,e4b_loc_ctrl_v1,rich_3535,3,rich,0,"gold lines, misses a gold file",2,2,18,0,,15,,17,1,17,1,1,1,1,18,1.8,2.86,193,3,2,0,0,5,0,3,0,2,0,0.8,2635,0.2
+ladder2,e4b_loc_ctrl_v1,rich_3675,1,rich,0,"gold lines, misses a gold file",2,5,6,0,,1,2,5,1,5,1,1,1,1,6,0.8,1.5,168,2,2,1,0,5,0,0,0,1,543,0.0,7826,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3675,2,rich,0,"right file, other lines",2,5,10,0,,3,8,9,1,9,0,0,1,1,10,0.9,1.59,168,3,2,0,0,5,0,3,0,2,0,0.125,3200,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3675,3,rich,0,"gold lines, misses a gold file",2,5,5,0,,2,3,4,1,4,1,1,1,1,5,0.5,1.18,168,2,1,1,1,5,0,1,0,1,129,0.5,5062,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3676,1,rich,0,"gold lines, misses a gold file",2,8,9,0,,2,5,8,1,8,1,1,1,1,9,0.6,1.26,42,3,2,0,0,5,0,1,0,2,269,0.333,2697,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3676,2,rich,0,"right file, other lines",2,8,12,0,,2,10,11,1,11,0,0,1,1,12,1.2,1.88,42,3,2,0,0,5,0,1,2,2,0,0.333,2088,0.2
+ladder2,e4b_loc_ctrl_v1,rich_3676,3,rich,0,another file,2,8,8,0,,2,,7,0,7,0,0,1,1,8,0.7,1.36,42,2,3,0,0,5,0,0,0,1,135,0.5,2795,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3718,1,rich,0,no patch,1,3,13,0,,1,3,5,1,,,0,6,0,11,0.6,2.34,749,3,1,1,0,5,0,1,1,1,5,0.75,7519,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3718,2,rich,0,"right file, other lines",1,3,7,0,,2,3,5,1,5,0,0,1,1,7,0.8,1.11,749,2,2,1,0,5,0,1,0,1,174,1.0,10770,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3718,3,rich,0,"right file, other lines",1,3,13,0,,1,2,7,1,7,0,0,6,4,13,0.9,2.63,749,3,2,0,0,5,0,1,0,1,7,0.4,3275,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3772,1,rich,0,"right file, other lines",1,6,15,0,,4,4,13,1,14,0,0,2,1,15,1.8,2.36,131,1,4,0,0,5,0,0,0,2,280,1.0,4715,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3772,2,rich,0,another file,1,6,17,0,,1,2,13,0,16,0,0,3,1,17,1.8,7.18,131,3,2,0,0,5,0,0,0,1,72,0.333,5981,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3772,3,rich,0,"right file, other lines",1,6,9,0,,2,4,6,1,8,0,0,2,1,9,0.7,6.16,131,3,2,0,0,5,0,2,0,2,4,1.0,9134,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3777,1,rich,0,"right file, other lines",2,3,5,0,,1,,3,1,3,0,0,1,1,5,0.6,1.01,341,1,1,1,2,5,0,0,0,1,21,1.0,8746,0.7
+ladder2,e4b_loc_ctrl_v1,rich_3777,2,rich,0,another file,2,3,6,0,,1,,4,0,4,0,0,2,2,6,0.5,1.2,341,1,2,2,0,5,0,0,0,2,73,0.0,8864,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3777,3,rich,0,another file,2,3,15,0,,1,2,8,0,8,0,0,5,2,15,1.0,1.88,341,2,3,0,0,5,0,0,0,2,2,0.0,7291,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3882,1,rich,0,gold lines,1,1,5,0,,2,3,4,1,4,1,1,1,1,5,0.7,1.35,652,2,1,1,1,5,0,1,0,1,2,1.0,12978,0.7
+ladder2,e4b_loc_ctrl_v1,rich_3882,2,rich,0,gold lines,1,1,6,0,,1,4,5,1,5,1,1,1,1,6,0.5,1.21,652,2,2,1,0,5,0,0,0,1,5,1.0,7779,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3882,3,rich,0,gold lines,1,1,11,0,,1,3,4,1,4,1,1,6,2,11,0.7,2.03,652,2,1,2,0,5,0,1,1,1,2,1.0,22008,1.1
+ladder2,e4b_loc_ctrl_v1,rich_3894,1,rich,0,gold lines,1,1,5,0,,1,2,3,1,3,1,1,1,1,5,0.6,1.29,1974,1,1,1,2,5,0,0,0,1,2,1.0,7213,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3894,2,rich,0,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.5,1.16,1974,1,1,1,1,4,0,0,0,1,2,1.0,6693,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3894,3,rich,0,gold lines,1,1,6,0,,3,3,5,1,5,1,1,1,1,6,0.5,1.2,1974,3,1,1,0,5,0,3,0,1,0,0.667,6862,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3905,1,rich,1,gold lines,1,1,12,0,,1,6,11,1,11,1,1,1,1,12,1.0,1.86,1672,3,2,0,0,4,1,3,0,1,0,0.5,4085,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3905,2,rich,1,gold lines,1,1,25,0,,1,17,22,1,24,1,1,2,1,25,1.9,2.76,1672,4,1,0,0,4,1,4,0,1,0,0.375,1493,0.2
+ladder2,e4b_loc_ctrl_v1,rich_3905,3,rich,1,gold lines,1,1,10,0,,1,7,9,1,9,1,1,1,1,10,0.8,1.39,1672,3,2,0,0,5,0,3,0,1,0,0.5,3254,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3934,1,rich,0,"right file, other lines",2,3,8,0,,1,2,5,1,5,0,0,3,3,8,0.9,2.78,64,1,3,1,0,5,0,0,0,2,178,1.0,12455,0.9
+ladder2,e4b_loc_ctrl_v1,rich_3934,2,rich,0,"right file, other lines",2,3,5,0,,1,,3,1,4,0,0,2,1,5,0.6,1.73,64,1,1,2,1,5,0,1,1,1,0,1.0,16577,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3934,3,rich,0,no patch,2,3,9,0,,1,4,5,1,7,0,0,3,2,9,1.0,2.27,64,1,3,1,0,5,0,1,1,2,0,1.0,14433,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3935,1,rich,0,gold lines,1,5,6,0,,2,4,5,1,5,1,1,1,1,6,0.8,1.52,75,3,1,1,0,5,0,2,0,1,7,0.5,13552,0.8
+ladder2,e4b_loc_ctrl_v1,rich_3935,2,rich,0,another file,1,5,6,0,,2,,5,0,5,0,0,1,1,6,0.4,1.09,75,3,1,1,0,5,0,1,0,1,215,0.429,5936,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3935,3,rich,0,gold lines,1,5,5,0,,2,3,4,1,4,1,1,1,1,5,0.7,1.3,75,2,1,1,1,5,0,2,0,1,0,0.5,8787,0.7
+ladder2,e4b_loc_ctrl_v1,rich_3938,1,rich,0,"right file, other lines",2,2,10,0,,3,,9,1,9,0,0,1,1,10,1.0,1.67,89,3,2,0,0,5,0,0,0,2,294,0.5,2533,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3938,2,rich,0,another file,2,2,9,0,,5,,8,0,8,0,0,1,1,9,1.3,2.01,89,3,2,0,0,5,0,2,0,2,2,1.0,5213,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3938,3,rich,0,no patch,2,2,8,0,,1,,3,1,3,0,0,3,3,8,1.0,2.39,89,2,1,2,0,5,0,0,0,1,93,0.667,17856,1.2
+ladder2,e4b_loc_ctrl_v1,rich_3942,1,rich,0,"gold lines, misses a gold file",2,7,5,0,,1,2,4,1,4,1,1,1,1,5,0.6,1.28,54,1,2,1,1,5,0,0,0,2,284,1.0,8453,0.6
+ladder2,e4b_loc_ctrl_v1,rich_3942,2,rich,0,"gold lines, misses a gold file",2,7,3,0,,1,,2,1,2,1,1,1,1,3,0.5,1.18,54,1,0,1,1,3,0,0,0,0,83,1.0,9076,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3942,3,rich,0,"gold lines, misses a gold file",2,7,9,0,,1,2,6,1,6,1,1,3,3,9,0.6,1.4,54,3,2,0,0,5,0,1,1,1,83,0.429,7038,0.5
+ladder2,e4b_loc_ctrl_v1,rich_3944,1,rich,0,another file,1,1,10,0,,,,8,0,8,0,0,2,2,10,0.8,1.73,63,4,1,0,0,5,0,3,0,1,73,0.0,5217,0.4
+ladder2,e4b_loc_ctrl_v1,rich_3944,2,rich,0,another file,1,1,13,0,,,,5,0,5,0,0,5,5,13,0.7,2.39,63,3,1,1,0,5,0,1,0,1,73,0.0,10844,0.7
+ladder2,e4b_loc_ctrl_v1,rich_3944,3,rich,0,another file,1,1,7,0,,,,3,0,3,0,0,4,3,7,0.4,1.83,63,1,1,3,0,5,0,0,1,1,73,0.0,16837,1.0
+ladder2,e4b_loc_ctrl_v1,rich_3953,1,rich,0,another file,1,2,11,0,,,,10,0,10,0,0,1,1,11,0.8,1.08,130,3,1,0,1,5,0,1,0,1,12,0.25,3290,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3953,2,rich,0,gold lines,1,2,16,0,,7,7,10,1,14,1,1,5,1,16,1.0,2.81,130,1,3,0,1,5,0,1,0,3,0,1.0,3743,0.3
+ladder2,e4b_loc_ctrl_v1,rich_3953,3,rich,0,"right file, other lines",1,2,5,0,,2,3,4,1,4,0,0,1,1,5,0.5,0.96,130,2,1,1,1,5,0,1,0,1,68,0.5,10619,0.5
+ladder2,e4b_loc_ctrl_v1,rich_4006,1,rich,0,gold lines,1,2,10,0,,1,2,3,1,3,1,1,6,1,10,0.9,7.54,96,1,1,3,0,5,0,0,2,1,6,1.0,23480,1.5
+ladder2,e4b_loc_ctrl_v1,rich_4006,2,rich,0,no patch,1,2,5,0,,2,3,,,,,0,0,0,5,,6.15,96,2,1,0,2,5,0,1,0,1,6,,2445,0.9
+ladder2,e4b_loc_ctrl_v1,rich_4006,3,rich,0,gold lines,1,2,4,0,,1,2,3,1,3,1,1,1,1,4,0.5,5.88,96,1,1,1,1,4,0,0,0,1,3,1.0,9235,0.5
+ladder2,e4b_loc_ctrl_v1,rich_4075,1,rich,0,no patch,1,4,8,0,,,,5,0,5,0,0,2,2,8,0.5,1.6,101,2,2,1,0,5,0,2,0,2,0,1.0,5314,0.5
+ladder2,e4b_loc_ctrl_v1,rich_4075,2,rich,0,no patch,1,4,11,0,,,,4,0,4,0,0,5,2,11,0.3,1.59,101,1,0,2,2,5,0,0,0,0,3,1.0,5458,0.4
+ladder2,e4b_loc_ctrl_v1,rich_4075,3,rich,0,no patch,1,4,19,0,,7,7,4,0,4,0,0,4,2,19,0.4,2.45,101,1,2,2,0,5,0,1,1,2,0,1.0,7155,0.5
+ladder2,e4b_loc_ctrl_v1,rich_4076,1,rich,0,another file,1,1,7,0,,,,5,0,5,0,0,1,1,7,1.0,1.71,71,2,2,1,0,5,0,1,0,2,11,1.0,15640,1.0
+ladder2,e4b_loc_ctrl_v1,rich_4076,2,rich,0,another file,1,1,15,0,,,,14,0,14,0,0,1,1,15,1.8,2.43,71,3,2,0,0,5,0,1,0,2,29,0.5,3509,0.3
+ladder2,e4b_loc_ctrl_v1,rich_4076,3,rich,0,another file,1,1,6,0,,,,4,0,4,0,0,2,2,6,0.6,1.38,71,2,1,2,0,5,0,1,0,1,1,1.0,9460,0.8
+ladder2,e4b_loc_ctrl_v1,rich_4077,1,rich,0,another file,1,1,6,0,,,,3,0,3,0,0,1,1,6,0.8,1.79,66,1,2,1,1,5,0,0,0,2,23,1.0,15863,1.0
+ladder2,e4b_loc_ctrl_v1,rich_4077,2,rich,0,another file,1,1,7,0,,,,5,0,5,0,0,1,1,7,0.6,1.3,66,3,1,1,0,5,0,2,0,1,23,1.0,9536,0.6
+ladder2,e4b_loc_ctrl_v1,rich_4077,3,rich,0,another file,1,1,5,0,,,,4,0,4,0,0,1,1,5,0.5,1.17,66,2,1,1,1,5,0,1,0,1,23,1.0,6908,0.5
+ladder2,e4b_loc_hint_v1,fastapi_11355,1,fastapi,0,gold lines,1,3,5,0,,1,1,4,1,4,1,1,1,1,5,0.6,1.35,299,0,3,1,1,5,0,0,0,1,0,,9100,0.6
+ladder2,e4b_loc_hint_v1,fastapi_11355,2,fastapi,0,gold lines,1,3,10,0,,1,1,4,1,4,1,1,4,1,10,1.0,2.8,299,0,3,2,0,5,0,0,1,1,0,,24586,1.4
+ladder2,e4b_loc_hint_v1,fastapi_11355,3,fastapi,0,gold lines,1,3,5,0,,1,1,4,1,4,1,1,1,1,5,1.5,2.22,299,0,3,1,1,5,0,0,0,1,0,,11079,1.5
+ladder2,e4b_loc_hint_v1,fastapi_12942,1,fastapi,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.8,1.12,1392,1,1,1,1,4,0,1,0,1,0,0.5,8723,0.8
+ladder2,e4b_loc_hint_v1,fastapi_12942,2,fastapi,0,no patch,1,1,4,0,,1,1,2,1,,,0,1,0,4,0.4,1.0,1392,0,1,1,2,4,0,0,1,1,0,,9956,0.6
+ladder2,e4b_loc_hint_v1,fastapi_12942,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,1.8,2.08,1392,0,1,1,1,3,0,0,0,1,0,,8040,1.8
+ladder2,e4b_loc_hint_v1,fastapi_13207,1,fastapi,0,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,1.0,1.7,354,0,1,1,1,3,0,0,0,1,0,,14042,1.0
+ladder2,e4b_loc_hint_v1,fastapi_13207,2,fastapi,0,"right file, other lines",1,2,4,0,,1,1,3,1,3,0,0,1,1,4,0.8,1.5,354,0,2,1,1,4,0,0,0,1,0,,13496,0.8
+ladder2,e4b_loc_hint_v1,fastapi_13207,3,fastapi,0,"right file, other lines",1,2,4,0,,1,1,3,1,3,0,0,1,1,4,0.7,1.47,354,0,2,1,1,4,0,0,0,1,0,,13011,0.7
+ladder2,e4b_loc_hint_v1,fastapi_13713,1,fastapi,0,gold lines,2,5,26,0,,1,6,8,1,11,0,1,7,3,26,1.7,5.5,756,3,2,0,0,5,0,1,0,1,292,0.667,18606,1.1
+ladder2,e4b_loc_hint_v1,fastapi_13713,2,fastapi,0,gold lines,2,5,9,0,,1,2,5,1,5,0,1,3,3,9,0.7,1.7,756,2,2,1,0,5,0,0,0,1,292,0.667,9179,0.7
+ladder2,e4b_loc_hint_v1,fastapi_13713,3,fastapi,0,gold lines,2,5,10,0,,1,5,3,1,3,0,1,3,3,9,0.6,2.47,756,2,2,1,0,5,0,1,0,2,292,1.0,8229,0.7
+ladder2,e4b_loc_hint_v1,fastapi_13920,1,fastapi,0,gold lines,1,2,11,0,,1,1,5,1,7,0,0,5,2,11,1.0,2.53,225,1,3,1,0,5,0,1,1,1,0,0.0,14178,1.0
+ladder2,e4b_loc_hint_v1,fastapi_13920,2,fastapi,0,gold lines,1,2,12,0,,1,1,10,1,10,1,1,1,1,12,1.0,1.48,225,1,4,0,0,5,0,1,0,1,0,1.0,3805,0.4
+ladder2,e4b_loc_hint_v1,fastapi_13920,3,fastapi,0,no patch,1,2,11,0,,1,1,6,1,9,1,1,4,2,11,0.8,1.98,225,1,4,0,0,4,1,1,0,1,0,1.0,6931,0.5
+ladder2,e4b_loc_hint_v1,fastapi_14246,1,fastapi,0,gold lines,1,1,6,0,,1,1,2,1,4,1,1,3,1,6,0.6,1.29,273,0,1,3,1,5,0,0,2,1,0,,11655,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14246,2,fastapi,0,gold lines,1,1,12,0,,1,1,2,1,4,1,1,8,4,12,1.0,3.16,273,0,1,4,0,5,0,0,2,1,0,,21647,1.6
+ladder2,e4b_loc_hint_v1,fastapi_14246,3,fastapi,0,gold lines,1,1,6,0,,1,1,2,1,4,1,1,3,1,6,0.8,1.98,273,1,1,3,0,5,0,1,2,1,0,0.0,24010,1.5
+ladder2,e4b_loc_hint_v1,fastapi_14258,1,fastapi,0,"right file, other lines",1,1,3,0,,1,1,2,1,2,0,0,1,1,3,0.8,1.51,418,0,1,1,1,3,0,0,0,1,0,,12168,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14258,2,fastapi,0,"right file, other lines",1,1,4,0,,1,1,3,1,3,0,0,1,1,4,0.9,1.61,418,0,2,1,1,4,0,0,0,1,0,,13041,0.9
+ladder2,e4b_loc_hint_v1,fastapi_14258,3,fastapi,0,"right file, other lines",1,1,4,0,,1,1,2,1,2,0,0,2,2,4,1.5,2.56,418,0,1,2,1,4,0,0,0,1,0,,19757,1.8
+ladder2,e4b_loc_hint_v1,fastapi_14266,1,fastapi,0,gold lines,1,2,4,0,,1,1,3,1,3,1,1,1,1,4,0.7,1.01,247,0,2,1,1,4,0,0,0,1,0,,10455,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14266,2,fastapi,0,gold lines,1,2,4,0,,1,1,3,1,3,1,1,1,1,4,0.6,0.94,247,0,2,1,1,4,0,0,0,1,0,,8967,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14266,3,fastapi,0,gold lines,1,2,4,0,,1,1,2,1,2,1,1,2,2,4,0.9,1.4,247,0,1,2,1,4,0,0,0,1,0,,15354,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14301,1,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.15,739,0,1,1,1,3,0,0,0,1,0,,4586,0.4
+ladder2,e4b_loc_hint_v1,fastapi_14301,2,fastapi,0,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.7,1.57,739,0,1,1,2,4,0,0,0,1,0,,12421,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14301,3,fastapi,1,gold lines,1,1,5,0,,1,2,3,1,3,1,1,1,1,5,0.5,1.32,739,1,1,1,2,5,0,1,0,1,0,1.0,6364,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14306,1,fastapi,0,"gold lines, misses a gold file",2,12,12,0,,1,2,4,1,4,1,1,8,1,12,0.6,2.75,2791,1,2,2,0,5,0,1,1,1,0,1.0,10307,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14306,2,fastapi,0,gold lines,2,12,25,0,,1,2,4,1,4,1,1,12,3,25,0.9,4.95,2791,1,2,2,0,5,0,1,1,1,0,1.0,14873,1.2
+ladder2,e4b_loc_hint_v1,fastapi_14306,3,fastapi,0,no patch,2,12,4,0,,1,,,,,,0,0,0,4,,1.78,2791,0,3,0,1,4,0,0,3,1,0,,6219,
+ladder2,e4b_loc_hint_v1,fastapi_14349,1,fastapi,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.09,169,0,1,1,1,3,0,0,0,1,0,,10366,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14349,2,fastapi,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.9,1.16,169,0,2,1,1,4,0,0,0,2,0,,13017,0.9
+ladder2,e4b_loc_hint_v1,fastapi_14349,3,fastapi,0,gold lines,1,1,5,0,,1,2,3,1,3,1,1,1,1,5,0.8,1.22,169,1,1,1,2,5,0,1,0,1,0,0.4,12778,0.9
+ladder2,e4b_loc_hint_v1,fastapi_14356,1,fastapi,0,gold lines,1,1,7,0,,1,5,4,1,6,1,1,2,1,7,1.1,2.28,1481,1,1,1,2,5,0,1,1,1,0,0.0,6908,1.1
+ladder2,e4b_loc_hint_v1,fastapi_14356,2,fastapi,0,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.8,1.52,1481,1,1,1,1,4,0,0,0,1,1,0.333,13540,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14356,3,fastapi,0,gold lines,1,1,5,0,,1,1,2,1,2,1,1,3,2,5,1.4,2.64,1481,0,1,3,1,5,0,0,1,1,0,,24316,1.9
+ladder2,e4b_loc_hint_v1,fastapi_14360,1,fastapi,0,gold lines,1,1,5,0,,1,3,4,1,4,1,1,1,1,5,0.7,1.48,753,2,1,1,1,5,0,1,0,1,23,0.25,10988,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14360,2,fastapi,0,gold lines,1,1,6,0,,1,3,4,1,4,1,1,1,1,6,0.6,1.3,753,2,1,1,1,5,0,2,0,1,0,1.0,7695,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14360,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.8,1.54,753,0,1,1,1,3,0,0,0,1,0,,11204,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14361,1,fastapi,1,gold lines,1,1,5,0,,1,3,4,1,4,1,1,1,1,5,0.4,0.76,96,2,1,1,1,5,0,0,0,1,6,1.0,6259,0.4
+ladder2,e4b_loc_hint_v1,fastapi_14361,2,fastapi,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.4,0.71,96,0,1,1,2,4,0,0,0,1,0,,4382,0.4
+ladder2,e4b_loc_hint_v1,fastapi_14361,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,0.77,96,0,1,1,1,3,0,0,0,1,0,,5613,0.4
+ladder2,e4b_loc_hint_v1,fastapi_14372,1,fastapi,1,"gold lines, misses a gold file",2,3,6,0,,1,2,5,1,5,1,1,1,1,6,0.7,1.51,1160,2,2,1,0,5,0,2,0,2,0,1.0,9072,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14372,2,fastapi,0,gold lines,2,3,6,0,,1,1,3,1,3,1,1,2,2,6,0.5,1.83,1160,0,3,2,0,5,0,0,0,2,0,,13043,1.1
+ladder2,e4b_loc_hint_v1,fastapi_14372,3,fastapi,0,"gold lines, misses a gold file",2,3,7,0,,1,2,5,1,5,1,1,1,1,7,0.7,1.66,1160,1,3,1,0,5,0,0,0,2,13,1.0,8343,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14419,1,fastapi,0,no patch,2,7,10,0,,1,1,2,1,,,0,8,0,10,0.8,4.14,689,0,1,4,0,5,0,0,4,1,0,,25063,2.3
+ladder2,e4b_loc_hint_v1,fastapi_14419,2,fastapi,0,"gold lines, misses a gold file",2,7,6,0,,1,1,2,1,2,1,1,1,1,6,0.9,2.09,689,1,3,1,0,5,0,0,0,2,6,0.0,16770,1.3
+ladder2,e4b_loc_hint_v1,fastapi_14419,3,fastapi,0,"gold lines, misses a gold file",2,7,4,0,,1,1,2,1,3,1,1,2,1,4,0.9,1.88,689,0,1,2,1,4,0,0,1,1,0,,14699,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14430,1,fastapi,0,gold lines,1,2,5,0,,1,2,4,1,4,1,1,1,1,5,1.0,1.28,335,1,2,1,1,5,0,1,0,1,0,1.0,15482,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14430,2,fastapi,0,gold lines,1,2,4,0,,1,1,3,1,3,1,1,1,1,4,0.8,1.5,335,0,2,1,1,4,0,0,0,1,0,,21432,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14430,3,fastapi,0,gold lines,1,2,5,0,,1,1,3,1,3,1,1,1,1,5,0.3,0.68,335,0,2,1,2,5,0,0,0,1,0,,6205,0.4
+ladder2,e4b_loc_hint_v1,fastapi_14448,1,fastapi,0,"gold lines, misses a gold file",2,3,8,0,,1,1,3,1,3,1,1,3,3,8,0.7,2.31,1226,0,4,1,0,4,1,0,0,2,0,,10328,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14448,2,fastapi,0,gold lines,2,3,6,0,,1,1,3,1,3,1,1,2,2,6,0.9,1.97,1226,0,3,2,0,5,0,0,0,2,0,,17090,1.2
+ladder2,e4b_loc_hint_v1,fastapi_14448,3,fastapi,0,"gold lines, misses a gold file",2,3,7,0,,1,1,4,1,4,1,1,3,2,7,1.1,2.8,1226,0,3,2,0,5,0,0,1,2,0,,18425,1.6
+ladder2,e4b_loc_hint_v1,fastapi_14455,1,fastapi,0,gold lines,1,2,6,0,,1,1,4,1,4,1,1,1,1,6,1.0,1.73,283,1,2,1,1,5,0,0,0,1,2,0.0,15872,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14455,2,fastapi,0,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.22,283,0,1,1,1,3,0,0,0,1,0,,7165,0.5
+ladder2,e4b_loc_hint_v1,fastapi_14455,3,fastapi,0,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.9,1.69,283,0,1,1,1,3,0,0,0,1,0,,16968,0.9
+ladder2,e4b_loc_hint_v1,fastapi_14458,1,fastapi,0,gold lines,1,4,11,0,,1,1,2,1,4,1,1,7,3,11,0.9,2.56,591,0,2,3,0,5,0,0,1,1,0,,15262,1.3
+ladder2,e4b_loc_hint_v1,fastapi_14458,2,fastapi,0,gold lines,1,4,6,0,,1,1,2,1,2,1,1,3,1,6,0.9,1.8,591,0,2,3,0,5,0,0,2,1,0,,14502,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14458,3,fastapi,1,gold lines,1,4,6,0,,1,1,2,1,5,1,1,4,1,6,0.9,1.92,591,0,1,4,0,4,1,0,3,1,0,,18701,1.6
+ladder2,e4b_loc_hint_v1,fastapi_14459,1,fastapi,0,"gold lines, misses a gold file",3,8,6,0,,1,1,2,1,2,0,0,2,2,6,0.7,1.89,815,0,3,2,0,5,0,0,0,3,0,,19178,1.4
+ladder2,e4b_loc_hint_v1,fastapi_14459,2,fastapi,1,"right file, other lines",3,8,10,0,,1,1,2,1,2,0,0,1,1,10,0.9,1.94,815,0,4,1,0,5,0,0,0,2,0,,15825,1.1
+ladder2,e4b_loc_hint_v1,fastapi_14459,3,fastapi,0,"right file, other lines",3,8,6,0,,1,1,3,1,3,0,0,2,1,6,1.9,2.86,815,0,1,2,2,5,0,0,1,1,0,,16794,2.1
+ladder2,e4b_loc_hint_v1,fastapi_14463,1,fastapi,1,gold lines,1,2,7,0,,1,2,5,1,5,1,1,2,2,7,0.5,1.33,10095,2,2,1,0,5,0,2,0,1,0,1.0,8315,0.5
+ladder2,e4b_loc_hint_v1,fastapi_14463,2,fastapi,1,gold lines,1,2,9,0,,1,3,7,1,7,1,1,2,2,9,0.8,1.84,10095,3,2,0,0,5,0,3,0,1,0,1.0,9793,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14463,3,fastapi,1,gold lines,1,2,6,0,,1,2,4,1,4,1,1,2,2,6,0.5,1.37,10095,2,1,2,0,5,0,1,0,1,22,1.0,9558,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14479,1,fastapi,0,gold lines,1,1,4,0,,1,2,1,1,3,1,1,2,1,4,1.6,2.69,2455,0,1,2,1,4,0,0,1,1,0,,10507,2.0
+ladder2,e4b_loc_hint_v1,fastapi_14479,2,fastapi,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.23,2455,0,1,1,1,3,0,0,0,1,0,,6660,0.5
+ladder2,e4b_loc_hint_v1,fastapi_14479,3,fastapi,0,no patch,1,1,7,0,,1,1,2,0,,,0,4,0,7,,2.4,2455,0,1,4,0,4,1,0,4,1,0,,14005,0.9
+ladder2,e4b_loc_hint_v1,fastapi_14482,1,fastapi,0,gold lines,1,5,7,0,,1,2,5,1,5,1,1,1,1,7,0.7,1.55,266,1,3,1,0,5,0,1,0,1,0,1.0,11959,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14482,2,fastapi,0,gold lines,1,5,9,0,,1,2,8,1,8,1,1,1,1,9,1.1,1.87,266,2,3,0,0,5,0,2,0,1,0,1.0,2825,0.3
+ladder2,e4b_loc_hint_v1,fastapi_14482,3,fastapi,0,gold lines,1,5,4,0,,1,1,3,1,3,1,1,1,1,4,0.8,1.53,266,0,2,1,1,4,0,0,0,1,0,,12975,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14485,1,fastapi,0,gold lines,1,2,7,0,,1,1,2,1,2,1,1,4,1,7,0.9,2.49,317,0,2,3,0,5,0,0,2,1,0,,22085,1.5
+ladder2,e4b_loc_hint_v1,fastapi_14485,2,fastapi,0,gold lines,1,2,4,0,,1,1,2,1,2,1,1,1,1,4,0.8,1.95,317,0,1,1,2,4,0,0,0,1,0,,23080,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14485,3,fastapi,0,gold lines,1,2,5,0,,1,1,3,1,3,1,1,1,1,5,0.6,1.4,317,0,2,1,2,5,0,0,0,1,0,,8123,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14487,1,fastapi,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,0.92,204,0,1,1,1,3,0,0,0,1,0,,9902,0.4
+ladder2,e4b_loc_hint_v1,fastapi_14487,2,fastapi,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,0.92,204,0,1,1,1,3,0,0,0,1,0,,10458,0.5
+ladder2,e4b_loc_hint_v1,fastapi_14487,3,fastapi,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,0.98,204,0,1,1,1,3,0,0,0,1,0,,10796,0.4
+ladder2,e4b_loc_hint_v1,fastapi_14492,1,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.96,159,0,1,1,1,3,0,0,0,1,0,,3275,0.2
+ladder2,e4b_loc_hint_v1,fastapi_14492,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,1.0,159,0,1,1,1,3,0,0,0,1,0,,3183,0.2
+ladder2,e4b_loc_hint_v1,fastapi_14492,3,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,1.07,159,0,1,1,1,3,0,0,0,1,0,,6837,0.2
+ladder2,e4b_loc_hint_v1,fastapi_14512,1,fastapi,0,gold lines,1,3,9,0,,1,1,4,1,4,1,1,3,1,9,0.9,2.06,289,0,3,2,0,4,1,0,1,1,0,,22353,1.5
+ladder2,e4b_loc_hint_v1,fastapi_14512,2,fastapi,0,gold lines,1,3,4,0,,1,1,3,1,3,1,1,1,1,4,0.8,1.09,289,0,2,1,1,4,0,0,0,1,0,,9888,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14512,3,fastapi,0,gold lines,1,3,7,0,,1,2,6,1,6,1,1,1,1,7,1.1,1.38,289,1,4,0,0,4,1,0,0,1,3,1.0,5980,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14786,1,fastapi,1,gold lines,1,1,3,0,,1,,,,,,0,0,0,3,,2.6,2303,0,0,0,3,3,0,0,0,0,0,,1732,1.9
+ladder2,e4b_loc_hint_v1,fastapi_14786,2,fastapi,1,gold lines,1,1,4,0,,1,,1,1,1,1,1,1,1,4,0.5,1.44,2303,0,0,1,3,4,0,0,1,0,0,,4629,0.6
+ladder2,e4b_loc_hint_v1,fastapi_14786,3,fastapi,0,no patch,1,1,4,0,,1,,1,1,,,0,3,0,4,0.7,1.64,2303,0,0,3,1,2,2,0,3,0,0,,7926,1.0
+ladder2,e4b_loc_hint_v1,fastapi_14794,1,fastapi,1,gold lines,1,2,5,0,,1,2,4,1,4,1,1,1,1,5,0.7,1.03,816,2,1,1,1,5,0,2,0,1,0,0.6,10917,0.7
+ladder2,e4b_loc_hint_v1,fastapi_14794,2,fastapi,1,gold lines,1,2,4,0,,1,2,3,1,3,1,1,1,1,4,0.8,1.09,816,1,1,1,1,4,0,0,0,1,2,1.0,13328,0.8
+ladder2,e4b_loc_hint_v1,fastapi_14794,3,fastapi,1,gold lines,1,2,5,0,,1,2,3,1,3,1,1,1,1,5,0.4,0.87,816,1,1,1,2,5,0,0,0,1,2,1.0,6773,0.5
+ladder2,e4b_loc_hint_v1,fastapi_14873,1,fastapi,1,gold lines,1,2,6,0,,1,2,3,1,5,1,1,2,1,6,0.7,1.68,674,1,2,2,0,5,0,1,1,1,0,1.0,15629,1.3
+ladder2,e4b_loc_hint_v1,fastapi_14873,2,fastapi,0,gold lines,1,2,5,0,,1,,2,1,4,1,1,3,1,5,0.8,1.69,674,1,0,3,1,5,0,0,2,0,14,1.0,13986,1.3
+ladder2,e4b_loc_hint_v1,fastapi_14873,3,fastapi,1,gold lines,1,2,14,0,,1,1,2,1,2,1,1,9,2,14,0.9,3.57,674,1,1,3,0,3,2,1,2,1,0,0.2,13883,1.3
+ladder2,e4b_loc_hint_v1,fastapi_14986,1,fastapi,0,gold lines,2,4,6,0,,1,1,2,1,2,1,1,2,2,6,0.7,2.06,1000,0,3,2,0,5,0,0,1,2,0,,16185,1.5
+ladder2,e4b_loc_hint_v1,fastapi_14986,2,fastapi,0,gold lines,2,4,10,1,Sandbox execution error: No LlmAgent mod,1,1,2,1,2,1,1,5,2,10,0.5,1.88,1000,0,4,1,0,5,0,0,0,2,0,,12917,0.9
+ladder2,e4b_loc_hint_v1,fastapi_14986,3,fastapi,0,"gold lines, misses a gold file",2,4,5,0,,1,1,2,1,2,1,1,2,2,5,0.9,1.83,1000,0,1,2,2,5,0,0,1,1,0,,21075,1.5
+ladder2,e4b_loc_hint_v1,fastapi_15023,1,fastapi,0,no patch,1,1,16,0,,1,1,8,1,,,0,5,0,16,0.6,2.11,112,1,4,0,0,4,1,0,0,1,6,0.0,5100,0.4
+ladder2,e4b_loc_hint_v1,fastapi_15023,2,fastapi,0,no patch,1,1,14,0,,1,1,5,1,,,0,7,0,14,0.4,1.88,112,1,3,1,0,3,2,1,1,1,0,0.0,6173,0.4
+ladder2,e4b_loc_hint_v1,fastapi_15023,3,fastapi,0,no patch,1,1,11,0,,1,1,4,1,,,0,6,0,11,0.4,1.71,112,1,2,2,0,4,1,0,2,1,6,0.0,6194,0.5
+ladder2,e4b_loc_hint_v1,fastapi_15588,1,fastapi,0,gold lines,1,2,6,0,,1,1,4,1,4,1,1,2,2,6,0.9,1.87,1891,1,2,2,0,5,0,1,0,1,0,0.0,11585,1.1
+ladder2,e4b_loc_hint_v1,fastapi_15588,2,fastapi,0,gold lines,1,2,6,0,,1,2,4,1,4,1,1,2,1,6,0.8,1.77,1891,1,2,2,0,5,0,1,1,1,0,1.0,9414,0.8
+ladder2,e4b_loc_hint_v1,fastapi_15588,3,fastapi,0,gold lines,1,2,10,0,,1,1,3,1,7,1,1,7,3,10,0.7,2.5,1891,0,2,3,0,4,1,0,3,1,0,,12082,1.0
+ladder2,e4b_loc_hint_v1,fastapi_15589,1,fastapi,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.8,1.54,1247,0,1,1,1,3,0,0,0,1,0,,15544,0.8
+ladder2,e4b_loc_hint_v1,fastapi_15589,2,fastapi,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.53,1247,0,1,1,1,3,0,0,0,1,0,,13037,0.7
+ladder2,e4b_loc_hint_v1,fastapi_15589,3,fastapi,0,gold lines,1,1,4,0,,1,1,3,1,3,1,1,1,1,4,0.9,1.6,1247,0,2,1,1,4,0,0,0,1,0,,16742,0.9
+ladder2,e4b_loc_hint_v1,fastapi_5077,1,fastapi,0,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.07,2679,0,1,1,1,3,0,0,0,1,0,,7517,0.7
+ladder2,e4b_loc_hint_v1,fastapi_5077,2,fastapi,0,gold lines,1,2,5,0,,1,2,3,1,3,1,1,2,2,5,1.1,1.56,2679,1,1,2,1,5,0,0,0,1,2,1.0,9567,1.2
+ladder2,e4b_loc_hint_v1,fastapi_5077,3,fastapi,0,gold lines,1,2,6,1,Sandbox execution error: No LlmAgent mod,2,4,3,1,5,1,1,2,1,6,1.7,2.43,2679,0,1,2,2,5,0,0,2,1,0,,13862,2.2
+ladder2,e4b_loc_hint_v1,fastapi_5624,1,fastapi,0,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.7,1.42,63,1,1,1,1,4,0,1,0,1,0,1.0,11771,0.7
+ladder2,e4b_loc_hint_v1,fastapi_5624,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.8,1.47,63,0,1,1,1,3,0,0,0,1,0,,14689,0.8
+ladder2,e4b_loc_hint_v1,fastapi_5624,3,fastapi,0,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.6,1.4,63,0,1,1,2,4,0,0,0,1,0,,11408,0.7
+ladder2,e4b_loc_hint_v1,fastapi_9425,1,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,0.85,235,0,1,1,1,3,0,0,0,1,0,,6899,0.5
+ladder2,e4b_loc_hint_v1,fastapi_9425,2,fastapi,1,"right file, other lines",1,1,5,0,,1,2,4,1,4,0,0,1,1,5,0.7,1.03,235,1,2,1,1,4,1,0,0,1,1,0.0,10529,0.7
+ladder2,e4b_loc_hint_v1,fastapi_9425,3,fastapi,1,"right file, other lines",1,1,4,0,,1,2,3,1,3,0,0,1,1,4,0.6,0.93,235,1,1,1,1,4,0,1,0,1,0,0.25,8955,0.6
+ladder2,e4b_loc_hint_v1,fastapi_9555,1,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.6,0.91,2934,0,1,1,1,3,0,0,0,1,0,,5228,0.6
+ladder2,e4b_loc_hint_v1,fastapi_9555,2,fastapi,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.06,2934,0,1,1,1,3,0,0,0,1,0,,8138,0.7
+ladder2,e4b_loc_hint_v1,fastapi_9555,3,fastapi,1,gold lines,1,1,5,0,,1,1,2,1,2,1,1,3,3,5,0.6,1.11,2934,0,1,3,1,5,0,0,0,1,0,,7192,0.8
+ladder2,e4b_loc_hint_v1,fastapi_9753,1,fastapi,1,gold lines,1,2,5,0,,1,2,4,1,4,1,1,1,1,5,0.8,1.06,689,1,2,1,1,5,0,1,0,1,0,1.0,9956,0.8
+ladder2,e4b_loc_hint_v1,fastapi_9753,2,fastapi,1,gold lines,1,2,5,0,,1,1,3,1,3,1,1,1,1,5,0.7,1.28,689,0,2,1,2,5,0,0,1,1,0,,12556,0.7
+ladder2,e4b_loc_hint_v1,fastapi_9753,3,fastapi,0,"right file, other lines",1,2,4,0,,1,1,3,1,3,0,0,1,1,4,0.9,1.23,689,0,2,1,1,4,0,0,0,1,0,,12398,0.9
+ladder2,e4b_loc_hint_v1,rich_2725,1,rich,1,gold lines,1,1,5,0,,1,1,2,1,4,1,1,3,1,5,0.4,1.68,1779,0,1,3,1,4,1,0,2,1,0,,13086,1.0
+ladder2,e4b_loc_hint_v1,rich_2725,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,1.01,1779,0,1,1,1,3,0,0,0,1,0,,3758,0.3
+ladder2,e4b_loc_hint_v1,rich_2725,3,rich,1,gold lines,1,1,10,0,,1,3,5,1,9,1,1,5,1,10,0.6,1.95,1779,2,2,1,0,5,0,2,1,1,0,0.0,7100,0.6
+ladder2,e4b_loc_hint_v1,rich_2943,1,rich,1,gold lines,1,1,5,0,,1,1,2,1,4,1,1,2,1,5,0.4,1.36,473,1,1,2,1,5,0,1,1,1,0,0.0,11766,0.7
+ladder2,e4b_loc_hint_v1,rich_2943,2,rich,1,gold lines,1,1,6,0,,1,3,4,1,5,1,1,2,1,6,0.3,1.12,473,2,1,2,0,5,0,2,1,1,0,0.0,4253,0.4
+ladder2,e4b_loc_hint_v1,rich_2943,3,rich,1,gold lines,1,1,4,0,,1,1,2,1,3,1,1,2,1,4,0.2,1.06,473,0,1,2,1,4,0,0,1,1,0,,4193,0.3
+ladder2,e4b_loc_hint_v1,rich_3006,1,rich,1,gold lines,1,1,7,0,,1,2,6,1,6,1,1,1,1,7,0.6,1.3,677,4,1,0,0,5,0,4,0,1,0,0.357,9377,0.6
+ladder2,e4b_loc_hint_v1,rich_3006,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.02,677,0,1,1,1,3,0,0,0,1,0,,5691,0.4
+ladder2,e4b_loc_hint_v1,rich_3006,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.97,677,0,1,1,1,3,0,0,0,1,0,,4802,0.3
+ladder2,e4b_loc_hint_v1,rich_3043,1,rich,0,gold lines,1,2,13,0,,1,1,6,1,6,1,1,3,2,13,0.7,2.05,286,1,3,0,1,5,0,1,0,1,0,,6133,0.3
+ladder2,e4b_loc_hint_v1,rich_3043,2,rich,0,no patch,1,2,10,0,,1,1,2,1,9,0,0,6,1,10,0.6,2.22,286,0,1,4,0,4,1,0,4,1,0,,14352,1.1
+ladder2,e4b_loc_hint_v1,rich_3043,3,rich,0,no patch,1,2,13,0,,1,1,5,1,5,1,1,5,5,8,1.2,2.76,286,2,2,1,0,5,0,1,0,2,1,0.0,18760,1.2
+ladder2,e4b_loc_hint_v1,rich_3052,1,rich,0,gold lines,1,12,21,0,,1,2,8,1,8,1,1,7,3,21,0.8,2.81,863,2,3,0,0,5,0,0,0,1,7,0.667,3283,0.3
+ladder2,e4b_loc_hint_v1,rich_3052,2,rich,0,gold lines,1,12,7,0,,1,2,5,1,5,1,1,2,2,7,0.9,1.55,863,1,3,1,0,5,0,1,0,1,0,1.0,9742,0.9
+ladder2,e4b_loc_hint_v1,rich_3052,3,rich,0,gold lines,1,12,14,0,,1,3,6,1,6,1,1,5,1,14,0.8,2.84,863,3,2,0,0,5,0,3,0,1,0,0.8,3441,0.3
+ladder2,e4b_loc_hint_v1,rich_3061,1,rich,0,gold lines,1,13,9,0,,1,2,8,1,8,1,1,1,1,9,1.1,1.79,411,3,2,0,0,5,0,2,0,1,74,0.5,3579,0.4
+ladder2,e4b_loc_hint_v1,rich_3061,2,rich,0,gold lines,1,13,6,0,,1,3,5,1,5,1,1,1,1,6,1.0,1.64,411,2,2,1,0,5,0,1,0,1,25,1.0,16094,1.0
+ladder2,e4b_loc_hint_v1,rich_3061,3,rich,0,gold lines,1,13,6,0,,1,1,5,1,5,1,1,1,1,6,0.9,1.62,411,2,2,1,0,5,0,1,0,1,3,0.333,15395,0.9
+ladder2,e4b_loc_hint_v1,rich_3063,1,rich,0,gold lines,1,2,4,0,,1,1,2,1,2,1,1,1,1,4,0.7,1.57,85,0,1,1,2,4,0,0,0,1,0,,12426,0.9
+ladder2,e4b_loc_hint_v1,rich_3063,2,rich,0,gold lines,1,2,6,0,,1,1,2,1,2,1,1,4,1,6,0.7,2.11,85,0,1,4,0,4,1,0,3,1,0,,21766,1.4
+ladder2,e4b_loc_hint_v1,rich_3063,3,rich,0,gold lines,1,2,4,0,,1,1,3,1,3,1,1,1,1,4,0.9,1.86,85,0,2,1,1,4,0,0,0,1,0,,18804,0.9
+ladder2,e4b_loc_hint_v1,rich_3067,1,rich,0,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.5,1.42,584,0,1,1,2,4,0,0,0,1,0,,9573,0.7
+ladder2,e4b_loc_hint_v1,rich_3067,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.3,0.92,584,0,1,1,1,3,0,0,0,1,0,,2379,0.3
+ladder2,e4b_loc_hint_v1,rich_3067,3,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.2,0.9,584,0,1,1,1,3,0,0,0,1,0,,1779,0.2
+ladder2,e4b_loc_hint_v1,rich_3105,1,rich,0,gold lines,1,1,9,0,,1,1,3,1,6,1,1,6,2,9,0.8,2.35,452,1,1,3,0,5,0,0,3,1,13,,21318,1.4
+ladder2,e4b_loc_hint_v1,rich_3105,2,rich,0,no patch,1,1,4,0,,1,1,2,1,2,0,0,1,1,4,0.6,0.99,452,0,1,1,2,4,0,0,0,1,0,,10599,0.7
+ladder2,e4b_loc_hint_v1,rich_3105,3,rich,0,gold lines,1,1,5,0,,1,1,2,1,4,1,1,2,1,5,0.7,1.36,452,0,2,2,1,5,0,0,1,1,0,,18310,1.0
+ladder2,e4b_loc_hint_v1,rich_3180,1,rich,0,"gold lines, misses a gold file",2,4,6,0,,1,1,4,1,4,1,1,1,1,6,1.3,1.58,1189,0,3,1,1,5,0,0,0,2,0,,21281,1.3
+ladder2,e4b_loc_hint_v1,rich_3180,2,rich,0,"gold lines, misses a gold file",2,4,7,0,,1,3,6,1,6,1,1,1,1,7,0.9,1.18,1189,2,3,0,0,5,0,2,0,2,0,0.667,3324,0.3
+ladder2,e4b_loc_hint_v1,rich_3180,3,rich,0,"gold lines, misses a gold file",2,4,4,0,,1,1,3,1,3,1,1,1,1,4,1.3,1.53,1189,0,2,1,1,4,0,0,0,1,0,,20962,1.3
+ladder2,e4b_loc_hint_v1,rich_3278,1,rich,0,gold lines,1,1,6,0,,1,1,2,1,2,1,1,3,3,6,0.7,2.16,1216,0,1,3,1,5,0,0,0,1,0,,22253,1.5
+ladder2,e4b_loc_hint_v1,rich_3278,2,rich,0,gold lines,1,1,4,0,,1,1,2,1,3,1,1,2,1,4,0.7,2.06,1216,0,1,2,1,4,0,0,1,1,0,,21344,0.9
+ladder2,e4b_loc_hint_v1,rich_3278,3,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.6,1.72,1216,0,1,1,1,3,0,0,0,1,0,,15586,0.6
+ladder2,e4b_loc_hint_v1,rich_3454,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.25,865,0,1,1,1,3,0,0,0,1,0,,4605,0.5
+ladder2,e4b_loc_hint_v1,rich_3454,2,rich,1,gold lines,1,1,8,0,,1,1,2,1,2,1,1,5,3,,0.3,2.42,865,0,3,2,0,5,0,0,0,2,0,,5471,0.6
+ladder2,e4b_loc_hint_v1,rich_3454,3,rich,1,gold lines,1,1,6,0,,1,1,2,1,2,1,1,3,2,6,0.4,1.42,865,0,2,3,0,5,0,0,0,2,0,,6014,0.8
+ladder2,e4b_loc_hint_v1,rich_3470,1,rich,0,gold lines,1,1,7,0,,1,1,5,1,5,1,1,1,1,7,1.1,1.79,74,2,2,1,0,5,0,2,0,1,0,0.286,16051,1.1
+ladder2,e4b_loc_hint_v1,rich_3470,2,rich,0,gold lines,1,1,6,0,,1,1,4,1,4,1,1,2,2,6,1.2,2.01,74,0,3,2,0,5,0,0,0,1,0,,16485,1.3
+ladder2,e4b_loc_hint_v1,rich_3470,3,rich,0,gold lines,1,1,5,0,,1,1,2,1,2,1,1,1,1,5,0.9,1.92,74,0,1,1,3,5,0,0,1,1,0,,21519,1.1
+ladder2,e4b_loc_hint_v1,rich_3471,1,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.4,86,0,1,1,1,3,0,0,0,1,0,,10924,0.7
+ladder2,e4b_loc_hint_v1,rich_3471,2,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.15,86,0,1,1,1,3,0,0,0,1,0,,8191,0.5
+ladder2,e4b_loc_hint_v1,rich_3471,3,rich,0,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.6,1.23,86,1,1,1,1,4,0,0,0,1,1,1.0,7871,0.6
+ladder2,e4b_loc_hint_v1,rich_3480,1,rich,0,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.8,6.45,81,0,1,1,1,3,0,0,0,1,0,,14534,0.8
+ladder2,e4b_loc_hint_v1,rich_3480,2,rich,0,"right file, other lines",1,2,3,0,,1,1,2,1,,,0,1,0,3,,6.58,81,0,1,1,1,3,0,0,1,1,0,,13811,0.1
+ladder2,e4b_loc_hint_v1,rich_3480,3,rich,0,"right file, other lines",1,2,4,0,,1,1,3,1,3,0,0,1,1,4,0.8,6.52,81,0,2,1,1,4,0,0,0,1,0,,15371,0.8
+ladder2,e4b_loc_hint_v1,rich_3506,1,rich,0,"right file, other lines",1,1,3,0,,1,1,2,1,2,0,0,1,1,3,0.9,1.5,115,0,1,1,1,3,0,0,0,1,0,,12133,0.9
+ladder2,e4b_loc_hint_v1,rich_3506,2,rich,0,no patch,1,1,6,0,,1,1,2,1,2,0,0,3,2,6,0.8,2.38,115,0,1,3,1,5,0,0,1,1,0,,29183,1.7
+ladder2,e4b_loc_hint_v1,rich_3506,3,rich,0,"right file, other lines",1,1,6,0,,1,1,2,1,2,0,0,3,1,6,0.8,2.4,115,0,1,3,1,4,1,0,2,1,0,,22529,1.5
+ladder2,e4b_loc_hint_v1,rich_3518,1,rich,1,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.4,1.16,658,0,1,1,2,4,0,0,1,1,0,,4124,0.4
+ladder2,e4b_loc_hint_v1,rich_3518,2,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.12,658,0,1,1,1,3,0,0,0,1,0,,3990,0.4
+ladder2,e4b_loc_hint_v1,rich_3518,3,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.3,0.97,658,1,1,1,1,4,0,0,0,1,5,1.0,3338,0.3
+ladder2,e4b_loc_hint_v1,rich_3521,1,rich,0,gold lines,1,1,4,0,,1,1,3,1,3,1,1,1,1,4,1.2,2.26,80,0,1,1,2,4,0,0,0,1,0,,25153,1.2
+ladder2,e4b_loc_hint_v1,rich_3521,2,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.42,80,0,1,1,1,3,0,0,0,1,0,,9056,0.7
+ladder2,e4b_loc_hint_v1,rich_3521,3,rich,0,no patch,1,1,8,0,,1,1,2,1,2,1,1,3,2,8,1.2,2.25,80,0,2,3,0,5,0,0,1,1,0,,25958,1.5
+ladder2,e4b_loc_hint_v1,rich_3535,1,rich,0,"gold lines, misses a gold file",2,2,4,0,,1,1,3,1,3,1,1,1,1,4,1.3,2.35,193,0,2,1,1,4,0,0,0,2,0,,14143,1.3
+ladder2,e4b_loc_hint_v1,rich_3535,2,rich,0,"gold lines, misses a gold file",2,2,4,0,,1,1,2,1,2,1,1,1,1,4,0.7,1.72,193,0,2,1,1,4,0,0,0,2,0,,14827,0.8
+ladder2,e4b_loc_hint_v1,rich_3535,3,rich,0,"gold lines, misses a gold file",2,2,8,0,,1,1,3,1,3,1,1,4,2,8,0.8,2.51,193,0,2,2,1,5,0,0,1,2,0,,18002,1.4
+ladder2,e4b_loc_hint_v1,rich_3675,1,rich,0,"gold lines, misses a gold file",2,5,7,0,,1,1,5,1,5,1,1,1,1,7,0.8,1.58,168,0,4,1,0,5,0,0,0,1,0,,7121,0.8
+ladder2,e4b_loc_hint_v1,rich_3675,2,rich,0,gold lines,2,5,8,0,,1,2,6,1,6,1,1,2,2,8,1.0,1.78,168,1,4,0,0,5,0,1,0,2,0,0.5,7539,0.7
+ladder2,e4b_loc_hint_v1,rich_3675,3,rich,0,gold lines,2,5,12,0,,1,3,5,1,5,1,1,3,3,12,0.8,2.15,168,2,2,1,0,5,0,2,0,1,0,0.0,9269,0.8
+ladder2,e4b_loc_hint_v1,rich_3676,1,rich,0,gold lines,2,8,7,0,,1,1,2,1,2,1,1,2,2,7,0.4,1.45,42,0,4,1,0,5,0,0,0,2,0,,7416,0.6
+ladder2,e4b_loc_hint_v1,rich_3676,2,rich,0,gold lines,2,8,11,0,,1,1,3,1,3,1,1,2,2,11,0.4,1.65,42,1,3,1,0,5,0,0,0,2,3,0.0,6964,0.6
+ladder2,e4b_loc_hint_v1,rich_3676,3,rich,0,no patch,2,8,10,0,,1,1,5,1,,,0,5,0,10,0.7,1.91,42,0,4,1,0,5,0,0,1,2,0,,9502,0.7
+ladder2,e4b_loc_hint_v1,rich_3718,1,rich,0,gold lines,1,3,11,0,,1,2,4,1,4,1,1,6,3,11,0.5,2.18,749,1,2,2,0,5,0,0,1,1,1,0.5,12867,1.1
+ladder2,e4b_loc_hint_v1,rich_3718,2,rich,0,"right file, other lines",1,3,5,0,,1,1,2,1,2,0,0,3,1,5,0.9,1.64,749,0,1,3,1,5,0,0,2,1,0,,20183,1.4
+ladder2,e4b_loc_hint_v1,rich_3718,3,rich,0,gold lines,1,3,7,0,,1,1,3,1,3,0,0,3,3,7,1.4,1.96,749,0,2,3,0,5,0,0,0,1,0,,24234,1.6
+ladder2,e4b_loc_hint_v1,rich_3772,1,rich,0,gold lines,1,6,11,0,,1,1,10,1,10,1,1,1,1,11,1.5,6.98,131,0,5,0,0,5,0,0,0,1,0,,8879,0.5
+ladder2,e4b_loc_hint_v1,rich_3772,2,rich,1,gold lines,1,6,7,0,,1,1,5,1,5,1,1,2,2,7,0.9,1.38,131,0,4,1,0,5,0,0,0,1,0,,13288,0.9
+ladder2,e4b_loc_hint_v1,rich_3772,3,rich,0,"right file, other lines",1,6,7,0,,1,1,6,1,6,0,0,1,1,7,1.4,6.66,131,0,5,0,0,5,0,0,0,1,0,,13752,0.9
+ladder2,e4b_loc_hint_v1,rich_3777,1,rich,0,"gold lines, misses a gold file",2,3,10,0,,1,2,5,1,8,1,1,4,1,10,0.7,1.54,341,1,3,1,0,5,0,1,1,2,0,1.0,7994,0.7
+ladder2,e4b_loc_hint_v1,rich_3777,2,rich,0,gold lines,2,3,9,0,,1,2,5,1,5,1,1,3,2,9,0.6,1.33,341,1,3,1,0,5,0,1,0,2,0,0.0,7671,0.6
+ladder2,e4b_loc_hint_v1,rich_3777,3,rich,1,"gold lines, misses a gold file",2,3,7,0,,1,2,5,1,5,1,1,1,1,7,0.9,1.22,341,2,2,1,0,5,0,2,0,1,0,0.333,10843,0.9
+ladder2,e4b_loc_hint_v1,rich_3882,1,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.66,652,0,1,1,1,3,0,0,0,1,0,,11929,0.7
+ladder2,e4b_loc_hint_v1,rich_3882,2,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,1.54,652,0,1,1,1,3,0,0,0,1,0,,20398,0.7
+ladder2,e4b_loc_hint_v1,rich_3882,3,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.15,652,0,1,1,1,3,0,0,0,1,0,,7543,0.4
+ladder2,e4b_loc_hint_v1,rich_3894,1,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.15,1974,0,1,1,1,3,0,0,0,1,0,,6087,0.5
+ladder2,e4b_loc_hint_v1,rich_3894,2,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.6,1.24,1974,0,1,1,1,3,0,0,0,1,0,,7373,0.6
+ladder2,e4b_loc_hint_v1,rich_3894,3,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.04,1974,0,1,1,1,3,0,0,0,1,0,,5559,0.4
+ladder2,e4b_loc_hint_v1,rich_3905,1,rich,1,gold lines,1,1,4,0,,1,2,3,1,3,1,1,1,1,4,0.6,1.3,1672,1,1,1,1,4,0,1,0,1,0,0.5,6636,0.6
+ladder2,e4b_loc_hint_v1,rich_3905,2,rich,1,gold lines,1,1,4,0,,2,2,3,1,3,1,1,1,1,4,0.5,1.13,1672,1,1,1,1,4,0,1,0,1,0,1.0,4991,0.5
+ladder2,e4b_loc_hint_v1,rich_3905,3,rich,1,gold lines,1,1,5,0,,1,2,3,1,3,1,1,1,1,5,0.6,1.34,1672,1,1,1,2,5,0,1,1,1,0,1.0,7286,0.6
+ladder2,e4b_loc_hint_v1,rich_3934,1,rich,0,gold lines,2,3,5,0,,1,1,3,1,,,0,2,0,5,,2.02,64,0,2,2,1,5,0,0,2,2,0,,16011,0.1
+ladder2,e4b_loc_hint_v1,rich_3934,2,rich,0,"right file, other lines",2,3,12,0,,1,1,3,1,3,0,0,9,3,12,0.9,3.59,64,0,2,3,0,5,0,0,2,2,0,,22130,1.4
+ladder2,e4b_loc_hint_v1,rich_3934,3,rich,0,gold lines,2,3,8,0,,1,1,4,1,4,0,1,4,3,8,1.0,2.56,64,0,3,2,0,5,0,0,0,2,0,,18593,1.3
+ladder2,e4b_loc_hint_v1,rich_3935,1,rich,0,"right file, other lines",1,5,4,0,,1,1,3,1,3,0,0,1,1,4,0.4,1.13,75,0,2,1,1,4,0,0,0,1,0,,6775,0.4
+ladder2,e4b_loc_hint_v1,rich_3935,2,rich,0,gold lines,1,5,10,0,,1,3,5,1,5,1,1,4,3,10,1.0,2.68,75,2,2,1,0,5,0,1,0,1,7,0.667,13684,1.0
+ladder2,e4b_loc_hint_v1,rich_3935,3,rich,0,"right file, other lines",1,5,9,0,,1,2,7,1,7,0,0,2,2,9,0.7,1.8,75,1,4,0,0,5,0,1,0,1,0,0.0,4081,0.3
+ladder2,e4b_loc_hint_v1,rich_3938,1,rich,0,"right file, other lines",2,2,8,0,,1,1,6,1,6,0,0,1,1,8,1.1,1.84,89,1,4,0,0,4,1,1,0,2,0,1.0,14327,0.9
+ladder2,e4b_loc_hint_v1,rich_3938,2,rich,0,no patch,2,2,6,0,,1,1,,,,,0,0,0,6,,2.07,89,1,4,0,0,5,0,0,0,2,1,0.0,7507,0.6
+ladder2,e4b_loc_hint_v1,rich_3938,3,rich,0,"right file, other lines",2,2,7,0,,1,1,3,1,3,0,0,2,1,7,0.7,1.93,89,0,3,2,0,4,1,0,1,2,0,,17870,1.2
+ladder2,e4b_loc_hint_v1,rich_3942,1,rich,0,"gold lines, misses a gold file",2,7,10,0,,1,1,6,1,6,1,1,1,1,10,0.6,1.43,54,1,4,0,0,5,0,0,0,3,2,0.5,8584,0.5
+ladder2,e4b_loc_hint_v1,rich_3942,2,rich,0,"gold lines, misses a gold file",2,7,12,0,,1,2,6,1,6,1,1,3,3,12,0.7,1.8,54,2,3,0,0,5,0,2,0,2,0,0.2,6536,0.5
+ladder2,e4b_loc_hint_v1,rich_3942,3,rich,0,"gold lines, misses a gold file",2,7,5,0,,1,1,4,1,4,1,1,1,1,5,0.5,1.29,54,0,3,1,1,5,0,0,0,2,0,,10557,0.5
+ladder2,e4b_loc_hint_v1,rich_3944,1,rich,0,"right file, other lines",1,1,12,0,,1,1,6,1,6,0,0,4,2,12,1.0,2.99,63,2,3,0,0,5,0,1,0,1,1,0.5,9747,0.6
+ladder2,e4b_loc_hint_v1,rich_3944,2,rich,0,"right file, other lines",1,1,7,0,,1,1,4,1,4,0,0,3,2,7,0.5,1.59,63,0,3,2,0,5,0,0,1,1,0,,13188,0.8
+ladder2,e4b_loc_hint_v1,rich_3944,3,rich,0,"right file, other lines",1,1,3,0,,1,1,2,1,2,0,0,1,1,3,0.4,1.03,63,0,1,1,1,3,0,0,0,1,0,,5948,0.4
+ladder2,e4b_loc_hint_v1,rich_3953,1,rich,0,gold lines,1,2,4,0,,1,1,3,1,3,1,1,1,1,4,0.5,0.85,130,0,2,1,1,4,0,0,0,1,0,,8386,0.5
+ladder2,e4b_loc_hint_v1,rich_3953,2,rich,0,gold lines,1,2,4,0,,1,1,3,1,3,1,1,1,1,4,0.9,1.75,130,0,2,1,1,4,0,0,0,1,0,,25122,0.9
+ladder2,e4b_loc_hint_v1,rich_3953,3,rich,0,gold lines,1,2,6,0,,1,2,5,1,5,1,1,1,1,6,0.8,1.33,130,1,3,1,0,4,1,1,0,1,0,,10661,0.8
+ladder2,e4b_loc_hint_v1,rich_4006,1,rich,0,no patch,1,2,5,0,,1,1,2,1,,,0,2,0,5,,6.14,96,0,1,2,2,5,0,0,2,1,0,,12279,0.9
+ladder2,e4b_loc_hint_v1,rich_4006,2,rich,0,gold lines,1,2,3,0,,1,1,2,1,2,1,1,1,1,3,0.7,5.96,96,0,1,1,1,3,0,0,0,1,0,,9919,0.7
+ladder2,e4b_loc_hint_v1,rich_4006,3,rich,0,gold lines,1,2,6,0,,1,1,2,1,2,1,1,4,1,6,1.1,6.97,96,0,1,4,0,2,3,0,3,1,0,,28716,1.7
+ladder2,e4b_loc_hint_v1,rich_4075,1,rich,0,"right file, other lines",1,4,6,0,,1,1,5,1,5,0,0,1,1,6,0.7,1.37,101,0,4,1,0,5,0,0,0,1,0,,9238,0.7
+ladder2,e4b_loc_hint_v1,rich_4075,2,rich,0,gold lines,1,4,15,0,,1,1,8,1,8,1,1,5,4,15,1.1,3.98,101,1,4,0,0,5,0,1,0,1,0,0.0,3653,0.3
+ladder2,e4b_loc_hint_v1,rich_4075,3,rich,0,"right file, other lines",1,4,16,0,,1,1,7,1,7,0,0,5,4,16,0.9,2.84,101,0,5,0,0,5,0,0,0,1,0,,8171,0.5
+ladder2,e4b_loc_hint_v1,rich_4076,1,rich,0,gold lines,1,1,4,0,,1,1,2,1,2,1,1,1,1,4,0.6,1.36,71,0,1,1,2,4,0,0,0,1,0,,10691,0.7
+ladder2,e4b_loc_hint_v1,rich_4076,2,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.5,1.46,71,0,1,1,1,3,0,0,0,1,0,,13413,0.5
+ladder2,e4b_loc_hint_v1,rich_4076,3,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.6,1.38,71,0,1,1,1,3,0,0,0,1,0,,10773,0.6
+ladder2,e4b_loc_hint_v1,rich_4077,1,rich,1,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.6,1.21,66,0,1,1,1,3,0,0,0,1,0,,8447,0.6
+ladder2,e4b_loc_hint_v1,rich_4077,2,rich,0,"right file, other lines",1,1,6,0,,1,2,5,1,5,0,0,1,1,6,0.8,1.49,66,2,2,1,0,4,1,2,0,1,0,1.0,13183,0.8
+ladder2,e4b_loc_hint_v1,rich_4077,3,rich,0,gold lines,1,1,3,0,,1,1,2,1,2,1,1,1,1,3,0.4,1.06,66,0,1,1,1,3,0,0,0,1,0,,6944,0.4

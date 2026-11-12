@@ -1,0 +1,14 @@
+77 tasks; tries control 231, graph tools 231, graph hint 231, reference lines 231
+  solved: control 9.7/pass (12.6%) | graph tools 11.7/pass (15.2%) | graph hint 13.7/pass (17.7%) | reference lines 16.0/pass (20.8%)
+    graph tools - control: +2.0 (-1.7 to +5.7)
+    graph hint - control: +4.0 (-0.3 to +8.7)
+    graph hint - graph tools: +2.0 (-1.7 to +6.0)
+    reference lines - graph hint: +2.3 (-2.3 to +7.3)
+  first applied edit on the reference lines: control 30.3/pass (39.4%) | graph tools 29.3/pass (38.1%) | graph hint 27.7/pass (35.9%) | reference lines 59.3/pass (77.1%)
+    graph tools - control: -1.0 (-6.0 to +3.7)
+    graph hint - control: -2.7 (-8.0 to +3.0)
+    graph hint - graph tools: -1.7 (-7.0 to +3.7)
+    reference lines - graph hint: +31.7 (+24.0 to +39.3)
+  tasks solved at least once / in all 3 tries: control 16/5, graph tools 17/7, graph hint 19/8, reference lines 21/11
+  graph-tools arm: tries calling a graph tool 18 of 231; calls {'search_similar_code': 27, 'get_code_neighbors': 2}; solved when used 3/18, when not 32/213
+GRAPH_ARMS_DONE

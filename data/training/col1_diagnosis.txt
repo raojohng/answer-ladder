@@ -1,0 +1,9 @@
+col1 (answer-given imitation), official 86 tasks, 3 tries per adapter; plain = e4b_edit_fair_v1 (774 tries, historical)
+Training rows: 400 (47 repos); solver turns per row (row ends at the first edit): 1 turn 358, 2 turns 23, 3 turns 14, 4 turns 5.
+  -> in 358 of 400 collected tries the first action was the given edit, so the rows teach "edit before reading".
+                         solved/pass  no patch/pass  first solver call is an edit  edits applied / issued  find+read per try
+plain (774 tries)          10.2          10.9            1 of 749 tries with an edit     1028 / 1732 (59%)        (not computed)
+full imitation (col1t)      2.0          81.7          235 of 256                          12 /  740 (1.6%)        1.8
+action-only (col1a)         1.3          69.0           32 of 235                          76 / 1315 (5.8%)        3.4
+Example (fastapi_11355 t1, col1t): first call is an edit.py SEARCH block written from memory; it does not match; thinking says
+"The fix is explicitly provided"; submits 0 files changed. Source: col1_stages_official.csv, col1_summary_official.txt, runs/col1_official.

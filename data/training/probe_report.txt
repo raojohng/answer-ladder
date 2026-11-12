@@ -1,0 +1,65 @@
+12:08:27 server ready
+948 rows, 5 models, 2309 requests to do
+100 of 2309 in 1.5 min
+200 of 2309 in 3.2 min
+300 of 2309 in 5.0 min
+400 of 2309 in 6.7 min
+500 of 2309 in 8.2 min
+600 of 2309 in 9.8 min
+700 of 2309 in 11.3 min
+800 of 2309 in 12.7 min
+900 of 2309 in 14.5 min
+1000 of 2309 in 16.0 min
+1100 of 2309 in 17.6 min
+1200 of 2309 in 19.4 min
+1300 of 2309 in 21.3 min
+1400 of 2309 in 22.8 min
+1500 of 2309 in 24.3 min
+1600 of 2309 in 25.9 min
+1700 of 2309 in 27.3 min
+1800 of 2309 in 28.9 min
+1900 of 2309 in 30.5 min
+2000 of 2309 in 32.0 min
+2100 of 2309 in 33.8 min
+2200 of 2309 in 35.5 min
+2300 of 2309 in 37.3 min
+SCORE_DONE
+plain: 948 rows. Change = adapter minus plain, in nats. 'per row' = summed over the row's tokens of that kind.
+
+== rl1r1_lora: 948 rows (523 with a positive advantage, 425 negative) ==
+  thinking          tokens per row  2647.4 | plain log-probability per row: positive -1232.53 negative -1650.45
+                    change per token: positive +0.0100 negative -0.0496 | change per row: positive +24.540 (sd 60.30) negative -143.266 (sd 122.96) | gap +167.806 | correlation with the advantage +0.703
+  navigation calls  tokens per row   164.1 | plain log-probability per row: positive    -8.02 negative    -9.51
+                    change per token: positive -0.0023 negative -0.0105 | change per row: positive -0.350 (sd 1.71) negative -1.862 (sd 2.59) | gap +1.512 | correlation with the advantage +0.347
+  first edit call   tokens per row   221.1 | plain log-probability per row: positive   -13.51 negative   -29.09
+                    change per token: positive -0.0008 negative -0.0187 | change per row: positive -0.153 (sd 3.27) negative -4.569 (sd 11.45) | gap +4.416 | correlation with the advantage +0.291
+  within a task, whole row: change on rewarded tries minus change on the others: mean +200.762 nats, median +163.341, positive in 96% of 268 tasks
+
+== place1b_lora: 948 rows (523 with a positive advantage, 425 negative) ==
+  thinking          tokens per row  2647.4 | plain log-probability per row: positive -1232.53 negative -1650.45
+                    change per token: positive +0.0469 negative +0.0103 | change per row: positive +114.883 (sd 83.12) negative +29.852 (sd 34.31) | gap +85.030 | correlation with the advantage +0.548
+  navigation calls  tokens per row   164.1 | plain log-probability per row: positive    -8.02 negative    -9.51
+                    change per token: positive +0.0093 negative +0.0004 | change per row: positive +1.436 (sd 2.78) negative +0.063 (sd 1.44) | gap +1.373 | correlation with the advantage +0.261
+  first edit call   tokens per row   221.1 | plain log-probability per row: positive   -13.51 negative   -29.09
+                    change per token: positive +0.0038 negative +0.0003 | change per row: positive +0.760 (sd 5.92) negative +0.075 (sd 4.29) | gap +0.685 | correlation with the advantage +0.063
+  within a task, whole row: change on rewarded tries minus change on the others: mean +93.929 nats, median +84.181, positive in 91% of 268 tasks
+
+== v8con_lora: 948 rows (523 with a positive advantage, 425 negative) ==
+  thinking          tokens per row  2647.4 | plain log-probability per row: positive -1232.53 negative -1650.45
+                    change per token: positive -0.0047 negative -0.0068 | change per row: positive -11.411 (sd 10.87) negative -19.597 (sd 14.90) | gap +8.187 | correlation with the advantage +0.242
+  navigation calls  tokens per row   164.1 | plain log-probability per row: positive    -8.02 negative    -9.51
+                    change per token: positive -0.0003 negative -0.0007 | change per row: positive -0.044 (sd 0.27) negative -0.133 (sd 0.26) | gap +0.089 | correlation with the advantage +0.144
+  first edit call   tokens per row   221.1 | plain log-probability per row: positive   -13.51 negative   -29.09
+                    change per token: positive -0.0007 negative -0.0015 | change per row: positive -0.146 (sd 0.65) negative -0.362 (sd 1.01) | gap +0.216 | correlation with the advantage +0.124
+  within a task, whole row: change on rewarded tries minus change on the others: mean +7.407 nats, median +3.509, positive in 63% of 268 tasks
+
+== rft3_lora: 948 rows (523 with a positive advantage, 425 negative) ==
+  thinking          tokens per row  2647.4 | plain log-probability per row: positive -1232.53 negative -1650.45
+                    change per token: positive -0.0802 negative -0.0884 | change per row: positive -196.670 (sd 120.77) negative -255.454 (sd 146.97) | gap +58.784 | correlation with the advantage +0.120
+  navigation calls  tokens per row   164.1 | plain log-probability per row: positive    -8.02 negative    -9.51
+                    change per token: positive -0.0106 negative -0.0102 | change per row: positive -1.624 (sd 3.39) negative -1.811 (sd 3.41) | gap +0.187 | correlation with the advantage +0.035
+  first edit call   tokens per row   221.1 | plain log-probability per row: positive   -13.51 negative   -29.09
+                    change per token: positive -0.0113 negative -0.0215 | change per row: positive -2.291 (sd 14.64) negative -5.245 (sd 20.57) | gap +2.954 | correlation with the advantage +0.082
+  within a task, whole row: change on rewarded tries minus change on the others: mean +36.574 nats, median +34.889, positive in 60% of 268 tasks
+REPORT_DONE
+12:45:56 PROBE_DONE

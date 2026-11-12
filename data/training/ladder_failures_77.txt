@@ -1,0 +1,18 @@
+== diff1
+231 tries: {'missing changes only': 56, 'identical': 111, 'empty': 22, 'different changes': 33, 'extra changes': 9}
+  solved: {'identical': 111, 'missing changes only': 23, 'extra changes': 6, 'different changes': 6}
+  failed: {'missing changes only': 33, 'empty': 22, 'different changes': 27, 'extra changes': 3}
+  used git apply or patch (solved, failed): 3 5 | did not: 143 80
+  apply tool reported FIX APPLIED (solved, failed): 0 0 | not applied: 146 85
+== d2_e4b_diff_blocks_v1
+231 tries: {'identical': 172, 'empty': 32, 'different changes': 10, 'extra changes': 8, 'missing changes only': 9}
+  solved: {'identical': 172, 'different changes': 5, 'extra changes': 4}
+  failed: {'empty': 32, 'extra changes': 4, 'missing changes only': 9, 'different changes': 5}
+  used git apply or patch (solved, failed): 1 0 | did not: 180 50
+  apply tool reported FIX APPLIED (solved, failed): 0 0 | not applied: 181 50
+== d2_e4b_diff_apply_v2
+231 tries: {'identical': 176, 'missing changes only': 16, 'empty': 10, 'extra changes': 5, 'different changes': 24}
+  solved: {'identical': 175, 'missing changes only': 8, 'extra changes': 3, 'different changes': 6}
+  failed: {'empty': 10, 'different changes': 18, 'missing changes only': 8, 'identical': 1, 'extra changes': 2}
+  used git apply or patch (solved, failed): 16 2 | did not: 176 37
+  apply tool reported FIX APPLIED (solved, failed): 103 0 | not applied: 89 39

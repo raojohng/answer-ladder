@@ -1,0 +1,4 @@
+240 tries: {'identical': 181, 'missing changes only': 18, 'empty': 11, 'extra changes': 6, 'different changes': 24}
+  solved: {'identical': 180, 'missing changes only': 9, 'extra changes': 4, 'different changes': 6}
+  failed: {'empty': 11, 'different changes': 18, 'missing changes only': 9, 'identical': 1, 'extra changes': 2}
+  used git apply or patch (solved, failed): 16 3 | did not: 183 38

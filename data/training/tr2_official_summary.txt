@@ -1,0 +1,13 @@
+
+e4b_tr2_v1: 86 tasks, 258 tries (plain 774 tries)
+  solved                                     adapter  11.3 per pass | plain  10.2 | difference  +1.1 (95% interval -1.2 to +3.6)
+  first applied edit on the reference lines  adapter  29.0 per pass | plain  34.3 | difference  -5.3 (95% interval -10.3 to -0.3)
+  final patch on the reference lines         adapter  24.3 per pass | plain  25.1 | difference  -0.8 (95% interval -5.4 to +3.9)
+  no patch                                   adapter   7.0 per pass | plain  10.9 | difference  -3.9 (95% interval -8.2 to +0.0)
+
+e4b_tr2p2_v1: 86 tasks, 258 tries (plain 774 tries)
+  solved                                     adapter  10.3 per pass | plain  10.2 | difference  +0.1 (95% interval -2.7 to +2.9)
+  first applied edit on the reference lines  adapter  34.7 per pass | plain  34.3 | difference  +0.3 (95% interval -4.4 to +5.4)
+  final patch on the reference lines         adapter  27.3 per pass | plain  25.1 | difference  +2.2 (95% interval -1.8 to +6.0)
+  no patch                                   adapter  10.7 per pass | plain  10.9 | difference  -0.2 (95% interval -4.2 to +3.8)
+TR1_OFFICIAL_DONE

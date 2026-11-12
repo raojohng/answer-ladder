@@ -1,0 +1,2 @@
+place1b_lora: 32 positive, 32 negative tries, 32 tasks | gap thinking -7.4, search/read calls -0.1, first edit call -0.6 nats per try
+rl1r1_lora: 32 positive, 32 negative tries, 32 tasks | gap thinking +22.6, search/read calls -0.0, first edit call -0.6 nats per try

@@ -1,0 +1,8 @@
+name: setup
+model: gemma-4-e4b-it-qat-w4a16-ct
+description: Installs the helper scripts with one script call.
+instruction: !include ../prompts/setup.md
+generate_content_config: !include ../configs/clerk_sampling.yaml
+include_contents: none
+skills:
+  - skills/tools

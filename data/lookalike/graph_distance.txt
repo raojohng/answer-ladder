@@ -1,0 +1,4 @@
+308 wrong edits in another function: 1 hop 46 (15%), 2 hops 75 (24%), 3-4 hops 133 (43%), not within 4 hops 54 (18%)
+task-weighted share within 2 hops: 44% over 47 tasks
+random graph node (baseline): 1 hop 1%, 2 hops 5%, 3-4 hops 27%, not within 4 hops 67%
+other nodes beside the edited one (baseline): 1 hop 4%, 2 hops 26%, 3-4 hops 40%, not within 4 hops 31%

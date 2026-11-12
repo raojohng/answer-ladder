@@ -1,0 +1,13 @@
+
+HELD-OUT tasks (never trained on): 60 tasks, adapter 480 tries, plain 368 tries
+  solved                                     adapter  49.6% | plain  46.9% | difference  +2.7 points (95% interval -3.7 to +8.9)
+  first applied edit on the reference lines  adapter  69.4% | plain  66.3% | difference  +3.0 points (95% interval -2.1 to +8.0)
+  final patch on the reference lines         adapter  71.5% | plain  69.0% | difference  +2.5 points (95% interval -2.5 to +7.4)
+  no patch                                   adapter   9.4% | plain   9.0% | difference  +0.4 points (95% interval -4.0 to +4.5)
+
+TRAINED tasks: 100 tasks, adapter 200 tries, plain 624 tries
+  solved                                     adapter  66.5% | plain  51.9% | difference +14.6 points (95% interval +7.1 to +22.1)
+  first applied edit on the reference lines  adapter  79.0% | plain  67.5% | difference +11.5 points (95% interval +6.1 to +16.8)
+  final patch on the reference lines         adapter  79.5% | plain  68.4% | difference +11.1 points (95% interval +5.8 to +16.6)
+  no patch                                   adapter   5.5% | plain  11.0% | difference  -5.5 points (95% interval -9.7 to -1.4)
+TR1_SUMMARY_DONE

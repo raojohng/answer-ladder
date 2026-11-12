@@ -1,0 +1,38 @@
+{
+ "A": {
+  "location": "src/platformdirs/macos.py::_MacOSDefaults._site_data_dirs; src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs",
+  "diagnosis": "splitting on /opt/python gives a wrong (empty) prefix; detect any /opt/ and take the prefix before it",
+  "diagnosis_id": "D1",
+  "implementation": "`'/opt/' in base_prefix` and rpartition('/opt/') in both properties",
+  "implementation_id": "D1.I1",
+  "revised": "none",
+  "confidence": "unsure"
+ },
+ "B": {
+  "location": "src/platformdirs/macos.py::_MacOSDefaults._site_data_dirs; src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs",
+  "diagnosis": "Homebrew should be detected by its opt/python*...Python.framework path (as the task states), and a custom /opt/python build gets an empty prefix",
+  "diagnosis_id": "D2",
+  "implementation": "regex on the framework path uses the whole base_prefix as prefix; custom /opt/python builds are still treated as Homebrew with the full path as prefix",
+  "implementation_id": "D2.I1",
+  "revised": "implementation",
+  "confidence": "unsure"
+ },
+ "C": {
+  "location": "src/platformdirs/macos.py::_MacOSDefaults._site_data_dirs; src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs",
+  "diagnosis": "Homebrew should be detected by the opt/python* framework structure (as the task states)",
+  "diagnosis_id": "D2",
+  "implementation": "regex `/opt/python\\S+/\\S+` on base_prefix (needs a further path segment, so a plain /opt/python/3.12.4 does not match; no explicit framework check) and the prefix from the split",
+  "implementation_id": "D2.I2",
+  "revised": "none",
+  "confidence": "unsure"
+ },
+ "D": {
+  "location": "src/platformdirs/macos.py::_MacOSDefaults._site_data_dirs; src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs",
+  "diagnosis": "Homebrew should be detected by the opt/python* framework path (as the task states)",
+  "diagnosis_id": "D2",
+  "implementation": "require '/opt/python' and 'Framework/Python.framework/Versions/' (singular 'Framework', so the real 'Frameworks/...' path never matches)",
+  "implementation_id": "D2.I3",
+  "revised": "none",
+  "confidence": "clear"
+ }
+}

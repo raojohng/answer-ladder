@@ -1,0 +1,4 @@
+853 solved tries of 853 collection tasks; rows built for 688 tasks; not built: {'hint left in the context': 117, 'no_solver_calls': 5, 'whole_session_rendering_differs': 6, 'piece_ends_before_the_first_edit': 9}
+train: 400 rows, 47 repos, 1,331,342 tokens, median 3,097, max 7,734, thinking 206,616, action 190,084 target tokens
+trained 400 tasks; dropped by the server check: 0
+COL1_DATA_DONE

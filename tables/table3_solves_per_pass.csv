@@ -1,0 +1,15 @@
+loop,arm,training_data,passes,solves_per_pass,mean,sd
+Official,Untrained,-,10,5 to 11,7.4,2.12
+Official,Own sessions from hint runs (20),20 solved E4B sessions collected with the hidden test as a hint; hint removed,1,9,9.0,
+Official,Own sessions from hint runs (33),33 solved E4B sessions collected with the hidden test as a hint; hint removed,1,9,9.0,
+Official,Own solved sessions round 1,121 rows from 77 training tasks,2,8 to 10,9.0,
+Official,Own solved sessions round 2,228 rows from 105 training tasks,2,8 to 9,8.5,
+Official,Own solved sessions round 3,567 rows from 167 training tasks,2,9 to 9,9.0,
+Official,Success-failure contrast,243 rows from 42 training tasks solved in 1 to 3 of 4 tries,3,5 to 8,6.0,1.73
+v8 scaffold,Untrained,-,8,7 to 14,10.6,2.26
+v8 scaffold,Contrast round 1,476 rows from 97 training tasks solved in 1 to 3 of 4 tries,6,8 to 13,10.3,2.16
+v8 scaffold,Contrast round 2,458 rows from 93 training tasks; continued from round 1,3,7 to 13,9.7,3.06
+v8 scaffold,Hint-run adapter moved to this loop,the 33-session adapter trained for the official loop,3,8 to 15,11.0,3.61
+Solver + reviewer,Untrained reviewer,-,3,7 to 10,8.7,1.53
+Solver + reviewer,Reviewer on teacher reviews (341),341 review segments by Qwen3.8-27B,2,7 to 9,8.0,
+Solver + reviewer,Reviewer on short teacher reviews (127),127 review segments of at most 12 calls,2,5 to 7,6.0,

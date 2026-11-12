@@ -1,0 +1,213 @@
+{
+ "population_tasks": 251,
+ "sample": [
+  {
+   "run": "fresh_v8_p1",
+   "task": "w3lib_291",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "v8_sweep",
+   "task": "tabulate_139",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "v8_sweep",
+   "task": "werkzeug_3218",
+   "tries": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "pluggy_731",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "pydantic_settings_980",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "packaging_1305",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "w3lib_307",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "pydantic_settings_920",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "v8_sweep",
+   "task": "networkx_8755",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "v8_sweep",
+   "task": "humanize_354",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "v8_sweep",
+   "task": "sqlparse_868",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "v8_sweep",
+   "task": "click_2158",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "packaging_1230",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "packaging_1362",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "v8_sweep",
+   "task": "mistletoe_270",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "marshmallow_ec2178c26b",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "isort_2267",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "w3lib_356",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "w3lib_359",
+   "tries": [
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "run": "fresh_v8_p1",
+   "task": "platformdirs_573",
+   "tries": [
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ ],
+ "second_annotator": [
+  "mistletoe_270",
+  "networkx_8755",
+  "packaging_1230",
+  "pluggy_731",
+  "pydantic_settings_920",
+  "pydantic_settings_980",
+  "w3lib_359",
+  "werkzeug_3218"
+ ]
+}

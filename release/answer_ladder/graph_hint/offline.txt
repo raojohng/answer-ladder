@@ -1,0 +1,12 @@
+Graph hints, offline. Top 5 nodes; hit = reference file within 3 lines of a reference hunk.
+Dev 52 tasks (reachable: some node on the reference lines in 44); test 77 ladder tasks (reachable in 68).
+graph a, embedding b | DEV: ref file in top 5, ref lines in top 5, top 1 on ref lines | TEST: same
+  a=0.00 b=0.00 | dev  40  22  12 | test  44  25   8
+  a=0.00 b=0.25 | dev  40  23  13 | test  44  25   9
+  a=0.00 b=0.50 | dev  40  22  12 | test  42  24   8
+  a=0.25 b=0.00 | dev  42  23  12 | test  43  25  11
+  a=0.25 b=0.25 | dev  41  24  10 | test  43  25   9  <- chosen on dev
+  a=0.25 b=0.50 | dev  41  22  11 | test  41  24   9
+  a=0.50 b=0.00 | dev  42  23   8 | test  41  23   9
+  a=0.50 b=0.25 | dev  43  24  12 | test  42  23   9
+  a=0.50 b=0.50 | dev  42  22  12 | test  39  22   9

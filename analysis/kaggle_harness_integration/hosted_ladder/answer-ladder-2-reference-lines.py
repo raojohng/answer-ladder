@@ -1,0 +1,319 @@
+# %%
+"""Answer Ladder on Kaggle Benchmarks: rung 2, the reference files and line ranges.
+
+The competition's own harness (swegemma 0.2.11, official loop: run_command, read_file, edit_file, write_file, submit_patch;
+official grader) runs each task in subprocess mode with the benchmark model behind Kaggle's model proxy. The task statement
+carries the rung's added paragraph, byte-identical to the paper's official-loop runs. Score = share of tasks resolved.
+Inputs: dataset jaejohn/answer-ladder-inputs (task snapshots, task rows, sandbox setup, task wheels; sha256 manifest) and
+the competition's public wheelhouse (metric/gemma-4-developer-agent-wheelhouse) for the harness wheels."""
+import base64, hashlib, importlib.metadata, json, lzma, os, shutil, subprocess, sys
+from pathlib import Path
+
+RUNG = 'loc'            # ctrl | loc | diff | edits | apply | calibration
+TASK_IDS = ['fastapi_11355', 'fastapi_12942', 'fastapi_13207', 'fastapi_13713', 'fastapi_13920', 'fastapi_14246', 'fastapi_14258', 'fastapi_14266', 'fastapi_14301', 'fastapi_14306', 'fastapi_14349', 'fastapi_14356', 'fastapi_14360', 'fastapi_14361', 'fastapi_14372', 'fastapi_14419', 'fastapi_14430', 'fastapi_14448', 'fastapi_14455', 'fastapi_14458', 'fastapi_14459', 'fastapi_14463', 'fastapi_14479', 'fastapi_14482', 'fastapi_14485', 'fastapi_14487', 'fastapi_14492', 'fastapi_14512', 'fastapi_14786', 'fastapi_14794', 'fastapi_14873', 'fastapi_14986', 'fastapi_15023', 'fastapi_15588', 'fastapi_15589', 'fastapi_5077', 'fastapi_5624', 'fastapi_9425', 'fastapi_9555', 'fastapi_9753', 'rich_2725', 'rich_2943', 'rich_3006', 'rich_3043', 'rich_3052', 'rich_3061', 'rich_3063', 'rich_3067', 'rich_3105', 'rich_3180', 'rich_3278', 'rich_3454', 'rich_3470', 'rich_3471', 'rich_3480', 'rich_3506', 'rich_3518', 'rich_3521', 'rich_3535', 'rich_3675', 'rich_3676', 'rich_3718', 'rich_3772', 'rich_3777', 'rich_3882', 'rich_3894', 'rich_3905', 'rich_3934', 'rich_3935', 'rich_3938', 'rich_3942', 'rich_3944', 'rich_3953', 'rich_4006', 'rich_4075', 'rich_4076', 'rich_4077']     # fixed list, chosen before any hosted run
+CONCURRENCY = 4
+BUDGET = dict(timeout_seconds=60, max_tool_calls=50, max_time_minutes=8, max_turns=100)   # the competition's budget
+STATEMENTS_XZ = '/Td6WFoAAATm1rRGAgAhARwAAAAQz1jM4RcYREpdAD2IiMZUbFYpR9hhO0bSEenmW3+U8jjmqfwAn8e9AKuDWMl1oMRjoS5jkZXbj7+J0r5IkBFgoEsAtRF5dysHt2oXTJzQ2uFOzwX3TtZuyH5RTqXCUUGh5PoZuOM9j2ikSeoThFRwREQMYbqDqXuAUzjTM1KN3hX7hRrYWXeppwDrpESwZzLuMbIlKURRpOifqjc9XXillvzTuyDR6TFISBu0Gh7BjOqs3DqrYO3GWzMeOV4GHiQCJIZxYqD/awK+VB/EjYIaTYJmRLPtQjQ3/xtzbViFGYj4QTQOnWLUd0/r1tnP3lV49Md7Fw1sfeAqIb/QXd1aoiKOl8QBlzvpIxhC3OTQQQM/lxUnFzTTJFmlUkygyEw6GkfG/Q1r9w1H0KXZMGUI3ddU6Ex6WUEgdP1NpgV65Cd92WbHo8EFHFVE7BBwa/KlhwNLxKjG3mCG2Cx+j3xvpNtkRPWCkxJwqg4GdxJYO2h5Umy+EZK3MDVATUmalzc5vZw0UWuIXAHtEpEaIR57ttCqH6+HccUFLV31/BoFMwyJ15KnK/k6spXj3AvZHvASVU7tnTRX6N+E1ejWsocr4eLCTVXOlZsBXzxg8ZHntccL+BOIqcAKcIAtCUXf0ONQmASxiH46DRlcpG9FWUJZ17uzBpx0eT5019rPLLwk6VU3bd5OP1ceaYb1QMN+gv0MfjlOPpqDDpmvC8m8TWTg9Qf+cVzKWffjkTsZgT1ZR4AYbDMVl8GmjlmPYMLvB1NVkgbdaVNV365P4DiLMb5ekJ5a0G9Mkk7eKfIQvoDxnaZo/n6pTrnA6hBsXzHTOH17ip3NITsclArfoGIMyKrNsIL5J53Q3yQRVru9PfauHNIDsgtWMinwC1jRVM2oxmd4Mp0dWEc/OPW4FTrKu1Ir68WFmKlsqnDVHJ8b87c9Z45ZthnGSu9ciaK7Y4sl3b1CVn543TGFhrc/u8eMJOL3pjVUKCXMjm42VO2qyd2bZzRwRelKkTrIVH90+xRyspFZP6717FBTihxpFMLR9EKT5SHhjlUDUu/P/PJWKiHNU6tKz8ayTgsDjvWINnKXDFey8uWJmhf74i3R6uclLio8wzzAmwt8UCTTiycpEr0QRHZiVfnfR6FCthO+hq2T+4XX+Wy34s/ZgJHWY7Wv6N2ovb1TAlSuLnRsGfIpwlvT2HOTYaO3auujs3rNWi+dHczG5f5rdPq8i1N5SUaNwalUAd0e44iXlyCNSfg1JKD5Xp3+lQ9y/IldoHRJy6ycyQE5BFxG4w8dpPD6Z36R6au0KJq4kmJ1s5FRDcROUkY6qNfu+6tMVTWBR+MXlWgz61THmXB6hZF47CNEOsEdrlJ4GXfd+oRSpnhTRg3HRZRWfIL27xu86BzxSREQPXBKBnQRsVto3+sq4Na9QW/Bde98zB+IznWBLHzwqTPIiR8c2vi2MdMBAVDe8DvR8zjUb4xxxQtegqdDkhrljBaLePy+cU71e0URtKhBxKF+u4RFFF0FH8hXIeIARH/u+NZ2ERtTYIW3pCZpMdTzSi8PSNi3/q23j5OUTREq778wFvw664a3cyVJMTtzybkNN8w5mQXz+N7H28yN0LXDeGldp1wWQaAjFqhzD7WfXia+xY7lJ+I2xT9R4TwjJS7UzPgca74th8z07i25xv0ObAMvvbJAs7CskM2v6g/jj/EbBxDtzR5FHuTd7yTFu8BspLZrZSO75r+EG0370b4mPdFxZ2wcEw05SnfNkGY7v7KLXDdlsArLLy3Lii9zgXlUz7DI3O8ytAiO5w8QPz8PcqzjC5Qljg+S1vZf/Hh07DVNsczHIiIOn4BH5FHMoKIagxF9ibwZa6wYNkGdOgMxPu5xEw6/UEMvnWkA/u+tgtUV6WOO5eYVSo0XUVF4d8RB/VXm9/DYPz6ib60TJdoWO3mRjSLs/dRUgo2zsgHCI6uyb3i26LxlWFKSy7hqXcyVopuIp6rzxpJ7L7LYUneLLIQPm/g9zd+mQNBOV272vRNgD0PNlkj8F4YiAgTKNTVHH9Pa4JxBEcrDW3Gz0mTAOh5aPzv1GG67JKcA1SHmcKzhslDD0gGDmBn1fNwXbGofVW96mJOrBkbCVPVm6FmrjIpIfyMsd6/dtjIbbQe7DIGNN8Ri/HAIkodaVpHT59QQ1+x9fSzW+fibl29um3y8j+g443wopDcBf1EAogugzaJV2gY6vCjrJd8/tfZhQwg9NOiA0MDMdzPmgvpNSxoTdDAIk0sAD48Al+QgkXxU+EI432jlidFDQeyMsGHF9wRjuD8pSfwIThn+iMrOG+P0NdF0jXST3EQup0CsCVcPewwOxitIqpNQe8yN8F3Ycu68Mzb73CKF2HJZj4DOYs9FhSXRJusJwX+stEFTQLlCAWhyQQjxc0MFu51Vx6IyeEDPrIb52MFXqvsr6OBjM2SYZ5heENgUBGVhQhv8uXzK3MfwPW5dqiMkedGawDPT3RjuBQ30Mnue+ty5z9CPdGL4xIa33iADHavgpar1iZOnBWYgwKiWfUOhImBV7MqJoYGm8bDWSfxNfSM2eAK5bqE6hIpJU0RLkLtQj23jhmFna2AjUbvAFqEUUqLaikkiCaxZPGrP/SVB3hFUKmhrrz2l+QhbL1QnPovU2yMAkPxkLxsJ4bwhrFnVvM6w6VWI/Yoec5YHIqV+ifM/vSgAIkc1GbnWyJQ7WPOAOkywqnKyKdBC0Z1BQEKMOJp3FtVIe5JTC4bBidSu687iCawGyUtHntIktk82dCfv+JwKuc8B01UHU6135f5XkOkd0rzpWCKj7HqGqh8yTXac0nBr+VwQZ/qfSnQHJ8bTbDrWgBFUEdpkzyadoSUMb+bvm0MUywll2BSHcEWrAXuUFo9Mbb7Kzz8SN96Mi5wpaU/ZLKz42nCf/TL3O5SJad3N2ToJOFPdM7xxUm2AKHqdlPw0t4STpG21lTlPExk72YtNQsdaSnWk4ubWvhfrMe7qlNUH+W44d2Z0do3z1PqP8cpIcpOkpM01AnIPh+bNlOHv2SnRv4l+xLrLaW9O/bJzxq4rJmcSd0dGDySDkvoGmatXlnETvSrYNmkPMJvXKmt6cZcDGW3WcfyYDyB+l64B4CkydoqxOS4SD6z3UjCVD4VYy4xZbLLHASj1mNjLLlZCwtKJLjyDjN445H5ScKqxYIdF/IE69fVd5uzm2Do8mEwd65BeabXMcCDz3tPLnte+ca8Gj5S1N822fA0oAtTRbQGw37XW7V0mcC9/JFTpUVJAYvngHbvR0P9IOhBxcYImjW57yRFe6EyhW105k1nYD+5ctTmFbBTk9Lo9s6agrrVvUX4x7BwOPHo2uAebtqVmog0cvOAl8NiVRBjhxsbiNtBYXG781PDu5ezogvrg9H7RqFAL2a/H0xvwzQ1FuYGDh2ejM6MprkmcWRBrNiQiNbnNkDOMRrifDu3mQxttFbOLkdteaV8dVomrzahz3rtJFrsHe9BnGR/oWM+sd2uPKCLTKpvRA6xVed3s+DLApibC6f2ib4ij4+3F9FECInMAQIy7dohEty7ezzKbDbkaYMoUVM3Qcns+pLJqrGkti30pGoSnPIVtKac6MfZMgHOwMXtrJiviAXQbI4aqJNQRNefaJWsQNnD74LcgnmOi11MYykYv+FO5f578UeI5RRPORj5qzQMeO8DzMqWCal73TiM4CzYuvxJa36MJWdLnill/6KP2CAQX+4FOSnthD26Vf5wmll2ipXYx5T7rOLYz6r6aTh3baqBIUfqQScOCXstr3iOAjUX1BAy3XylurhwbvoT16i6rLwEya43Ifg9eBJpMUfoK7R91SQ5tu/EZUIw7v0s9YErRa0SdkeFL8Dqrj9izuuuMnoqxAGcyca6QhOohOsR2/NAjxN++o8lf2YniUweDZ1bzGx/59+XUJzx7D2havkZuDI4WCC6GFH3MCJI0lxWQGakc7flHDUBGm43EmllA7dbEUKqAT5ZDypl7WYPuRip/DhdhQ3mpgVHVfuqoJZl1SSvX32iPsew+5Pjb/yvpkbBw/QZyuh/9KKx6EhfJyaT7wC0EH4zMgTzhr9A3ThTbLS9WanOw8YEqmBeqqpznhjGYqH/pq6Ga9kKa1szTU/45udlzSOplenY1CJjao1dqBztwU7ZPRzNKryn2+vEijJBygVIrkizqrbd+uGNB1T+kqez1mKsh3K5km5tgdzli3fijL9FgkZ2GSWQWyF0wj8qzGhsRowObrYihhlL+LYjuO26QrZF4AsAd5PUYH+EHHqeMt/VMDgxsR4gkiHDGhQBzb4W06YmLWnkmEkE9qfuxokHusn3R76b+9O1XHMevrlsetREMVlHiy47XmFfM9MuUjFNJcJ1DQU5hIz9Vj+zX3wSS1DG86AFjNGycPSgkIr3HRQZb6AH17OO4SmRk+zZlVYB3ZW1qr/yIdObHj96SiNFVKw3c4S0d6qlQ1H7G/Pi2bm3QLfBUPPqjqq4dFr+4Sp25Haozx+V6bc2xh5i1HAs6U4tOtF4K++N5dAWsFwUgMA1AWgoJvE4+Y8fD70yMbB88lXDB1jnWIrUToPSpslFaSIXjOQMIWcvoKvXBz2dG8YVFwQ3/VsffDFAAUIF9uvbb95JxuSVo6YiaY1ZdPUCISrwZHAnYcMxf57l682ADMhj5BKt2BaIdL0lCpCujGCT05KjM6mTRZnLguOKm++R2CO1b06l5FLsUObCf2qOZTjSJLJ0Is2KiMCUChIDQ0C06/L32vglgkq1cXxRYDwrz2q9vdFhj1KI4f9UD138Pd5g1BRcFYLh160CTtR2I8Z5SKVwmIdjLsS2f35k7p/iJgp5VMZsZnudztAYGcWeZOFYQm5kgoPuGEld1VcH2BRmARZQAmcNaxxoy3d04c9O4Jlheptm+Vjo5IOkc6UsLKR66R/WqjdAgPLvNegVpiTDZPnYbn/aCAqmVNpIQTmjQLYDeKX7h7bFsTM//4j9qBNumyt/OpbVKFtPgRgvGkCfZ1L2izSTQCOdXXDlsyybH5BsmEtR8f4HGbNo695JXfHHl6rKYfdvvlkg0pKCAGMFqrWRVtEP9k7i1qKHbzV9r47jP67qxWmHmWkUpbSp5VNthflodiwljMAPj13XmDicmCDsibZhu/O+jJzBxLYqI2gkg+nq7hXgYkmyykL77WhQhGgkeQDrryT6aF0n58tYcDRmSnzq68+WCg7KO+5/vnD2ti1hZP2FqwkSVFXLID/JhnAIILuaPBmJ7u1ejWJWkmYII22w2fFYzB7e1uG6NBCi8+W4PwssJuWCP8mprpJBahH613BNg2cdurahn0v+b86ZF/FFgSfl5hBUuGugZ5kR95LVgzm3XRtgcLD9oCJu4qnqkHdSlO2jgraBDkKNjjo02RJM8bwRjqlKU3e0W2XdUYW1/SafbOBJpz4iJGkGwt/X6JAlrryEkdjJem54Fk7FShuJdiuNG1XhyB6lSTQL1QVvsALYL8zcWLvG68lab4FgbcNoWJC0sxMhCLSEhdG67wQ+NGF8eeyfDnDz3fpW7cQxc/KOOqPti+inytE8IxOwNQuInmLEiONyWk2lDyzdB+en+XwOAvyK8sXwR8KP685LTv6k66NZwsIe7VRgL51+zs0qztbufzTzUOb0kYTFQW0qk8clWxcVt8vJ3pIUmUF2ZKFc/MfIVYyZYtjeZWWzSxuqKMGZMz0dqQ18/q21D7xvDlkWdvLYdzMwLA948S9jll2I1c5Yf5bfsKg2bDB6rfyQ1X73gXCi2JRC5c3jcXN1pZchUh5bVsnS8EerCRVknERwseDFRKhOT4JHROqBqq3qYCgnpXuvs2+f4HDrcR8xL6S0JdbUOf4V0gr1Ftg80yN9N8wxh4+9BtXc+MV/weJtFRjlgCj7gm5cbPSgNhhh/aJz7TSBbhticMIhRJ/Ws0B62ozW1RSDA7aRKm+oirCljPzhN6xQRdelyPiz1tXooBPc9TqvvPAc1M8GF9jTjmQUoRooSeZlzYqaKmFK+N/u513j2f/FtrCmGsLAQLvwzZ3Lq1Z5QAf0vyUi3ufS1sy4SGKsh4QoUHmv48kmHIw52yDXCK5wUF0h8lG0cJ+sacIwUPYI0ltDm1aTWrwSitiNrghRQXNFAoPa96G/9wN73oHxl9dOPgefvl7b0nLyIo1XS4s0HfdcFQd+8VENzu1iwyFj8gw8vB0goaTFtpIUEqQbEEWS4skhoEcVWepTlc2KLryYRJEqoItkdQ2ML7BuDI7M3pla1OfU3hHLwJt3yn3jtZLBzhzC1Ii8gkYN6dOtIYVedaZlRDQkNFnl9a2dM96g4mjM8pHqTzzvw3Ha9ZkPzM+lFIks1Xf6WOZZVq1oUt0xU7gagDXsFHQurBQjokQdyE29HyglcX+DFg+WuBQfMMr0eDyc7m6lbJw+nBGlsuI/SNQqGh7Jl6kMBM0CJNFRWVIZeLpUH7d98ItlGAZpoXHexjbDixu3l+jUvKn2kKCDu0Ch7mtgsISmcn88LmCs+NFT3juqCs6dyCdTJtMTSLiHDA7iaEdvKHIt59OKs5aCL0HDVkmMBB1y1QKG/tiq+SWg0LLhP36pUlyJhw0xtlI6Ul7pVg39DWJthg/KcLN6a0Gw6U1JgIZssIlPUiQewObjjggX4Ry3Uh4wRLeSoBok1jyYyBeK+JD54CrIlhINw+RrZHy4rKqeTq8Qi+zxY5AyYQJQMvE2aex5jQFagH9Be4At2ba3ToPYRLFRDNpXUjfsgIPr/NxhOnpOQf2c9Q+XTzlxTGtZW4npbS/uMZzYXXciPyKXWhCJMvipcVL2oSAyMK217YHp2lER3BDKMlUaicBGqOiEtVIoxNQouABaEBbPDsHMgme2EDkcJ4rYzPjexLuj6n299DlRbxdoVnRs920XG/rH0xLWPRSBM4Bt5qg0yQmiT4ppoKLUOa51xrHTDfsFTpXU4BUxgLBD9Kj14Cs/aFwjVVm9SoB5OrwM0q/RPguYXGIwf08EmqbNAwp0AS675LDUPPQqqxSc7/CnVQAqBZv98I1kKmtR1hnHR8cDtUm7FB3olKA4j7KIpCoPM7tB/+hEKHAx66T7K5i+8A0k2UxYBdSPKrr7URWL1p5mErhaw5bETFwsY6n0baJAbPBrv/70ktlq70BgGTX705sV+kWv9lehxrfGhTBtYEnUkW3QhZ5zla+QpcVN8hPYy8iq0aagkegjcXYQkYubbSdbNBifR7FfoACmMAiC/+ojztID23jAwaQRW1ouknUvFl2GvX6J46MHr2xuCkZBNH7+N7E6zOISFfbamMuIOJUwvX9LNZvLioLF4xSReiiL5rVNAiPKcjsoAPZvCSxUbnCRw/XQZxjgSQR8nnu59CNTVs+Re1bTBTMUtHeY0VpvV0Hp0yLxyZfyEo7PldXovgo9xg+u/jVfHbSj4jlcRgtbn/2/Pr/89YDftvXr26iMkVZsR1OaPwj7LvII8lr3EF8OOZ3EHLRNGc6azgNU9AtcTd3ASxQD2HIzKjXiJTiW7pVugzboFQkP2ko5bFZ/H2QHvnTMdbw92VJRANzLAsTjoVr/sYtiz8Qn1Qvmr0zRCxLNJsjDepHLFuqIIXJfZeylLk7IfIAi9UaNo1pvlOSS3lNtgazlIfUOssjeyuFJIvK2MlThy6Hx9fiKPEM11qdwGXrNYNs8kUNO8WURfRzV2zqJcwDCFj/mr/uHA4B5pvA46NKvbl7vg+XgEteeTir0qPtKcjFsvcM1+zenuF/DICFq9WmZ2KPiTzy6dgGzeM93PtfJSQGOqFkjM4zwYAnKYMpxMEctE/d+GFpjMjHP3ROlW6gyWIYDKHgZtnq440FpM0NI0/h1eDD/83Pbd435fyYglZSEtSb3r36Y/1T9buU9L1QvbjcSMWq9M3O6rrBuBPQuYOojMBg/zKSTfAy4YOfjpwzxkHi3d8D+JmeBpa08Cz/NbcnNbRAOCMuX8MKUUhaisjrZ7ycmIX99hbmCOcRTMyFTT45h5l2VDJgdLufrQ0Qq93GqbWmP3XfHL+063uazSOWyUIh1tdjdz1MmlaMcykdEcJMCxIAS+GvmCBmvihxxSjIUBEwWgf6RHMBa8figiuORnrMwVHhxfejRi/XMgOea+oiq1LqDLxJgMBEC7cARbK+wvAQ67UWPOXgYB2VTlUTPC6NcyAaznaAqeVsmDLj3kZoH7LpNRa2P6OtxeSsQGbAL61NZRs0Jkgr6Epja0fCY/Aesr5ba4Hd3yp7nldfih/cYJFyzaXlN0GinkCYmioBi0nzR3B5SSRCVaPot2VVhvLE4dcToCv2tNdpYKKN8v1+puf6hrY7nuvcK5bT4zOnHpQ6on4Q5OwlAumP7UYSxkEJBwkjoH1GYabSCimoQqBr5KNGSPBKjuqjfyvxaAzqEi4TyYcrFtU02FB4LfrCICGgbl7BPQwCJMOf9ZepIYWglGCxNO+ceg6oVSbArmBnw6huYkp5m/AffFsxZYizJkZhK5lIQ//zq/n4ygI399KID5SPgV/wMjcquBRE77kWHAQez91Rcc4w5c8YYDGB68PCemHheXe8CMRQcAPWYcYGOeO2rSVTItqgH9cTVIiUi2eglOdiZ8/VPyYzniLJ+ru7x+9MwfOBEnfbkI3f9dzsuTCHjh1QA0Ul2RS/4XE7MbtSoSA8rlOHo9UVjguGHZ+wo758jYs+beriwZMgkV0wodat4/06Bi/+N/34UtsHEDyq3n4KsC+P4hIQeauIlfZm6UBYeskNAntKoq1cIEyMYa/RVHbWNY1NMchG2ImHh1X6c52exbzskp8U+w7rkwSlz9GIanjM550JKbKyrbRq4kKIswXUvbclGiIobT/X0yXrFO83rxRJxJx6c/UvgvkRsj20ZuXsvCPa8E6gksGe4z/1LIZs+IiT3Fz2DpAplVB19TttBrA/PS8gnwT24ByjREIv8JPd5y3SfWeaLsNCGKgqyGfzrDfPDjwxTQqDmjNHEUmf3nx6NGpgO+lPlpcnuBu9b/B0uKkCPul+V7XUNtguFGN1z5J6LCxwzYvzbM/X/EP/Yc6H8MUZIFUP1g5EcXOSUm4tq1lNtuAW897oVt+CKnw6oUscb8AO7zLM+c20vrv2XW0vpc7LieIiWoUVL6dXlhAJyYr7c9anlg62FlDsKR9Bj7I9Ca7LsE3DkrtPkQ9zt3dFUFFLjS83mkxN40OPR+Fk50nswHPDInxSVue0BNPYpfAlL5mBTJCdu3+j2fc9oEp+lRTnhOqTrIIb4WPfvzFg2Ris5Hi3SYGpGdl1f8Xb/ZFnkoHmXomvZIg1CWSZYpSx/y6zDEApamCJothpbCrkwE8/kb9uJltvDBohVhj1FuffISuNws2ziyPDOcR+dzbZR0WsY+T8qcZrSUKmsjken2DrIDwemFNEbgvfK4uJmK5idmfDh1twE3doS0xa4OB0nzJk6a28sBc1LYlrLR1oKejeRJt7wg8iH6WJf9tjlRt9QQplcL/1nIOc1T+i3FKn9KF9dh50spceNsKb67zUDG05sjGGEw7WriF85S4y8lKHpRAAMOx1NphxOvGM1wFSnu2QVN42hCoLO9qUifveCb8nJQgjHiOdpf/kcDuqJTeWXJe7y2Zhd4NETD3/CXBhbjx9jgKfBOk+I3LAzKaXNwwkz6Ur7Dz+Rm3X20G1k8L0fiGSIhuznZALn4dT/APaJWUsXUmFau2LLrbLy6pdLNfFxM0dMi+//FEP5LzL6KYJNs2//j0wgYyBEIPZO38ljAdBFccrBpluHVBI/ZoruUk2YR+PvFVjQbCyGdtbbPoOteIK2G21w1ZK2Uxl18Zk7uFp/Q6UVLLbztRFES8ZCdyRu86qixw8MYWaNTlf7t6BQvxdHGbvE+saoosbjaZNBUzipY9z5BZKg1s6aSNquHHxP/6hajh8Hw/KVKFIrjSk0B4gPOEK777+PLtXBj0GEjbgjVrvg2qIgI2/GBZTBaE/058rfvTsq/1+IR9t8NaeCotGyPuhU63P610HlHBPrSJjfZ4koTqAVki2L1Yg3upW9P2pYfn5Y536xWu0b5IJlZsnUn/OUUuLG9K/3QNevy4mgD6OHUH4K6UtOKT8jNLqk1CZelEgd9ksN0foghld/6xJu3Mcr92qgG2zfbMPO2P8c6v3T6RUbQ1TdkcQaombhU28Nr8rbYYOQptbEhpNRWyIcReLaUm/9o0cX3UK71ZaEmKsjZn4+0iC70e3JOS/6zlhAHslyg/ulplFQ6GbE6ZLOUTAVFdu/p8kV5GHYJDASFxqpYs7fhFxO36+RWhAkVKXF8ALh4cgbjh68GvvFh/5oMlXvGikvyhrDJHWh+pJAXKhfBOS4piyOfNgBJuc8ScNN3TRtePF06+Xr0UUUU52MYf+tHSOWM93BY7VhF+1dqvr+m0wayIZNKGIZIpGOJ23H4teAGh5AZB2eP5RFVTOS6sw4JFLFzHz82YrvhixqPUeGIxMovqxNjRu4+SSThvhSOutAM+KtYyvQjDRa6HqRj+qpsabQVxXvqXRFtAo63rEiHQbuGGDHJvESSYFWzDf84F50IiwVGOmcBByEmRFUB0dW4xQ+nlqMlELlwS0CAJgLNul9DdSxVXb7mvzaBXNmC+Cw663vL6LxQIvo8o6b1NkmizF/pX9VJwgmxeCieI0Rk32hfmDMl4UCXXCxq1joYicsbW9coQlz5GVrPz+YaOO6qUVKPPvr7pTZ6WtTWLNyrxD/8W7jJ25vjfcGg0IMrGZe7CO51SLex55ig6DJ0CaqX8E5Ec9v0QIlWj86PeV0KtoATEOszig5zV2OiL3GI4BTnPYHVX5HR8F0EH6/s4UKbLm3GXGREbJnficxslddX1oHbbPPXz8UQG5No0YaZh1kmbomQW5iL+So5nPBgE7xgNQnH/zE7/YAHU/hGJUfKUrvkcrPSNmYO16Ha3IKJsQ0QxU9DfKCkvwz+NV6XiUgmy258NTrkIfU1zGU/XZpPNMdgcC67Nbv4UuYUnN7VzZ3kxZPiQMaAipksRtlck6GsJrJ7RNUfc7wofmQkXQXgsrw51kXTpeMsXGLzTCtsT1y8A1ZgpQbepVfRU1is9LZG/DAvw/X69l5jJRnKusOqKRTAEuHJ8Gm+CCDXBMpnnZKrPnZage3oK2PToDZCchwamLJqmMBpQr+/9BuKlOD+LjBdwpBxHsB96G4nrlYFhbVAAlSvBnbhIT5fh9mlrSISApE0+tvRLMD488D3W+iBHaYY+MqN+wUXrPnACgfU7Rz2B3Je3aeqRe3+rQ6ElpQKO/2OdLXUApfimM1mlhkJT2dOx1cngj1JuK0QxhmATUy/1qTmnNdwLdmuqOdw2TbqgZj1eS7VFXW8NsG62OVZXJd9OyRr8qTFb6rh8yOF8ig93I++Ru77HUrrLbTphGj7XI1nl7vMipOPYJZaVGqUWzSAxSXmsFf1aRcLOAhR2iqX5jhuL6OdK0/MxrglTvSI+uFnUpOJ4G1sSKreKwXkHYPfLg1VG6qvLPw2vqJGf+bQFy1Y8Cnz2zL71P7yednSn3kF+vozNy2h/JiofqaVXjqOAH4qbRq+ardKwtcCLo3aX4/+NIutJtvogc/EI1UsIV+KmQqu+Se4S+OkyeYOCowlRm+WRlkRTU4Qb8kaItz1B6sw0wzvHZq9/VekBvmDfPaegq6egPgV66oI1uQGn/NPo6fw5ko94T0+wqPeNlvn+/+tTXPNYnfU61eCsTGUSoLyXoQXWsMmr199qk9utqKq8YvyyBt9CPY5G0xV5XZyr/kRkIDhfQ951miTeNRIyyUuqdssAHf59MbTUYa3YzdnDdUH9YlUHRmTgA1OQXMA1GuQc03NmPzvrXDyRQUrpquvBGJV3TslOgLrovA51Kbhx7OINpWyNAdlUo9abHdhN33akE+p3XQjXOiERdCUBVT6twjH6+SPc5aGBz4aUyaS7rK3IcK0+yTMvJxOBIVfAHXQ02Px//IS/p8RFb9vVqO4OURs7YN1KspOEDwfJNlL99PdzoQZkxinRwKBJrgKEyGpfA1S9Q4IeRVTcO9aWs/+QgvMzpzoXDiRah7L9/i1UXn/vzCS0pTRVDS0iX8TWGhoqIAwBQbQeD690Y3YgDBbVPLGOo8EEZmN+gRNvvqr6XTPOjLAoLMT469xpDDfB75rrspzDVR+4r9gpad7NUnyoG9z0vr2GPWLifbWx4yXA7LssZRi3jh+rQdL0aNM+z490Wzf95sL0+KTLPXBmxYJ5TyfOzl4sMtW0FizpOoYZjAFwIymam951xqyaITpzi8L5q8HKTSN6BK9nPlspZ0krpZcUwaqz7HgdRcUAhMRDRvGUqF7NiZrINJLKosFztVDeLrZJ+6mqgqg5G4VjQWy/1Ch0vkcuqkCXjnWFDRDv0GJpwvznYkmATOZdlQ5f0AUP3emcXvJTPDFoJgnmcBvc3g1uVUlYtbY+/fTIzKatniPPRttxdQ69G15bu8063OVYyhCL4xS/zv5HmVp4koiXip7A3d/o3Vca/9U3+e5b6rA2XndLX5n0Sxn05Oi57xtgBZT3X50ohO7c71FcGv7DLAexgPwJiGN4dQMY7HYRgc6LwvQFUr/8TeyRZ3v9B0/mSv3X86mht+ZPak+ziJRvSl7SndIKTHm9mHI+5gz8q18LvBv433ZQwxbQfySQuR120gpyMc4RwsswxsUTscB2BI/KXGuVpc1bRQqnlpyh2wwr603miWb+krvpo1cWY+nIZAX8fWfxNjhLVAO9IdWqdton5JrCWGUGRQs4mmg0wQjnL7q9velUic9G7GZRNJVgigzWSxh0DgnZGZsJibAvyRztm+5Q2++APaIY6aT0hHT0zlRzhtuoosesrsgjA4h2qkhcCvslHFRmCdpqvS95pm0wLe9nHIl0PsZaZJXM+Skt6HkXLLxJ57jjHlZxc+H785O5TjxytEdDHPa4H+v+MfrWhGtkWSbyg2Wz18/R9HQ+/gNI5rIaO0GNgqbX5oMkXVB5G9pLr5mf0pPq8vfxqjcUrBi1rrn2uj6xElOR7aAqc/2D9LHXU+zEJLAUHiypXi9bhMwMj2DY9gBMgk8ZHgBp/qS54a4XTljPKKliCaOnUpdOUwXcQ6ZOraFR9Eh+ge1pDIU3qrhbBAh3JQBdsE8aozhtb9LT0JVO+dZqVsqm06/HkXlrScmWwNegLzwI1fGBZQqxGJ/VyFK2c/4Ji9Y72QcymHYYC2nLf80OOza1mSmJkOKHxPMsPXBeJ9ESJ2iqUKk72Zjl8AhIzge8+6MjLwKnS62N35IcLFYEUqoL5MYmYJ+l2DUK0Hp6DeJRwxKmmuUNxsZ5C5YMEWMvSF/zvA9hrQqYR0+actkYuvr727qFYxLBhrZT/eyUCtyKCNGWMzXkX02HK91bi8+XLuEv1T9WVpLsN1IXTYlScjizQtWULGlQ76opf7Vuns1JYOJAOdJe2UfpSZY0fzMg7LmxUHpnrMLfImPrqWyX/7YbzMWje4hI9XKTbZiafqmg3OkBRIUL15pMi81XuDMh+Y8SLNO44wK5y1+2Eske/5JxaPmQSSn5mPJcAWPY8eWbo3Dljkv22Sf8i0wu2PwCNWEvT1DWyQ4XNihkN0Va8/ReujQycOj7GPy8Al9K1Ri6B5+RD/5MX36INEkQWENMu1t1u8m1iEjOgY+fv767KwTOCI0rhOlKXTnxzeEPWcqyejOzmX8HNy11rWOdnFHHS+18B2vat1d7MmttJU68BNgC8+fnphW9vam5tbPOGk22tP5NAFJyyE+WaqzhzpSg3L8sl51gtO5bYGEVOFFVxfj7Ecfby6+z5FOhiNKqwccPneDZe9bnIUvLAGk7u+BGODMDWx/OVW5SbujV8PjIRaIW8uDlPBi1yCgKmH3oLkHmngnJz1cXF8UCJhHTC//9pzaj3h+CM6xhOGQE0Lrq6nccY48sNDz5xCr6fF4J1m+gEjP1JDXpRo3jTDexUXoXSv8A9wpc8GWRnbTXjuBZe8VxMkq6EllnHEcPd0nD3TldlLdL/6ahe0/RYnG05irbtBioJjpupBR5QlFXhj3hjiKWVqDBR2q0bGj0ubSx0P0Tq17ZMOMNhSpMMROT5WkV6NbN2/tPl3I0MduHat6Ku0w+bYs76ATgqJZYDHPrQ14DgJEwGXoROAusyny4WsQC9Amo7GU1uvJzxRLQumGPW1Xf8xdX+jH1bVxFeSgHNICy4YLNm8ejv/z4nJW09yq4lwVoBHeyUW3Az0TysBZEOkt/OXfOzz2pHP7LvgUWfN+I2HSkbtfUq3yRoD12r0RDvjortLRB5xni0Phjo/5lwdg9FS/iHm+FZ5/C5/E5lMjKj5JQy9f8TztlCcjBCFEFzqeVk5H87248cDwrMvo9zm6Gz1bUmgspjw1yHFySB2zM6h3miJN6U/abCKd7R6M7u6pOPPtsYRwndRCEMUrM0m/5pDvjC0d02IypDYveHTMDezXJaL86obnj8bR0JONKPIigj1QG2qo7d7fZ8Gs5Hhlw2yCcTlCmi5lQQHhiOxr7eZI+RnHIqSLe7Df35VKhUojDwGsVpyC/YXW6BbfBSieX21l8tbUXnDi8gqLVkkeUMEjtBEM/MJYxM3zW1JzW8pSLef7bDcBolSFKC6Lk84NOmN2LKT+RwcMt1YPnvtz+QQAC1WLvFZQ+t+RbA0X8YkuMo4Qt+OGvBU1nxyigoSvDsqgbukr+egDMZbLDlaEKOfy57ifkfU6cY2LuwC6Jj7mATOORwrIkbxQjgTB6c0ty+pDtVYIcbLyAGlgI0T7tBPwLxj0qV9C8LSKWQzcTSU17tvEfqHmC5rl9HtOx0bHjUzAZ1REDY/rVesRCTeaDoaeiUFDbn9ohJJMyzh6nPC9Q55eraLJH6e2mU4GfsKeoElj3bMDWFYjsGJpeD6Af15Ih8CqlBagkrX0m827JxlEE3sXmtjEaDOzBe4iw7caqXcRtg6PBNfCg4RUJ2SEXWAByK4turPs+lLE3LE/arKsnq4asdQvq1oCA5vVynt2/TxV80U7taEppnb0jKAbxFtuFpq/u9hGWUMLUHjOXG4cQxpJoE7nuZqJtgyGl5C+UFhtVfO7E3EjdOwekKKMFkeQvRIHTVM0r+qw6t9ksHPGgP7mpGSVc2zprhNpud7u00ichMaQUxnTGrsCsRD3e/9ggHah9K60lg9uMgbOU5o9nzPSGaIhhvUugBhQl46zOhcAgxQ38Qt/ph47hfgj4dPLot19kvuzVWu3KYnCaDjqtIjNExHYU6Isw2bukwx/lib8T/3s6AQTl1V9DYFj6aZndiHf+UVXd4fYo1PJUgMUkRHluSGvnlBpeCdj07+56gjMYkWy2B6ff3vXDAbYO9Iu5vF8iCRyIRR5r2BR2/dZdqvmDI5iBuhNVV3Pj8v3p4kYxxfTBkHUBO2fJLFbrEj9GIkAl2WtZdM2LqAR9A0t+8Pv+HV0zHO0lSAgy/lhaQYahbR+FQeVUOMn7qMKfs5Z5vCKzGG3fbEScOjCTxtOJzrqsg0YXBJfIcARldnjTeg3CPHuwpuOR8Zi/NvB1qokIzQ0NGU7s8ObNapenZ0HyneBiaIKTPIIl2EAqlR9EyEFGIZ+rFwtcrxhxk/+FD/sw+P4SEAV750B/I184P76oKhpQHL0i8s3avu05Bd2myw2sDpZSi8VVRqI4lenwu9JaHIUoZuaWJr9rwzhkVKk+9akr2X9S0Aa3zh6HEXx2nySGPm7xbW4/7c9v7niri12J8O8ft9qcv0yIgw0t1UAOU7zcdibMeCgcKunyYN8Xk9n5/Vk1ta+91xnnbNHi2FXuyOXhChQtlrHDKm9fqT0CQhLaYevnLXJi+IUIUWgjIX2rgnLZAuTV/prDmc0hY9bg3+glHVX5XlQKrGD6T8t58JKkpJ0YeDGlBle53nF3hqILUQs4ArKQIHgEioQ2c3NoocpP17jBPcHOZKBWa8lwgL6pXJa/yuMhA524DgvhJS64jefZHrdf71Bl0/MJ4xxxDJ3pe3fFp1Vj772/cF7p1RgFIOvfbfULpJFVpA1oCDV8t7gTKM3Z5Th7S3FuaGZAB6YB7QPDgy0FFFPm79OZ+6Q21lrwX0mkHcigVAlfvTqbs1+dRdUFRvMOYWRHYk5m0WstovUPqE1iiAcPTpHerNZwBV7V+kVGuOcaEvIaV1bNkwf/SVpEvzerG6/gYp/WEVSAcGvgfKyoAzk4WN0tOz9weKxhGWcFjZctl3nnY/KnWIYha+qxYI4OQsD2anHFyrsD09ydd+iSX3iN6w8GRykjtFvpT09rKVyp6SO1DyWIAiWu/yVSRbZNhJt4OPCgkHNsIg2OsuyS1yZNknTKJ807aJtyfzhsBZ5TE0xADaEGIg1lP2PE3KjE+tc1+6HBNBU9Sqs3tm65eU+mdv4vkOcKGjtr72VLclcWUji862sXfpCgQNXkVBrVqGVs4x5NB8/m6m+ONsxzc4tQHfpNHRXxuXyM1Lol/L95qw5dhSaDOKNswze0BlOhPWXyYC+YWCcEUvMYAOJ9IWCwuonxcpK0S7UKsy9YiDz7XyPIIK+VJExznibC/2IGvqmtM2BCMCW3O4D+qMvUw+f4rNRWOGIFdvHUk5HFB6sdw5ngIqsJnebOVU4WbJtJmfYbkNTRdUg+v7QbHIFp0FcPcqPupsTFNLMf00lds9JkCDH+djM9cuJW4C/EVp8Te4ZQ8cqZWYQc0F9TwXBKWSjNuKn7xhXPj156Z+ieocyOV92QnS1huKEX8+fJ9u9nxH9vRqWAvdSeBHDldisOB+wnpnVzGbJG101MUiX2sXJLvA7W1gss2g39xMVmEyDPQsoe04RZeNS2TjaAflSOXYg9SQ7ZIkYYISg3yzQ7hse1H4MXA1LcLRj4inNMP/LRlNYYrHaeJCCtr2y3dWqDdbYZstHdcFWyJcleRwhVMu6lLAGQN2mymqF3AlcZjrKfHPnjaDfQuX+8E3wZrW47+4HAI1FITl4wb/cxVusEy1dG0tBWotDO01DIDirA1AwqrqBF+kPlkSpAJ2/Y3393JPJ80uWcZOqpp3XQiWOPvxml3GA9gsXT1BJYprjDgYaM9T1JH2CGJ1IbGN2w2cMvQxTgMw7zDspDyaevmKgyZ6mBTxwOuAnSbbyLXf9k7lLy/GzfbuLz1bYyMPABZqJXw00w/BPdC5G649jR5sBViIMyZDTN6r3/9WulYq8baHviscLQjYyVlu5XKKvJohahYVnJTpkvnOccKFyGYC4cl1I/882HFGonbfHBRx032ViS7jSMXqAieXECDUhv0K+ILt8THOUx+u1aFQ4qgaokckpZdMgcZADbdu8jMjB7s12BGQ0j2zA552ggM6AZ/YtdhUexN+c6ZtVHoO71Kk62WwYXTwd6HC0eUPn/4ipzcoe3DOByFraxXZqxu7DgQnS3+0VNcP9RQ4cB7KLkw2EFbHKGBZI7eaj76QDiGrspji0nlfnJcJ7JGXS0ozlN2r40SM0Z5ABXx4OIFgiRDJA4FlKsP8YZ94LJXYEBO+96sRCHb/FhKeiy1HQqM3Vqb/FY02VsW2Srpjg2quS5UnEOCP7J7PzMOQNEpPQPPqgdOJc3SJSsOOVexFMXgctM+bCpibZ3/0qDZ5DCneE4I9w5eR74CzrIrigQYAXFExv226OjX1KWmTinUlJTwvgtoFcplvq8BTiEveLK1PxXf2kLdmgGWg72a4m6PQWGbQmLAqWv4lNA8u/OMo77+0tUO/OavoIR11Xf9tq8PBYsOqkJ7DWUTjNcMKynIv2SqHIt8rpU0gghytGI1WL7EuPCxFyoMCXOs6YndZNpWDQX8tTZGNVHZvj/4f3H88W08CJoRzjpCFpOH9bGZbhCN1UBHA0T4B0lPmCXX20A5HHRQ+U/aF/8Q0Y17xBREQXWAe/Il4cn4QYoopY1+7XxokeZ9SLuWPiZ8rT8DHxryJrJMPAGCBq0Y5XNytS0KelRowLcitVeGXmvV6uFFvmgKhJbohTgyoa/7YzsZOqiiNU7ep3fSIJfWXCyS7gXdvZ+f9cICIU2hs5bklGQzCH9JQpoU6GPJqxaahwNeoSXCs9R78btkAcq/g3DodWESCB6KdoXD1jSz6PeUu7Y5xcMUs8+a27fP1YNOJppIMFWO8+7A9HjFz8JUQUeZFfud9MEKQP1fbCPqZ49N4hUvDyXKrZ6z1tVqbPs2Gsgo1tCvIMvCcrK6HypW7gdsHv3YFh0vexDeyL9zu2CsnpQIY0C/wrCjxXuj+JKT6mw86b0rRu10f2IV1CW8zwOAQ+GPr9xysFmC9TjNTV+XRl1UpAVU1RAEpHfcP82YiuL5q3SK8NH4v+ySktxCW/qlUFNrNntuXg1Olv1Jj9lUJGs5ajvNgeg/of2Et+r/FolEzm3rIFpLjkmmPuHQxNK9pH+CVTc3QKySOMWslrdVFjW1UT8kGWnE/q01z4XJymIBA/sWvUvJBmAYTDCEMkm1fkTTdsg1h1kyFrFPoncqI3AhU4+kHS9wZkmGXm+tyaEKznCWF2IziL1PYtddP40XVYMBUmfmTSJyPYKC1Jl5vXPvq+AKOKLaAo8SJWD70XdKy1Y2d5PLxqWl/afNjA8XJi8N4QWMjZOFWwEo3wwZ7B0qVLxP0u4TqYx6gcf8DGLL4E1jLhNfo57/KQisUfmxFKGQDtjgm09f8PjPodN5iPa18r2mpViJmZFtkoad2mWyGLgTflcV6u1F/7aw67MAIsayfuNR1KHqM28Z2j8p98hq8Q00TWYdr9XFhZdwnnjy+MbDcqJw8FbU4iQEHD+2B8Z7MAHxYIDEh1QK/CdifQrsivk3fCGsNAafVslD0/G+hhcAUMJh1TPqM6Hvk2zDn2vj12gpIM2fd0+gdqqQl43AVt9qOG6Zdy963wibTpAU6AyVkJs1ph71HEEOf2ai/XQK3oNxrRqyLo7FmkJontdsLpiBQhxHqI2SYqVFTSO1nqDQTpW6Rtb39mhJWE+hX8450qfNr1TVLOKllc/8napfIRgNiqqoj0oWMUANCQZ4IgFq4iGr3f4JedUCdej1PrY0ZrzejJoTJH3LB5sKD5Zedxtjd1F9PogBLX8UPpWlJdBFBSBSYJ8/ny4pxJg007INvsplQw22EQAkc7ELmc+tudknZOGpwd2ORw/2m8oa4DUzHaYmg6ATVAi/Wkglj2oVYePjZxFdT4Ce3FEQpHNvmgu2I3ZCGUMV7bqBKefTcz7wJgxaNCXQTTZUjE+asgO2SbFvify3ERtH/LI08bd1uMUbstuH2wZkZowB2/dx2F63EN2IeZJ0kSQI9gp0t15iunjP+DQ2bXeFPVqJcHr+fDnZHvZEYxs2KCsXF1xmFnjED/VybSAEuiyFVGCZD0fQ/u7RsXIqQDL5+/kExMBNhBoqFGRK5lxCceNNdGzNYS4ub1KaLKToIbCTJrN9dF2nvNk2QiOGkKwe8iwhnJzU98QqulSvObT6nAZyycF4LCJwxz41QBkgMaFd0zx4ocaygOKQiYzW2acqjEKipBsH6jRcAS9U1q3V8M+jUlOegwVKuJQe5PYhhZnga2yu/HVtZhBZQkMfHyZ5CG4wMAJKPkRqn+EZ/qO8Th9WzbxpfjxF+jGriAPfe/DYTR90PAWbVQfm3Vf6HddGU6SwboaRw24BZgX1qZ24a7bYe2/P5kKwjthUfoB5HCusJ5Q4TTZS48n0Rqq1DehmlhLmAhJ4fYmy1LzcC9EVETDo2TphMTzMThhHRHZDU0bNMp14yjhRw8JK1lOzvC8uukftQ/WGISSVHzi/yieKE5ArQ/QAdU2Pzne7S+ok5gOpUDr/ipIvJ6kx0J9JdPX2U6f18g0ChV9X3w1tk4obRPUuDxM82VsQClUcuzqr+QUdWfVl+soX/L2Hnum8IBRphpGs4fbnjxLfU1+REI5OpvHC4alNb7UWq8yQLYNcruJqIY+bXzRLdoK7TRLxYtu4holh3S5vd8iuzhVBGD0zpH6sPot8VcANeimpsR8EXs8sM2tvseZXXbv5TTz+MkO7IH570eSQWUgwtGpmQ57SytQwAPEybJUvECFPKbEsI83NwxcUvyY/3Yiv2H7GeQxG9dhkyBhW4I+AwdQT7l7gdX+BxgEj80yXGPoY2V+GpRdL222I84I9YcsVXv5mwGzWZqj1F6dC0PVeg6Yk0fqcMXQ6vF+wSfWhM2PHqXU+Oh4CxAlGEGGRXbX98jnBHP4FbWaCTjMLjf5bV79eUII2ApuqUe0B2zzGIx6+Z4kT2kA7F2Fuv8KuLAOTV5k4lxVNNke2WT7r2OzGNvt62lUmD9KVuz+kA+jMDnT6J7R16aAQpMucpnR05uBQeFTLWphhESpeqfORPVjXm10xaZuMmcqXc92XTMJtVgGN5GT0c6TA+ccpvNaI2MkQMTfSo4HQREj2+tO5xNAmshSCTqcwi1NMCPfMm6y6F1870Zj7oygz0hnC5mWuol5RTlSGbQMlPDFVaTpvdGJ0YXOshmj1Y373y4p1CFOLZKgsJ0SIKsepNR8C4Tvs6Py/QlE/Dz/9SMgJxI2bcbaJQSsABKnnaM3zdyMV4Q8vA189Nnj4+7hnP1ZZdwAP7+n5Y+idMpUKIYRctpDuEpKFotEXpxMcStKm99gjtyQ4n43InPcIxMN06Z3zXyIBbe9oh2Gh+/BdJO25FS3HqWuHejyJRAL6Uw4LVYEuuOzGsNemPOEYfmSpOneOamzw2poYVKWjwRN8lPIUahpL6mKfPP0qjJOzEmZMBtkKeooO3Qh4sLhTbiscZK9LyrQ0vVmOWGHkwWFdFebze1p/39ZopdFV+gCJZggQJPtLNQ9Xy/qmrM7IqSooohS3pveOKTWB7k52peGwfH39Z45FJPzRZYWPMHxDEd3bXrH+pEVKp5oI6ynLsaslFhd/q+n30UDs51TqVtYMUtPyP8AFtoKLaawzazcAgtyPvct46nHatND3i7dEnCNFYTS6EX+vwgplsRXshrpWR6YPQowGPpBZcYF+Qv7+xD0I93efsCYtiNWAKiehGILh0QnZK2Fip5WTnF6mSfBfiMGP6Vr6Qdw5c9ls+aXkWqfXNAobmM0b2M8qVy3GD6jkvvYqlemKkqjUbYXLkFhs912UiTsFdQolcUCLw6lfUSGzNq2+t53sKTyHg9VfA864qKdJIxNuUJ+CBoAbb2I2BikR0AltPTOZPwY8yjKIjfhV33pEN7hqog5PNgJ09dA7/Jb+TPgJqFXYImX9S0gV342T0fN8VgvCxDWCF7A/kor7V+Yec+AIkTI+SrAhU8DoXR+AqeUyXWmyHtoKHHq6pGjUUuxjpnWzuDPnJKlItHtV7uTRb0bHpsegDQ7AreyEsrk//qLUrg3QJIeQqTP8ol3j10MOKhNrjeGfFN0kj2ZQIKXLomc2jzp2YWHBuy8qSoutHy3/IcYZwoj1moYP434eZQm8MC3gprchHQ1nBqdJVhg2yL39Jw3aflYd+lb0iiiKHKyS7bszpYPaxdCh9LnnTMJvS9W6lJ1xmn676P40RJULu3m13KKxg09FbEa2wzYW/TsxTGZZL8jKIBx8o9IZmRA8KXG6xEvRPmwQ0uOWhNVBv5pPCFbl0eDXAn4Y/2f82PFpSvB9SpI88uimzRX+K8jJHgpz/v50RClNEwuwE+kFMEsGiIqdh/2KiZbJ6so+haGLZEp5/yGF0naKBj1jqQ64hk3OeNFRa7s9rf6ntvFDQ7PVFia7KQHtPVQ7ozxcxu1h5rPoKydAj9WFv+Hl4eru/5o5YGhoomnqkgeHRFZFvnlyqtkCgbqGum6ucYhmvQTp+3r7rQpXjMHRgmZnR9hcX8GiRGkSamV5z/uLBPXT/KfhtTyqq55u/IcX6V19e5145s8T4LYfcXDoXd2gp8Vl0vG2D1Luo7AUmVscc7b0U5uA3hRNwPT4zhYhn5QJOGWZ22GzyXR6NkIxcHpDRrrPimSp8mtiJLd4hrBhzQjp3QinfYrUZ93waBhUoYZ5M32Rdr1Jn255r/l5iEkBMLS164/RS7olpv3tTUIc51Ww01plPFXWxrkPiWWyC7GJl5r2EnmKdBPkiZVjeDOMTR3aDuyuEUV06//zNuItMSV6QpwLh3v10On4E5LDwMCvpNHOTPHQW+lQ2OYmOK7s8P/FqA41cx223DTNcRMrp4kDWF15KZ7mZuwxo3qEwGDYk8LVI0vN78xKHI5CJCMwo151dXJwoJ9KE1P9px9oe5Jz/9FdNVAWeoue0bfZ9rz7KEejP4bStU2ilUibL2HRrUwl8GdFWiFJOliCou+94dWOf/DIOjvBtfF983WY/64h+PvkhnFxvWaYbvYCk/8CKlO5h4/iwLly18Zi+u7YULvf3VdrsRzqd1Vp5rKysxybgy0FC7fRno/SenANcfoo19oIqNCmlArYE2QLIz/F1i6GDYwzidpCdWiNPoi0XilwIxt470A8iFPh+++WwMgw+CPoNhaw8c/fdRRP2nh5Bpx729GmO3nKoYAXsplFhSwA/RFK5dMsoaGnuSajWBrQmvgtlUO84phT7I+MFyHxukDZoRV0kxiESWC6jIhLtUkwARQYQs9MBFvFSdWSd+HJasfmUIIEgQcAWfcQoU6qhXmKz4P51tSEv8j9Rm8o/G6DZQqa0zQTYoXLYW8xRCK5bVN6CSa77nMUyqcJRVMNNmZHBIlsxoeOZiYQvKzvn7fe9mgDY6l0vng0eyTknpjQIPjb0mlQCCB/4g0cix0vOpQiTT95vBg34hgJjjhIOR2PBni7Icw9vFtYZhD6EotjBtrjTANDca6rm3aFB6mn7SJanVDE7NNnHiCzGOar84h3c7gS7lXJId105i+wZQqwRy9wubNChnVr4L/eMGps9HAPX2hAntKUVqcWzcZFeaw2ckRL39S9C4SbRyWN45X3OtkGiPS/M38DA0qV3f4lQogcuM/XSccJjxv+p9jvWYYzlH4taUazseMguJsGdkY7I9+kfQPmdLDVuKGvJD9lqWH41KtlVX2jlcq7gJTvcqQaAeI/18Nsf9A9SGKTbvxXn0vnsQYjwBo3UnDMHld8/xP9F8Vxn7YdsqKzXHL+QQHFx5Rs34OshawnjIkWontUP5T3cY/Jpo4DdWTF5QO44UpUq54bHR3fhnJpTWGT1N882Ur3bzyOqZU+KftoVhkGVj7Uj8SxsuZFJt4BwGgwg6Ru8rNOsVNL9HpJxU9OjexKfYtHufsRgGbFAwyNx7DE/hLDCK7MbcTzNT8+7pjlLvyHg2VShYZsOfXI73JtUzG3josFlDL3Ifg3k5lLGFzojXcks/r5AAAAAkkHhoER7a3wAB5ogBma4EdWZJ/7HEZ/sCAAAAAARZWg=='
+APPLY_WHEEL = ''
+
+INPUT_ROOT = Path(os.environ.get('ANSWER_LADDER_INPUT_ROOT', '/kaggle/input'))   # overridable only for local tests
+ROOT = Path(os.environ.get('ANSWER_LADDER_WORK', Path.cwd() / 'answer_ladder_run'))
+ROOT.mkdir(exist_ok=True)
+
+
+def find(pattern):
+    """glob (not rglob) so symlinked mounts are followed."""
+    for depth in range(1, 6):
+        hits = sorted(INPUT_ROOT.glob('/'.join(['*'] * depth) + '/' + pattern))
+        if hits:
+            return hits[0]
+    raise FileNotFoundError(pattern)
+
+
+INPUTS = find('manifest.json').parent          # answer_ladder_inputs/
+HARNESS = find('swegemma-0.2.11-py3-none-any.whl').parent
+manifest = json.loads((INPUTS / 'manifest.json').read_text())
+
+
+def sha(p):
+    h = hashlib.sha256()
+    with open(p, 'rb') as f:
+        for b in iter(lambda: f.read(1 << 22), b''):
+            h.update(b)
+    return h.hexdigest()
+
+
+needed = ['tasks.jsonl', 'sandbox/setup.py'] + [f'snapshots/{i}.tgz' for i in TASK_IDS] + [k for k in manifest if k.startswith('wheels/')]
+bad = [k for k in needed if sha(INPUTS / k) != manifest[k]]
+assert not bad, f'manifest mismatch: {bad}'
+print('inputs', INPUTS, '| harness wheels', HARNESS, '| verified', len(needed), 'files', flush=True)
+
+# Writable copies of the small inputs (the mounts are read-only); snapshots are only read.
+(ROOT / 'sandbox').mkdir(exist_ok=True)
+shutil.copyfile(INPUTS / 'sandbox/setup.py', ROOT / 'sandbox/setup.py')   # contents only: mounts are read-only
+WHEELS = ROOT / 'wheels'
+WHEELS.mkdir(exist_ok=True)
+for f in (INPUTS / 'wheels').glob('*.whl'):
+    # The harness keeps only the highest version of each wheel; fastapi at these commits needs starlette<0.50.
+    if f.name.startswith('starlette-') and tuple(int(x) for x in f.name.split('-')[1].split('.')[:2]) >= (0, 50):
+        continue
+    shutil.copyfile(f, WHEELS / f.name)
+# Test-only dependencies missing from the public wheels (fastapi's tests import them): the same five wheels, by exact
+# version and sha256, that the paper's runs added (RTX work/wheels_fastapi). Fetched from PyPI and checked.
+EXTRA_WHEELS = {
+    'inline_snapshot-0.36.1-py3-none-any.whl': '9d795198efcf956670a8ed588c85708dd3575a08341c63e2b34745a2ba0c6245',
+    'dirty_equals-0.11-py3-none-any.whl': 'b1d7093273fc2f9be12f443a8ead954ef6daaf6746fd42ef3a5616433ee85286',
+    'typing_inspection-0.4.4-py3-none-any.whl': '65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147',
+    'asttokens-3.0.2-py3-none-any.whl': '9da13157f5b28becde0bd374fc677dcd3c290614264eff096f167c469cd9f933',
+    'executing-2.3.0-py3-none-any.whl': '736e859c9f8701f11fcf516856f26f562e04776387824b43a35a1dfe21c84122',
+}
+import urllib.request
+for wheel, digest in EXTRA_WHEELS.items():
+    name, version = wheel.split('-')[:2]
+    meta = json.load(urllib.request.urlopen(f'https://pypi.org/pypi/{name}/{version}/json', timeout=60))
+    url = next(u['url'] for u in meta['urls'] if u['filename'] == wheel)
+    data = urllib.request.urlopen(url, timeout=120).read()
+    assert hashlib.sha256(data).hexdigest() == digest, f'sha256 mismatch: {wheel}'
+    (WHEELS / wheel).write_bytes(data)
+print('task wheels:', len(list(WHEELS.glob('*.whl'))), flush=True)
+if RUNG == 'apply':
+    # The harness unpacks small wheels from the task's wheels folder into the sandbox: `python3 -m apply_fix <task>`.
+    (WHEELS / 'swe_fixtool-1.0-py3-none-any.whl').write_bytes(base64.b64decode(APPLY_WHEEL))
+
+CONSTRAINTS = ROOT / 'constraints.txt'
+CONSTRAINTS.write_text('protobuf==5.29.6\nhishel<2\n')   # kaggle-benchmarks 0.6.2 needs protobuf<6, breaks with hishel 2
+
+
+def install(args):
+    r = subprocess.run(['uv', 'pip', 'install', '--python', sys.executable, '-c', str(CONSTRAINTS)] + args,
+                       capture_output=True, text=True, timeout=600)
+    print(r.stdout[-1500:], r.stderr[-3000:], flush=True)
+    if r.returncode:
+        raise RuntimeError('Harness dependency installation failed')
+
+
+install(['google-adk==1.36.1', 'google-genai==2.11.0', 'docker==7.1.0', 'litellm==1.104.2', 'networkx', 'numpy', 'pandas',
+         'cachetools', 'python-dotenv', 'pyyaml', 'pytest==9.1.1', 'pytest-timeout==2.1.0', 'markdown-it-py==4.2.0', 'rich==15.0.0'])
+install(['--no-deps'] + [str(HARNESS / w) for w in ('adk_eval_core-0.1.0-py3-none-any.whl',
+         'adk_submission-0.2.13-py3-none-any.whl', 'swegemma-0.2.11-py3-none-any.whl')])
+
+# Task dependencies. In Docker mode the harness unpacks the task wheels (highest version per package) into the sandbox's
+# site-packages; in subprocess mode it installs nothing and the sandbox venv sees only the host's packages (which here
+# include google-adk's newer starlette). Mirror Docker: unpack the same wheels, chosen for this interpreter, into one
+# folder that each sandbox venv puts ahead of the host packages (patched in below). Grading is untouched.
+import zipfile
+from packaging.tags import sys_tags
+from packaging.utils import parse_wheel_filename
+SUPPORTED = set(sys_tags())
+best = {}
+for w in WHEELS.glob('*.whl'):
+    name, version, _, tags = parse_wheel_filename(w.name)
+    if set(tags) & SUPPORTED and (name not in best or version > best[name][0]):
+        best[name] = (version, w)
+TASKDEPS = ROOT / 'taskdeps' / 'site-packages'
+TASKDEPS.mkdir(parents=True, exist_ok=True)
+for _, w in sorted(best.values(), key=lambda x: x[1].name):
+    with zipfile.ZipFile(w) as z:
+        z.extractall(TASKDEPS)
+print('task dependencies unpacked:', len(best), 'packages', flush=True)
+
+# Task rows: the competition's rows for TASK_IDS, statement replaced by the rung's (calibration keeps the original).
+rows = {json.loads(l)['instance_id']: json.loads(l) for l in (INPUTS / 'tasks.jsonl').read_text().splitlines() if l.strip()}
+statements = json.loads(lzma.decompress(base64.b64decode(STATEMENTS_XZ))) if STATEMENTS_XZ else {}
+TASKS = ROOT / f'tasks_{RUNG}.jsonl'
+with TASKS.open('w') as out:
+    for i in TASK_IDS:
+        row = dict(rows[i])
+        if statements:
+            row['problem_statement'] = statements[i]
+        out.write(json.dumps(row) + '\n')
+BUNDLE = ROOT / 'bundle'
+(BUNDLE / 'prompts').mkdir(parents=True, exist_ok=True)
+(BUNDLE / 'configs').mkdir(exist_ok=True)
+(BUNDLE / 'prompts/system.md').write_text(base64.b64decode('WW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50IHRoYXQgY2FuIGludGVyYWN0IHdpdGggYSBjb21wdXRlciBzaGVsbCBhbmQgdGhlIHJlcG9zaXRvcnkncyBmaWxlcyB0byBzb2x2ZSBwcm9ncmFtbWluZyB0YXNrcy4KCjxwcl9kZXNjcmlwdGlvbj4KQ29uc2lkZXIgdGhlIGZvbGxvd2luZyBQUiBkZXNjcmlwdGlvbjoKe3Byb2JsZW1fZGVzY3JpcHRpb259CjwvcHJfZGVzY3JpcHRpb24+Cgo8aW5zdHJ1Y3Rpb25zPgojIFRhc2sgSW5zdHJ1Y3Rpb25zCgojIyBPdmVydmlldwoKWW91J3JlIGEgc29mdHdhcmUgZW5naW5lZXIgaW50ZXJhY3RpbmcgY29udGludW91c2x5IHdpdGggYSBjb21wdXRlciBieSBjYWxsaW5nIHRvb2xzLgpZb3UnbGwgYmUgaGVscGluZyBpbXBsZW1lbnQgbmVjZXNzYXJ5IGNoYW5nZXMgdG8gbWVldCByZXF1aXJlbWVudHMgaW4gdGhlIFBSIGRlc2NyaXB0aW9uLgpZb3VyIHRhc2sgaXMgc3BlY2lmaWNhbGx5IHRvIG1ha2UgY2hhbmdlcyB0byBub24tdGVzdCBmaWxlcyBpbiB0aGUgY3VycmVudCBkaXJlY3RvcnkgaW4gb3JkZXIgdG8gZml4IHRoZSBpc3N1ZSBkZXNjcmliZWQgaW4gdGhlIFBSIGRlc2NyaXB0aW9uIGluIGEgd2F5IHRoYXQgaXMgZ2VuZXJhbCBhbmQgY29uc2lzdGVudCB3aXRoIHRoZSBjb2RlYmFzZS4KPElNUE9SVEFOVD5UaGlzIGlzIGFuIGludGVyYWN0aXZlIHByb2Nlc3Mgd2hlcmUgeW91IHdpbGwgdGhpbmsgYW5kIGlzc3VlIEFUIExFQVNUIE9ORSB0b29sIGNhbGwsIHNlZSB0aGUgcmVzdWx0LCB0aGVuIHRoaW5rIGFuZCBpc3N1ZSB5b3VyIG5leHQgdG9vbCBjYWxsKHMpLjwvaW1wb3J0YW50PgoKRm9yIGVhY2ggcmVzcG9uc2U6CgoxLiBJbmNsdWRlIGEgVEhPVUdIVCBzZWN0aW9uIGV4cGxhaW5pbmcgeW91ciByZWFzb25pbmcgYW5kIHdoYXQgeW91J3JlIHRyeWluZyB0byBhY2NvbXBsaXNoCjIuIFByb3ZpZGUgb25lIG9yIG1vcmUgdG9vbCBjYWxscyB0byBleGVjdXRlCgojIyBUb29scwoKLSBgcnVuX2NvbW1hbmRgOiBydW4gYSBzaGVsbCBjb21tYW5kIChzZWFyY2gsIGxpc3QsIHJ1biBzY3JpcHRzIGFuZCB0ZXN0cykKLSBgcmVhZF9maWxlYDogcmVhZCBhIGZpbGUsIG9yIGEgcmFuZ2Ugb2YgbGluZXMgd2l0aCBzdGFydF9saW5lIGFuZCBlbmRfbGluZQotIGBlZGl0X2ZpbGVgOiBjaGFuZ2UgYW4gZXhpc3RpbmcgZmlsZSBieSByZXBsYWNpbmcgb2xkX3N0cmluZyB3aXRoIG5ld19zdHJpbmc7IGNvcHkgb2xkX3N0cmluZyBleGFjdGx5IGZyb20gd2hhdCByZWFkX2ZpbGUgc2hvd2VkCi0gYHdyaXRlX2ZpbGVgOiBjcmVhdGUgYSBuZXcgZmlsZQotIGBzdWJtaXRfcGF0Y2hgOiBzdWJtaXQgeW91ciBjaGFuZ2VzIHdoZW4geW91IGFyZSBkb25lCgojIyBJbXBvcnRhbnQgQm91bmRhcmllcwoKLSBNT0RJRlk6IFJlZ3VsYXIgc291cmNlIGNvZGUgZmlsZXMgaW4gL3dvcmtzcGFjZSAodGhpcyBpcyB0aGUgd29ya2luZyBkaXJlY3RvcnkgZm9yIGFsbCB5b3VyIHN1YnNlcXVlbnQgY29tbWFuZHMpCi0gRE8gTk9UIE1PRElGWTogVGVzdHMsIGNvbmZpZ3VyYXRpb24gZmlsZXMgKHB5cHJvamVjdC50b21sLCBzZXR1cC5jZmcsIGV0Yy4pCgojIyBSZWNvbW1lbmRlZCBXb3JrZmxvdwoKMS4gQW5hbHl6ZSB0aGUgY29kZWJhc2UgYnkgZmluZGluZyBhbmQgcmVhZGluZyByZWxldmFudCBmaWxlcwoyLiBDcmVhdGUgYSBzY3JpcHQgdG8gcmVwcm9kdWNlIHRoZSBpc3N1ZQozLiBFZGl0IHRoZSBzb3VyY2UgY29kZSB0byByZXNvbHZlIHRoZSBpc3N1ZQo0LiBWZXJpZnkgeW91ciBmaXggd29ya3MgYnkgcnVubmluZyB5b3VyIHNjcmlwdCBhZ2Fpbgo1LiBUZXN0IGVkZ2UgY2FzZXMgdG8gZW5zdXJlIHlvdXIgZml4IGlzIHJvYnVzdAoKIyMgQ29tbWFuZCBFeGVjdXRpb24gUnVsZXMKCllvdSBhcmUgb3BlcmF0aW5nIGluIGFuIGVudmlyb25tZW50IHdoZXJlCgoxLiBZb3UgaXNzdWUgYXQgbGVhc3Qgb25lIHRvb2wgY2FsbAoyLiBUaGUgc3lzdGVtIGV4ZWN1dGVzIGl0CjMuIFlvdSBzZWUgdGhlIHJlc3VsdChzKQo0LiBZb3Ugd3JpdGUgeW91ciBuZXh0IHRvb2wgY2FsbChzKQoKRWFjaCByZXNwb25zZSBzaG91bGQgaW5jbHVkZToKCjEuICoqUmVhc29uaW5nIHRleHQqKiB3aGVyZSB5b3UgZXhwbGFpbiB5b3VyIGFuYWx5c2lzIGFuZCBwbGFuCjIuIEF0IGxlYXN0IG9uZSB0b29sIGNhbGwKCioqQ1JJVElDQUwgUkVRVUlSRU1FTlRTOioqCgotIFlvdXIgcmVzcG9uc2UgU0hPVUxEIGluY2x1ZGUgcmVhc29uaW5nIHRleHQgZXhwbGFpbmluZyB3aGF0IHlvdSdyZSBkb2luZwotIFlvdXIgcmVzcG9uc2UgTVVTVCBpbmNsdWRlIEFUIExFQVNUIE9ORSB0b29sIGNhbGwuIFlvdSBjYW4gbWFrZSBNVUxUSVBMRSB0b29sIGNhbGxzIGluIGEgc2luZ2xlIHJlc3BvbnNlIHdoZW4gdGhleSBhcmUgaW5kZXBlbmRlbnQgKGUuZy4sIHNlYXJjaGluZyBtdWx0aXBsZSBmaWxlcywgcmVhZGluZyBkaWZmZXJlbnQgcGFydHMgb2YgdGhlIGNvZGViYXNlKS4KLSBEaXJlY3Rvcnkgb3IgZW52aXJvbm1lbnQgdmFyaWFibGUgY2hhbmdlcyBhcmUgbm90IHBlcnNpc3RlbnQuIEV2ZXJ5IHJ1bl9jb21tYW5kIGlzIGV4ZWN1dGVkIGluIGEgbmV3IHN1YnNoZWxsLgotIEhvd2V2ZXIsIHlvdSBjYW4gcHJlZml4IGFueSBjb21tYW5kIHdpdGggYE1ZX0VOVl9WQVI9TVlfVkFMVUUgY2QgL3BhdGgvdG8vd29ya2luZy9kaXIgJiYgLi4uYCBvciB3cml0ZS9sb2FkIGVudmlyb25tZW50IHZhcmlhYmxlcyBmcm9tIGZpbGVzCgojIyBFbnZpcm9ubWVudCBEZXRhaWxzCgotIFlvdSBoYXZlIGEgZnVsbCBMaW51eCBzaGVsbCBlbnZpcm9ubWVudAotIEFsd2F5cyB1c2Ugbm9uLWludGVyYWN0aXZlIGZsYWdzICgteSwgLWYpIGZvciBjb21tYW5kcwotIEF2b2lkIGludGVyYWN0aXZlIHRvb2xzIGxpa2UgdmksIG5hbm8sIG9yIGFueSB0aGF0IHJlcXVpcmUgdXNlciBpbnB1dAotIFlvdSBjYW4gdXNlIGJhc2ggY29tbWFuZHMgb3IgaW52b2tlIGFueSB0b29sIHRoYXQgaXMgYXZhaWxhYmxlIGluIHRoZSBlbnZpcm9ubWVudAotIFlvdSBjYW4gYWxzbyBjcmVhdGUgbmV3IHRvb2xzIG9yIHNjcmlwdHMgdG8gaGVscCB5b3Ugd2l0aCB0aGUgdGFzawoKIyMgU3VibWlzc2lvbgoKV2hlbiB5b3UndmUgY29tcGxldGVkIHlvdXIgd29yaywgeW91IE1VU1Qgc3VibWl0IHlvdXIgY2hhbmdlcyB3aXRoIHRoZSBzdWJtaXRfcGF0Y2ggdG9vbC4KRm9sbG93IHRoZXNlIHN0ZXBzIElOIE9SREVSLCB3aXRoIFNFUEFSQVRFIHRvb2wgY2FsbHM6CgpTdGVwIDE6IFJlbW92ZSBldmVyeSBmaWxlIHlvdSBjcmVhdGVkIHRoYXQgaXMgbm90IHBhcnQgb2YgdGhlIGZpeDogcmVwcm9kdWN0aW9uIHNjcmlwdHMsIGhlbHBlciBzY3JpcHRzLCB0ZXN0cyBvciB0b29scyB5b3UgY3JlYXRlZC4gc3VibWl0X3BhdGNoIGluY2x1ZGVzIGV2ZXJ5IGNoYW5nZWQgYW5kIG5ldyBmaWxlIGluIC93b3Jrc3BhY2UuCgo8SU1QT1JUQU5UPgpUaGUgcGF0Y2ggbXVzdCBvbmx5IGNvbnRhaW4gY2hhbmdlcyB0byB0aGUgc3BlY2lmaWMgc291cmNlIGZpbGVzIHlvdSBtb2RpZmllZCB0byBmaXggdGhlIGlzc3VlLgpEbyBub3Qgc3VibWl0IGZpbGUgY3JlYXRpb25zIG9yIGNoYW5nZXMgdG8gYW55IG9mIHRoZSBmb2xsb3dpbmcgZmlsZXM6CgotIHRlc3QgYW5kIHJlcHJvZHVjdGlvbiBmaWxlcwotIGhlbHBlciBzY3JpcHRzLCB0ZXN0cywgb3IgdG9vbHMgdGhhdCB5b3UgY3JlYXRlZAotIGluc3RhbGxhdGlvbiwgYnVpbGQsIHBhY2thZ2luZywgY29uZmlndXJhdGlvbiwgb3Igc2V0dXAgc2NyaXB0cyB1bmxlc3MgdGhleSBhcmUgZGlyZWN0bHkgcGFydCBvZiB0aGUgaXNzdWUgeW91IHdlcmUgZml4aW5nICh5b3UgY2FuIGFzc3VtZSB0aGF0IHRoZSBlbnZpcm9ubWVudCBpcyBhbHJlYWR5IHNldCB1cCBmb3IgeW91ciBjbGllbnQpCi0gYmluYXJ5IG9yIGNvbXBpbGVkIGZpbGVzCjwvSU1QT1JUQU5UPgoKU3RlcCAyOiBWZXJpZnkgeW91ciBwYXRjaApSdW4gYGdpdCBzdGF0dXMgJiYgZ2l0IGRpZmZgIHRvIGNvbmZpcm0gdGhlIHdvcmtpbmcgdHJlZSBvbmx5IGNvbnRhaW5zIHlvdXIgaW50ZW5kZWQgY2hhbmdlcy4KClN0ZXAgMzogU3VibWl0CkNhbGwgdGhlIHN1Ym1pdF9wYXRjaCB0b29sLgoKPENSSVRJQ0FMPgotIFZlcmlmeWluZyB0aGUgcGF0Y2ggYW5kIHN1Ym1pdHRpbmcgaXQgTVVTVCBiZSBzZXBhcmF0ZSBzdGVwcy4KLSBJZiB5b3UgY2hhbmdlIGFueSBmaWxlIGFmdGVyIHZlcmlmeWluZywgeW91IFNIT1VMRCB2ZXJpZnkgYWdhaW4gYmVmb3JlIHN1Ym1pdHRpbmcuCi0gWW91IENBTk5PVCBjb250aW51ZSB3b3JraW5nIChyZWFkaW5nLCBlZGl0aW5nLCB0ZXN0aW5nKSBpbiBhbnkgd2F5IG9uIHRoaXMgdGFzayBhZnRlciBzdWJtaXR0aW5nLgo8L0NSSVRJQ0FMPgo8L2luc3RydWN0aW9ucz4K').decode())
+(BUNDLE / 'agent.yaml').write_text('name: swe_agent\nmodel: kaggle_hosted_model\ninstruction: !include prompts/system.md\n'
+                                   'tools:\n  - run_command\n  - read_file\n  - edit_file\n  - write_file\n  - submit_patch\n'
+                                   'generate_content_config: !include configs/sampling.yaml\n')
+# Provider defaults: the proxy accepts no temperature/top_k, and thinking is the provider's own (not E4B's budget).
+(BUNDLE / 'configs/sampling.yaml').write_text('max_output_tokens: 8192\n')
+(BUNDLE / 'eval_config.yaml').write_text('evaluation:\n' + ''.join(f'  {k}: {v}\n' for k, v in BUDGET.items()))
+os.environ['KAGGLE_SANDBOX_DIR'] = str(ROOT / 'sandbox')
+
+# %%
+"""Use ADK's official LiteLlm conversion with Kaggle's supplied model client.
+
+ADK and swegemma own the agent/tool loop. This bridge only transports each
+completion request and records its input/output. No tools execute in the SDK.
+"""
+import asyncio
+import json
+from pathlib import Path
+import time
+
+from google.adk.models.lite_llm import LiteLlm, LiteLLMClient
+from litellm import ModelResponse
+
+
+class KaggleCompletionClient(LiteLLMClient):
+    def __init__(self, llm, record_path, record_sdk=True):
+        self.llm = llm
+        self.record_path = Path(record_path)
+        self.record_sdk = record_sdk
+        self.calls = 0
+
+    async def acompletion(self, model, messages, tools=None, response_format=None, **kwargs):
+        if kwargs.pop('stream', False):
+            raise ValueError('The harness bridge currently supports non-streaming runs only.')
+        # Preserve standard sampling parameters. Reject unsupported ones visibly.
+        allowed = {'temperature', 'top_p', 'max_tokens', 'max_completion_tokens', 'stop',
+                   'presence_penalty', 'frequency_penalty', 'seed', 'tool_choice',
+                   'parallel_tool_calls', 'reasoning_effort', 'extra_body', 'timeout'}
+        unknown = set(kwargs) - allowed
+        if unknown:
+            raise ValueError(f'Unmapped generation options: {sorted(unknown)}')
+        # Kaggle's SDK never sends temperature through its model proxy (support_temperature=False, proxy bug
+        # b/439876083 in kaggle_benchmarks/kaggle/model_proxy.py); mirror it and record what was dropped.
+        dropped = {}
+        if not getattr(self.llm, 'support_temperature', True) and 'temperature' in kwargs:
+            dropped['temperature'] = kwargs.pop('temperature')
+        request = dict(model=self.llm.model, messages=messages, **kwargs)
+        if tools:
+            request['tools'] = tools
+        if response_format:
+            request['response_format'] = response_format
+        self.calls += 1
+        started = time.monotonic()
+        raw = await asyncio.to_thread(self.llm.client.chat.completions.create, **request)
+        response = raw.model_dump(mode='json', exclude_none=True)
+        row = dict(call=self.calls, request=request, response=response, dropped=dropped,
+                   seconds=time.monotonic() - started)
+        if self.record_sdk:
+            # Recording into Kaggle's chat log is evidence, not part of the agent loop: a failure here must not end the run.
+            try:
+                import kaggle_benchmarks as kbench
+                from kaggle_benchmarks.messages import Message
+                from kaggle_benchmarks.actors import user
+                usage = response.get('usage') or {}
+                cost = usage.get('cost') or {}
+                meta = dict(input_tokens=usage.get('prompt_tokens'), output_tokens=usage.get('completion_tokens'),
+                            total_backend_latency_ms=usage.get('total_backend_latency_ms'), **cost)
+                # Separate recorded conversations prevent duplicated cumulative history
+                # from being mistaken for newly generated training turns.
+                with kbench.chats.new(name=f'Official harness model call {self.calls}'):
+                    user.send(json.dumps(request, default=str))
+                    self.llm.send(Message(content=json.dumps(response['choices'][0]['message']),
+                                          sender=self.llm, _meta=meta))
+            except Exception as exc:
+                row['sdk_record_error'] = f'{type(exc).__name__}: {exc}'
+        self.record_path.parent.mkdir(parents=True, exist_ok=True)
+        with self.record_path.open('a') as out:
+            out.write(json.dumps(row, default=str) + '\n')
+        return ModelResponse(**response)
+
+
+def make_model(llm, record_path, record_sdk=True):
+    if not hasattr(getattr(llm, 'client', None), 'chat'):
+        raise TypeError('This adapter requires Kaggle\'s OpenAI-compatible model client.')
+    client = KaggleCompletionClient(llm, record_path, record_sdk=record_sdk)
+    model = LiteLlm(model='openai/' + llm.model, llm_client=client)
+    return model, client
+
+
+# %%
+import asyncio, concurrent.futures, contextvars, traceback
+import kaggle_benchmarks as kbench
+from adk_eval_core.tracing import SessionTrace
+from adk_submission import GenerationConstraints, NumericRange
+from adk_submission.registry import ModelRegistry
+from swegemma.evaluate import EvalConfig, Evaluator
+from swegemma.sandbox.subprocess import SubprocessManager
+
+_start = SubprocessManager.start
+
+
+def _start_with_taskdeps(self):
+    """Official start(), then put the task dependencies first in the venv's host-packages .pth."""
+    sandbox_id = _start(self)
+    for sp in self._sandboxes[sandbox_id]['venv'].glob('lib/python*/site-packages'):
+        pth = sp / '_host_env.pth'
+        pth.write_text(f'{TASKDEPS}\n' + (pth.read_text() if pth.exists() else ''))
+    return sandbox_id
+
+
+SubprocessManager.start = _start_with_taskdeps
+
+
+class FixedPatchEvaluator(Evaluator):
+    def __init__(self, config, patches):
+        super().__init__(config)
+        self.patches = patches
+
+    async def _run_agent_sandbox(self, task, snapshot_path, task_index, total_tasks, **kwargs):
+        return self.patches[task.instance_id], None, SessionTrace()
+
+
+def config(out, registry=None):
+    return EvalConfig(tasks_path=TASKS, snapshots_dir=INPUTS / 'snapshots', results_dir=out, submission_dir=BUNDLE,
+                      models=registry or ModelRegistry(), sandbox='subprocess', wheels_dir=WHEELS, task_ids=list(TASK_IDS),
+                      image='swebench-sandbox:latest', concurrency=CONCURRENCY, display_mode='quiet',
+                      verification_timeout_seconds=300, **BUDGET)
+
+
+def results(out):
+    return {r['instance_id']: r for r in map(json.loads, (out / 'task_results.jsonl').read_text().splitlines())}
+
+
+async def calibrate(report):
+    for name in ('empty', 'reference'):
+        patches = {i: ('' if name == 'empty' else rows[i]['patch']) for i in TASK_IDS}
+        await FixedPatchEvaluator(config(ROOT / f'calibration_{name}'), patches).run()
+        report[name] = results(ROOT / f'calibration_{name}')
+    report['valid'] = [i for i in TASK_IDS if not report['empty'][i]['resolved'] and report['reference'][i]['resolved']]
+    return len(report['valid']) / len(TASK_IDS)
+
+
+async def ladder(llm, report):
+    model, _ = make_model(llm, ROOT / 'model_calls.jsonl', record_sdk=False)
+    registry = ModelRegistry()
+    registry.register('kaggle_hosted_model', model)
+    cfg = config(ROOT / 'agent_run', registry)
+    cfg.generation_constraints = GenerationConstraints(allowed_fields=None, max_output_tokens=NumericRange(1, 32768), defaults={})
+    await Evaluator(cfg).run()
+    res = results(ROOT / 'agent_run')
+    report['results'] = res
+    report['missing'] = [i for i in TASK_IDS if i not in res]
+    report['errors'] = {i: r.get('error') for i, r in res.items() if r.get('error')}
+    calls = ROOT / 'model_calls.jsonl'
+    report['model_calls'] = len(calls.read_text().splitlines()) if calls.exists() else 0
+    return sum(bool(res.get(i, {}).get('resolved')) for i in TASK_IDS) / len(TASK_IDS)   # a missing task counts as unsolved
+
+
+@kbench.task(name='answer-ladder-2-reference-lines')
+def answer_ladder_rung(llm) -> float:
+    report = {'rung': RUNG, 'model': getattr(llm, 'model', None), 'tasks': len(TASK_IDS), 'budget': BUDGET, 'versions':
+              {p: importlib.metadata.version(p) for p in ['swegemma', 'adk-submission', 'adk-eval-core', 'google-adk', 'litellm']}}
+    score = 0.0
+    if RUNG != 'calibration' and 'gemma' not in str(report['model']).lower():
+        # Pushing a task starts a run on Kaggle's default model; this benchmark spends model budget on Gemma only.
+        # AssertionError is kaggle-benchmarks' non-blocking failure: this run is marked failed, the notebook completes,
+        # and the task stays runnable for Gemma models (any other exception fails task creation).
+        raise AssertionError(f"Answer Ladder runs Gemma models only; {report['model']} skipped with no model calls.")
+    try:
+        job = calibrate(report) if RUNG == 'calibration' else ladder(llm, report)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as pool:
+            score = pool.submit(contextvars.copy_context().run, asyncio.run, job).result()
+    except Exception as exc:
+        report['error'] = f'{type(exc).__name__}: {exc}'
+        report['traceback'] = traceback.format_exc()
+    finally:
+        report['score'] = score
+        (ROOT / 'report.json').write_text(json.dumps(report, indent=1, default=str) + '\n')
+        print('ANSWER_LADDER_REPORT', json.dumps({k: v for k, v in report.items() if k not in ('results', 'empty', 'reference')},
+              default=str)[:4000], flush=True)
+    if 'error' in report:
+        raise RuntimeError(report['error'])
+    return score
+
+
+# %%
+answer_ladder_rung.run(kbench.llm)

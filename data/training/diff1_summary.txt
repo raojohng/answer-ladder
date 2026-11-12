@@ -1,0 +1,13 @@
+80 tasks in all three arms; tries: control 240, location 240, diff 240
+  solved                                     control   8.7 (10.8%) | location  16.7 (20.8%) | diff  49.7 (62.1%) | diff-location +33.0 (+25.3 to +40.0) | diff-control +41.0 (+34.0 to +48.0)
+  first applied edit on the reference lines  control  27.3 (34.2%) | location  61.7 (77.1%) | diff  68.0 (85.0%) | diff-location  +6.3 (-0.7 to +13.3) | diff-control +40.7 (+32.0 to +48.7)
+  final patch on the reference lines         control  21.3 (26.7%) | location  56.7 (70.8%) | diff  67.3 (84.2%) | diff-location +10.7 (+4.0 to +17.7) | diff-control +46.0 (+38.0 to +53.3)
+  no patch                                   control  12.3 (15.4%) | location   4.3 ( 5.4%) | diff   8.7 (10.8%) | diff-location  +4.3 (+0.3 to +8.0) | diff-control  -3.7 (-8.7 to +1.3)
+  harness crash                              control   0.3 ( 0.4%) | location   1.3 ( 1.7%) | diff   0.7 ( 0.8%) | diff-location  -0.7 (-2.3 to +1.0) | diff-control  +0.3 (-0.7 to +1.3)
+  hit the 50-call or 8-minute limit          control   0.0 ( 0.0%) | location   0.0 ( 0.0%) | diff   0.3 ( 0.4%) | diff-location  +0.3 (+0.0 to +1.0) | diff-control  +0.3 (+0.0 to +1.0)
+  tasks solved at least once: control 15, location 21, diff 64; solved in all 3 tries: control 2, location 12, diff 34
+  tasks never solved with the diff given: 16
+  failed diff tries by reason: {'on the reference lines, tests fail': 55, 'final patch off the reference lines': 10, 'no patch': 24, 'harness crash': 2, '  (of these, hit a limit)': 1}
+  single-file reference (63 tasks), solved per pass: control 8.0, location 15.7, diff 43.7
+  multi-file reference (17 tasks), solved per pass: control 0.7, location 1.0, diff 6.0
+DIFF1_SUMMARY_DONE

@@ -1,0 +1,50 @@
+layers 42 (last 18 reuse earlier keys/values), hidden 2560, heads 8 (key/value heads 2), head dim 256 (full-attention layers 512), sliding window 512, vocabulary 262144
+layer types: sssssFsssssFsssssFsssssFsssssFsssssFsssssF (F full, s sliding)
+decoder layers per card: [6, 12, 12, 12]
+~/workspace/Gemma4/.venv/lib/python3.12/site-packages/transformers/quantizers/auto.py:271: UserWarning: You passed `quantization_config` or equivalent parameters to `from_pretrained` but the model you're loading already has a `quantization_config` attribute. The `quantization_config` from the model will be used.However, loading attributes (e.g. ['run_compressed']) will be overwritten with the one you passed to `from_pretrained`. The rest will be ignored.
+  warnings.warn(warning_msg)
+
+Compressing model:   0%|          | 0/1758 [00:00<?, ?it/s]
+Compressing model:  36%|███▌      | 635/1758 [00:00<00:00, 6319.42it/s]
+Compressing model:  72%|███████▏  | 1267/1758 [00:00<00:00, 3176.84it/s]
+Compressing model: 100%|██████████| 1758/1758 [00:00<00:00, 4740.91it/s]
+
+Loading weights:   0%|          | 0/2763 [00:00<?, ?it/s]
+Loading weights:   6%|▌         | 156/2763 [00:00<00:01, 1550.73it/s]
+Loading weights:  11%|█▏        | 312/2763 [00:00<00:01, 1550.40it/s]
+Loading weights:  17%|█▋        | 468/2763 [00:00<00:01, 1515.90it/s]
+Loading weights:  22%|██▏       | 620/2763 [00:00<00:01, 1495.92it/s]
+Loading weights:  28%|██▊       | 770/2763 [00:01<00:06, 327.70it/s] 
+Loading weights:  33%|███▎      | 913/2763 [00:01<00:04, 437.05it/s]
+Loading weights:  38%|███▊      | 1053/2763 [00:01<00:03, 556.56it/s]
+Loading weights:  43%|████▎     | 1191/2763 [00:01<00:02, 680.20it/s]
+Loading weights:  48%|████▊     | 1323/2763 [00:01<00:01, 792.92it/s]
+Loading weights:  53%|█████▎    | 1471/2763 [00:02<00:01, 930.30it/s]
+Loading weights:  59%|█████▊    | 1620/2763 [00:02<00:01, 1055.02it/s]
+Loading weights:  64%|██████▎   | 1759/2763 [00:02<00:00, 1115.98it/s]
+Loading weights:  69%|██████▊   | 1895/2763 [00:02<00:00, 1157.53it/s]
+Loading weights:  73%|███████▎  | 2029/2763 [00:02<00:00, 1204.08it/s]
+Loading weights:  79%|███████▊  | 2173/2763 [00:02<00:00, 1266.48it/s]
+Loading weights:  84%|████████▍ | 2326/2763 [00:02<00:00, 1338.84it/s]
+Loading weights:  90%|████████▉ | 2482/2763 [00:02<00:00, 1396.96it/s]
+Loading weights:  95%|█████████▌| 2629/2763 [00:02<00:00, 1416.89it/s]
+Loading weights: 100%|██████████| 2763/2763 [00:02<00:00, 942.05it/s] 
+
+Decompressing model:   0%|          | 0/1758 [00:00<?, ?it/s]
+Decompressing model:  28%|██▊       | 490/1758 [00:00<00:00, 4797.91it/s]
+Decompressing model:  55%|█████▌    | 970/1758 [00:00<00:00, 1732.10it/s]
+Decompressing model:  70%|███████   | 1238/1758 [00:00<00:00, 1385.13it/s]
+Decompressing model: 100%|██████████| 1758/1758 [00:00<00:00, 2160.01it/s]
+loaded in 6s
+q_proj of layer 0: Linear (2048, 2560) torch.bfloat16
+GiB per card after loading: [15.1]
+adapter: rank 64, alpha 64, on ['down_proj', 'gate_proj', 'k_proj', 'o_proj', 'q_proj', 'up_proj', 'v_proj']
+139,526,144 trainable numbers in 516 tensors (266 MiB in bf16; the scorer's limit is 3 GB)
+283 training rows, 54 held-out rows | held-out before training: thinking 0.4463 action 0.0358 action tokens first 98.7%
+pass  1 (during it): thinking 0.4110 | action 0.0471 | action tokens first 98.3% | 18 min
+pass  2 (during it): thinking 0.3163 | action 0.0263 | action tokens first 99.0% | 36 min | held-out: thinking 0.4844 action 0.0412 action tokens first 98.5%
+  exported tr2_lora_p2: 516 tensors
+pass  3 (during it): thinking 0.2253 | action 0.0219 | action tokens first 99.3% | 55 min
+pass  4 (during it): thinking 0.1698 | action 0.0151 | action tokens first 99.5% | 72 min | held-out: thinking 0.6672 action 0.0522 action tokens first 98.4%
+  exported tr2_lora: 516 tensors
+TR1_TRAINED

@@ -1,0 +1,15 @@
+77 tasks in all three arms; tries: control 231, location 231, diff 231, blocks 231, apply 231
+  solved                                     control  11.0 (14.3%) | location  19.0 (24.7%) | diff  47.3 (61.5%) | blocks  61.7 (80.1%) | apply  65.7 (85.3%) | diff-location +28.3 (+20.7 to +36.7) | diff-control +36.3 (+28.7 to +44.3) | blocks-diff +14.3 (+7.3 to +21.7) | apply-diff +18.3 (+11.7 to +25.0)
+  first applied edit on the reference lines  control  32.7 (42.4%) | location  60.3 (78.4%) | diff  61.0 (79.2%) | blocks  63.7 (82.7%) | apply  35.0 (45.5%) | diff-location  +0.7 (-7.3 to +9.3) | diff-control +28.3 (+18.7 to +38.7) | blocks-diff  +2.7 (-3.3 to +8.7) | apply-diff -26.0 (-33.7 to -18.7)
+  final patch on the reference lines         control  25.7 (33.3%) | location  55.3 (71.9%) | diff  61.3 (79.7%) | blocks  65.3 (84.8%) | apply  72.0 (93.5%) | diff-location  +6.0 (-1.0 to +14.0) | diff-control +35.7 (+27.0 to +45.0) | blocks-diff  +4.0 (-2.0 to +10.3) | apply-diff +10.7 (+5.3 to +16.3)
+  no patch                                   control  10.3 (13.4%) | location   5.7 ( 7.4%) | diff  12.7 (16.5%) | blocks  11.3 (14.7%) | apply   3.3 ( 4.3%) | diff-location  +7.0 (+1.7 to +12.3) | diff-control  +2.3 (-4.7 to +9.3) | blocks-diff  -1.3 (-7.0 to +4.0) | apply-diff  -9.3 (-14.7 to -4.7)
+  harness crash                              control   0.7 ( 0.9%) | location   0.7 ( 0.9%) | diff   0.7 ( 0.9%) | blocks   0.3 ( 0.4%) | apply   0.0 ( 0.0%) | diff-location  +0.0 (-1.0 to +1.0) | diff-control  +0.0 (-1.3 to +1.3) | blocks-diff  -0.3 (-1.7 to +0.7) | apply-diff  -0.7 (-1.7 to +0.0)
+  hit the 50-call or 8-minute limit          control   0.0 ( 0.0%) | location   0.0 ( 0.0%) | diff   0.0 ( 0.0%) | blocks   0.0 ( 0.0%) | apply   0.0 ( 0.0%) | diff-location  +0.0 (+0.0 to +0.0) | diff-control  +0.0 (+0.0 to +0.0) | blocks-diff  +0.0 (+0.0 to +0.0) | apply-diff  +0.0 (+0.0 to +0.0)
+  tasks solved at least once: control 17, location 27, diff 60, blocks 76, apply 76; solved in all 3 tries: control 6, location 12, diff 31, blocks 42, apply 53
+  tasks never solved: diff 17, blocks 1, apply 1
+  failed diff tries by reason: {'no patch': 37, 'on the reference lines, tests fail': 42, 'final patch off the reference lines': 8, 'harness crash': 2}
+  failed blocks tries by reason: {'no patch': 33, 'on the reference lines, tests fail': 11, 'harness crash': 1, 'final patch off the reference lines': 1}
+  failed apply tries by reason: {'on the reference lines, tests fail': 21, 'no patch': 10, 'final patch off the reference lines': 3}
+  single-file reference (62 tasks), solved per pass: control 10.3, location 18.0, diff 43.0, blocks 51.0, apply 54.3
+  multi-file reference (15 tasks), solved per pass: control 0.7, location 1.0, diff 4.3, blocks 10.7, apply 11.3
+DIFF1_SUMMARY_DONE

@@ -1,0 +1,4 @@
+task_group,tasks,no patch,another file,"right file, other lines","gold lines, misses a gold file",gold lines,solved_at_gold_lines
+Solved in 15% of tries or more,15,11%,21%,10%,2%,56%,336 of 408
+Solved in under 15%,23,13%,28%,18%,5%,35%,48 of 400
+Never solved,48,16%,34%,20%,17%,14%,0 of 328

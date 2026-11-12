@@ -1,0 +1,7 @@
+
+HELD-OUT tasks (never trained on): 60 tasks, adapter 480 tries, plain 368 tries
+  solved                                     adapter  49.4% | plain  46.9% | difference  +2.5 points (95% interval -3.6 to +8.5)
+  first applied edit on the reference lines  adapter  66.5% | plain  66.3% | difference  +0.1 points (95% interval -5.0 to +4.9)
+  final patch on the reference lines         adapter  69.6% | plain  69.0% | difference  +0.6 points (95% interval -4.3 to +5.3)
+  no patch                                   adapter  11.2% | plain   9.0% | difference  +2.3 points (95% interval -1.4 to +6.1)
+TR1_SUMMARY_DONE

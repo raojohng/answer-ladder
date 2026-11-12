@@ -1,0 +1,49 @@
+loop,label,trained,arm,run,try,solves,no_patch
+Official,Success-failure contrast,1,e4b_con1_v1,con1_test86,1,5,14
+Official,Success-failure contrast,1,e4b_con1_v1,con1_test86,2,5,20
+Official,Success-failure contrast,1,e4b_con1_v1,con1_test86,3,8,18
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,review1_e1_test86,1,12,6
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,review1_e1_test86,2,10,16
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,scaffold_test86,1,12,8
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,scaffold_test86,2,11,9
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,scaffold_test86,3,11,12
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,v8con_test86,1,14,13
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,v8con_test86,2,7,11
+v8 scaffold,Untrained,0,e4b_edit_fair_v1,v8con_test86,3,8,10
+Official,Untrained,0,e4b_official_v1,con1_test86,1,6,13
+Official,Untrained,0,e4b_official_v1,con1_test86,2,5,12
+Official,Untrained,0,e4b_official_v1,con1_test86,3,6,19
+Official,Untrained,0,e4b_official_v1,r2_test86,1,7,16
+Official,Untrained,0,e4b_official_v1,rft1_test86,1,8,20
+Official,Untrained,0,e4b_official_v1,rft2_test86,1,11,19
+Official,Untrained,0,e4b_official_v1,rft3_test86,1,6,17
+Official,Untrained,0,e4b_official_v1,scaffold_test86,1,11,12
+Official,Untrained,0,e4b_official_v1,scaffold_test86,2,6,16
+Official,Untrained,0,e4b_official_v1,scaffold_test86,3,8,12
+Official,Own sessions from hint runs (20),1,e4b_r2c_v1,r2_test86,1,9,7
+Official,Own sessions from hint runs (33),1,e4b_r2d_v1,r2_test86,1,9,5
+v8 scaffold,Hint-run adapter moved to this loop,1,e4b_r2d_v8_v1,r2d_v8_test86,1,15,10
+v8 scaffold,Hint-run adapter moved to this loop,1,e4b_r2d_v8_v1,r2d_v8_test86,2,10,13
+v8 scaffold,Hint-run adapter moved to this loop,1,e4b_r2d_v8_v1,r2d_v8_test86,3,8,8
+Solver + reviewer,Reviewer on teacher reviews (341),1,e4b_review1_e1_v1,review1_e1_test86,1,9,17
+Solver + reviewer,Reviewer on teacher reviews (341),1,e4b_review1_e1_v1,review1_e1_test86,2,7,16
+Solver + reviewer,Reviewer on short teacher reviews (127),1,e4b_review2_v1,review2_test86,1,5,15
+Solver + reviewer,Reviewer on short teacher reviews (127),1,e4b_review2_v1,review2_test86,2,7,9
+Solver + reviewer,Untrained reviewer,0,e4b_review_v1,review_test86,1,7,10
+Solver + reviewer,Untrained reviewer,0,e4b_review_v1,review_test86,2,9,9
+Solver + reviewer,Untrained reviewer,0,e4b_review_v1,review_test86,3,10,14
+Official,Own solved sessions round 1,1,e4b_rft1_v1,rft1_test86,1,8,6
+Official,Own solved sessions round 1,1,e4b_rft1_v1,rft1_test86,2,10,9
+Official,Own solved sessions round 2,1,e4b_rft2_v1,rft2_test86,1,8,9
+Official,Own solved sessions round 2,1,e4b_rft2_v1,rft2_test86,2,9,3
+Official,Own solved sessions round 3,1,e4b_rft3_v1,rft3_test86,1,9,5
+Official,Own solved sessions round 3,1,e4b_rft3_v1,rft3_test86,2,9,12
+v8 scaffold,Contrast round 2,1,e4b_v8con2_v1,v8con2_test86,1,9,18
+v8 scaffold,Contrast round 2,1,e4b_v8con2_v1,v8con2_test86,2,13,14
+v8 scaffold,Contrast round 2,1,e4b_v8con2_v1,v8con2_test86,3,7,15
+v8 scaffold,Contrast round 1,1,e4b_v8con_v1,v8con2_test86,1,9,15
+v8 scaffold,Contrast round 1,1,e4b_v8con_v1,v8con2_test86,2,8,13
+v8 scaffold,Contrast round 1,1,e4b_v8con_v1,v8con2_test86,3,9,8
+v8 scaffold,Contrast round 1,1,e4b_v8con_v1,v8con_test86,1,13,10
+v8 scaffold,Contrast round 1,1,e4b_v8con_v1,v8con_test86,2,10,14
+v8 scaffold,Contrast round 1,1,e4b_v8con_v1,v8con_test86,3,13,13

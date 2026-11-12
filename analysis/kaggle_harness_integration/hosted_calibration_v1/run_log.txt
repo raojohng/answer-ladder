@@ -1,0 +1,89 @@
+
+═══ Logs for gemini-3.8-flash (Run 6654422) [COMPLETED] ═══
+{"status":"BOUND","bound_ip":"34.53.166.137","bound_time":"2026-11-12T13:10:53Z","effective_expire_time":"2026-11-13T01:10:53Z"}
+inputs /kaggle/input/datasets/jaejohn/answer-ladder-inputs/answer_ladder_inputs | harness wheels /kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse | verified 203 files
+task wheels: 123
+  [1mgoogle-resumable-media[0m[2m==2.11.0[0m
+ [32m+[39m [1mgoogleapis-common-protos[0m[2m==1.75.0[0m
+ [32m+[39m [1mgraphviz[0m[2m==0.21[0m
+ [32m+[39m [1mgrpc-google-iam-v1[0m[2m==0.14.4[0m
+ [32m+[39m [1mgrpc-interceptor[0m[2m==0.15.4[0m
+ [32m+[39m [1mgrpcio[0m[2m==1.85.1[0m
+ [32m+[39m [1mgrpcio-status[0m[2m==1.71.2[0m
+ [32m+[39m [1mh2[0m[2m==4.4.1[0m
+ [32m+[39m [1mhf-xet[0m[2m==1.8.0[0m
+ [32m+[39m [1mhpack[0m[2m==4.2.0[0m
+ [32m+[39m [1mhttplib2[0m[2m==0.32.1[0m
+ [32m+[39m [1mhttpx-sse[0m[2m==0.4.3[0m
+ [32m+[39m [1mhuggingface-hub[0m[2m==1.33.0[0m
+ [32m+[39m [1mhyperframe[0m[2m==6.1.0[0m
+ [31m-[39m [1mimportlib-metadata[0m[2m==6.11.0[0m
+ [32m+[39m [1mimportlib-metadata[0m[2m==8.7.1[0m
+ [32m+[39m [1miniconfig[0m[2m==2.3.1[0m
+ [32m+[39m [1mjmespath[0m[2m==1.1.0[0m
+ [32m+[39m [1mjoserfc[0m[2m==1.8.0[0m
+ [32m+[39m [1mlitellm[0m[2m==1.104.2[0m
+ [32m+[39m [1mmako[0m[2m==1.4.3[0m
+ [32m+[39m [1mmcp[0m[2m==1.30.0[0m
+ [32m+[39m [1mmmh3[0m[2m==5.3.1[0m
+ [32m+[39m [1mnetworkx[0m[2m==3.7[0m
+ [31m-[39m [1mopenai[0m[2m==3.16.2[0m
+ [32m+[39m [1mopenai[0m[2m==2.54.0[0m
+ [32m+[39m [1mopentelemetry-api[0m[2m==1.41.1[0m
+ [32m+[39m [1mopentelemetry-exporter-gcp-logging[0m[2m==1.12.0a0[0m
+ [32m+[39m [1mopentelemetry-exporter-gcp-monitoring[0m[2m==1.15.0a0[0m
+ [32m+[39m [1mopentelemetry-exporter-gcp-trace[0m[2m==1.15.0[0m
+ [32m+[39m [1mopentelemetry-exporter-otlp-proto-common[0m[2m==1.41.1[0m
+ [32m+[39m [1mopentelemetry-exporter-otlp-proto-http[0m[2m==1.41.1[0m
+ [32m+[39m [1mopentelemetry-proto[0m[2m==1.41.1[0m
+ [32m+[39m [1mopentelemetry-resourcedetector-gcp[0m[2m==1.14.0[0m
+ [32m+[39m [1mopentelemetry-sdk[0m[2m==1.41.1[0m
+ [32m+[39m [1mopentelemetry-semantic-conventions[0m[2m==0.62b1[0m
+ [32m+[39m [1mproto-plus[0m[2m==1.28.2[0m
+ [32m+[39m [1mpyarrow[0m[2m==26.0.1[0m
+ [32m+[39m [1mpydantic-settings[0m[2m==2.16.2[0m
+ [32m+[39m [1mpyjwt[0m[2m==2.15.1[0m
+ [32m+[39m [1mpyparsing[0m[2m==3.3.3[0m
+ [32m+[39m [1mpytest[0m[2m==9.1.1[0m
+ [32m+[39m [1mpytest-timeout[0m[2m==2.1.0[0m
+ [32m+[39m [1mpython-multipart[0m[2m==0.0.33[0m
+ [32m+[39m [1mregex[0m[2m==2026.11.9[0m
+ [32m+[39m [1mrich[0m[2m==15.0.0[0m
+ [32m+[39m [1ms3transfer[0m[2m==0.19.3[0m
+ [32m+[39m [1msqlalchemy[0m[2m==2.1.8[0m
+ [32m+[39m [1msqlalchemy-spanner[0m[2m==1.20.1[0m
+ [32m+[39m [1msqlparse[0m[2m==0.6.1[0m
+ [32m+[39m [1msse-starlette[0m[2m==3.7.0[0m
+ [32m+[39m [1mstarlette[0m[2m==0.52.1[0m
+ [32m+[39m [1mtiktoken[0m[2m==0.14.0[0m
+ [32m+[39m [1mtokenizers[0m[2m==0.23.3[0m
+ [32m+[39m [1mtzlocal[0m[2m==5.4.5[0m
+ [32m+[39m [1muritemplate[0m[2m==4.2.0[0m
+ [32m+[39m [1muvicorn[0m[2m==0.54.0[0m
+ [31m-[39m [1mwebsockets[0m[2m==16.1.1[0m
+ [32m+[39m [1mwebsockets[0m[2m==15.0.1[0m
+
+ [2mUsing Python 3.12.10 environment at: /benchmarks/.venv[0m
+[2mResolved [1m3 packages[0m [2min 11ms[0m[0m
+[2mPrepared [1m3 packages[0m [2min 23ms[0m[0m
+[2mInstalled [1m3 packages[0m [2min 12ms[0m[0m
+[2mBytecode compiled [1m19858 files[0m [2min 1.26s[0m[0m
+ [32m+[39m [1madk-eval-core[0m[2m==0.1.0 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/adk_eval_core-0.1.0-py3-none-any.whl)[0m
+ [32m+[39m [1madk-submission[0m[2m==0.2.13 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/adk_submission-0.2.13-py3-none-any.whl)[0m
+ [32m+[39m [1mswegemma[0m[2m==0.2.11 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/swegemma-0.2.11-py3-none-any.whl)[0m
+
+task dependencies unpacked: 46 packages
+ANSWER_LADDER_REPORT {"rung": "calibration", "model": "google/gemini-3.8-flash", "tasks": 77, "budget": {"timeout_seconds": 60, "max_tool_calls": 50, "max_time_minutes": 8, "max_turns": 100}, "versions": {"swegemma": "0.2.11", "adk-submission": "0.2.13", "adk-eval-core": "0.1.0", "google-adk": "1.36.1", "litellm": "1.104.2"}, "valid": ["fastapi_11355", "fastapi_12942", "fastapi_13207", "fastapi_13713", "fastapi_13920", "fastapi_14246", "fastapi_14258", "fastapi_14266", "fastapi_14301", "fastapi_14306", "fastapi_14349", "fastapi_14356", "fastapi_14360", "fastapi_14361", "fastapi_14372", "fastapi_14419", "fastapi_14430", "fastapi_14448", "fastapi_14455", "fastapi_14458", "fastapi_14459", "fastapi_14463", "fastapi_14479", "fastapi_14482", "fastapi_14485", "fastapi_14487", "fastapi_14492", "fastapi_14512", "fastapi_14786", "fastapi_14794", "fastapi_14873", "fastapi_14986", "fastapi_15023", "fastapi_15588", "fastapi_15589", "fastapi_5077", "fastapi_5624", "fastapi_9425", "fastapi_9555", "fastapi_9753", "rich_2725", "rich_2943", "rich_3006", "rich_3043", "rich_3052", "rich_3061", "rich_3063", "rich_3067", "rich_3105", "rich_3180", "rich_3278", "rich_3454", "rich_3470", "rich_3471", "rich_3480", "rich_3506", "rich_3518", "rich_3521", "rich_3535", "rich_3675", "rich_3676", "rich_3718", "rich_3772", "rich_3777", "rich_3882", "rich_3894", "rich_3905", "rich_3934", "rich_3935", "rich_3938", "rich_3942", "rich_3944", "rich_3953", "rich_4006", "rich_4075", "rich_4076", "rich_4077"], "score": 1.0}
+/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+  warn(
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+[NbConvertApp] Writing 118809 bytes to __notebook__.ipynb
+/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+  warn(
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+/benchmarks/.venv/share/jupyter/nbconvert/templates/base/display_priority.j2:32: UserWarning: Your element with mimetype(s) dict_keys([]) is not able to be represented.
+  {%- elif type == 'text/vnd.mermaid' -%}
+[NbConvertApp] Writing 418141 bytes to __results__.html
+═══ (84 lines) ═══
+
+Showed logs for 1 run(s) across 1 model(s).

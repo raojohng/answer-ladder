@@ -1,0 +1,6 @@
+376 wrong edits (failed tries without help, final patch off the reference lines, mapped to graph nodes):
+  other: 255 (68%)
+  same function, other lines: 68 (18%)
+  embedding neighbour (reference among the edited node's 10 nearest): 29 (8%)
+  name twin (different function, same name): 24 (6%)
+  name twins come from 6 tasks

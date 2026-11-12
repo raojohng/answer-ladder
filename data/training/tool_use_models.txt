@@ -1,0 +1,4 @@
+E4B: tries 231, mentioned 72, ran 72, applied 65, applied, solved 63, not applied 166, not applied, solved 100, not applied, failed without a patch 20
+Qwen3.5-4B: tries 231, mentioned 74, ran 27, applied 12, applied, solved 12, not applied 219, not applied, solved 210, not applied, failed without a patch 0
+E2B: tries 231, mentioned 114, ran 114, applied 95, applied, solved 94, not applied 136, not applied, solved 55, not applied, failed without a patch 16
+TOOL_USE_MODELS_DONE

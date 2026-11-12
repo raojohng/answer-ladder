@@ -1,0 +1,8 @@
+86 tasks; tries: hint 258, control 258
+  solved                                     hint  16.7 per pass (19.4%) | control   8.7 (10.1%) | difference  +8.0 per pass (95% interval +3.0 to +13.3)
+  first applied edit on the reference lines  hint  65.0 per pass (75.6%) | control  30.0 (34.9%) | difference +35.0 per pass (95% interval +28.0 to +42.0)
+  final patch on the reference lines         hint  56.7 per pass (65.9%) | control  21.3 (24.8%) | difference +35.3 per pass (95% interval +28.3 to +42.3)
+  no patch                                   hint   5.0 per pass ( 5.8%) | control  12.7 (14.7%) | difference  -7.7 per pass (95% interval -11.7 to -3.7)
+  tasks solved at least once: hint 21, control 15, either 23
+  single-file reference (63 tasks): solved per pass hint 15.7, control 8.0
+LOC1_SUMMARY_DONE

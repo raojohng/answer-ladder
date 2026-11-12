@@ -1,0 +1,38 @@
+{
+ "A": {
+  "location": "w3lib/encoding.py::<module level>; w3lib/encoding.py::http_content_type_encoding",
+  "diagnosis": "the charset regex accepts only unquoted values and has no boundaries (as the task states)",
+  "diagnosis_id": "D1",
+  "implementation": "new regex with quoted/unquoted alternatives and boundaries, and read group 1 or group 2",
+  "implementation_id": "D1.I1",
+  "revised": "none",
+  "confidence": "clear"
+ },
+ "B": {
+  "location": "w3lib/encoding.py::<module level>",
+  "diagnosis": "the charset regex accepts only unquoted values and has no boundaries",
+  "diagnosis_id": "D1",
+  "implementation": "new regex only; the caller still reads group 1, so unquoted values (now group 2) are lost",
+  "implementation_id": "D1.I2",
+  "revised": "none",
+  "confidence": "clear"
+ },
+ "C": {
+  "location": "w3lib/encoding.py::<module level>",
+  "diagnosis": "the charset regex accepts only unquoted values and has no boundaries",
+  "diagnosis_id": "D1",
+  "implementation": "new regex only (literal tabs instead of \\t, same behaviour); caller still reads group 1",
+  "implementation_id": "D1.I2",
+  "revised": "none",
+  "confidence": "clear"
+ },
+ "D": {
+  "location": "w3lib/encoding.py::<module level>",
+  "diagnosis": "the charset regex accepts only unquoted values and has no boundaries",
+  "diagnosis_id": "D1",
+  "implementation": "new regex only; caller still reads group 1",
+  "implementation_id": "D1.I2",
+  "revised": "none",
+  "confidence": "clear"
+ }
+}

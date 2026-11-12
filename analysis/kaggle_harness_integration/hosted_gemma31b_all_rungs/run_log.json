@@ -1,0 +1,687 @@
+[{"stream_name":"stdout","time":1.095658574,"data":"{\"status\":\"BOUND\",\"bound_ip\":\"34.19.56.12\",\"bound_time\":\"2026-11-12T16:57:06Z\",\"effective_expire_time\":\"2026-11-13T04:57:06Z\"}\n"}
+,{"stream_name":"stdout","time":150.79074917,"data":"inputs /kaggle/input/datasets/jaejohn/answer-ladder-inputs/answer_ladder_inputs | harness wheels /kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse | verified 203 files\n"}
+,{"stream_name":"stdout","time":151.613373976,"data":"task wheels: 123\n"}
+,{"stream_name":"stdout","time":184.064892624,"data":"  \u001b[1mgoogle-resumable-media\u001b[0m\u001b[2m==2.11.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064948312,"data":" \u001b[32m+\u001b[39m \u001b[1mgoogleapis-common-protos\u001b[0m\u001b[2m==1.75.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064956359,"data":" \u001b[32m+\u001b[39m \u001b[1mgraphviz\u001b[0m\u001b[2m==0.21\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064962454,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpc-google-iam-v1\u001b[0m\u001b[2m==0.14.4\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064968472,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpc-interceptor\u001b[0m\u001b[2m==0.15.4\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064973915,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpcio\u001b[0m\u001b[2m==1.85.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064979233,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpcio-status\u001b[0m\u001b[2m==1.71.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064984658,"data":" \u001b[32m+\u001b[39m \u001b[1mh2\u001b[0m\u001b[2m==4.4.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064989881,"data":" \u001b[32m+\u001b[39m \u001b[1mhf-xet\u001b[0m\u001b[2m==1.8.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.064995036,"data":" \u001b[32m+\u001b[39m \u001b[1mhpack\u001b[0m\u001b[2m==4.2.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065000158,"data":" \u001b[32m+\u001b[39m \u001b[1mhttplib2\u001b[0m\u001b[2m==0.32.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065005592,"data":" \u001b[32m+\u001b[39m \u001b[1mhttpx-sse\u001b[0m\u001b[2m==0.4.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065010595,"data":" \u001b[32m+\u001b[39m \u001b[1mhuggingface-hub\u001b[0m\u001b[2m==1.33.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.06501581,"data":" \u001b[32m+\u001b[39m \u001b[1mhyperframe\u001b[0m\u001b[2m==6.1.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065021226,"data":" \u001b[31m-\u001b[39m \u001b[1mimportlib-metadata\u001b[0m\u001b[2m==6.11.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065026079,"data":" \u001b[32m+\u001b[39m \u001b[1mimportlib-metadata\u001b[0m\u001b[2m==8.7.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065030815,"data":" \u001b[32m+\u001b[39m \u001b[1miniconfig\u001b[0m\u001b[2m==2.3.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065035683,"data":" \u001b[32m+\u001b[39m \u001b[1mjmespath\u001b[0m\u001b[2m==1.1.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.06505169,"data":" \u001b[32m+\u001b[39m \u001b[1mjoserfc\u001b[0m\u001b[2m==1.8.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065056012,"data":" \u001b[32m+\u001b[39m \u001b[1mlitellm\u001b[0m\u001b[2m==1.104.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065059415,"data":" \u001b[32m+\u001b[39m \u001b[1mmako\u001b[0m\u001b[2m==1.4.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065062875,"data":" \u001b[32m+\u001b[39m \u001b[1mmcp\u001b[0m\u001b[2m==1.30.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065066423,"data":" \u001b[32m+\u001b[39m \u001b[1mmmh3\u001b[0m\u001b[2m==5.3.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065069851,"data":" \u001b[32m+\u001b[39m \u001b[1mnetworkx\u001b[0m\u001b[2m==3.7\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065073314,"data":" \u001b[31m-\u001b[39m \u001b[1mopenai\u001b[0m\u001b[2m==3.16.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.06508673,"data":" \u001b[32m+\u001b[39m \u001b[1mopenai\u001b[0m\u001b[2m==2.54.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065089869,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-api\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.06509313,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-gcp-logging\u001b[0m\u001b[2m==1.12.0a0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065096029,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-gcp-monitoring\u001b[0m\u001b[2m==1.15.0a0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065098945,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-gcp-trace\u001b[0m\u001b[2m==1.15.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065101883,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-otlp-proto-common\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065104807,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-otlp-proto-http\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065107739,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-proto\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065110558,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-resourcedetector-gcp\u001b[0m\u001b[2m==1.14.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065113479,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-sdk\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065116266,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-semantic-conventions\u001b[0m\u001b[2m==0.62b1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065119081,"data":" \u001b[32m+\u001b[39m \u001b[1mproto-plus\u001b[0m\u001b[2m==1.28.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065121858,"data":" \u001b[32m+\u001b[39m \u001b[1mpyarrow\u001b[0m\u001b[2m==26.0.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065126273,"data":" \u001b[32m+\u001b[39m \u001b[1mpydantic-settings\u001b[0m\u001b[2m==2.16.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065129158,"data":" \u001b[32m+\u001b[39m \u001b[1mpyjwt\u001b[0m\u001b[2m==2.15.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065131947,"data":" \u001b[32m+\u001b[39m \u001b[1mpyparsing\u001b[0m\u001b[2m==3.3.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065134758,"data":" \u001b[32m+\u001b[39m \u001b[1mpytest\u001b[0m\u001b[2m==9.1.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065137566,"data":" \u001b[32m+\u001b[39m \u001b[1mpytest-timeout\u001b[0m\u001b[2m==2.1.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065140594,"data":" \u001b[32m+\u001b[39m \u001b[1mpython-multipart\u001b[0m\u001b[2m==0.0.33\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.06514339,"data":" \u001b[32m+\u001b[39m \u001b[1mregex\u001b[0m\u001b[2m==2026.11.9\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065146169,"data":" \u001b[32m+\u001b[39m \u001b[1mrich\u001b[0m\u001b[2m==15.0.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.06514891,"data":" \u001b[32m+\u001b[39m \u001b[1ms3transfer\u001b[0m\u001b[2m==0.19.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065151678,"data":" \u001b[32m+\u001b[39m \u001b[1msqlalchemy\u001b[0m\u001b[2m==2.1.8\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065154436,"data":" \u001b[32m+\u001b[39m \u001b[1msqlalchemy-spanner\u001b[0m\u001b[2m==1.21.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065157381,"data":" \u001b[32m+\u001b[39m \u001b[1msqlparse\u001b[0m\u001b[2m==0.6.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065160131,"data":" \u001b[32m+\u001b[39m \u001b[1msse-starlette\u001b[0m\u001b[2m==3.7.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065165698,"data":" \u001b[32m+\u001b[39m \u001b[1mstarlette\u001b[0m\u001b[2m==0.52.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065168593,"data":" \u001b[32m+\u001b[39m \u001b[1mtiktoken\u001b[0m\u001b[2m==0.14.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065171373,"data":" \u001b[32m+\u001b[39m \u001b[1mtokenizers\u001b[0m\u001b[2m==0.23.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065174144,"data":" \u001b[32m+\u001b[39m \u001b[1mtzlocal\u001b[0m\u001b[2m==5.4.5\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065176882,"data":" \u001b[32m+\u001b[39m \u001b[1muritemplate\u001b[0m\u001b[2m==4.2.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065179781,"data":" \u001b[32m+\u001b[39m \u001b[1muvicorn\u001b[0m\u001b[2m==0.54.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065182552,"data":" \u001b[31m-\u001b[39m \u001b[1mwebsockets\u001b[0m\u001b[2m==16.1.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065185328,"data":" \u001b[32m+\u001b[39m \u001b[1mwebsockets\u001b[0m\u001b[2m==15.0.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":184.065188127,"data":"\n"}
+,{"stream_name":"stdout","time":185.912986911,"data":" \u001b[2mUsing Python 3.12.10 environment at: /benchmarks/.venv\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913048368,"data":"\u001b[2mResolved \u001b[1m3 packages\u001b[0m \u001b[2min 89ms\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913054083,"data":"\u001b[2mPrepared \u001b[1m3 packages\u001b[0m \u001b[2min 68ms\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913057543,"data":"\u001b[2mInstalled \u001b[1m3 packages\u001b[0m \u001b[2min 10ms\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913060608,"data":"\u001b[2mBytecode compiled \u001b[1m19858 files\u001b[0m \u001b[2min 1.65s\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913063902,"data":" \u001b[32m+\u001b[39m \u001b[1madk-eval-core\u001b[0m\u001b[2m==0.1.0 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/adk_eval_core-0.1.0-py3-none-any.whl)\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913069168,"data":" \u001b[32m+\u001b[39m \u001b[1madk-submission\u001b[0m\u001b[2m==0.2.13 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/adk_submission-0.2.13-py3-none-any.whl)\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913072428,"data":" \u001b[32m+\u001b[39m \u001b[1mswegemma\u001b[0m\u001b[2m==0.2.11 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/swegemma-0.2.11-py3-none-any.whl)\u001b[0m\n"}
+,{"stream_name":"stdout","time":185.913076818,"data":"\n"}
+,{"stream_name":"stdout","time":187.011395605,"data":"task dependencies unpacked: 46 packages (+ apply tool for the apply rung)\n"}
+,{"stream_name":"stdout","time":203.729164386,"data":"Evaluating google/gemma-4-31b\n"}
+,{"stream_name":"stderr","time":370.222008298,"data":"17:03:15 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":370.222360346,"data":"\n"}
+,{"stream_name":"stderr","time":370.222375575,"data":"17:03:15 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":436.337137505,"data":"17:04:21 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":436.338432433,"data":"\n"}
+,{"stream_name":"stderr","time":436.338459081,"data":"17:04:21 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":475.731674034,"data":"17:05:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":475.731744948,"data":"\n"}
+,{"stream_name":"stderr","time":475.73175182,"data":"17:05:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":581.609944337,"data":"17:06:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":581.609991823,"data":"\n"}
+,{"stream_name":"stderr","time":581.609998514,"data":"17:06:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":604.372282128,"data":"17:07:09 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":604.372318057,"data":"\n"}
+,{"stream_name":"stderr","time":604.372324718,"data":"17:07:09 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":660.923668883,"data":"17:08:06 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":660.923760629,"data":"\n"}
+,{"stream_name":"stderr","time":660.923768631,"data":"17:08:06 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":715.941410001,"data":"17:09:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":715.941457268,"data":"\n"}
+,{"stream_name":"stderr","time":715.941464005,"data":"17:09:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":739.506079255,"data":"Task fastapi_13207 agent timed out.\n"}
+,{"stream_name":"stderr","time":739.506139399,"data":"\n"}
+,{"stream_name":"stderr","time":739.506148437,"data":"Task fastapi_13207 agent timed out.\n"}
+,{"stream_name":"stderr","time":745.741812893,"data":"Task fastapi_11355 agent timed out.\n"}
+,{"stream_name":"stderr","time":745.741864258,"data":"\n"}
+,{"stream_name":"stderr","time":745.741870259,"data":"Task fastapi_11355 agent timed out.\n"}
+,{"stream_name":"stderr","time":761.676908774,"data":"17:09:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":761.676977611,"data":"\n"}
+,{"stream_name":"stderr","time":761.67719644,"data":"17:09:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":866.494369354,"data":"17:11:32 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":866.494422557,"data":"\n"}
+,{"stream_name":"stderr","time":866.49442795,"data":"17:11:32 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":889.215659876,"data":"17:11:54 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":889.215833963,"data":"\n"}
+,{"stream_name":"stderr","time":889.21589339,"data":"17:11:54 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1117.332852548,"data":"Task fastapi_13920 agent timed out.\n"}
+,{"stream_name":"stderr","time":1117.332917805,"data":"\n"}
+,{"stream_name":"stderr","time":1117.332925898,"data":"Task fastapi_13920 agent timed out.\n"}
+,{"stream_name":"stderr","time":1121.389831544,"data":"Task fastapi_13920 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":1121.389893221,"data":"\n"}
+,{"stream_name":"stderr","time":1121.389899615,"data":"Task fastapi_13920 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":1212.617170475,"data":"17:17:18 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1212.617223212,"data":"\n"}
+,{"stream_name":"stderr","time":1212.617230869,"data":"17:17:18 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1221.622036444,"data":"17:17:27 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1221.622088364,"data":"\n"}
+,{"stream_name":"stderr","time":1221.622094504,"data":"17:17:27 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1234.886494471,"data":"17:17:40 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1234.886564438,"data":"\n"}
+,{"stream_name":"stderr","time":1234.886573036,"data":"17:17:40 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1339.478031543,"data":"17:19:25 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1339.478077067,"data":"\n"}
+,{"stream_name":"stderr","time":1339.478082808,"data":"17:19:25 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1339.494551546,"data":"Task fastapi_13920 agent timed out.\n"}
+,{"stream_name":"stderr","time":1339.494603608,"data":"\n"}
+,{"stream_name":"stderr","time":1339.494611032,"data":"Task fastapi_13920 agent timed out.\n"}
+,{"stream_name":"stderr","time":1339.524433135,"data":"Task fastapi_14246 agent timed out.\n"}
+,{"stream_name":"stderr","time":1339.524528129,"data":"\n"}
+,{"stream_name":"stderr","time":1339.524536197,"data":"Task fastapi_14246 agent timed out.\n"}
+,{"stream_name":"stderr","time":1339.557963948,"data":"Task fastapi_14246 agent timed out.\n"}
+,{"stream_name":"stderr","time":1339.55801264,"data":"\n"}
+,{"stream_name":"stderr","time":1339.561136876,"data":"Task fastapi_14246 agent timed out.\n"}
+,{"stream_name":"stderr","time":1493.746342802,"data":"17:21:59 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1493.74641862,"data":"\n"}
+,{"stream_name":"stderr","time":1493.746429406,"data":"17:21:59 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1634.590150258,"data":"17:24:20 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1634.590215917,"data":"\n"}
+,{"stream_name":"stderr","time":1634.59022373,"data":"17:24:20 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1710.915896041,"data":"17:25:36 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1710.915938731,"data":"\n"}
+,{"stream_name":"stderr","time":1710.916154731,"data":"17:25:36 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1710.950662396,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":1710.950716084,"data":"\n"}
+,{"stream_name":"stderr","time":1710.950722075,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":1729.999767498,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":1729.999820244,"data":"\n"}
+,{"stream_name":"stderr","time":1729.999825551,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":1731.050692594,"data":"17:25:56 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1731.050786295,"data":"\n"}
+,{"stream_name":"stderr","time":1731.050791608,"data":"17:25:56 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1762.573664929,"data":"17:26:28 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1762.573712961,"data":"\n"}
+,{"stream_name":"stderr","time":1762.573719594,"data":"17:26:28 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1770.011694815,"data":"17:26:35 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1770.011738525,"data":"\n"}
+,{"stream_name":"stderr","time":1770.011745301,"data":"17:26:35 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1891.88989558,"data":"17:28:37 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1891.889935769,"data":"\n"}
+,{"stream_name":"stderr","time":1891.889942635,"data":"17:28:37 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":1894.629601486,"data":"Task fastapi_14266 agent timed out.\n"}
+,{"stream_name":"stderr","time":1894.62964865,"data":"\n"}
+,{"stream_name":"stderr","time":1894.629654911,"data":"Task fastapi_14266 agent timed out.\n"}
+,{"stream_name":"stderr","time":1904.263050101,"data":"Task fastapi_14266 agent timed out.\n"}
+,{"stream_name":"stderr","time":1904.263111459,"data":"\n"}
+,{"stream_name":"stderr","time":1904.263118241,"data":"Task fastapi_14266 agent timed out.\n"}
+,{"stream_name":"stderr","time":1910.887294478,"data":"Task fastapi_14301 agent timed out.\n"}
+,{"stream_name":"stderr","time":1910.88737204,"data":"\n"}
+,{"stream_name":"stderr","time":1910.887379021,"data":"Task fastapi_14301 agent timed out.\n"}
+,{"stream_name":"stderr","time":1912.029306421,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":1912.029353837,"data":"\n"}
+,{"stream_name":"stderr","time":1912.029373615,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":2264.910709427,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":2264.910767226,"data":"\n"}
+,{"stream_name":"stderr","time":2264.910774598,"data":"Task fastapi_14306 agent timed out.\n"}
+,{"stream_name":"stderr","time":2268.184559124,"data":"17:34:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":2268.184598986,"data":"\n"}
+,{"stream_name":"stderr","time":2268.184842516,"data":"17:34:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":2469.866354676,"data":"17:38:15 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":2469.866418073,"data":"\n"}
+,{"stream_name":"stderr","time":2469.867107492,"data":"17:38:15 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":2503.421733332,"data":"Task fastapi_14356 agent timed out.\n"}
+,{"stream_name":"stderr","time":2503.421774429,"data":"\n"}
+,{"stream_name":"stderr","time":2503.422058878,"data":"Task fastapi_14356 agent timed out.\n"}
+,{"stream_name":"stderr","time":3001.998518211,"data":"Task fastapi_14419 agent timed out.\n"}
+,{"stream_name":"stderr","time":3001.998601481,"data":"\n"}
+,{"stream_name":"stderr","time":3001.998621838,"data":"Task fastapi_14419 agent timed out.\n"}
+,{"stream_name":"stderr","time":3068.743979007,"data":"Task fastapi_14459 agent timed out.\n"}
+,{"stream_name":"stderr","time":3068.744040709,"data":"\n"}
+,{"stream_name":"stderr","time":3068.744045937,"data":"Task fastapi_14459 agent timed out.\n"}
+,{"stream_name":"stderr","time":3103.165729415,"data":"17:48:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3103.165780674,"data":"\n"}
+,{"stream_name":"stderr","time":3103.165786858,"data":"17:48:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3167.672603714,"data":"17:49:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3167.672667151,"data":"\n"}
+,{"stream_name":"stderr","time":3167.672674018,"data":"17:49:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3252.869294513,"data":"Task fastapi_14419 agent timed out.\n"}
+,{"stream_name":"stderr","time":3252.869354126,"data":"\n"}
+,{"stream_name":"stderr","time":3252.869360601,"data":"Task fastapi_14419 agent timed out.\n"}
+,{"stream_name":"stderr","time":3266.610900239,"data":"17:51:32 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3266.610949604,"data":"\n"}
+,{"stream_name":"stderr","time":3266.610955543,"data":"17:51:32 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3268.630573822,"data":"Task fastapi_14419 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":3268.630628052,"data":"\n"}
+,{"stream_name":"stderr","time":3268.630635386,"data":"Task fastapi_14419 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":3320.269237816,"data":"Task fastapi_14512 agent timed out.\n"}
+,{"stream_name":"stderr","time":3320.269280906,"data":"\n"}
+,{"stream_name":"stderr","time":3320.269303622,"data":"Task fastapi_14512 agent timed out.\n"}
+,{"stream_name":"stderr","time":3369.439354085,"data":"17:53:14 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3369.4394007,"data":"\n"}
+,{"stream_name":"stderr","time":3369.439406754,"data":"17:53:14 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3369.441160473,"data":"Task fastapi_14430: Reached maximum continuation nudges (3) without patch submission.\n"}
+,{"stream_name":"stderr","time":3369.441209588,"data":"\n"}
+,{"stream_name":"stderr","time":3369.441216628,"data":"Task fastapi_14430: Reached maximum continuation nudges (3) without patch submission.\n"}
+,{"stream_name":"stderr","time":3451.820003639,"data":"Task fastapi_14448 agent timed out.\n"}
+,{"stream_name":"stderr","time":3451.820064163,"data":"\n"}
+,{"stream_name":"stderr","time":3451.820085628,"data":"Task fastapi_14448 agent timed out.\n"}
+,{"stream_name":"stderr","time":3452.625780205,"data":"17:54:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3452.625815514,"data":"\n"}
+,{"stream_name":"stderr","time":3452.625820985,"data":"17:54:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3487.555219548,"data":"Task fastapi_14448 agent timed out.\n"}
+,{"stream_name":"stderr","time":3487.555787425,"data":"\n"}
+,{"stream_name":"stderr","time":3487.556278702,"data":"Task fastapi_14448 agent timed out.\n"}
+,{"stream_name":"stderr","time":3500.673736252,"data":"Task fastapi_14455 agent timed out.\n"}
+,{"stream_name":"stderr","time":3500.673857354,"data":"\n"}
+,{"stream_name":"stderr","time":3500.673866449,"data":"Task fastapi_14455 agent timed out.\n"}
+,{"stream_name":"stderr","time":3573.376187619,"data":"17:56:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3573.376250504,"data":"\n"}
+,{"stream_name":"stderr","time":3573.376258196,"data":"17:56:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3626.967060975,"data":"17:57:32 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3626.96715736,"data":"\n"}
+,{"stream_name":"stderr","time":3626.967170268,"data":"17:57:32 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3633.964988039,"data":"17:57:39 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3633.965030868,"data":"\n"}
+,{"stream_name":"stderr","time":3633.965036904,"data":"17:57:39 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3702.884992168,"data":"17:58:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3702.885036418,"data":"\n"}
+,{"stream_name":"stderr","time":3702.885042777,"data":"17:58:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3726.220177284,"data":"17:59:11 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3726.220240259,"data":"\n"}
+,{"stream_name":"stderr","time":3726.220247172,"data":"17:59:11 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3755.245785499,"data":"17:59:40 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3755.245831672,"data":"\n"}
+,{"stream_name":"stderr","time":3755.245838472,"data":"17:59:40 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3779.861755656,"data":"18:00:05 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3779.861809924,"data":"\n"}
+,{"stream_name":"stderr","time":3779.861816171,"data":"18:00:05 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3779.877849051,"data":"Task fastapi_14455: Reached maximum continuation nudges (3) without patch submission.\n"}
+,{"stream_name":"stderr","time":3779.877913768,"data":"\n"}
+,{"stream_name":"stderr","time":3779.87792072,"data":"Task fastapi_14455: Reached maximum continuation nudges (3) without patch submission.\n"}
+,{"stream_name":"stderr","time":3801.970365683,"data":"18:00:27 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3801.970409832,"data":"\n"}
+,{"stream_name":"stderr","time":3801.970416734,"data":"18:00:27 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3979.093879349,"data":"18:03:24 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":3979.093936209,"data":"\n"}
+,{"stream_name":"stderr","time":3979.093943643,"data":"18:03:24 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4026.542402742,"data":"18:04:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4026.54244472,"data":"\n"}
+,{"stream_name":"stderr","time":4026.542451382,"data":"18:04:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4030.571481094,"data":"Task fastapi_15589 agent timed out.\n"}
+,{"stream_name":"stderr","time":4030.571651064,"data":"\n"}
+,{"stream_name":"stderr","time":4030.571668986,"data":"Task fastapi_15589 agent timed out.\n"}
+,{"stream_name":"stderr","time":4030.647157879,"data":"18:04:16 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4030.647224523,"data":"\n"}
+,{"stream_name":"stderr","time":4030.647233447,"data":"18:04:16 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4089.444624996,"data":"Task fastapi_14459 agent timed out.\n"}
+,{"stream_name":"stderr","time":4089.444677227,"data":"\n"}
+,{"stream_name":"stderr","time":4089.444682752,"data":"Task fastapi_14459 agent timed out.\n"}
+,{"stream_name":"stderr","time":4089.978852881,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":4089.978905607,"data":"\n"}
+,{"stream_name":"stderr","time":4089.978914091,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":4141.889746636,"data":"18:06:07 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4141.889847987,"data":"\n"}
+,{"stream_name":"stderr","time":4141.88985637,"data":"18:06:07 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4165.692004196,"data":"Task fastapi_14459 agent timed out.\n"}
+,{"stream_name":"stderr","time":4165.692144059,"data":"\n"}
+,{"stream_name":"stderr","time":4165.693370322,"data":"Task fastapi_14459 agent timed out.\n"}
+,{"stream_name":"stderr","time":4173.191875039,"data":"18:06:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4173.192061623,"data":"\n"}
+,{"stream_name":"stderr","time":4173.192100856,"data":"18:06:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4242.223974954,"data":"18:07:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4242.225040929,"data":"\n"}
+,{"stream_name":"stderr","time":4242.225077626,"data":"18:07:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4264.535574963,"data":"18:08:10 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4264.535628466,"data":"\n"}
+,{"stream_name":"stderr","time":4264.535633594,"data":"18:08:10 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4303.01251153,"data":"18:08:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4303.012625749,"data":"\n"}
+,{"stream_name":"stderr","time":4303.012635028,"data":"18:08:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4354.964215747,"data":"Task fastapi_15589 agent timed out.\n"}
+,{"stream_name":"stderr","time":4354.964269752,"data":"\n"}
+,{"stream_name":"stderr","time":4354.964275219,"data":"Task fastapi_15589 agent timed out.\n"}
+,{"stream_name":"stderr","time":4360.09912441,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":4360.099175833,"data":"\n"}
+,{"stream_name":"stderr","time":4360.099181338,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":4420.838944885,"data":"18:10:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4420.838996086,"data":"\n"}
+,{"stream_name":"stderr","time":4420.839003553,"data":"18:10:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4549.332976694,"data":"18:12:54 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4549.333028988,"data":"\n"}
+,{"stream_name":"stderr","time":4549.333035497,"data":"18:12:54 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":4717.669918364,"data":"Task fastapi_14487 agent timed out.\n"}
+,{"stream_name":"stderr","time":4717.670032955,"data":"\n"}
+,{"stream_name":"stderr","time":4717.670043651,"data":"Task fastapi_14487 agent timed out.\n"}
+,{"stream_name":"stderr","time":5041.31951695,"data":"Task fastapi_14512 agent timed out.\n"}
+,{"stream_name":"stderr","time":5041.339334034,"data":"\n"}
+,{"stream_name":"stderr","time":5041.339359419,"data":"Task fastapi_14512 agent timed out.\n"}
+,{"stream_name":"stderr","time":5226.623601572,"data":"Task fastapi_14512 agent timed out.\n"}
+,{"stream_name":"stderr","time":5226.623675439,"data":"\n"}
+,{"stream_name":"stderr","time":5226.623681682,"data":"Task fastapi_14512 agent timed out.\n"}
+,{"stream_name":"stderr","time":5407.368455729,"data":"18:27:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5407.368544816,"data":"\n"}
+,{"stream_name":"stderr","time":5407.36855509,"data":"18:27:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5653.220738587,"data":"Task fastapi_14986 agent timed out.\n"}
+,{"stream_name":"stderr","time":5653.221217557,"data":"\n"}
+,{"stream_name":"stderr","time":5653.221234403,"data":"Task fastapi_14986 agent timed out.\n"}
+,{"stream_name":"stderr","time":5711.568723403,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":5711.568770908,"data":"\n"}
+,{"stream_name":"stderr","time":5711.568795649,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":5729.048730186,"data":"Task fastapi_14986 agent timed out.\n"}
+,{"stream_name":"stderr","time":5729.04880474,"data":"\n"}
+,{"stream_name":"stderr","time":5729.048812379,"data":"Task fastapi_14986 agent timed out.\n"}
+,{"stream_name":"stderr","time":5748.026631582,"data":"Task rich_3061 agent timed out.\n"}
+,{"stream_name":"stderr","time":5748.026674325,"data":"\n"}
+,{"stream_name":"stderr","time":5748.026681728,"data":"Task rich_3061 agent timed out.\n"}
+,{"stream_name":"stderr","time":5777.583243943,"data":"18:33:23 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5777.583292185,"data":"\n"}
+,{"stream_name":"stderr","time":5777.583299049,"data":"18:33:23 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5814.834268956,"data":"18:34:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5814.83431008,"data":"\n"}
+,{"stream_name":"stderr","time":5814.834317004,"data":"18:34:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5820.891594498,"data":"18:34:06 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5820.891663958,"data":"\n"}
+,{"stream_name":"stderr","time":5820.891671816,"data":"18:34:06 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5824.835726473,"data":"Task fastapi_15023 agent timed out.\n"}
+,{"stream_name":"stderr","time":5824.835774546,"data":"\n"}
+,{"stream_name":"stderr","time":5824.835780929,"data":"Task fastapi_15023 agent timed out.\n"}
+,{"stream_name":"stderr","time":5854.012701892,"data":"Task fastapi_15023 agent timed out.\n"}
+,{"stream_name":"stderr","time":5854.012748028,"data":"\n"}
+,{"stream_name":"stderr","time":5854.012756226,"data":"Task fastapi_15023 agent timed out.\n"}
+,{"stream_name":"stderr","time":5865.557006305,"data":"18:34:51 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5865.55706261,"data":"\n"}
+,{"stream_name":"stderr","time":5865.557071392,"data":"18:34:51 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5868.496876855,"data":"Task rich_3061 agent timed out.\n"}
+,{"stream_name":"stderr","time":5868.496917755,"data":"\n"}
+,{"stream_name":"stderr","time":5868.496923702,"data":"Task rich_3061 agent timed out.\n"}
+,{"stream_name":"stderr","time":5920.342456934,"data":"Task rich_3454 agent timed out.\n"}
+,{"stream_name":"stderr","time":5920.342539947,"data":"\n"}
+,{"stream_name":"stderr","time":5920.342550754,"data":"Task rich_3454 agent timed out.\n"}
+,{"stream_name":"stderr","time":5927.908727731,"data":"18:35:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5927.908776549,"data":"\n"}
+,{"stream_name":"stderr","time":5927.908782607,"data":"18:35:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5936.392652215,"data":"18:36:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":5936.392707183,"data":"\n"}
+,{"stream_name":"stderr","time":5936.392735381,"data":"18:36:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6041.440551465,"data":"18:37:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6041.440643177,"data":"\n"}
+,{"stream_name":"stderr","time":6041.440653242,"data":"18:37:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6152.645964119,"data":"18:39:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6152.646012798,"data":"\n"}
+,{"stream_name":"stderr","time":6152.646019618,"data":"18:39:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6218.526351318,"data":"18:40:44 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6218.526400514,"data":"\n"}
+,{"stream_name":"stderr","time":6218.526406488,"data":"18:40:44 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6309.690838022,"data":"Task fastapi_15589 agent timed out.\n"}
+,{"stream_name":"stderr","time":6309.690895371,"data":"\n"}
+,{"stream_name":"stderr","time":6309.690903257,"data":"Task fastapi_15589 agent timed out.\n"}
+,{"stream_name":"stderr","time":6360.886607659,"data":"18:43:06 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6360.886659419,"data":"\n"}
+,{"stream_name":"stderr","time":6360.886664153,"data":"18:43:06 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6448.418890364,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":6448.418940544,"data":"\n"}
+,{"stream_name":"stderr","time":6448.418977902,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":6459.30538932,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":6459.305444749,"data":"\n"}
+,{"stream_name":"stderr","time":6459.305451896,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":6460.681656711,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":6460.681696293,"data":"\n"}
+,{"stream_name":"stderr","time":6460.681702404,"data":"Task fastapi_5077 agent timed out.\n"}
+,{"stream_name":"stderr","time":6465.24526999,"data":"18:44:50 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6465.245317396,"data":"\n"}
+,{"stream_name":"stderr","time":6465.24532353,"data":"18:44:50 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6565.238108706,"data":"18:46:30 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6565.238185482,"data":"\n"}
+,{"stream_name":"stderr","time":6565.238192399,"data":"18:46:30 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6587.686044695,"data":"18:46:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6587.686091516,"data":"\n"}
+,{"stream_name":"stderr","time":6587.686098882,"data":"18:46:53 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6687.402661906,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":6687.402705821,"data":"\n"}
+,{"stream_name":"stderr","time":6687.40271284,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":6687.432231771,"data":"Task rich_3506 agent timed out.\n"}
+,{"stream_name":"stderr","time":6687.432271311,"data":"\n"}
+,{"stream_name":"stderr","time":6687.432278021,"data":"Task rich_3506 agent timed out.\n"}
+,{"stream_name":"stderr","time":6776.347208563,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stderr","time":6776.347256952,"data":"\n"}
+,{"stream_name":"stderr","time":6776.347264509,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stderr","time":6849.448092168,"data":"18:51:14 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6849.448145821,"data":"\n"}
+,{"stream_name":"stderr","time":6849.448152839,"data":"18:51:14 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":6851.136387108,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":6851.136435557,"data":"\n"}
+,{"stream_name":"stderr","time":6851.136442918,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":6852.714359638,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stderr","time":6852.714421977,"data":"\n"}
+,{"stream_name":"stderr","time":6852.714429226,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stderr","time":7002.22820074,"data":"18:53:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7002.228254135,"data":"\n"}
+,{"stream_name":"stderr","time":7002.228261818,"data":"18:53:47 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7043.349985809,"data":"18:54:28 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7043.350030401,"data":"\n"}
+,{"stream_name":"stderr","time":7043.350037492,"data":"18:54:28 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7109.645317452,"data":"Task fastapi_9753 agent timed out.\n"}
+,{"stream_name":"stderr","time":7109.645432155,"data":"\n"}
+,{"stream_name":"stderr","time":7109.645440579,"data":"Task fastapi_9753 agent timed out.\n"}
+,{"stream_name":"stderr","time":7194.232723539,"data":"18:56:59 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7194.23276958,"data":"\n"}
+,{"stream_name":"stderr","time":7194.232776619,"data":"18:56:59 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7231.20484033,"data":"18:57:36 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7231.204879724,"data":"\n"}
+,{"stream_name":"stderr","time":7231.207820225,"data":"18:57:36 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7266.132611401,"data":"18:58:11 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7266.132651688,"data":"\n"}
+,{"stream_name":"stderr","time":7266.13265784,"data":"18:58:11 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7358.466058226,"data":"Task rich_3506 agent timed out.\n"}
+,{"stream_name":"stderr","time":7358.466104985,"data":"\n"}
+,{"stream_name":"stderr","time":7358.466112056,"data":"Task rich_3506 agent timed out.\n"}
+,{"stream_name":"stderr","time":7375.160104178,"data":"19:00:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7375.160151928,"data":"\n"}
+,{"stream_name":"stderr","time":7375.160158045,"data":"19:00:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7409.76579976,"data":"Task rich_3521 agent timed out.\n"}
+,{"stream_name":"stderr","time":7409.76585643,"data":"\n"}
+,{"stream_name":"stderr","time":7409.765861537,"data":"Task rich_3521 agent timed out.\n"}
+,{"stream_name":"stderr","time":7460.682678461,"data":"Task rich_3772 agent timed out.\n"}
+,{"stream_name":"stderr","time":7460.682745497,"data":"\n"}
+,{"stream_name":"stderr","time":7460.682753321,"data":"Task rich_3772 agent timed out.\n"}
+,{"stream_name":"stderr","time":7789.778597298,"data":"19:06:55 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7789.77866384,"data":"\n"}
+,{"stream_name":"stderr","time":7789.778669596,"data":"19:06:55 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7982.730291434,"data":"19:10:08 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7982.730340392,"data":"\n"}
+,{"stream_name":"stderr","time":7982.730347911,"data":"19:10:08 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":7982.839657134,"data":"Task rich_3061 agent timed out.\n"}
+,{"stream_name":"stderr","time":7982.839690097,"data":"\n"}
+,{"stream_name":"stderr","time":7982.839696468,"data":"Task rich_3061 agent timed out.\n"}
+,{"stream_name":"stderr","time":7987.350641291,"data":"Task rich_3063 agent timed out.\n"}
+,{"stream_name":"stderr","time":7987.350683763,"data":"\n"}
+,{"stream_name":"stderr","time":7987.350690274,"data":"Task rich_3063 agent timed out.\n"}
+,{"stream_name":"stderr","time":8062.090340494,"data":"Task rich_3063 agent timed out.\n"}
+,{"stream_name":"stderr","time":8062.124807193,"data":"\n"}
+,{"stream_name":"stderr","time":8062.125055908,"data":"Task rich_3063 agent timed out.\n"}
+,{"stream_name":"stderr","time":8122.880638339,"data":"Task rich_3935 agent timed out.\n"}
+,{"stream_name":"stderr","time":8122.891807214,"data":"\n"}
+,{"stream_name":"stderr","time":8122.89183344,"data":"Task rich_3935 agent timed out.\n"}
+,{"stream_name":"stderr","time":8265.551050217,"data":"19:14:51 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8265.551115431,"data":"\n"}
+,{"stream_name":"stderr","time":8265.551123373,"data":"19:14:51 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8323.40736155,"data":"19:15:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8323.407586546,"data":"\n"}
+,{"stream_name":"stderr","time":8323.407805053,"data":"19:15:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8382.975972273,"data":"19:16:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8382.97604828,"data":"\n"}
+,{"stream_name":"stderr","time":8382.976054366,"data":"19:16:48 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8458.191461826,"data":"19:18:03 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8458.191524678,"data":"\n"}
+,{"stream_name":"stderr","time":8458.191533443,"data":"19:18:03 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8465.014784716,"data":"19:18:10 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8465.014844668,"data":"\n"}
+,{"stream_name":"stderr","time":8465.014852019,"data":"19:18:10 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8477.775941609,"data":"19:18:23 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8477.775999501,"data":"\n"}
+,{"stream_name":"stderr","time":8477.776006257,"data":"19:18:23 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8491.072985821,"data":"Task rich_3105 agent timed out.\n"}
+,{"stream_name":"stderr","time":8491.073036359,"data":"\n"}
+,{"stream_name":"stderr","time":8491.073044065,"data":"Task rich_3105 agent timed out.\n"}
+,{"stream_name":"stderr","time":8505.352454537,"data":"19:18:50 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8505.352516444,"data":"\n"}
+,{"stream_name":"stderr","time":8505.352526178,"data":"19:18:50 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8600.643543091,"data":"19:20:26 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8600.64371204,"data":"\n"}
+,{"stream_name":"stderr","time":8600.643721552,"data":"19:20:26 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8620.888603001,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":8620.888647159,"data":"\n"}
+,{"stream_name":"stderr","time":8620.888662976,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":8630.118308523,"data":"Task rich_3105 agent timed out.\n"}
+,{"stream_name":"stderr","time":8630.118358976,"data":"\n"}
+,{"stream_name":"stderr","time":8630.118364969,"data":"Task rich_3105 agent timed out.\n"}
+,{"stream_name":"stderr","time":8635.197151197,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":8635.197211705,"data":"\n"}
+,{"stream_name":"stderr","time":8635.197218797,"data":"Task rich_3180 agent timed out.\n"}
+,{"stream_name":"stderr","time":8702.189532184,"data":"Task rich_3278 agent timed out.\n"}
+,{"stream_name":"stderr","time":8702.189575843,"data":"\n"}
+,{"stream_name":"stderr","time":8702.189734659,"data":"Task rich_3278 agent timed out.\n"}
+,{"stream_name":"stderr","time":8800.37455495,"data":"19:23:45 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8800.374612359,"data":"\n"}
+,{"stream_name":"stderr","time":8800.374619112,"data":"19:23:45 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8824.878300205,"data":"19:24:10 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8824.87835643,"data":"\n"}
+,{"stream_name":"stderr","time":8824.878363273,"data":"19:24:10 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8826.679036444,"data":"19:24:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8826.679091341,"data":"\n"}
+,{"stream_name":"stderr","time":8826.679096926,"data":"19:24:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8831.736835476,"data":"19:24:17 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8831.736881638,"data":"\n"}
+,{"stream_name":"stderr","time":8831.736888332,"data":"19:24:17 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8844.581903891,"data":"19:24:30 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8844.58197547,"data":"\n"}
+,{"stream_name":"stderr","time":8844.581983657,"data":"19:24:30 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8858.638403684,"data":"Task rich_3935 agent timed out.\n"}
+,{"stream_name":"stderr","time":8858.638457612,"data":"\n"}
+,{"stream_name":"stderr","time":8858.638480483,"data":"Task rich_3935 agent timed out.\n"}
+,{"stream_name":"stderr","time":8935.569787156,"data":"19:26:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":8935.569842827,"data":"\n"}
+,{"stream_name":"stderr","time":8935.56985015,"data":"19:26:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9023.929638541,"data":"19:27:29 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9023.929691914,"data":"\n"}
+,{"stream_name":"stderr","time":9023.929698378,"data":"19:27:29 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stdout","time":9037.463935451,"data":"apply: 74 of 77 tries solved\n"}
+,{"stream_name":"stderr","time":9198.472673838,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":9198.472725108,"data":"\n"}
+,{"stream_name":"stderr","time":9198.472733216,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":9198.818347927,"data":"Task rich_3470 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":9198.818428638,"data":"\n"}
+,{"stream_name":"stderr","time":9198.818662853,"data":"Task rich_3470 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":9200.431409617,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":9200.431478552,"data":"\n"}
+,{"stream_name":"stderr","time":9200.4317044,"data":"Task rich_3470 agent timed out.\n"}
+,{"stream_name":"stderr","time":9207.549250751,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stderr","time":9207.549377563,"data":"\n"}
+,{"stream_name":"stderr","time":9207.549387533,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stderr","time":9398.810955176,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stderr","time":9398.812406351,"data":"\n"}
+,{"stream_name":"stderr","time":9398.812432168,"data":"Task rich_3471 agent timed out.\n"}
+,{"stream_name":"stdout","time":9489.513542649,"data":"edits: 73 of 77 tries solved\n"}
+,{"stream_name":"stderr","time":9513.333604406,"data":"19:35:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9513.333662543,"data":"\n"}
+,{"stream_name":"stderr","time":9513.333667861,"data":"19:35:38 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9596.017618047,"data":"19:37:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9596.017676848,"data":"\n"}
+,{"stream_name":"stderr","time":9596.017684229,"data":"19:37:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stdout","time":9599.619908794,"data":"diff: 74 of 77 tries solved\n"}
+,{"stream_name":"stderr","time":9650.895479691,"data":"19:37:56 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9650.895578659,"data":"\n"}
+,{"stream_name":"stderr","time":9650.895587152,"data":"19:37:56 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9653.964231883,"data":"19:37:59 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9653.96430111,"data":"\n"}
+,{"stream_name":"stderr","time":9653.964309738,"data":"19:37:59 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9701.140387711,"data":"19:38:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9701.140439876,"data":"\n"}
+,{"stream_name":"stderr","time":9701.140446817,"data":"19:38:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9779.773704501,"data":"Task rich_3506 agent timed out.\n"}
+,{"stream_name":"stderr","time":9779.773819893,"data":"\n"}
+,{"stream_name":"stderr","time":9779.773827097,"data":"Task rich_3506 agent timed out.\n"}
+,{"stream_name":"stderr","time":9803.080750665,"data":"19:40:28 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9803.080797096,"data":"\n"}
+,{"stream_name":"stderr","time":9803.080803973,"data":"19:40:28 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9860.637365285,"data":"19:41:26 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9860.637413922,"data":"\n"}
+,{"stream_name":"stderr","time":9860.637420625,"data":"19:41:26 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9883.69221518,"data":"19:41:49 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9883.692264452,"data":"\n"}
+,{"stream_name":"stderr","time":9883.69227064,"data":"19:41:49 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9893.506997052,"data":"Task rich_3521 agent timed out.\n"}
+,{"stream_name":"stderr","time":9893.507039631,"data":"\n"}
+,{"stream_name":"stderr","time":9893.507060281,"data":"Task rich_3521 agent timed out.\n"}
+,{"stream_name":"stderr","time":9897.90528269,"data":"19:42:03 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9897.905321734,"data":"\n"}
+,{"stream_name":"stderr","time":9897.905327545,"data":"19:42:03 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9906.813165059,"data":"19:42:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9906.813226598,"data":"\n"}
+,{"stream_name":"stderr","time":9906.81323393,"data":"19:42:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9915.57466348,"data":"19:42:21 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9915.574721394,"data":"\n"}
+,{"stream_name":"stderr","time":9915.574726574,"data":"19:42:21 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9948.742188339,"data":"Task rich_3521 agent timed out.\n"}
+,{"stream_name":"stderr","time":9948.742234946,"data":"\n"}
+,{"stream_name":"stderr","time":9948.74224123,"data":"Task rich_3521 agent timed out.\n"}
+,{"stream_name":"stderr","time":9954.617623431,"data":"19:43:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9954.617672862,"data":"\n"}
+,{"stream_name":"stderr","time":9954.617679021,"data":"19:43:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9956.983419777,"data":"Task rich_3535 agent timed out.\n"}
+,{"stream_name":"stderr","time":9956.983461386,"data":"\n"}
+,{"stream_name":"stderr","time":9956.98346799,"data":"Task rich_3535 agent timed out.\n"}
+,{"stream_name":"stderr","time":9957.838977988,"data":"19:43:03 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":9957.839071348,"data":"\n"}
+,{"stream_name":"stderr","time":9957.839429051,"data":"19:43:03 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10000.680513547,"data":"19:43:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10000.680559543,"data":"\n"}
+,{"stream_name":"stderr","time":10000.680566852,"data":"19:43:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10040.514134579,"data":"19:44:26 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10040.514177105,"data":"\n"}
+,{"stream_name":"stderr","time":10040.514183329,"data":"19:44:26 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10064.397932629,"data":"19:44:49 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10064.397986285,"data":"\n"}
+,{"stream_name":"stderr","time":10064.397993435,"data":"19:44:49 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10064.400225543,"data":"Task rich_3675: Reached maximum continuation nudges (3) without patch submission.\n"}
+,{"stream_name":"stderr","time":10064.40030073,"data":"\n"}
+,{"stream_name":"stderr","time":10064.400307637,"data":"Task rich_3675: Reached maximum continuation nudges (3) without patch submission.\n"}
+,{"stream_name":"stderr","time":10064.425432227,"data":"Task rich_3675 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":10064.425509973,"data":"\n"}
+,{"stream_name":"stderr","time":10064.425522368,"data":"Task rich_3675 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":10141.571641147,"data":"19:46:07 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10141.571692857,"data":"\n"}
+,{"stream_name":"stderr","time":10141.57170003,"data":"19:46:07 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10549.593847978,"data":"Task rich_3772 agent timed out.\n"}
+,{"stream_name":"stderr","time":10549.59393516,"data":"\n"}
+,{"stream_name":"stderr","time":10549.593943081,"data":"Task rich_3772 agent timed out.\n"}
+,{"stream_name":"stderr","time":10950.600096814,"data":"19:59:36 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":10950.600156016,"data":"\n"}
+,{"stream_name":"stderr","time":10950.600162554,"data":"19:59:36 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11071.744406595,"data":"20:01:37 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11071.744524161,"data":"\n"}
+,{"stream_name":"stderr","time":11071.744538149,"data":"20:01:37 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11138.632739076,"data":"Task rich_3935 agent timed out.\n"}
+,{"stream_name":"stderr","time":11138.632791994,"data":"\n"}
+,{"stream_name":"stderr","time":11138.632799129,"data":"Task rich_3935 agent timed out.\n"}
+,{"stream_name":"stderr","time":11163.758368558,"data":"Task rich_3938 agent timed out.\n"}
+,{"stream_name":"stderr","time":11163.758417663,"data":"\n"}
+,{"stream_name":"stderr","time":11163.758424966,"data":"Task rich_3938 agent timed out.\n"}
+,{"stream_name":"stderr","time":11167.043653351,"data":"20:03:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11167.043702482,"data":"\n"}
+,{"stream_name":"stderr","time":11167.043708873,"data":"20:03:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11258.304154644,"data":"20:04:43 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11258.304206835,"data":"\n"}
+,{"stream_name":"stderr","time":11258.304213092,"data":"20:04:43 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11339.90213348,"data":"20:06:05 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11339.902183323,"data":"\n"}
+,{"stream_name":"stderr","time":11339.902192001,"data":"20:06:05 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11364.958982316,"data":"Task rich_3942 agent timed out.\n"}
+,{"stream_name":"stderr","time":11364.959030316,"data":"\n"}
+,{"stream_name":"stderr","time":11364.959037759,"data":"Task rich_3942 agent timed out.\n"}
+,{"stream_name":"stderr","time":11364.984539877,"data":"Task rich_3942 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":11364.984581622,"data":"\n"}
+,{"stream_name":"stderr","time":11364.984586049,"data":"Task rich_3942 completed without explicit submit_patch call and no working tree modifications.\n"}
+,{"stream_name":"stderr","time":11390.437379188,"data":"20:06:55 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11390.437432627,"data":"\n"}
+,{"stream_name":"stderr","time":11390.437442103,"data":"20:06:55 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11575.780955015,"data":"20:10:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11575.781069023,"data":"\n"}
+,{"stream_name":"stderr","time":11575.78107895,"data":"20:10:01 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11587.263300136,"data":"20:10:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11587.263383776,"data":"\n"}
+,{"stream_name":"stderr","time":11587.263392684,"data":"20:10:12 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11657.48540325,"data":"Task rich_3953 agent timed out.\n"}
+,{"stream_name":"stderr","time":11657.485451339,"data":"\n"}
+,{"stream_name":"stderr","time":11657.485550319,"data":"Task rich_3953 agent timed out.\n"}
+,{"stream_name":"stderr","time":11681.098770718,"data":"20:11:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11681.098846747,"data":"\n"}
+,{"stream_name":"stderr","time":11681.098856272,"data":"20:11:46 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11690.43535579,"data":"Task rich_3953 agent timed out.\n"}
+,{"stream_name":"stderr","time":11690.43540395,"data":"\n"}
+,{"stream_name":"stderr","time":11690.435411641,"data":"Task rich_3953 agent timed out.\n"}
+,{"stream_name":"stderr","time":11709.923238714,"data":"Task rich_4006 agent timed out.\n"}
+,{"stream_name":"stderr","time":11709.923284635,"data":"\n"}
+,{"stream_name":"stderr","time":11709.923292684,"data":"Task rich_4006 agent timed out.\n"}
+,{"stream_name":"stderr","time":11751.974336785,"data":"Task rich_4006 agent timed out.\n"}
+,{"stream_name":"stderr","time":11751.974387689,"data":"\n"}
+,{"stream_name":"stderr","time":11751.974406567,"data":"Task rich_4006 agent timed out.\n"}
+,{"stream_name":"stderr","time":11791.487580504,"data":"20:13:37 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11791.487622186,"data":"\n"}
+,{"stream_name":"stderr","time":11791.487881551,"data":"20:13:37 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11827.118218585,"data":"Task rich_4075 agent timed out.\n"}
+,{"stream_name":"stderr","time":11827.118261476,"data":"\n"}
+,{"stream_name":"stderr","time":11827.118268388,"data":"Task rich_4075 agent timed out.\n"}
+,{"stream_name":"stderr","time":11866.996116706,"data":"20:14:52 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":11866.996163437,"data":"\n"}
+,{"stream_name":"stderr","time":11866.996183732,"data":"20:14:52 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stdout","time":12093.797896234,"data":"ctrl: 34 of 77 tries solved\n"}
+,{"stream_name":"stderr","time":12182.732048503,"data":"Task rich_4076 agent timed out.\n"}
+,{"stream_name":"stderr","time":12182.732092145,"data":"\n"}
+,{"stream_name":"stderr","time":12182.732098608,"data":"Task rich_4076 agent timed out.\n"}
+,{"stream_name":"stdout","time":12189.37818534,"data":"loc: 38 of 77 tries solved\n"}
+,{"stream_name":"stdout","time":12193.47702797,"data":"ANSWER_LADDER_REPORT {\"rungs_order\": [\"ctrl\", \"loc\", \"diff\", \"edits\", \"apply\"], \"tries\": 1, \"model\": \"google/gemma-4-31b\", \"tasks\": 77, \"budget\": {\"timeout_seconds\": 60, \"max_tool_calls\": 50, \"max_time_minutes\": 8, \"max_turns\": 100}, \"versions\": {\"swegemma\": \"0.2.11\", \"adk-submission\": \"0.2.13\", \"adk-eval-core\": \"0.1.0\", \"google-adk\": \"1.36.1\", \"litellm\": \"1.104.2\"}, \"model_calls\": {\"ctrl\": 1921, \"loc\": 1456, \"diff\": 1200, \"edits\": 1216, \"apply\": 964}, \"score\": 0.7610389610389611, \"rungs\": {\"apply\": {\"solved\": 74, \"tries\": 77, \"share\": 0.961038961038961, \"missing\": [], \"errors\": {\"fastapi_15589 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_5077 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3180 t1\": \"Agent exceeded session timeout (8 min)\"}}, \"edits\": {\"solved\": 73, \"tries\": 77, \"share\": 0.948051948051948, \"missing\": [], \"errors\": {\"fastapi_15589 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_5077 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3061 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3471 t1\": \"Agent exceeded session timeout (8 min)\"}}, \"diff\": {\"solved\": 74, \"tries\": 77, \"share\": 0.961038961038961, \"missing\": [], \"errors\": {\"fastapi_13920 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14459 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3061 t1\": \"Agent exceeded session timeout (8 min)\"}}, \"ctrl\": {\"solved\": 34, \"tries\": 77, \"share\": 0.44155844155844154, \"missing\": [], \"errors\": {\"fastapi_14246 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14266 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14301 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14306 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14356 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14419 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14448 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14459 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14487 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14512 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14986 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_15023 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_9753 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3105 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3180 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3278 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3470 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3471 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3521 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3938 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3953 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_4006 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_4075 t1\": \"Agent exceeded session timeout (8 min)\"}}, \"loc\": {\"solved\": 38, \"tries\": 77, \"share\": 0.4935064935064935, \"missing\": [], \"errors\": {\"fastapi_11355 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_13207 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_13920 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14246 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14266 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14306 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14419 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14448 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14455 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14459 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14512 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_14986 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_15023 t1\": \"Agent exceeded session timeout (8 min)\", \"fastapi_15589 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3061 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3063 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3105 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3180 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3470 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3471 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3506 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3521 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3535 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3675 t1\": \"Agent completed execution without calling submit_patch.\", \"rich_3772 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3935 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3942 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_3953 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_4006 t1\": \"Agent exceeded session timeout (8 min)\", \"rich_4076 t1\": \"Agent exceeded session timeout (8 min)\"}}}}\n"}
+,{"stream_name":"stdout","time":12193.480205731,"data":"Results: answer_ladder_run/summary.json (per rung), report.json (every try), model_calls_\u003crung\u003e.jsonl\n"}
+,{"stream_name":"stderr","time":12201.714030138,"data":"/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":12201.714077461,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":12201.78171626,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":12201.977986683,"data":"[NbConvertApp] Writing 133489 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":12205.844883705,"data":"/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":12205.844943102,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":12205.89811313,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12207.370079255,"data":"[NbConvertApp] Writing 453617 bytes to __results__.html\n"}
+]

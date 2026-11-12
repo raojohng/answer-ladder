@@ -1,0 +1,265 @@
+{
+ "w3lib_291": {
+  "A": [
+   "w3lib/encoding.py::<module level>",
+   "w3lib/encoding.py::http_content_type_encoding"
+  ],
+  "B": [
+   "w3lib/encoding.py::<module level>"
+  ],
+  "C": [
+   "w3lib/encoding.py::<module level>"
+  ],
+  "D": [
+   "w3lib/encoding.py::<module level>"
+  ]
+ },
+ "tabulate_139": {
+  "A": [
+   "tabulate.py::_format_table"
+  ],
+  "B": [
+   "tabulate.py::_normalize_tabular_data"
+  ],
+  "C": [
+   "tabulate.py::_normalize_tabular_data"
+  ],
+  "D": [
+   "tabulate.py::_normalize_tabular_data"
+  ]
+ },
+ "werkzeug_3218": {
+  "A": [
+   "src/werkzeug/urls.py::iri_to_uri",
+   "src/werkzeug/urls.py::uri_to_iri"
+  ],
+  "B": [
+   "src/werkzeug/urls.py::uri_to_iri"
+  ],
+  "C": [
+   "src/werkzeug/urls.py::uri_to_iri"
+  ]
+ },
+ "pluggy_731": {
+  "A": [],
+  "B": [
+   "src/pluggy/_manager.py::PluginManager.register"
+  ],
+  "C": [
+   "src/pluggy/_manager.py::PluginManager.register"
+  ],
+  "D": [
+   "src/pluggy/_manager.py::PluginManager.register"
+  ]
+ },
+ "pydantic_settings_980": {
+  "A": [
+   "pydantic_settings/sources/base.py::PydanticBaseEnvSettingsSource._extract_field_info"
+  ],
+  "B": [],
+  "C": [
+   "pydantic_settings/sources/base.py::PydanticBaseEnvSettingsSource._extract_field_info"
+  ],
+  "D": [
+   "pydantic_settings/sources/base.py::PydanticBaseEnvSettingsSource._extract_field_info"
+  ]
+ },
+ "packaging_1305": {
+  "A": [],
+  "B": [
+   "src/packaging/utils.py::<module level>",
+   "src/packaging/utils.py::parse_sdist_filename"
+  ],
+  "C": [
+   "src/packaging/utils.py::<module level>",
+   "src/packaging/utils.py::parse_sdist_filename"
+  ],
+  "D": [
+   "src/packaging/utils.py::<module level>",
+   "src/packaging/utils.py::parse_sdist_filename"
+  ]
+ },
+ "w3lib_307": {
+  "A": [
+   "w3lib/encoding.py::resolve_encoding"
+  ],
+  "B": [
+   "w3lib/encoding.py::resolve_encoding"
+  ],
+  "C": [
+   "w3lib/encoding.py::resolve_encoding"
+  ],
+  "D": [
+   "w3lib/encoding.py::resolve_encoding"
+  ]
+ },
+ "pydantic_settings_920": {
+  "A": [
+   "pydantic_settings/sources/providers/env.py::EnvSettingsSource.get_field_value"
+  ],
+  "B": [
+   "pydantic_settings/sources/utils.py::_annotation_is_complex"
+  ],
+  "C": [],
+  "D": [
+   "pydantic_settings/sources/utils.py::_annotation_is_complex"
+  ]
+ },
+ "networkx_8755": {
+  "A": [
+   "networkx/readwrite/gml.py::literal_stringizer.stringize"
+  ],
+  "B": [
+   "networkx/readwrite/gml.py::generate_gml.stringize"
+  ],
+  "C": [
+   "networkx/readwrite/gml.py::literal_stringizer.stringize"
+  ],
+  "D": []
+ },
+ "humanize_354": {
+  "A": [
+   "src/humanize/number.py::fractional"
+  ],
+  "B": [
+   "src/humanize/number.py::fractional"
+  ],
+  "C": [],
+  "D": []
+ },
+ "sqlparse_868": {
+  "A": [
+   "sqlparse/keywords.py::<module level>"
+  ],
+  "B": [
+   "sqlparse/keywords.py::<module level>"
+  ],
+  "C": [],
+  "D": [
+   "sqlparse/keywords.py::<module level>"
+  ]
+ },
+ "click_2158": {
+  "A": [
+   "src/click/termui.py::prompt"
+  ],
+  "B": [
+   "src/click/termui.py::prompt"
+  ],
+  "C": [
+   "src/click/termui.py::prompt"
+  ],
+  "D": [
+   "src/click/termui.py::prompt"
+  ]
+ },
+ "packaging_1230": {
+  "A": [
+   "src/packaging/utils.py::<module level>"
+  ],
+  "B": [
+   "src/packaging/utils.py::<module level>"
+  ],
+  "C": [
+   "src/packaging/utils.py::<module level>"
+  ],
+  "D": [
+   "src/packaging/utils.py::<module level>"
+  ]
+ },
+ "packaging_1362": {
+  "A": [
+   "src/packaging/pylock.py::Pylock.select"
+  ],
+  "B": [
+   "src/packaging/pylock.py::Pylock.select"
+  ],
+  "C": [
+   "src/packaging/pylock.py::Pylock.select"
+  ],
+  "D": []
+ },
+ "mistletoe_270": {
+  "A": [
+   "mistletoe/contrib/jira_renderer.py::JiraRenderer.render_table_cell"
+  ],
+  "B": [],
+  "C": [
+   "mistletoe/contrib/jira_renderer.py::JiraRenderer.render_table_cell"
+  ],
+  "D": [
+   "mistletoe/contrib/jira_renderer.py::JiraRenderer.render_table_cell"
+  ]
+ },
+ "marshmallow_ec2178c26b": {
+  "A": [
+   "src/marshmallow/fields.py::Enum.__init__"
+  ],
+  "B": [
+   "src/marshmallow/fields.py::Enum.__init__"
+  ],
+  "C": [
+   "src/marshmallow/fields.py::Enum.__init__"
+  ],
+  "D": [
+   "src/marshmallow/fields.py::Field.__init__"
+  ]
+ },
+ "isort_2267": {
+  "A": [
+   "isort/wrap.py::import_statement"
+  ],
+  "B": [
+   "isort/wrap.py::line"
+  ],
+  "C": [
+   "isort/wrap.py::import_statement"
+  ],
+  "D": [
+   "isort/wrap.py::import_statement"
+  ]
+ },
+ "w3lib_356": {
+  "A": [
+   "w3lib/url.py::safe_download_url"
+  ],
+  "B": [
+   "w3lib/url.py::_safe_url_split"
+  ],
+  "C": [
+   "w3lib/url.py::canonicalize_url"
+  ],
+  "D": [
+   "w3lib/url.py::_safe_url_split"
+  ]
+ },
+ "w3lib_359": {
+  "A": [
+   "w3lib/html.py::_refresh"
+  ],
+  "B": [],
+  "C": [
+   "w3lib/html.py::<module level>",
+   "w3lib/html.py::_refresh"
+  ]
+ },
+ "platformdirs_573": {
+  "A": [
+   "src/platformdirs/macos.py::_MacOSDefaults._base_site_dirs",
+   "src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs"
+  ],
+  "B": [
+   "src/platformdirs/macos.py::<module level>",
+   "src/platformdirs/macos.py::_MacOSDefaults._base_site_dirs",
+   "src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs"
+  ],
+  "C": [
+   "src/platformdirs/macos.py::_MacOSDefaults._base_site_dirs",
+   "src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs"
+  ],
+  "D": [
+   "src/platformdirs/macos.py::_MacOSDefaults._base_site_dirs",
+   "src/platformdirs/macos.py::_MacOSDefaults._site_cache_dirs"
+  ]
+ }
+}

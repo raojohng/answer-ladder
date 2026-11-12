@@ -1,0 +1,91 @@
+[{"stream_name":"stdout","time":0.82541655,"data":"{\"status\":\"BOUND\",\"bound_ip\":\"35.196.143.245\",\"bound_time\":\"2026-11-12T15:18:24Z\",\"effective_expire_time\":\"2026-11-13T03:18:24Z\"}\n"}
+,{"stream_name":"stdout","time":22.550294378,"data":"inputs /kaggle/input/datasets/jaejohn/answer-ladder-inputs/answer_ladder_inputs | harness wheels /kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse | verified 136 files\n"}
+,{"stream_name":"stdout","time":23.631307658,"data":"task wheels: 123\n"}
+,{"stream_name":"stdout","time":53.831473188,"data":"  \u001b[1mgoogle-resumable-media\u001b[0m\u001b[2m==2.11.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831521684,"data":" \u001b[32m+\u001b[39m \u001b[1mgoogleapis-common-protos\u001b[0m\u001b[2m==1.75.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831529965,"data":" \u001b[32m+\u001b[39m \u001b[1mgraphviz\u001b[0m\u001b[2m==0.21\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831535786,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpc-google-iam-v1\u001b[0m\u001b[2m==0.14.4\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831542878,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpc-interceptor\u001b[0m\u001b[2m==0.15.4\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.83154875,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpcio\u001b[0m\u001b[2m==1.85.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.83155393,"data":" \u001b[32m+\u001b[39m \u001b[1mgrpcio-status\u001b[0m\u001b[2m==1.71.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831559079,"data":" \u001b[32m+\u001b[39m \u001b[1mh2\u001b[0m\u001b[2m==4.4.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831564195,"data":" \u001b[32m+\u001b[39m \u001b[1mhf-xet\u001b[0m\u001b[2m==1.8.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831569113,"data":" \u001b[32m+\u001b[39m \u001b[1mhpack\u001b[0m\u001b[2m==4.2.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831574115,"data":" \u001b[32m+\u001b[39m \u001b[1mhttplib2\u001b[0m\u001b[2m==0.32.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831579442,"data":" \u001b[32m+\u001b[39m \u001b[1mhttpx-sse\u001b[0m\u001b[2m==0.4.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831584949,"data":" \u001b[32m+\u001b[39m \u001b[1mhuggingface-hub\u001b[0m\u001b[2m==1.33.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831589766,"data":" \u001b[32m+\u001b[39m \u001b[1mhyperframe\u001b[0m\u001b[2m==6.1.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831595418,"data":" \u001b[31m-\u001b[39m \u001b[1mimportlib-metadata\u001b[0m\u001b[2m==6.11.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831600719,"data":" \u001b[32m+\u001b[39m \u001b[1mimportlib-metadata\u001b[0m\u001b[2m==8.7.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831605606,"data":" \u001b[32m+\u001b[39m \u001b[1miniconfig\u001b[0m\u001b[2m==2.3.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831611361,"data":" \u001b[32m+\u001b[39m \u001b[1mjmespath\u001b[0m\u001b[2m==1.1.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831616219,"data":" \u001b[32m+\u001b[39m \u001b[1mjoserfc\u001b[0m\u001b[2m==1.8.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831621907,"data":" \u001b[32m+\u001b[39m \u001b[1mlitellm\u001b[0m\u001b[2m==1.104.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831627019,"data":" \u001b[32m+\u001b[39m \u001b[1mmako\u001b[0m\u001b[2m==1.4.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831633015,"data":" \u001b[32m+\u001b[39m \u001b[1mmcp\u001b[0m\u001b[2m==1.30.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831638964,"data":" \u001b[32m+\u001b[39m \u001b[1mmmh3\u001b[0m\u001b[2m==5.3.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831643968,"data":" \u001b[32m+\u001b[39m \u001b[1mnetworkx\u001b[0m\u001b[2m==3.7\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831648852,"data":" \u001b[31m-\u001b[39m \u001b[1mopenai\u001b[0m\u001b[2m==3.16.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831667235,"data":" \u001b[32m+\u001b[39m \u001b[1mopenai\u001b[0m\u001b[2m==2.54.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831672586,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-api\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831676722,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-gcp-logging\u001b[0m\u001b[2m==1.12.0a0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831681003,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-gcp-monitoring\u001b[0m\u001b[2m==1.15.0a0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831686391,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-gcp-trace\u001b[0m\u001b[2m==1.15.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831690498,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-otlp-proto-common\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831695498,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-exporter-otlp-proto-http\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831699624,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-proto\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831703844,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-resourcedetector-gcp\u001b[0m\u001b[2m==1.14.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831707716,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-sdk\u001b[0m\u001b[2m==1.41.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.8318515,"data":" \u001b[32m+\u001b[39m \u001b[1mopentelemetry-semantic-conventions\u001b[0m\u001b[2m==0.62b1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831863431,"data":" \u001b[32m+\u001b[39m \u001b[1mproto-plus\u001b[0m\u001b[2m==1.28.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831868599,"data":" \u001b[32m+\u001b[39m \u001b[1mpyarrow\u001b[0m\u001b[2m==26.0.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831880006,"data":" \u001b[32m+\u001b[39m \u001b[1mpydantic-settings\u001b[0m\u001b[2m==2.16.2\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.8318838,"data":" \u001b[32m+\u001b[39m \u001b[1mpyjwt\u001b[0m\u001b[2m==2.15.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831887658,"data":" \u001b[32m+\u001b[39m \u001b[1mpyparsing\u001b[0m\u001b[2m==3.3.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831891549,"data":" \u001b[32m+\u001b[39m \u001b[1mpytest\u001b[0m\u001b[2m==9.1.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831895678,"data":" \u001b[32m+\u001b[39m \u001b[1mpytest-timeout\u001b[0m\u001b[2m==2.1.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831899381,"data":" \u001b[32m+\u001b[39m \u001b[1mpython-multipart\u001b[0m\u001b[2m==0.0.33\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831903704,"data":" \u001b[32m+\u001b[39m \u001b[1mregex\u001b[0m\u001b[2m==2026.11.9\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831912543,"data":" \u001b[32m+\u001b[39m \u001b[1mrich\u001b[0m\u001b[2m==15.0.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831916419,"data":" \u001b[32m+\u001b[39m \u001b[1ms3transfer\u001b[0m\u001b[2m==0.19.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831920191,"data":" \u001b[32m+\u001b[39m \u001b[1msqlalchemy\u001b[0m\u001b[2m==2.1.8\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831924234,"data":" \u001b[32m+\u001b[39m \u001b[1msqlalchemy-spanner\u001b[0m\u001b[2m==1.21.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831928292,"data":" \u001b[32m+\u001b[39m \u001b[1msqlparse\u001b[0m\u001b[2m==0.6.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831932814,"data":" \u001b[32m+\u001b[39m \u001b[1msse-starlette\u001b[0m\u001b[2m==3.7.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831959375,"data":" \u001b[32m+\u001b[39m \u001b[1mstarlette\u001b[0m\u001b[2m==0.52.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831963251,"data":" \u001b[32m+\u001b[39m \u001b[1mtiktoken\u001b[0m\u001b[2m==0.14.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831968184,"data":" \u001b[32m+\u001b[39m \u001b[1mtokenizers\u001b[0m\u001b[2m==0.23.3\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831971807,"data":" \u001b[32m+\u001b[39m \u001b[1mtzlocal\u001b[0m\u001b[2m==5.4.5\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.83197568,"data":" \u001b[32m+\u001b[39m \u001b[1muritemplate\u001b[0m\u001b[2m==4.2.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831979834,"data":" \u001b[32m+\u001b[39m \u001b[1muvicorn\u001b[0m\u001b[2m==0.54.0\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.831998005,"data":" \u001b[31m-\u001b[39m \u001b[1mwebsockets\u001b[0m\u001b[2m==16.1.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.832002307,"data":" \u001b[32m+\u001b[39m \u001b[1mwebsockets\u001b[0m\u001b[2m==15.0.1\u001b[0m\n"}
+,{"stream_name":"stdout","time":53.832006125,"data":"\n"}
+,{"stream_name":"stdout","time":55.208810447,"data":" \u001b[2mUsing Python 3.12.10 environment at: /benchmarks/.venv\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.208872347,"data":"\u001b[2mResolved \u001b[1m3 packages\u001b[0m \u001b[2min 43ms\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.208878709,"data":"\u001b[2mPrepared \u001b[1m3 packages\u001b[0m \u001b[2min 49ms\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.208883339,"data":"\u001b[2mInstalled \u001b[1m3 packages\u001b[0m \u001b[2min 9ms\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.20888756,"data":"\u001b[2mBytecode compiled \u001b[1m19858 files\u001b[0m \u001b[2min 1.25s\u001b[0m\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.208891962,"data":" \u001b[32m+\u001b[39m \u001b[1madk-eval-core\u001b[0m\u001b[2m==0.1.0 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/adk_eval_core-0.1.0-py3-none-any.whl)\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.208899058,"data":" \u001b[32m+\u001b[39m \u001b[1madk-submission\u001b[0m\u001b[2m==0.2.13 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/adk_submission-0.2.13-py3-none-any.whl)\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.208903957,"data":" \u001b[32m+\u001b[39m \u001b[1mswegemma\u001b[0m\u001b[2m==0.2.11 (from file:///kaggle/input/datasets/metric/gemma-4-developer-agent-wheelhouse/swegemma-0.2.11-py3-none-any.whl)\u001b[0m\n"}
+,{"stream_name":"stdout","time":55.208908553,"data":"\n"}
+,{"stream_name":"stdout","time":56.015217609,"data":"task dependencies unpacked: 46 packages\n"}
+,{"stream_name":"stdout","time":68.691272672,"data":"Evaluating google/gemma-4-31b\n"}
+,{"stream_name":"stderr","time":336.805619534,"data":"15:24:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":336.805765002,"data":"\n"}
+,{"stream_name":"stderr","time":336.805772392,"data":"15:24:00 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":356.380875378,"data":"15:24:20 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stderr","time":356.380927193,"data":"\n"}
+,{"stream_name":"stderr","time":356.380933577,"data":"15:24:20 - LiteLLM:WARNING: core_helpers.py:256 - Unmapped finish_reason '', defaulting to 'stop'\n"}
+,{"stream_name":"stdout","time":503.952298502,"data":"ANSWER_LADDER_REPORT {\"rung\": \"diff\", \"model\": \"google/gemma-4-31b\", \"tasks\": 10, \"budget\": {\"timeout_seconds\": 60, \"max_tool_calls\": 50, \"max_time_minutes\": 8, \"max_turns\": 100}, \"versions\": {\"swegemma\": \"0.2.11\", \"adk-submission\": \"0.2.13\", \"adk-eval-core\": \"0.1.0\", \"google-adk\": \"1.36.1\", \"litellm\": \"1.104.2\"}, \"missing\": [], \"errors\": {}, \"model_calls\": 174, \"score\": 0.9}\n"}
+,{"stream_name":"stdout","time":503.953654976,"data":"Results: answer_ladder_run/report.json and answer_ladder_run/model_calls.jsonl\n"}
+,{"stream_name":"stderr","time":510.923454225,"data":"/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"remove_papermill_header.RemovePapermillHeader\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":510.923498216,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":510.966893713,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":511.072754625,"data":"[NbConvertApp] Writing 106095 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":514.616243077,"data":"/benchmarks/.venv/lib/python3.12/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=[\"nbconvert.preprocessors.ExtractOutputPreprocessor\"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.\n"}
+,{"stream_name":"stderr","time":514.616286216,"data":"  warn(\n"}
+,{"stream_name":"stderr","time":514.652637642,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":515.790123165,"data":"[NbConvertApp] Writing 407878 bytes to __results__.html\n"}
+]
