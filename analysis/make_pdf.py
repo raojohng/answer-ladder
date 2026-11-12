@@ -7,7 +7,14 @@ import markdown
 import weasyprint
 
 src, out = Path(sys.argv[1]), Path(sys.argv[2])
-body = markdown.markdown(src.read_text(), extensions=["tables", "sane_lists"])
+import re
+text = src.read_text()
+# The availability paragraph as a short list (justified, its two lines stretch badly).
+text = text.replace("Benchmark: kaggle.com/datasets/jaejohn/answer-ladder. Code, data, labels, scripts and `REPRODUCE.md`: github.com/raojohng/answer-ladder.",
+                    "- Benchmark: kaggle.com/datasets/jaejohn/answer-ladder\n- Code, data, labels, scripts and `REPRODUCE.md`: github.com/raojohng/answer-ladder")
+body = markdown.markdown(text, extensions=["tables", "sane_lists"])
+# Kaggle and GitHub addresses become links (outside code spans).
+body = re.sub(r"(?<![/\w>])((?:kaggle|github)\.com/[\w./-]*[\w/])", r'<a href="https://\1">\1</a>', body)
 CSS = """
 @page { size: A4; margin: 20mm 18mm 20mm 18mm;
         @bottom-center { content: counter(page); font: 9pt 'DejaVu Serif', serif; color: #555; } }
@@ -25,6 +32,7 @@ th, td { border-top: 0.5pt solid #bbb; border-bottom: 0.5pt solid #bbb; padding:
 th { background: #f1f1ee; font-weight: bold; }
 p:has(+ table) { break-after: avoid; }
 table + p { break-before: avoid; }
+a { color: #1a4f8f; text-decoration: none; }
 img { display: block; max-width: 100%; margin: 6pt auto 2pt; page-break-inside: avoid; }
 p:has(> img) { text-align: center; }
 """
