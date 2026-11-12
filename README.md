@@ -14,7 +14,7 @@ measures execution apart from search.
 | Benchmark dataset (task files, apply tool, scorer, 7,623 sessions) | https://www.kaggle.com/datasets/jaejohn/answer-ladder |
 | Task snapshots and inputs for hosted runs | https://www.kaggle.com/datasets/jaejohn/answer-ladder-inputs |
 | Reproduce every table (CPU, no model calls) | https://www.kaggle.com/code/jaejohn/answer-ladder-reproduce-and-score |
-| Run all five rungs on a Gemma model (Kaggle Benchmarks, official harness) | https://www.kaggle.com/code/jaejohn/new-benchmark-task-270e4 |
+| Run all five rungs on a Gemma model (Kaggle Benchmarks, official harness) | https://www.kaggle.com/code/jaejohn/answer-ladder-gemma-4-31b-on-all-five-rungs |
 
 ## Results on the competition's official loop (77 tasks; three tries per rung for the local runs, one for Gemma 4 31B on Kaggle Benchmarks)
 

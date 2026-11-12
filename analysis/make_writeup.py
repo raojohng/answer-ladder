@@ -10,7 +10,7 @@ LINKS = [("Paper (PDF)", "https://github.com/raojohng/answer-ladder/blob/main/pa
          ("Benchmark dataset", "https://www.kaggle.com/datasets/jaejohn/answer-ladder"),
          ("Task inputs for hosted runs", "https://www.kaggle.com/datasets/jaejohn/answer-ladder-inputs"),
          ("Reproduce every table (notebook)", "https://www.kaggle.com/code/jaejohn/answer-ladder-reproduce-and-score"),
-         ("Run the ladder on Kaggle Benchmarks (notebook)", "https://www.kaggle.com/code/jaejohn/new-benchmark-task-270e4")]
+         ("Run the ladder on Kaggle Benchmarks (notebook)", "https://www.kaggle.com/code/jaejohn/answer-ladder-gemma-4-31b-on-all-five-rungs")]
 src, out = Path(sys.argv[1]), Path(sys.argv[2])
 text = src.read_text()
 text = re.sub(r"\]\((figures/[^)]+)\)", lambda m: "](" + REPO + m.group(1) + ")", text)

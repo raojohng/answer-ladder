@@ -86,7 +86,7 @@ It prints, per rung, the share of tries solved, solves per pass, tasks solved at
 ## Hosted on Kaggle Benchmarks
 
 The official-loop rungs are packaged as a Kaggle Benchmarks task, `answer-ladder-all-rungs` (notebook:
-https://www.kaggle.com/code/jaejohn/new-benchmark-task-270e4), which runs all five rungs on the 77 tasks side by side with the
+https://www.kaggle.com/code/jaejohn/answer-ladder-gemma-4-31b-on-all-five-rungs), which runs all five rungs on the 77 tasks side by side with the
 competition's own harness (`swegemma` 0.2.11, official loop and grader) in subprocess mode, without a GPU or Docker. It reads
 everything as plain files: the rung task files, task ids, agent prompt and apply tool from this dataset, and the snapshots,
 sandbox setup and task wheels from `jaejohn/answer-ladder-inputs` (sha256-checked), plus the competition's public wheelhouse.
